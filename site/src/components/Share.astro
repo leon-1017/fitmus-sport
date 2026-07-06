@@ -1,0 +1,43 @@
+---
+export interface Props {
+	title?: string;
+	url?: string;
+}
+
+const { title = '', url = Astro.url.href } = Astro.props;
+const encodedUrl = encodeURIComponent(url);
+const encodedTitle = encodeURIComponent(title);
+---
+
+<div class="border-t border-gray-200 pt-4 mt-6">
+	<h4 class="text-sm font-semibold text-gray-700 mb-3">Share This Story, Choose Your Platform!</h4>
+	<div class="flex gap-3">
+		<a
+			href={`https://www.facebook.com/sharer.php?u=${encodedUrl}`}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="w-8 h-8 rounded bg-[#3b5998] text-white flex items-center justify-center hover:opacity-90"
+			aria-label="Share on Facebook"
+		>
+			<i class="fab fa-facebook-f" />
+		</a>
+		<a
+			href={`https://twitter.com/share?text=${encodedTitle}&url=${encodedUrl}`}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="w-8 h-8 rounded bg-[#1da1f2] text-white flex items-center justify-center hover:opacity-90"
+			aria-label="Share on Twitter"
+		>
+			<i class="fab fa-twitter" />
+		</a>
+		<a
+			href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodedUrl}&title=${encodedTitle}`}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="w-8 h-8 rounded bg-[#0077b5] text-white flex items-center justify-center hover:opacity-90"
+			aria-label="Share on LinkedIn"
+		>
+			<i class="fab fa-linkedin-in" />
+		</a>
+	</div>
+</div>

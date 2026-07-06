@@ -1,0 +1,25 @@
+---
+title: "COVID-19: Five exercises you can do at home that require no equipment"
+slug: "covid-19-five-exercises-you-can-do-at-home-that-require-no-equipment"
+categories:
+  - "uncategorized"
+seoTitle: "COVID-19: Five exercises you can do at home that require no equipment"
+seoDescription: "COVID-19 has forced the mass closure of gyms and fitness studios all over the world.With it, we’ve seen a spike in the popularity of both online fitness classes as well as home workout equipment."
+featuredImage: "/images/2020/06/home-equipment-COVID-19-1.jpg"
+---
+
+<p>With non-essential businesses closed and stay-at-home orders in effect due to COVID-19, gym workouts are impossible. Other exercise facilities, such as playing fields and public workout equipment at city parks, are also off limits. Should you just give up on staying active until life gets back to normal?</p>
+<p>Absolutely not!</p>
+<p>Now that working out at home is all the rage, you might be wondering what else you can do aside from trot past your front door over and over and over again. Here are a few strengthening moves to help keep you fit during quarantine.</p>
+<p>Don’t forget to warm up for about five to eight minutes before launching into a workout and remember to stretch afterward</p>
+<p><strong>Wall squats</strong><br>
+Assuming you don’t live in an Arrested Development-style model home, you should be able to pull these off no problem. Lean against a wall with the back of your head, shoulders, shoulder blades, and glutes pressing against it. Have your feet hip-width apart a little bit out in front of you, not directly under your hips. Slide down the wall so that your hips are in line with your knees. Sit tight. Hold as long as you can and repeat two more times. Add on a second or two or more every other day to build strength in your quadriceps, hamstrings, and gluteal muscles.</p>
+<p><strong>Walking lunges</strong><br>
+You just need a little stretch of hallway to do these challenging lunges, which work your quadriceps, hamstrings, gluteal muscles, calves, and core.</p>
+<p>With your hands on your hips, take a giant step forward. From there, keeping your front knee over your ankle (never over your toes), come down into a lunge. Think about being in an elevator, with your torso moving straight up and down. (Avoid leaning forward.) Come back up. Take a giant step with your other foot and repeat. As you get used to these, you can have your hands by your temples, elbows out; or reach your hands up to the sky, your arms in line with your ears.</p>
+<p><strong>Bridge</strong><br>
+This looks way easier than it really is and is a great way to work your gluteal muscles and your hamstrings. Lie on your back with your knees bent, feet flat on the floor, palms up. Lift your hips up as high as you possibly can. Lower your hips to the ground then lift them up again. There are a few ways to make this harder: Extend your arms up toward the ceiling. Hold your hips up for 10 to 20 seconds longer. Do the same (lifting and lowering your hips then holding steady at the top) with one foot off the floor, the leg extended upward or with both knees together.</p>
+<p><strong>Plank</strong><br>
+There are all kinds of variations you can do to increase the intensity of this exercise, which works your entire core (your back muscles, glutes, and hips as well as all of your abdominals) plus your arms, shoulders, chest, and legs. Lying face down on the floor, place your elbows under your shoulders and come up onto your toes. If need be, place your knees on the floor. Avoid swaying the lower back, and avoid rounding or shrugging the upper back and shoulders. Ideally, you’ll be as flat as a table top, not in an upside-down V shape. Once you’re comfortable holding a plank, you can rock back and forth on your toes. Or you could lift one foot straight off the floor for a few seconds then switch sides, or tap one foot out to the side and alternate. Another way to do a plank is to be on your hands or fists rather than your elbows. Be sure to take deep breaths throughout; do not hold your breath.</p>
+<p><strong>Push-ups</strong><br>
+News flash: push-ups work the arms, shoulders, and chest. But only if they’re done correctly, and these are one of the most improperly performed exercises out there. Place your hands slightly wider than shoulder width apart. You can be on your knees or toes; either way, imagine keeping the rest of your body in a straight line. You don’t want your butt sticking up in the air, your back swaying, or being in yoga’s cat pose. Keep your elbows tucked in toward your torso, not flared out to the sides. As you come down, avoid leading with your forehead; keep your neck and spine in a straight line. Come down as low as you can, ideally till your chin or chest touch the floor. It’s better to do fewer of these properly than dozens incorrectly.</p>

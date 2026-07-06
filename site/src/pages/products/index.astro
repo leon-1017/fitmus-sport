@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import ProductCard from '../../components/ProductCard.astro';
+
+const products = await getCollection('products');
+---
+
+<Layout title="Products" description="All Fitmus products - CrossFit, functional fitness and commercial gym equipment.">
+	<Header />
+	<main class="max-w-7xl mx-auto px-4 py-10">
+		<div class="grid lg:grid-cols-3 gap-10">
+			<div class="lg:col-span-2">
+				<h1 class="text-3xl font-bold text-gray-900 mb-6">All Products</h1>
+				<p class="text-gray-600 mb-8">{products.length} products</p>
+				<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+					{products.map((p) => (
+						<ProductCard
+							slug={p.data.slug}
+							title={p.data.title}
+							image={p.data.featuredImage}
+						/>
+					))}
+				</div>
+			</div>
+			<div class="lg:col-span-1">
+				<Sidebar />
+			</div>
+		</div>
+	</main>
+	<Footer />
+</Layout>

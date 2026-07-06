@@ -1,0 +1,17 @@
+---
+title: "How to judge the quality of artificial turf?"
+slug: "how-to-judge-the-quality-of-artificial-turf"
+categories:
+  - "uncategorized"
+seoTitle: "How to judge the quality of artificial turf?"
+seoDescription: "How to judge the quality of artificial turt ?1) Appearance: Whether the color is natural, whether the softness of the straw is good"
+featuredImage: "/images/2018/03/the-quality-of-artificial-turf.jpg"
+---
+
+<p>How to judge the quality of artificial turf?<br>
+1) Appearance: Whether the color is natural, whether the softness of the straw is good, and how the appearance feels;</p>
+<p>2) Specifications: length of straw. In principle, the longer the football field is, the better (outside the leisure area). The longest grass is currently 60mm, which is mainly used in professional football fields. The most common length of grass used for football fields is about 30-50mm.</p>
+<p>3) Density of straw: Evaluation from two angles: Firstly, looking at the number of needles on the back of the lawn, the number of needles per metre of rice should be as high as possible. Second, from the back of the lawn to see the line spacing, that is, the line spacing of grass, the closer the line spacing, the better;</p>
+<p>4) Grass fiber: The finished product of the lawn is composed of filaments. The main components of the filaments are polyethylene, nylon, and polypropylene. The first two are softer than the latter and the prices are higher. However, if it is too soft, the grass cannot be erected (here refers to sports grass), and the ball’s rebound ability is low. There are two evaluation indicators for fiber filaments: grass denier and fiber diameter. Common grass grasses are 5700, 7600, 8800 and 10000, which means that the higher the fineness of the grass grass, the better the quality. The more grasses per cluster, the finer the grass, the better the quality. The fiber diameter is calculated in μm and is generally between 50 and 150 μm. The larger the fiber diameter, the better, and the larger diameter gives the impression that the thick straw, abrasion resistance, the small diameter of the fiber is like a thin plastic sheet, not wearable. The index of fiber yarn is generally difficult to measure, so FIFA generally uses the indicator of fiber weight.</p>
+<p>5. Fiber quality: The higher the same unit length, the better the grass. The pound weight of the straw fiber is expressed in units of fineness, and the Dtex is defined as 1 g of the mass per 10000 m of fiber. This is referred to as 1 Dtex. The higher the pound weight of the straw fiber is, the thicker the straw is. The greater the pound weight of the straw fiber is, the stronger the abrasion resistance is. The greater the pound weight of the straw fiber is, the longer the service life is. However, due to the heavy pound weight of grass seedlings, the cost will be higher, according to the age of the athletes, the frequency of use to select the appropriate weight of grass seedlings, large-scale sports venues recommend the use of more than 11000Dtex pounds of grass weight weaving lawn.</p>
+<p>6. Other aspects: artificial turf is used to use or to beautify the living environment, so the most important foot and color quality is the first factor to consider, if it is to consider the sports turf athletes run on the feeling of ball – – whether the trajectory of the ball running above meets the requirements of the competition.</p>

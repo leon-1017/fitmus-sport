@@ -1,0 +1,17 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import PageContent from '../../components/PageContent.astro';
+import pages from '../../data/pages.json';
+
+const page = pages.find((p: any) => p.slug === 'product') || { title: 'Products', bodyHtml: '' };
+---
+
+<Layout title={page.title} description={page.description}>
+	<Header />
+	<main>
+		<PageContent title={page.title} description={page.description} bodyHtml={page.bodyHtml} />
+	</main>
+	<Footer />
+</Layout>

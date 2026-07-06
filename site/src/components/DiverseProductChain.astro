@@ -1,0 +1,52 @@
+---
+const lines = [
+	'Casting Products line for kettle bell, dumbbell, Olympic weight plates and other free weights.',
+	'Wood Product line for wood plyo box, wood jerk box, wood push-up, wood gym rings, wood balance board.',
+	'Sew product Line for Leather sandbags, Wall ball, Bulgarain bag, Aqua bag, Medicine ball, power Bag.',
+	'Fitness product line such as Crossfit rig, Prowler sled, Power cage, Paralettes rack, battle rope, foam roller, latex band, etc.',
+];
+
+const cats = [
+	'weight-lifting-equipment',
+	'body-weight-gymnastic',
+	'strength-condition',
+	'crossfit-racks-rigs',
+];
+---
+
+<section
+	class="relative bg-[#0e1b2c] bg-center bg-cover"
+	style="background-image: linear-gradient(100deg, rgba(14,27,44,0.97) 0%, rgba(14,27,44,0.92) 45%, rgba(14,27,44,0) 75%), url('/images/2016/04/Background-2.jpg');"
+>
+	<div class="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+		<div class="text-white">
+			<h2 class="text-2xl md:text-3xl font-semibold">
+				Diverse Product Chain For Your One-stop Purchased at Fitmus
+			</h2>
+			<div class="w-16 h-1 bg-[#e03420] mt-4"></div>
+
+			<p class="mt-6 font-semibold">So far our product range includes:</p>
+			<ul class="mt-2 space-y-1 list-disc list-inside text-gray-200 text-sm">
+				{lines.map((l) => <li>{l}</li>)}
+			</ul>
+
+			<p class="mt-6">Looking to equip a whole gym, do brand/retail business or place OEM order?</p>
+			<p class="mt-3">See what high quality products of wide range we got to satisfy your needs!</p>
+
+			<div class="mt-6 flex flex-wrap items-center gap-x-1 text-sm text-[#e03420] font-semibold">
+				{
+					cats.map((c, i) => (
+						<>
+							<a href={`/products/${c}/`} class="hover:underline">
+								{c.split('-').map((w) => w[0].toUpperCase() + w.slice(1)).join(' ')}
+							</a>
+							{i < cats.length - 1 && <span class="text-gray-400 mx-2">|</span>}
+						</>
+					))
+				}
+			</div>
+		</div>
+
+		<div class="hidden md:block"></div>
+	</div>
+</section>

@@ -1,0 +1,122 @@
+---
+import { getCollection } from 'astro:content';
+
+const products = await getCollection('products');
+const posts = await getCollection('posts');
+
+const categoryMap: Record<string, string> = {
+  'weight-lifting-equipment': 'Weight Lifting Equipment',
+  'body-weight-gymnastic': 'Body Weight & Gymnastic',
+  'strength-condition': 'Strength & Condition',
+  'crossfit-racks-rigs': 'Crossfit Racks & Rigs',
+  'strongman-equipment': 'Strongman Equipment',
+  'equipment-storage': 'Equipment Storage',
+  'balance-mobility': 'Balance & Mobility',
+  'cardio-equipment-accessories': 'Cardio Equipment & Accessories',
+};
+
+const categorySlugs = Object.keys(categoryMap);
+
+const productsByCategory: Record<string, typeof products> = {};
+for (const slug of categorySlugs) {
+  productsByCategory[slug] = products
+    .filter((p) => p.data.category === slug)
+    .slice(0, 8);
+}
+
+const topNav = [
+  { label: 'About Fitmus', href: '/about-fitmus/' },
+  { label: 'Fitmus Product', href: '/fitmus-product/' },
+  { label: 'In the News', href: '/in-the-news/' },
+  { label: 'Contact Us', href: '/contact-us/' },
+];
+
+const recentWorks = products.slice(0, 13);
+const recentNews = posts.slice(0, 5);
+---
+
+<header class="bg-[#222] text-white">
+	<div class="max-w-7xl mx-auto px-4">
+		<div class="flex items-center justify-between h-20">
+			<a href="/" class="flex items-center gap-3">
+				<img src="/images/2018/11/logo-sport-s.png" alt="Fitmus Sport" class="h-10" />
+				<span class="text-xl font-bold tracking-wide">FITMUS</span>
+			</a>
+
+			<nav class="hidden lg:flex items-center gap-1">
+				{
+					topNav.map((item) => (
+						<a
+							href={item.href}
+							class="px-4 py-2 text-sm uppercase tracking-wider hover:text-[#e03420] transition"
+						>
+							{item.label}
+						</a>
+					))
+				}
+			</nav>
+		</div>
+
+		<nav class="border-t border-gray-700 hidden lg:block">
+			<ul class="flex items-center">
+				{
+					categorySlugs.map((slug) => {
+						const items = productsByCategory[slug] || [];
+						return (
+							<li class="group relative">
+								<a
+									href={`/products/${slug}/`}
+									class="block px-5 py-3 text-sm font-medium uppercase tracking-wide hover:text-[#e03420] hover:bg-gray-800 transition"
+								>
+									{categoryMap[slug]}
+								</a>
+								<div class="absolute left-0 top-full z-50 hidden group-hover:block bg-white text-gray-800 shadow-xl border border-gray-200 min-w-[280px]">
+									<ul class="py-2">
+										{items.map((p) => (
+											<li>
+												<a
+													href={`/product/${p.data.slug}/`}
+													class="block px-4 py-2 text-sm hover:bg-gray-100 hover:text-[#e03420] truncate"
+												>
+													{p.data.title}
+												</a>
+											</li>
+										))}
+										<li>
+											<a
+												href={`/products/${slug}/`}
+												class="block px-4 py-2 text-sm font-semibold text-[#e03420] hover:bg-gray-100"
+											>
+												View All →
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						);
+					})
+				}
+				<li class="group relative">
+					<a
+						href="/in-the-news/"
+						class="block px-5 py-3 text-sm font-medium uppercase tracking-wide hover:text-[#e03420] hover:bg-gray-800 transition"
+					>
+						In the News
+					</a>
+				</li>
+				<li class="group relative">
+					<a
+						href="/contact-us/"
+						class="block px-5 py-3 text-sm font-medium uppercase tracking-wide hover:text-[#e03420] hover:bg-gray-800 transition"
+					>
+						Contact
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<script define:vars={{ recentWorks, recentNews, categoryMap, categorySlugs }}>
+	// Expose for potential client-side use; kept minimal.
+</script>

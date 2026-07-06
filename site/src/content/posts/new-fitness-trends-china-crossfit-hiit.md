@@ -1,0 +1,27 @@
+---
+title: "The New Fitness Trends in China: CrossFit and HIIT"
+slug: "new-fitness-trends-china-crossfit-hiit"
+categories:
+  - "uncategorized"
+seoTitle: "The New Fitness Trends in China: CrossFit and HIIT"
+seoDescription: "For a long time fitness training was frowned upon in China, but through Western influences and government initiatives, the enormous country is discovering sports. Trend sports like CrossFit are booming, and small boutique gyms are competing with the big chains."
+featuredImage: "/images/2017/10/Crossfit-China.jpg"
+---
+
+<p>For a long time fitness training was frowned upon in China, but through Western influences and government initiatives, the enormous country is discovering sports. Trend sports like CrossFit are booming, and small boutique gyms are competing with the big chains.</p>
+<p>When plans get made in China, the principle motto is usually, “No half measures!” Defensive goals or cautious prognoses are a no-go for China. This can be seen not just in its ambitious economic plans, but also when it comes to getting the Chinese people interested in sports.</p>
+<h3>The fitness industry wants to gross 405 billion in China</h3>
+<p>500 million Chinese citizens are set to frame their free time in an active way by 2025, a goal that doesn’t seem too unrealistic in light of the growth figures in the sporting goods industry – roughly 405 billion euros are set to be generated in 2017. China’s new, constantly growing middle class has more money and more free time, and is investing both in sports.</p>
+<p>After traditional Chinese sports like tai chi, China discovered running, and outdoor sports like hiking are currently all the rage. The Chinese got started with gyms much less for quite some time, as big muscles were considered unseemly and reserved for professional athletes and Olympians.</p>
+<h3>Gyms: Too much copying being done</h3>
+<p>“Right now roughly five percent of the population is working out in gyms in Tier 1 and Tier 2 cities, while in the rest of the country it’s a maximum of one percent,” says Zhang. “There are about 26,000 gyms in all of China, whereby only 10-15% of the members go work out four to five days per week.”</p>
+<p>Zhang feels the cause of the fairly low percentages and gym visits is primarily the lack of trust by customers in the gym operators. “It’s about fast cash, there’s a lot of copying being done, and 80 percent of investments fail. That’s very bad for the reputation of the fitness industry,” continues Zhang, who is fighting against this shortage with his manager training.</p>
+<p>The lack of trust in major chains has also led to “the range of offers in gyms changing heavily since 2010. The trend is increasingly pointing towards smaller, better equipped boutique gyms, with extra classes for yoga, CrossFit, and Pilates.”</p>
+<h3>CrossFit and HIIT are becoming more and more popular</h3>
+<p>CrossFit especially has a high appeal to the Chinese. For the second time at ISPO SHANGHAI, there was a special event stage where trade fair guests could test out their fitness in various HIIT (high intensity interval training) workouts. Cheng Gong, CrossFit studio operator from Shenyang, and his team of trainers led the three-day event in 2016 and 2017, and explained to ISPO.com why CrossFit has rapidly come of age in China.</p>
+<p>“Social media is the driving force, as it makes it possible for young people especially to have a look beyond China’s borders,” says Cheng, who has run his own CrossFit box with roughly 120 members for one and a half years. “This is also reflected in several other sectors like fashion, music, and food. The young generation wants to experience and try out new things. Sometimes they may not know exactly what to expect, but they understand that it’s cool and at least want to have tried it.”</p>
+<p>Added to that in the metropolises like Beijing and Shanghai, naturally, is the cultural variety from expatriates working in China and Chinese citizens who have studied or trained abroad. With a total of 120 purely CrossFit boxes, naturally there’s still a lot of potential in China, but Gong is sure that CrossFit has a decisive advantage over conventional gyms.</p>
+<p>“It’s not just the athletic aspect that counts in CrossFit. Here, a lot also happens through the feeling of community and the emotion. The social component plays a very big role,” says Gong. “You can pump iron anywhere, but with the small group training in CrossFit you tough out hard units together, and form a connection to your training partners.”</p>
+<h3>Important with CrossFit: The right instruction by a trainer</h3>
+<p>To the question of whether many Chinese people share the frequently voiced reservations against CrossFit as a dangerous sport, Gong answers with an example from ISPO SHANGHAI. “In 2016, we still had several highly technical exercises in our workouts. I changed that this year, since beginners were getting overwhelmed. In 2017, we do a lot of work with our own bodyweight,” Gong continues, and adds what he feels can refute the “CrossFit is dangerous” argument.</p>
+<p>“The key is definitely in the trainer’s education,” says Gong. “CrossFit exercises are highly complex and it takes a while for someone to be able to do them correctly. Just motivating isn’t enough for trainers; an eye for the correct exercise form is distinctly more important.”</p>

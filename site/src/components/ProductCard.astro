@@ -1,0 +1,28 @@
+---
+export interface Props {
+	slug: string;
+	title: string;
+	image?: string;
+	category?: string;
+}
+
+const { slug, title, image, category } = Astro.props;
+const fallback = '/images/2016/02/favicon-200.png';
+---
+
+<a
+	href={`/product/${slug}/`}
+	class="group block bg-white border border-gray-200 rounded overflow-hidden hover:shadow-lg transition">
+	<div class="aspect-[4/3] bg-gray-100 overflow-hidden">
+		<img
+			src={image || fallback}
+			alt={title}
+			class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+			loading="lazy"
+		/>
+	</div>
+	<div class="p-4">
+		<h3 class="text-sm font-semibold text-gray-800 line-clamp-2 group-hover:text-[#e03420]">{title}</h3>
+		{category && <p class="text-xs text-gray-500 mt-1 capitalize">{category}</p>}
+	</div>
+</a>

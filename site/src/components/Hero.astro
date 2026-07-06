@@ -1,0 +1,44 @@
+---
+export interface Props {
+	image?: string;
+	title?: string;
+	subtitle?: string;
+}
+
+const { image = '/images/2016/04/Background-1.jpg', title, subtitle } = Astro.props;
+---
+
+<section
+	class="relative w-full h-[640px] flex bg-center bg-cover"
+	style={`background-image: url('${image}');`}
+>
+	<div
+		class="absolute inset-0"
+		style="background: linear-gradient(90deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 45%, rgba(226,52,32,0.85) 100%);"
+	>
+	</div>
+
+	<div class="relative z-10 w-full flex items-center">
+		<div class="ml-[110px] mt-[-160px] border border-white/80 p-7 max-w-[640px]">
+			<h1 class="text-white text-[30px] leading-snug font-semibold drop-shadow">
+				{title}
+			</h1>
+			{subtitle && <p class="text-white/95 text-[17px] mt-4">{subtitle}</p>}
+		</div>
+	</div>
+
+	<div class="absolute z-10 left-0 right-0 bottom-16 flex items-center justify-center gap-8">
+		<a
+			href="/fitmus-product/"
+			class="bg-[#e03420] border-2 border-[#e03420] text-white uppercase font-semibold tracking-[0.2em] px-10 py-3 text-[13px] hover:bg-[#c0291b] hover:border-[#c0291b] transition"
+		>
+			View All Fitmus Product
+		</a>
+		<a
+			href="/contact-us/"
+			class="border-2 border-white text-white uppercase font-semibold tracking-[0.2em] px-10 py-3 text-[13px] hover:bg-white hover:text-[#e03420] transition"
+		>
+			Contact Us
+		</a>
+	</div>
+</section>

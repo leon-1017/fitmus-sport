@@ -1,0 +1,62 @@
+---
+const socials = [
+  { icon: 'fab fa-facebook-f', href: 'https://www.facebook.com/fitmus/', label: 'Facebook' },
+  { icon: 'fab fa-linkedin-in', href: 'https://www.linkedin.com/company/fitmus-sport', label: 'LinkedIn' },
+  { icon: 'fab fa-youtube', href: 'https://www.youtube.com/channel/UCN6_-1P1yqQp2E6zLBDZ-zg', label: 'YouTube' },
+  { icon: 'fab fa-instagram', href: '#', label: 'Instagram' },
+];
+---
+
+<footer class="bg-[#222] text-gray-300">
+	<div class="max-w-7xl mx-auto px-4 py-12">
+		<div class="grid md:grid-cols-3 gap-8">
+			<div>
+				<img src="/images/2018/11/logo-sport-s.png" alt="Fitmus Sport" class="h-10 mb-4" />
+				<p class="text-sm leading-relaxed">
+					Rizhao Fitmus Sporting Goods Co.Ltd
+					<br />
+					Wulian County Industrial Area, Rizhao, 262300, Shandong Province, China
+					<br />
+					Tel: +86 15963097328
+					<br />
+					Fax: +86 633 5889298
+					<br />
+					Email: <a href="mailto:info@fitmus-sport.com" class="hover:text-white">info@fitmus-sport.com</a>
+				</p>
+			</div>
+
+			<div>
+				<h3 class="text-white font-semibold mb-4">Quick Links</h3>
+				<ul class="space-y-2 text-sm">
+					<li><a href="/about-fitmus/" class="hover:text-white">About Fitmus</a></li>
+					<li><a href="/fitmus-product/" class="hover:text-white">Fitmus Product</a></li>
+					<li><a href="/in-the-news/" class="hover:text-white">In the News</a></li>
+					<li><a href="/contact-us/" class="hover:text-white">Contact Us</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="text-white font-semibold mb-4">Follow Us</h3>
+				<div class="flex gap-4">
+					{
+						socials.map((s) => (
+							<a
+								href={s.href}
+								aria-label={s.label}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="w-9 h-9 rounded-full bg-gray-700 flex items-center justify-center hover:bg-[#e03420] transition"
+							>
+								<i class={s.icon} />
+							</a>
+						))
+					}
+				</div>
+			</div>
+		</div>
+
+		<div class="border-t border-gray-700 mt-10 pt-6 text-center text-sm">
+			<p>Copyright Fitmus | All Rights Reserved</p>
+		</div>
+	</div>
+</footer>

@@ -1,0 +1,43 @@
+---
+const cards = [
+	{
+		title: 'Extensive  Products',
+		bg: '/images/2016/03/box-background1-300x201.jpg',
+		desc: '8 categories and more than 50 kinds of products to meet your various needs of fitness products.',
+		overlay: 'rgba(224,49,37,0.78)',
+	},
+	{
+		title: 'Professional to Fit Needs',
+		bg: '/images/2016/03/box-background2-1-300x201.jpg',
+		desc: 'Years of industry experience makes quick and professional response to your specific request.',
+		overlay: 'rgba(255,255,255,0.7)',
+		darkText: true,
+	},
+	{
+		title: 'Always Ready for New',
+		bg: '/images/2016/03/box-background-3-300x201.jpg',
+		desc: 'In hot pursuit of fitness fashion and keep updated for our clients with latest product and market trends.',
+		overlay: 'rgba(50,50,50,0.78)',
+	},
+];
+---
+
+<section class="grid grid-cols-1 md:grid-cols-3">
+	{
+		cards.map((c) => (
+			<div
+				class="relative h-[260px] bg-center bg-cover flex items-center justify-center px-8 text-center"
+				style={`background-image: linear-gradient(${c.overlay}, ${c.overlay}), url('${c.bg}');`}
+			>
+				<div class="relative z-10 max-w-sm">
+					<h3 class={`text-xl font-semibold mb-3 ${c.darkText ? 'text-gray-900' : 'text-white'}`}>
+						{c.title}
+					</h3>
+					<p class={`text-sm leading-relaxed ${c.darkText ? 'text-gray-700' : 'text-white/90'}`}>
+						{c.desc}
+					</p>
+				</div>
+			</div>
+		))
+	}
+</section>

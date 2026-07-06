@@ -1,0 +1,34 @@
+---
+export interface Props {
+	title?: string;
+	description?: string;
+	bodyHtml?: string;
+}
+
+const { title, description, bodyHtml } = Astro.props;
+---
+
+<div class="max-w-7xl mx-auto px-4 py-10">
+	{
+		title && (
+			<div class="mb-8">
+				<h1 class="text-3xl font-bold text-gray-900">{title}</h1>
+				{description && <p class="text-gray-600 mt-2">{description}</p>}
+			</div>
+		)
+	}
+	<div class="page-content" set:html={bodyHtml} />
+</div>
+
+<style is:global>
+	.page-content img {
+		height: auto;
+		max-width: 100%;
+	}
+	.page-content .fusion-clearfix {
+		clear: both;
+	}
+	.page-content .wpcf7 {
+		display: none;
+	}
+</style>

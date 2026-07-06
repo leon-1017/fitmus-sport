@@ -1,0 +1,21 @@
+---
+title: "Olympic Change Plates Review"
+slug: "olympic-change-plates-review"
+categories:
+  - "uncategorized"
+seoTitle: "Olympic Change Plates Review"
+seoDescription: "Change plates and fractional plates offer tremendous flexibility for all lifters at various strength levels by allowing for micro incremental growth. Compatible with our full range of olympic barbells and bumper plates."
+featuredImage: "/images/2020/04/change-plate-fractional-plate-1-1-1-1.jpg"
+---
+
+<p>Change plates and fractional plates offer tremendous flexibility for all lifters at various strength levels by allowing for micro incremental growth. Compatible with our full range of olympic barbells and bumper plates, our precision paint change plates and rubber fractional plates are designed to help you improve performance and get results.&nbsp; They are used for making small increments in lifts to accumulate small and consistent weight gains.</p>
+<p>Difference between change plates and fractional plates</p>
+<p>Change plate collections can vary slightly, but they are typically the six pairs of metric plates that include 0.5 kg, 1 kg, 1.5 kg, 2 kg, 2.5 kg, and 5 kg plates; or the three pairs of Imperial plates including 2.5 lbs, 5 lbs, and 10 lbs. When thinking in terms of bumper plates, one can usually associate any disc smaller than 450 mm in diameter as a change plate, but this line of thinking doesn’t work with steel or rubber-coated discs since all plates below 20 kg (or 45 lbs) is of a smaller [than 450 mm] diameter.</p>
+<p>Friction plates is another term you’ll hear floating around. Friction plates are exactly what they sound like, plates that hold on to the bar by friction; no collars needed. Most rubber plates out there are not friction plates, but they still do a pretty good job of holding on to the bar without the use of collars.</p>
+<p>Fractional plates are still change plates, but are different in that they weigh&nbsp;“fractions” of a unit; either kilograms or pounds, of course. So while&nbsp;the&nbsp;change plate set would&nbsp;consist of pairs of 2½-lb, 5-lb, and 10-lb discs, a fractional set in pounds would consist of a pair of ¼-lb, ½-lb, ¾-lb, and 1-lb discs.</p>
+<p>Fractional plates do allow for much smaller increases in load, but that most people can make the jumps in weight that normal change plates would allow for and don’t need to micro-load with fractional plates, especially with those who lift in kilograms. Though needless to say, that’s up to you to decide.</p>
+<p>Do you need change plates?<br>
+Probably. If you are new enough to lifting, you can usually get away without having change plates for a while since bigger jumps in weight are more common as a total beginner, but ultimately you’ll need them. If you work out with pounds rather than kilos, there’s only three change plate pairs to get so you can gear up for very little cash. On the other hand, if you work out in kilograms, expect to spend quite a bit for a full set since there is no less than six pairs of kilogram change plates; more if you include any of the fractional plates.</p>
+<p>Technically you can save a lot of cash by buying cast iron change plates. This is especially true if you work out in pounds, as you can run to the box-store and pick up 2½’s and 5’s for practically nothing. However, you should know though that cast iron plates will destroy the finish of the sleeves on your bar. Any lift ending in an impact with the floor (deadlifts, barbell rows, snatch, clean &amp; jerk, power clean, etc) sends those metal plates bouncing and rattling on the bar, and you end up with gashes, nicks, and lost chrome/zinc. so suggest using steel plates only for controlled, slow lifts like bench press, overhead press, etc.</p>
+<p>Change Plate and Fractional Plate offer tremendous flexibility for all lifters at various strength levels. Athletes, youths, women, men, seniors, advocates of progression training, and individuals rehabbing are some of the areas where small weight increases are sometimes desirable.</p>
+<p>Looking for a matching barbell? Check out our range of Olympic barbells and our range of bar and weight packages.</p>

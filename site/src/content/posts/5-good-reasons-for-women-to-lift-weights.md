@@ -1,0 +1,21 @@
+---
+title: "5 good reasons for women to lift weights"
+slug: "5-good-reasons-for-women-to-lift-weights"
+categories:
+  - "uncategorized"
+seoTitle: "5 good reasons for women to lift weights"
+seoDescription: "For most people, remembering weights remains a male activity par excellence. If mentalities tend to change, there are still barriers that dissuade women from getting into physical resistance exercises, especially with heavy loads. Still, lifting weights has many benefits, and in this article we are going to explore 5 good reasons for women to start this type of workout and not just stick to cardio."
+featuredImage: "/images/2019/12/5-good-reasons-for-women-to-lift-weights-1-1.jpg"
+---
+
+<p>For most people, remembering weights remains a male activity par excellence. If mentalities tend to change, there are still barriers that dissuade women from getting into physical resistance exercises, especially with heavy loads. Still, lifting weights has many benefits, and in this article we are going to explore 5 good reasons for women to start this type of workout and not just stick to cardio.</p>
+<p>Reason number 1: building muscle reduces body fat</p>
+<p>If you thought that only cardiovascular exercise can help you burn fat, reconsider the question! Cardio is a short, intense and beneficial type of exercise, but its effects stop as soon as the exercise stops. On the other hand, increasing your muscle mass can boost your metabolism and therefore reduce your fat mass, throughout the day. The reason is that muscle tissue is metabolically more active than fat: by and large it requires more energy to be maintained so you burn more calories throughout the day.</p>
+<p>Reason number 2: get stronger</p>
+<p>One reason that makes sense: if you lift heavy loads (following a progression curve that suits you), you will become stronger. The point of lifting really heavy loads and becoming stronger is to help you in all daily tasks that require strength, such as lifting a child, furniture or pushing a car. Think of all the things that we (men and women) carry, pull or push throughout the day. Having more strength therefore makes your daily life easier: what seems difficult today becomes tomorrow a pleasure.</p>
+<p>Reason number 3: reduce injuries</p>
+<p>Another important reason: to prevent and reduce the risk of injury. Know that it is much easier to injure yourself when our muscle mass is not developed Knowing that the latter has a strong tendency to decrease with age, especially after 40 years, all muscle resistance exercises improve in this sense your quality of life. On the contrary, to neglect one’s muscular development is to leave the door open to all kinds of injuries and pains, which we tend to consider “normal” because being due to age. Lifting heavy loads allows you to maintain your muscles, joints and bones, regardless of your age. Maintaining muscle mass is ensuring a future with a minimum of injuries.</p>
+<p>Reason number 4: keep getting into your clothes</p>
+<p>This reason may seem frivolous but it is very important, and also concerns men. We all lose muscle mass over time. Between 30 and 50 years old, without exercise, we can lose 10% of our muscle mass. And after 50 years we lose even more! What we lose in muscle, we tend to gain in fat mass, that is to say in fat. Lifting weights regularly allows you to maintain and even increase your muscle mass, which has the advantage of making you keep your body shape and therefore keep getting into your clothes. In fact, muscles take up less space than fat!</p>
+<p>Reason number 5: boost your confidence</p>
+<p>Lifting heavy and difficult loads is very rewarding. Maybe it is written somewhere in our reptilian brain? Before our sedentary way of life, to survive, it was necessary for the human species to be able to surpass itself, to increase its strength and to lift pebbles, tree trunks to build shelters and escape predators. As a result, physical resistance exercises have an extremely gratifying side, which boost confidence and self-esteem. You start at a certain level (example: bench press maximum of 20 kilos), and little by little through training you go to 30 kilos, then 40, 50, etc. The satisfaction you get from it is incomparable to cardiovascular exercises like the elliptical trainer.</p>

@@ -1,0 +1,42 @@
+---
+title: "Muscle Roller Stick"
+slug: "muscle-roller-stick"
+category: "balance-mobility"
+seoTitle: "Muscle Roller Stick"
+seoDescription: "Fitmus Muscle Roller Stick isPerfect for athletes, runners, gym rolling, sprinters, elite fitness, marathons or even beginner athletes"
+featuredImage: "/images/2016/04/Fitmus-Muscle-Roller-Stick.jpg"
+gallery:
+  - "/images/2016/04/Fitmus-Muscle-Roller-Stick.jpg"
+  - "/images/2021/09/14feet-free-standing-rig-66x66.jpg"
+  - "/images/2021/09/14-Monster-Lite-Rig-2-66x66.jpg"
+  - "/images/2021/08/Portable-Gym-Workout-Timer-1-66x66.jpg"
+  - "/images/2020/10/dumbbell-66x66.jpg"
+  - "/images/2020/08/Curved-Manual-Treadmill-1-66x66.jpg"
+  - "/images/2020/04/Training-mask-1-66x66.jpg"
+  - "/images/2020/03/Adjustable-Bench-Heavy-duty-1-66x66.jpg"
+  - "/images/2019/10/Strongman-Sandbag-66x66.jpg"
+  - "/images/2019/10/Olympic-Lifting-Platform-1-66x66.jpg"
+  - "/images/2019/10/5.11-tactical-plate-carrier-weight-vest-66x66.jpg"
+  - "/images/2019/10/Fitness-MMA-Adjustable-Boxing-mitts-66x66.jpg"
+  - "/images/2019/10/Commercial-Grade-Treadmill-LED-66x66.jpg"
+related: []
+---
+
+<h3 style="display:none;">Project Description</h3>										<div class="fusion-fullwidth fullwidth-box hundred-percent-fullwidth non-hundred-percent-height-scrolling" style="background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;"><div class="fusion-builder-row fusion-row "><div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1" style="margin-top:0px;margin-bottom:0px;">
+<div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
+<div class="fusion-title title fusion-title-size-two" style="margin-top:0px;margin-bottom:31px;"><h2 class="title-heading-left">Feature</h2><div class="title-sep-container"><div class="title-sep sep-double sep-solid" style="border-color:#e03420;"></div></div></div><div class="fusion-text"><p>Fitmus Muscle Roller Stick isPerfect for athletes, runners, gym rolling, sprinters, elite fitness, marathons or even beginner athletes.Muscle massage roller reduces muscle soreness;Can be used on skin or through clothing.<br>
+Do not need to hurt the muscle to get benefits.<br>
+Use before, after and during exercise for relief.<br>
+Use on all body parts including neck, back, legs, arms, hips and shoulders. Stick Length: Approx. 18inch<br>
+Material: PVC + PP</p>
+</div><div class="fusion-clearfix"></div>
+
+</div>
+</div><div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1" style="margin-top:0px;margin-bottom:0px;">
+<div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
+<div class="fusion-title title fusion-title-size-two" style="margin-top:0px;margin-bottom:31px;"><h2 class="title-heading-left">Brief Description</h2><div class="title-sep-container"><div class="title-sep sep-double sep-solid" style="border-color:#e03420;"></div></div></div><div class="fusion-text"><p>Color: Black + White<br>
+Weight:320g</p>
+</div><div class="fusion-clearfix"></div>
+
+</div>
+</div></div></div>

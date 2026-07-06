@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import Sidebar from '../../../components/Sidebar.astro';
+import ProductCard from '../../../components/ProductCard.astro';
+
+const categoryMap: Record<string, string> = {
+  'weight-lifting-equipment': 'Weight Lifting Equipment',
+  'body-weight-gymnastic': 'Body Weight & Gymnastic',
+  'strength-condition': 'Strength & Condition',
+  'crossfit-racks-rigs': 'Crossfit Racks & Rigs',
+  'strongman-equipment': 'Strongman Equipment',
+  'equipment-storage': 'Equipment Storage',
+  'balance-mobility': 'Balance & Mobility',
+  'cardio-equipment-accessories': 'Cardio Equipment & Accessories',
+};
+
+export async function getStaticPaths() {
+  const products = await getCollection('products');
+  const slugs = [...new Set(products.map((p) => p.data.category).filter(Boolean))];
+  return slugs.map((slug) => ({ params: { category: slug } }));
+}
+
+const { category } = Astro.params;
+const allProducts = await getCollection('products');
+const items = allProducts.filter((p) => p.data.category === category);
+const title = categoryMap[category] || category;
+---
+
+<Layout title={title} description={`${title} - Fitmus Sport provides high quality CrossFit, functional fitness and commercial gym equipment.`}>
+	<Header />
+	<main class="max-w-7xl mx-auto px-4 py-10">
+		<div class="grid lg:grid-cols-3 gap-10">
+			<div class="lg:col-span-2">
+				<h1 class="text-3xl font-bold text-gray-900 mb-6">{title}</h1>
+				<p class="text-gray-600 mb-8">{items.length} products</p>
+				<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+					{items.map((p) => (
+						<ProductCard
+							slug={p.data.slug}
+							title={p.data.title}
+							image={p.data.featuredImage}
+						/>
+					))}
+				</div>
+			</div>
+			<div class="lg:col-span-1">
+				<Sidebar />
+			</div>
+		</div>
+	</main>
+	<Footer />
+</Layout>

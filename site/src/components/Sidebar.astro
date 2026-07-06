@@ -1,0 +1,66 @@
+---
+import { getCollection } from 'astro:content';
+
+const products = await getCollection('products');
+
+const categoryMap: Record<string, string> = {
+  'weight-lifting-equipment': 'Weight Lifting Equipment',
+  'body-weight-gymnastic': 'Body Weight & Gymnastic',
+  'strength-condition': 'Strength & Condition',
+  'crossfit-racks-rigs': 'Crossfit Racks & Rigs',
+  'strongman-equipment': 'Strongman Equipment',
+  'equipment-storage': 'Equipment Storage',
+  'balance-mobility': 'Balance & Mobility',
+  'cardio-equipment-accessories': 'Cardio Equipment & Accessories',
+};
+const categorySlugs = Object.keys(categoryMap);
+
+const bottomNav = [
+  { icon: 'fa-user', label: 'About Fitmus', href: '/about-fitmus/' },
+  { icon: 'fa-th-large', label: 'Fitmus Product', href: '/fitmus-product/' },
+  { icon: 'fa-newspaper-o', label: 'In the News', href: '/in-the-news/' },
+  { icon: 'fa-envelope-o', label: 'Contact Us', href: '/contact-us/' },
+];
+---
+
+<aside class="w-[260px] flex-shrink-0 bg-white border-r border-gray-200 hidden lg:flex flex-col">
+	<a href="/" class="block px-6 py-6">
+		<img src="/images/2018/11/logo-sport-s.png" alt="Fitmus Sport" class="h-12" />
+	</a>
+
+	<nav class="flex-1 overflow-y-auto px-2">
+		<ul class="divide-y divide-gray-100">
+			{
+				categorySlugs.map((slug) => (
+					<li>
+						<a
+							href={`/products/${slug}/`}
+							class="group flex items-center justify-between px-4 py-3 text-[15px] text-gray-800 hover:text-[#e03420] transition"
+						>
+							<span>{categoryMap[slug]}</span>
+							<span class="text-[#e03420] opacity-70 group-hover:translate-x-1 transition">&rsaquo;</span>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+
+		<div class="mt-6 border-t border-gray-200 pt-4 px-2 pb-6">
+			<ul class="space-y-3">
+				{
+					bottomNav.map((item) => (
+						<li>
+							<a
+								href={item.href}
+								class="flex items-center gap-3 px-2 text-[15px] text-gray-700 hover:text-[#e03420]"
+							>
+								<i class={`fa ${item.icon} text-[#e03420] w-4`} aria-hidden="true" />
+								<span>{item.label}</span>
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+	</nav>
+</aside>

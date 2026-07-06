@@ -1,0 +1,50 @@
+---
+const cards = [
+	{
+		title: 'Casting Products',
+		desc: 'Kettlebell, dumbbell, Olympic weight plates and other free weights.',
+		image: '/images/2016/04/powder-coat-Iron-crossfit-kettlebell.jpg',
+		href: '/products/weight-lifting-equipment/',
+	},
+	{
+		title: 'Wood Products',
+		desc: 'Wood plyo box, jerk box, push-up, gym rings, balance board.',
+		image: '/images/2016/04/soft-3-in-1-Foam-Plyo-Box-1.jpg',
+		href: '/products/strength-condition/',
+	},
+	{
+		title: 'Sewn Products',
+		desc: 'Leather sandbags, wall ball, Bulgarian bag, aqua bag, medicine ball, power bag.',
+		image: '/images/2016/04/fitmus-steel-mace-bell-1.jpg',
+		href: '/products/body-weight-gymnastic/',
+	},
+	{
+		title: 'Fitness Products',
+		desc: 'Crossfit rig, prowler sled, power cage, paralettes, battle rope, foam roller.',
+		image: '/images/2016/04/Fitmus-Adjustable-Squat-Rack-1.jpg',
+		href: '/products/crossfit-racks-rigs/',
+	},
+];
+---
+
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+	{
+		cards.map((c) => (
+			<a
+				href={c.href}
+				class="group relative block aspect-[4/3] sm:aspect-[3/4] lg:aspect-[4/5] bg-center bg-cover overflow-hidden"
+				style={`background-image: url('${c.image}');`}
+			>
+				<div
+					class="absolute inset-0"
+					style="background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.45) 55%, rgba(0,0,0,0.85) 100%);"
+				>
+				</div>
+				<div class="absolute inset-0 flex flex-col justify-end p-6 text-white">
+					<h3 class="text-xl font-semibold mb-2 group-hover:text-[#e03420] transition">{c.title}</h3>
+					<p class="text-sm text-gray-200 leading-relaxed">{c.desc}</p>
+				</div>
+			</a>
+		))
+	}
+</section>

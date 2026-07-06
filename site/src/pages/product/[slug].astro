@@ -1,0 +1,82 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import Share from '../../components/Share.astro';
+
+export async function getStaticPaths() {
+  const products = await getCollection('products');
+  return products.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const categoryMap: Record<string, string> = {
+  'weight-lifting-equipment': 'Weight Lifting Equipment',
+  'body-weight-gymnastic': 'Body Weight & Gymnastic',
+  'strength-condition': 'Strength & Condition',
+  'crossfit-racks-rigs': 'Crossfit Racks & Rigs',
+  'strongman-equipment': 'Strongman Equipment',
+  'equipment-storage': 'Equipment Storage',
+  'balance-mobility': 'Balance & Mobility',
+  'cardio-equipment-accessories': 'Cardio Equipment & Accessories',
+};
+---
+
+<Layout title={entry.data.title} description={entry.data.seoDescription} image={entry.data.featuredImage}>
+	<Header />
+	<main class="max-w-7xl mx-auto px-4 py-10">
+		<div class="grid lg:grid-cols-3 gap-10">
+			<div class="lg:col-span-2">
+				<nav class="text-sm text-gray-500 mb-4">
+					<a href="/" class="hover:text-[#e03420]">Home</a>
+					<span class="mx-2">/</span>
+					{
+						entry.data.category && (
+							<>
+								<a href={`/products/${entry.data.category}/`} class="hover:text-[#e03420]">
+									{categoryMap[entry.data.category] || entry.data.category}
+								</a>
+								<span class="mx-2">/</span>
+							</>
+						)
+					}
+					<span class="text-gray-800">{entry.data.title}</span>
+				</nav>
+
+				<h1 class="text-3xl font-bold text-gray-900 mb-6">{entry.data.title}</h1>
+
+				{
+					entry.data.featuredImage && (
+						<div class="mb-8 rounded overflow-hidden border border-gray-200">
+							<img src={entry.data.featuredImage} alt={entry.data.title} class="w-full h-auto" />
+						</div>
+					)
+				}
+
+				<div class="product-content prose max-w-none">
+					<Content />
+				</div>
+
+				<Share title={entry.data.title} />
+			</div>
+
+			<div class="lg:col-span-1">
+				<Sidebar />
+			</div>
+		</div>
+	</main>
+	<Footer />
+</Layout>
+
+<style is:global>
+	.product-content img {
+		height: auto;
+		max-width: 100%;
+	}
+</style>
