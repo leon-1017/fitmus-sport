@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "New Choice Cerakote Barbell"
 seoDescription: "New Choice Cerakote training bars make a great addition to any training facility. Cerakote finishing has been used in some of the toughest applications to provide durability and resist rust."
-featuredImage: "/images/2019/07/Cerakote4.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/07/Cerakote4.jpg"
 ---
 
 <p>Now New Choice Cerakote training bars make a great addition to any training facility. Cerakote finishing has been used in some of the toughest applications to provide durability and resist rust. The 20kg bar has a 28 mm diameter with dual knurl marks and comes in green and blue. The 15kg has a 25mm diameter with dual knurl marks and comes in green and orange. Both bars have a bushing composite for optimal rotation while doing olympic lifts.</p>

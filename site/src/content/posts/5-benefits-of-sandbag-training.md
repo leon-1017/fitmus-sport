@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "5 Benefits Of Sandbag Training"
 seoDescription: "Sandbag training is a training modality that uses a sandbag as a weight training tool. A sandbag is unique because it is an unstable load, which means that the weight you are lifting is constantly shifting as you lift it. Training with an unstable load can make your body stronger in a functional way"
-featuredImage: "/images/2019/10/Sandbag-Training.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/10/Sandbag-Training.jpg"
 ---
 
 <p>What is sandbag training?</p>

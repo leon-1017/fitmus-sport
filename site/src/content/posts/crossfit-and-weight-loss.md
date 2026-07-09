@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Crossfit and weight loss ?"
 seoDescription: "Physical exercise in itself is not enough to transform one’s body. Combining sports and a balanced diet is crucial for weight loss and muscle gain. Eating healthy is not necessarily a synonym of restriction and privation. In fact, choosing a healthier way of life is above all listening to one’s body’s needs."
-featuredImage: "/images/2018/10/crossfit-nutrition.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/10/crossfit-nutrition.jpg"
 ---
 
 <p>Physical exercise in itself is not enough to transform one’s body. Combining sports and a balanced diet is crucial for weight loss and muscle gain. Eating healthy is not necessarily a synonym of restriction and privation. In fact, choosing a healthier way of life is above all listening to one’s body’s needs.</p>

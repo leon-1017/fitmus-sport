@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Find a Crossfit Gym in China"
 seoDescription: "For even the most hardcore fitness and sports fans, CrossFit may seem intimidating. We wouldn’t blame you – to outsiders, it looks incredibly taxing with the heavy weights, pull up bars and stamina training involved."
-featuredImage: "/images/2018/12/Crossfit-Gym-Near-Me.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/12/Crossfit-Gym-Near-Me.jpg"
 ---
 
 <p>For even the most hardcore fitness and sports fans, CrossFit may seem intimidating. We wouldn’t blame you – to outsiders, it looks incredibly taxing with the heavy weights, pull up bars and stamina training involved. But the workout is inclusive, and caters to all ages and strength levels, as the weight and intensity can be tweaked. Get in the best shape of your life – we pick the best places for CrossFit in China</p>

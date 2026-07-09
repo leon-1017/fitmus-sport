@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "how artificial grass is made"
 seoDescription: "Artificial turf is a surfacing material used to imitate grass. It is generally used in areas where grass cannot grow, Artificial turf is used in sports"
-featuredImage: "/images/2018/02/Synthetic-grass.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/02/Synthetic-grass.jpg"
 ---
 
 <p>Artificial turf is a surfacing material used to imitate grass. It is generally used in areas where grass cannot grow, or in areas where grass maintenance is impossible or undesired. Artificial turf is used mainly in sports stadiums and arenas, but can also be found on playgrounds and in other spaces.</p>

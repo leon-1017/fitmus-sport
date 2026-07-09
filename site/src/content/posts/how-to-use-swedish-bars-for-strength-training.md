@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to use swedish bars for strength training?"
 seoDescription: "Gymnasts love them, since they’re the perfect equipment for powering-up strength and harnessing flexibility throughout your body.But it’s not only gymnasts"
-featuredImage: "/images/2016/12/Steel-gymnastic-Stall-Bars-Gladiator-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/12/Steel-gymnastic-Stall-Bars-Gladiator-1.jpg"
 ---
 
 <p>Gymnasts love them, since they’re the perfect equipment for powering-up strength and harnessing flexibility throughout your body.</p>

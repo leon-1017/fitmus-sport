@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "High-Intensity Interval Training is good for Weight Loss"
 seoDescription: "If you want to lose fat (and not muscle) fast without doing hours of cardio every week, then you want to know more about high-intensity interval training."
-featuredImage: "/images/2017/03/high-intensity-interval-training.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/03/high-intensity-interval-training.jpg"
 ---
 
 <p>If you want to lose fat (and not muscle) fast without doing hours of cardio every week, then you want to know more about high-intensity interval training.</p>

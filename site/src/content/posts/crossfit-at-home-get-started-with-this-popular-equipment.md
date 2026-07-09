@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Crossfit at home - Get started with this popular equipment"
 seoDescription: "You can get effective crossfit at home in the living room! Here are the most popular equipment, so you can also get started at home. Therefore you would like to grow crossfit Crossfit is high intensity training and where you exercise your entire body"
-featuredImage: "/images/2018/04/Crossfit-at-home-Get-started-with-this-popular-equipment-1-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/04/Crossfit-at-home-Get-started-with-this-popular-equipment-1-1.jpg"
 ---
 
 <p>You can get effective <a href="https://fitmus-sport.com/" target="_blank" rel="noopener">crossfit</a> at home in the living room! Here are the most popular equipment, so you can also get started at home.</p>

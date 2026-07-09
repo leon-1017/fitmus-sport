@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Body Bars: the Perfect Free Weight for Women"
 seoDescription: "Body Bar is also named as ' weighted exercise bar' ,the Body Bar is a simple, one-piece solid steel bar encased in high quality, easy-grip rubber."
-featuredImage: "/images/2017/11/weighted-body-bar-2.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/11/weighted-body-bar-2.jpg"
 ---
 
 <p><a href="https://fitmus-sport.com/product/exercise-body-bar/" target="_blank" rel="noopener">Body Bar</a> is also named as ‘ weighted exercise bar’ ,the Body Bar is a simple, one-piece solid steel bar encased in high quality, easy-grip rubber.&nbsp;Standard 48” Body Bars come in weights from 1kg-10kg, 1kg increments and 5lb,8lb,10lb,12lb,15lb,20lb,25lb.The advantage of the <a href="https://fitmus-sport.com/product/exercise-body-bar/" target="_blank" rel="noopener">Body Bar</a> is that the weight of each bar is spread evenly over the length of the bar.User friendly and cost effective, multipurpose Body Bars are used in group exercise classes in fitness clubs and similar facilities around the world, as well as for personal training, physical therapy, and home workouts.</p>

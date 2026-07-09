@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How CrossFit gets beginners in the best shape of their lives?"
 seoDescription: "CrossFit is a strength and conditioning program used by military, police officers, athletes and recreational exercisers. The design of the workout program attracts a wide variety of followers, along with the performance, health and wellness benefits that occur as a result"
-featuredImage: "/images/2018/10/Crossfit-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/10/Crossfit-1.jpg"
 ---
 
 <p>CrossFit is a strength and conditioning program used by military, police officers, athletes and recreational exercisers. The design of the workout program attracts a wide variety of followers, along with the performance, health and wellness benefits that occur as a result. CrossFit yields some benefits quickly, but aims to keep you fit and healthy over your lifetime.</p>

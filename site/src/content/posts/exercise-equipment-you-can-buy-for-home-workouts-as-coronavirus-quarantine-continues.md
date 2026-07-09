@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Exercise equipment you can buy for home workouts as coronavirus quarantine continues"
 seoDescription: "As the coronavirus pandemic sweeps the world, most people are following official guidance by social distancing, working remotely, and staying at home.With gyms and fitness studios closed, we're all turning to home workouts in a bid to maintain our strength, stamina, and sanity."
-featuredImage: "/images/2020/04/home-workouts-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2020/04/home-workouts-1.jpg"
 ---
 
 <p>As the coronavirus pandemic sweeps the world, most people are following official guidance by social distancing, working remotely, and staying at home.With gyms and fitness studios closed, we’re all turning to home workouts in a bid to maintain our strength, stamina, and sanity. There’s only so much you can do with your bodyweight alone, so many people have been rushing to buy anything they can get their hands on: cardio machines, weights, and yoga mats are all selling like hotcakes online.</p>

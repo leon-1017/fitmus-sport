@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Portable WOD Timer"
 seoDescription: "Our Portable WOD Timer is the last WOD timer you will need for your next Crossfit gym session.Add the final piece to your home gym with Mini portable WOD Workout Timer, an essential tool for any fitness environment that requires constant track of time for their programming"
-featuredImage: "/images/2021/08/Portable-WOD-Timer-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2021/08/Portable-WOD-Timer-1.jpg"
 ---
 
 <p>No more fighting for the main gym timer. The new portable WOD timer gives you everything you need to get a great workout of the day in. The ultimate portable WOD gym timer feature is below:</p>

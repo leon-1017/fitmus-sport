@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "9 infallible tips to make the gym your best ally constant in the gym"
 seoDescription: "We know, most of the time it is that excuses not to go over: you do not like to get up early, it is always full, you do not even know where to start, you do not have enough time, etc., etc., etc.Although we are in the middle of the year and the New Year's resolutions are still far away"
-featuredImage: "/images/2019/11/How-to-be-constant-in-the-gym-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/11/How-to-be-constant-in-the-gym-1.jpg"
 ---
 
 <p>We know, most of the time it is that excuses not to go over: you do not like to get up early, it is always full, you do not even know where to start, you do not have enough time, etc., etc., etc.</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Olympic weight lifting Barbells Review"
 seoDescription: "Having tested the Pro Elite bar,having had something close in specifications to it.Speaking of the bearings, ball bearing we use"
-featuredImage: "/images/2016/04/Crossfit-Barbell-women-use-Barbells-6.6ft-Elite-women-bar.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/04/Crossfit-Barbell-women-use-Barbells-6.6ft-Elite-women-bar.jpg"
 ---
 
 <p>Having tested the Pro Elite bar,having had something close in specifications to it.Speaking of the bearings, The object of using Needle – bearings&nbsp;is to reduce the friction,To say that this bar is unbelievably fast is an understatement. 8 Needle Bearing for Cross fit training Bars.Photo(2)</p>

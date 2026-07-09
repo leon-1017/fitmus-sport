@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Dumbbells, Barbells, Kettlebells—Why Do We Call Weights \"Bells\"?"
 seoDescription: "The various “bells” we see at the Cross fit Boxes/Gym/Club today—dumbbells, barbells, kettle bells—Yes, they are made of heavy metal"
-featuredImage: "/images/2016/05/banner-1-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/05/banner-1-1.jpg"
 ---
 
 <p>The various “bells” we see at the Cross fit Boxes/Gym/Club today—dumbbells, barbells, kettle bells—are inspired by actual bells, &nbsp;Yes, they are made of heavy metal and can be swung like a bell, but they can also be traced back to a fitness craze of the 1700s involving an artificial church bell.</p>

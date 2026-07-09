@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "China to launch new round of environmental inspections"
 seoDescription: "China will soon launch a new round of central environmental inspections covering eight provincial-level areas, as the country finishes nationwide"
-featuredImage: "/images/2017/11/environmental-inspection.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/11/environmental-inspection.jpg"
 ---
 
 <p>Editor: Mengjie</p>

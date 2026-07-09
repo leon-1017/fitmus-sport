@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How fitness aerobic step platform for weight loss?"
 seoDescription: "Aerobic step still popular in gyms and health clubs. Stepping up, over and around an adjustable step to the beat of high-energy music gives you an"
-featuredImage: "/images/2019/05/aerobic-step.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/05/aerobic-step.jpg"
 ---
 
 <p>Step aerobics was introduced in the 1980s as part of the aerobics craze, and it’s still popular in gyms and health clubs. Stepping up, over and around an adjustable step to the beat of high-energy music gives you an excellent total-body workout that’s good for burning fat, building muscle and improving your fitness. A step class can be an intense, however, so consult your doctor before you start</p>

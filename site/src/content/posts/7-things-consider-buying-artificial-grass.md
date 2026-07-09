@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "7 Things to Consider Before Buying Artificial Grass"
 seoDescription: "Your budget isn’t the only thing to consider when you decide to cover your garden with artificial grass. Installing fake grass is nothing short of invest"
-featuredImage: "/images/2018/02/7-Things-to-Consider-Before-Buying-Artificial-Grass.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/02/7-Things-to-Consider-Before-Buying-Artificial-Grass.jpg"
 ---
 
 <p>Your budget isn’t the only thing to consider when you decide to cover your garden with artificial grass. Installing fake grass is nothing short of an investment, and if you want your turf to last long, making the right choice is necessary.<br>

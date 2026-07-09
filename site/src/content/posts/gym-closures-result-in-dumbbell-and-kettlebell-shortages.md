@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Gym closures result in dumbbell and kettlebell shortages"
 seoDescription: "As events have unfolded over the past few weeks across the world, it is clear that we are all facing an unprecedented challenge in combating COVID-19.A shortage of exercise equipment, like dumbbells and kettlebells, has resulted from more and more people across the world turning to home workouts"
-featuredImage: "/images/2020/06/Kettlebell-Dumbbell-Shortage.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2020/06/Kettlebell-Dumbbell-Shortage.jpg"
 ---
 
 <p>As events have unfolded over the past few weeks across the world, it is clear that we are all facing an unprecedented challenge in combating COVID-19.</p>

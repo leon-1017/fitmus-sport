@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "CrossFit WOD: Fran"
 seoDescription: "When you start hearing “What’s your Fran time?” more than you hear “What’s your bench? Opens a New Window. ”, it’ll be clear you’ve wandered far from Kansas and the yellow-bricked road and into the Wonderful World of CrossFit. You’ll then start wondering, “Who the hell is Fran and why does she have a time?”"
-featuredImage: "/images/2018/11/CrossFit-WOD-Fran-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/11/CrossFit-WOD-Fran-1.jpg"
 ---
 
 <p>When you start hearing “What’s your Fran time?” more than you hear “What’s your bench? Opens a New Window. ”, it’ll be clear you’ve wandered far from Kansas and the yellow-bricked road and into the Wonderful World of CrossFit. You’ll then start wondering, “Who the hell is Fran and why does she have a time?”</p>

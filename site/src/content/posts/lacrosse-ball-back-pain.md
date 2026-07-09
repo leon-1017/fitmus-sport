@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Using a Lacrosse Ball for Tight Low Back"
 seoDescription: "lacrosse balls are hard and dense, Lacrosse balls can be used as a powerful massage device that can help relieve pain and improve function in sore muscles."
-featuredImage: "/images/2018/03/Lacrosse-Ball.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/03/Lacrosse-Ball.jpg"
 ---
 
 <p>Unlike tennis balls, lacrosse balls are hard and dense. They don’t soften under pressure. Lacrosse balls can be used as a powerful massage device that can help relieve pain and improve function in sore muscles.</p>

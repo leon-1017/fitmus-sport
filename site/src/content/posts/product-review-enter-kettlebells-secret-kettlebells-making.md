@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "What you need to know: the secret of kettlebells making!"
 seoDescription: "Now it is your chance to learn how are cast iron kettlebells made. Fitmus Sport use Iron mold coated sand technology(innovative gravity cast mould)"
-featuredImage: "/images/2016/05/banner-6-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/05/banner-6-1.jpg"
 ---
 
 <p>Now it is your chance to learn how are cast iron kettlebell made. Fitmus Sport use Iron mold coated sand technology(innovative gravity cast mould) for Cast iron Kettlebell, Top Grade Casting Technology</p>

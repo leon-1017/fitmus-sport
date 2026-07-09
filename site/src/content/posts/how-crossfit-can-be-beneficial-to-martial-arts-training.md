@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "how crossfit can be beneficial to martial arts training?"
 seoDescription: "ONE Championship contributor Adam Bernard shares how crossfit can be beneficial to martial arts training.The goal of CrossFit is to develop a body that is functional and adaptive to different situations. CrossFit is a great addition to the training regime of martial artists."
-featuredImage: "/images/2019/09/Crossfit-Martical-Arts-1-1-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/09/Crossfit-Martical-Arts-1-1-1.jpg"
 ---
 
 <p>If you are serious about improving your Martial Arts skills, then you need to expand your training regime to outside the Dojo. Sure, going to a standard gym and using machines can be of benefit, but you won’t develop half as fast as you will if you incorporate Crossfit into your regime.</p>

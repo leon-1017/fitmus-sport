@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "CrossFit Barbells – Affordable Bars for Crossfit Use"
 seoDescription: "As a Crossfit Gym Supplier, We get asked all the times about Setting up a home Gym. Which Barbells are working well? If you are looking for a affordable Crossfit barbell"
-featuredImage: "/images/2017/06/Crossfit-Barbell.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/06/Crossfit-Barbell.jpg"
 ---
 
 <p>As a Crossfit Gym Supplier, We get asked all the times about Setting up a home Gym. Which Barbells are working well? If you are looking for a affordable Crossfit barbell, look at some of the best CrossFit barbells available in the industry.</p>

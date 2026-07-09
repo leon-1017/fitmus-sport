@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "3 Things You Should do with your Resistance Band Loop"
 seoDescription: "Resistance loop band training is an affordable and effective way to exercise. When it comes to convenience, portability, and ease of set up, it’s hard to beat.3 Things to Do Before Using Your Resistance Loop Band"
-featuredImage: "/images/2019/03/Resistance-Loop-Band.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/03/Resistance-Loop-Band.jpg"
 ---
 
 <p>Resistance loop band training is an affordable and effective way to exercise. When it comes to convenience, portability, and ease of set up, it’s hard to beat.3 Things to Do Before Using Your Resistance Loop Band</p>

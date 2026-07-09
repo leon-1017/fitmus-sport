@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Jump injury and how to Find a safety Plyometric box ?"
 seoDescription: "Jumpers can be found in Crossfit boxes, fitness clubs, garage gyms, personal training studios, bootcamps also known as \"jump training\" or \"plyos\","
-featuredImage: "/images/2016/07/jump-on-box-banner-1-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/07/jump-on-box-banner-1-1.jpg"
 ---
 
 <p>Jumpers can be found in Crossfit boxes, fitness clubs, group fitness, garage gyms, personal training studios, bootcamps, commercial gyms, Plyometrics, also known as “jump training” or “plyos”, are exercises in which muscles exert maximum force in short intervals of time, with the goal of increasing power (speed-strength).<br>

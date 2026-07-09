@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "15 Best Blogs To Follow About Crossfit"
 seoDescription: "If you’re like most CrossFitters, you spend most days outside the box focused on diet, nutrition and nailing the next WOD. Staying motivated isn’t always easy, but you don’t have to go it alone. Check out these blogs to get your daily dose of CrossFit news, motivation, and more."
-featuredImage: "/images/2018/05/10-Best-Blogs-To-Follow-About-Crossfit.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/05/10-Best-Blogs-To-Follow-About-Crossfit.jpg"
 ---
 
 <p>If you’re like most CrossFitters, you spend most days outside the box focused on diet, nutrition and nailing the next WOD. Staying motivated isn’t always easy, but you don’t have to go it alone. Check out these blogs to get your daily dose of CrossFit news, motivation, and more.</p>

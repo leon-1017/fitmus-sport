@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Selecting the Best Foam Roller"
 seoDescription: "Like when you buy any product, the most important question you should ask yourself is “what do I need this product for?”"
-featuredImage: "/images/2016/07/1000-600-foam-roller-banner-1-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/07/1000-600-foam-roller-banner-1-1.jpg"
 ---
 
 <p><span style="font-size: 14pt;"><strong>What is a foam roller?</strong></span><br>

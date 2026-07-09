@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "The Best Plyometric Box in 2017"
 seoDescription: "Plyometric exercises are easy to build into your home workouts, and require nothing but your bodyweight and a bit of free floor space. Some of the most"
-featuredImage: "/images/2017/08/Best-Plyometric-Box-in-2017-2-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/08/Best-Plyometric-Box-in-2017-2-1.jpg"
 ---
 
 <p>Plyometric exercises are easy to build into your home workouts, and require nothing but your bodyweight and a bit of free floor space. Some of the best and most effective plyometric training techniques, however, incorporate not only your bodyweight, but gravity as well. And the best way to bring gravity into the fold is to use a plyometric box (or plyo box for short).</p>

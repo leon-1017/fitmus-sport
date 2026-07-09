@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Balance Boards: Core Training Exercises For Better Balance and Strength"
 seoDescription: "You want to source a balance boards? Then you are right when you go for the wood balance board here! PRODUCT LAUNCH SPECIAL"
-featuredImage: "/images/2016/05/Fitness-wood-balance-boards.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/05/Fitness-wood-balance-boards.jpg"
 ---
 
 <p>You want to buy a balance board(prancha equilíbrio )? Then you are right when you go for the wood balance board here!</p>

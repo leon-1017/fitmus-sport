@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Jump Ropes for CrossFit"
 seoDescription: "Skipping rope or jump rope is a tool used in the sport of jump rope where one or more participants jump over a rope swung so that it passes under their feet"
-featuredImage: "/images/2017/03/Skipping-Rope-Crossfit-Rope-Speed-Jump-Rope.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/03/Skipping-Rope-Crossfit-Rope-Speed-Jump-Rope.jpg"
 ---
 
 <p>A <a href="https://fitmus-sport.com/products/speed-agility-wire-jump-rope/" target="_blank">skipping rope or jump rope</a> is a tool used in the sport of jump rope where one or more participants jump over a rope swung so that it passes under their feet and over their heads. There are multiple subsets of <a href="https://fitmus-sport.com/product/premium-speed-cable-jump-rope/" target="_blank">jump rope</a> including: single freestyle, single speed, pairs, three person speed (double dutch), and three person freestyle (double dutch freestyle).</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Benefits of Battle Rope Training"
 seoDescription: "Battle ropes, sometimes called heavy ropes, are one of the newest fitness trends hitting gyms across the US, but working with ropes is hardly a new form"
-featuredImage: "/images/2017/03/Battle-Rope-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/03/Battle-Rope-1.jpg"
 ---
 
 <p><a href="https://fitmus-sport.com/products/battle-ropes-anchor/" target="_blank">Battle ropes</a>, sometimes called heavy ropes, are one of the newest fitness trends hitting gyms across the US, but working with ropes is hardly a new form of fitness. Long used as a training tool for football players, mixed martial artists (MMA), and other athletes, <a href="https://fitmus-sport.com/product/body-conditioning-battle-rope/" target="_blank">battle ropes </a>can provide a high-intensity, whole-body workout that gets your muscles moving in new ways.</p>

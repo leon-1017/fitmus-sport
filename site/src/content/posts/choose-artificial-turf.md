@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "WHY WE CHOOSE ARTIFICIAL TURF?"
 seoDescription: "Artificial turf can be of every size and place. It can be used wherever you want. The most special is that it can be used in the real grass cannot grow"
-featuredImage: "/images/2018/03/artificial-grass-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/03/artificial-grass-1.jpg"
 ---
 
 <p>Artificial turf can be of every size and place. It can be used wherever you want. The most special is that it can be used in the real grass cannot grow place. Many people now use artificial turf as a decoration for their backyard. All people who use artificial turf feel satisfied. Researchers and manufacturers say artificial turf has gained a good reputation for the huge benefits that natural turf can bring to homeowners.</p>

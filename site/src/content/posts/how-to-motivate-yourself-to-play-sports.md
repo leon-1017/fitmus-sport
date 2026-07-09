@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to motivate yourself to play sports?"
 seoDescription: "Everything is a question of will. Everything is a question of will. Everything is a question of will ...If you've ever done sports or are thinking of doing it, you probably already know that the hardest part at the start (and even afterwards) is to motivate yourself and stay constant over time.If you really want to achieve your goals, it is not enough to be motivated once a month, or once a week. It's an everyday job, even if you don't train every day. Indeed it is well known that physical activity is inseparable from a balanced diet and a repected rest time."
-featuredImage: "/images/2019/12/How-to-motivate-yourself-to-play-sports.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/12/How-to-motivate-yourself-to-play-sports.jpg"
 ---
 
 <p>Everything is a question of will. Everything is a question of will. Everything is a question of will …</p>

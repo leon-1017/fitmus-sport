@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Good Performance of Artificial turf"
 seoDescription: "Artificial turf is a kind of ground paving material suitable for both indoor and outdoor use, with both ground decoration and practical laying."
-featuredImage: "/images/2018/03/Artificial-turf.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/03/Artificial-turf.jpg"
 ---
 
 <p>Artificial turf is a kind of ground paving material suitable for both indoor and outdoor use, with both ground decoration and practical laying. It is produced from plastic raw materials, non-toxic, odorless and recyclable. The quality artificial turf has anti-aging and anti-fading properties. Anti-friction function, life span can reach 5 to 8 years.</p>

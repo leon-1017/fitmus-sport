@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Body Pump is the most successful group fitness program"
 seoDescription: "Body Pump is the most successful group fitness program in the history of fitness, the most influential sporting body in the world,"
-featuredImage: "/images/2016/11/body-pump-weight.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/11/body-pump-weight.jpg"
 ---
 
 <p><a href="https://fitmus-sport.com/product/body-pump-barbell-set-20kg/" target="_blank">Body Pump</a> is the most successful group fitness program in the history of fitness,&nbsp;the most influential sporting body in the world, and one of the most popular in MILLS.&nbsp;It broke the men in the fitness will rarely have the opportunity to participate in the group gymnastics situation, attracting a large number of simple and effective non-dance movement to practice the men.</p>

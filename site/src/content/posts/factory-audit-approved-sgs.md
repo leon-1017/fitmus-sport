@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Factory Audit Report -SGS"
 seoDescription: "Why factory audits and product inspections are important? Avoiding scams and inexperienced vendors.Compare potential vendors and select viable source."
-featuredImage: "/images/2018/02/FACTORY-AUDIT-2-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/02/FACTORY-AUDIT-2-1.jpg"
 ---
 
 <p>Buyer Guide:</p>

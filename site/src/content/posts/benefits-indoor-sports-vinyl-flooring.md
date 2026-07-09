@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Benefits of Indoor Sports Vinyl Flooring"
 seoDescription: "Vinyl flooring is one of the most popular types of flooring that is used in both, residential and commercial settings. The numerous benefits of the use of"
-featuredImage: "/images/2017/11/Aerobic-Exercise-Flooring-2.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/11/Aerobic-Exercise-Flooring-2.jpg"
 ---
 
 <p><a href="https://fitmus-sport.com/product/aerobic-exercise-flooring/" target="_blank" rel="noopener">Vinyl flooring</a> is one of the most popular types of flooring that is used in both, residential and commercial settings. The numerous benefits of the use of vinyl are the main reasons for the broad usage and high popularity of vinyl flooring. Moreover, home and office settings are not the most common places where this type of flooring can be seen, vinyl is also often used as an indoor sports flooring. Below, here are the main benefits of<a href="https://fitmus-sport.com/product/aerobic-exercise-flooring/" target="_blank" rel="noopener"> indoor sports vinyl flooring.</a></p>

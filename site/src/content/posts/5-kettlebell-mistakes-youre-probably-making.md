@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "5 mistakes you should avoid when making kettlebell"
 seoDescription: "Training with kettlebells is a crazy-easy way to increase strength and power—as long as you're using them right. Check out the most common mistakes trainers spot all the time, then clean up your kettlebell act to up your calorie burn and reduce your risk of injury."
-featuredImage: "/images/2016/04/website-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/04/website-1.jpg"
 ---
 
 <p>Training with kettlebells is a crazy-easy way to increase strength and power—as long as you’re using them right. Check out the most common mistakes trainers spot all the time, then clean up your kettlebell act to up your calorie burn and reduce your risk of injury.</p>

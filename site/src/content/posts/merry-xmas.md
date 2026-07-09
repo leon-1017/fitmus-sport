@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Merry Xmas!"
 seoDescription: "Merry Xmas!We would like to extend our warm wishes for the upcoming holiday season and would like to wish you and your family"
-featuredImage: "/images/2016/12/Merry-christmas-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/12/Merry-christmas-1.jpg"
 ---
 
 <p>Dear Customer,</p>

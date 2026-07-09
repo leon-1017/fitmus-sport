@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to perform the push-up hold for increased stability and strength?"
 seoDescription: "The push-up hold is an excellent strength and control exercise for the upper body and core.This exercise should result as a progression of the push-up, so be sure you can perform push-ups in a full position – with proper technique – before trying this variation."
-featuredImage: "/images/2019/04/Push-Up-Hold.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/04/Push-Up-Hold.jpg"
 ---
 
 <p>WHAT is <a href="https://fitmus-sport.com/product/push-up-bars/" target="_blank" rel="noopener noreferrer">Push-Up</a>?</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Easy way to choose competition kettlebells"
 seoDescription: "Find a competition kettlebells shouldn’t be too difficult. It’s basically a cannonball with a handle on the end.there are many important factors that separate a competition kettle bell from an average one."
-featuredImage: "/images/2016/04/Easy-way-to-choose-competition-kettlebell.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/04/Easy-way-to-choose-competition-kettlebell.jpg"
 ---
 
 <p>Find a good <a href="https://fitmus-sport.com/product/new-competition-kettlebell/" target="_blank">competition kettlebells </a>shouldn’t be too difficult. It’s basically a cannonball with a handle on the end.However, the reality is, there are many important factors that separate a good competition kettle bells from an average one.</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Benefits of Muscle Body Stick"
 seoDescription: "The Stick help all soft tissue injuries. In terms of common injuries, The Stick is particularly useful for treating muscle pain, strains, stress, spasm, tension, cramping, trigger points, preventing fatigue and increasing muscle tone"
-featuredImage: "/images/2016/09/bursite-oleo-de-sucupira-mundo-dos-oleos-726x400-1.png"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/09/bursite-oleo-de-sucupira-mundo-dos-oleos-726x400-1.png"
 ---
 
 <p><a href="https://fitmus-sport.com/product/elite-massage-roller-stick/" target="_blank">The body Stick</a> is a small, lightweight, easy-to-use, practical self-massage tool.</p>

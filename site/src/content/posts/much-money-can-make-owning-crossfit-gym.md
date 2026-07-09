@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How much money can you make owning a CrossFit gym?"
 seoDescription: "How much money can you make owning a CrossFit gym?These days, more and more people are discovering that they can’t get enough rope climbing"
-featuredImage: "/images/2017/12/How-much-money-can-you-make-owning-a-CrossFit-gym-2.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/12/How-much-money-can-you-make-owning-a-CrossFit-gym-2.jpg"
 ---
 
 <p>CrossFit has revolutionised the fitness industry worldwide and has opened the doors for many to follow a dream and own their own business where they positively changed the lives of people on a daily basis. The allure of owning your own <a href="https://fitmus-sport.com/" target="_blank" rel="noopener">CrossFit box</a> is one which is obvious, with more than 10,000 affiliates registered worldwide. However, is there more to it and is owning a CrossFit box a good business choice?</p>

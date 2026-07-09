@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Benefits of TRX Suspension Training"
 seoDescription: "TRX which stands for Total Body Resistance Exercise, is revolutionary workout method that uses your body weight and gravity as resistance to build strength"
-featuredImage: "/images/2018/01/TRX-suspension-training.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/01/TRX-suspension-training.jpg"
 ---
 
 <p>1) Delivers a fast, effective total-body workout</p>

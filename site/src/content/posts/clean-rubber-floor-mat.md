@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "how to clean rubber floor mat?"
 seoDescription: "No matter what type of rubber flooring your home or business has, it’s important to maintain the material. Rubber flooring is durable, but"
-featuredImage: "/images/2017/05/clean-the-rubber-flooring-mat.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/05/clean-the-rubber-flooring-mat.jpg"
 ---
 
 <p>How to clean rubber flooring? No matter what type of rubber flooring your home or business has, it’s important to maintain the material. Rubber flooring is durable, but proper care and maintenance further helps it maintain its style and vibrancy. Fortunately, rubber flooring generally requires less maintenance than other flooring types, so keeping your tiles or rolled rubber sheets in mint condition will only require a couple steps. With that in mind, here’s a guide to help you preserve your floors for a lifetime of use:</p>

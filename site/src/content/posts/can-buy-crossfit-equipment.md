@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Where can you buy crossfit equipment?"
 seoDescription: "The best place to buy the crossfit gym equipment in China is FITMUS - Functional Fitness Equipment | Fitness Equipment| Garage Gym Equipment| Crossfit Equipment | Strength conditioning Equipment | Powerlifting Equipment."
-featuredImage: "/images/2017/02/crossfit-equipment.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/02/crossfit-equipment.jpg"
 ---
 
 <p>The best place to buy the crossfit gym equipment in China is FITMUS&nbsp;– Functional Fitness Equipment | Fitness Equipment| Garage Gym Equipment| Crossfit Equipment | Strength conditioning Equipment | Powerlifting Equipment.</p>

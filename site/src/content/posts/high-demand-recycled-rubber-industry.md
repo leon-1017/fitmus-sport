@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "The High Demand of Recycled Rubber in Industry."
 seoDescription: "Alongside the increasing desire in our country to go “green”—environmentally-friendly and ecologically—there is an increasing demand Recycled Rubber"
-featuredImage: "/images/2017/09/Recycled-Rubber.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/09/Recycled-Rubber.jpg"
 ---
 
 <p>Alongside the increasing desire in our country to go “green”—environmentally-friendly and ecologically-sustainable—there is an increasing demand in many industries for the materials which can be used to create green products. As a result of many interesting discoveries and positive results from years of experimentation and application, there is an increasing demand for tire rubber that can be used to create recycled rubber products</p>

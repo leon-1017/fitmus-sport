@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to do crossFit workouts at home?"
 seoDescription: "As a functional fitness athlete, you absolutely hate to miss a WOD. we’ve built a list of WODs you can do virtually anywhere ,10 CrossFit WODs you can do at home."
-featuredImage: "/images/2019/05/crossfitworkout-at-home.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/05/crossfitworkout-at-home.jpg"
 ---
 
 <p>As a functional fitness athlete, you absolutely hate to miss a WOD. Somedays, our schedules are just too busy to make it to the gym. Whether you have a fully-fledged garage gym, or only a pair of jump ropes – we’ve built a list of WODs you can do virtually anywhere, without any equipment or gear.</p>

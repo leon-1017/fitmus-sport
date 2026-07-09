@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "CrossFit Weight Loss—Does It Work?"
 seoDescription: "Have you tried a CrossFit weight loss program? Many participants swear by the program’s ability to burn calories, build muscle and change your life. The intensity of the commitment can seem cult-like. But is it smart to use CrossFit to lose weight?"
-featuredImage: "/images/2018/10/Weight-Loss-Crossfit-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/10/Weight-Loss-Crossfit-1.jpg"
 ---
 
 <p>Have you tried a CrossFit weight loss program? Many participants swear by the program’s ability to burn calories, build muscle and change your life. The intensity of the commitment can seem cult-like. But is it smart to use CrossFit to lose weight?</p>

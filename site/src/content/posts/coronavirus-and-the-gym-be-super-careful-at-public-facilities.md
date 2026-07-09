@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Coronavirus and the gym: Be 'super careful' at public facilities"
 seoDescription: "In the wake of COVID-19, fitness centers are tolding members about prevention measures. Most include encouragement to stay home if you’re feeling sick. There’s also plenty of phrasing about amping up established disinfecting efforts."
-featuredImage: "/images/2019/11/do-push-ups.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/11/do-push-ups.jpg"
 ---
 
 <p>Dear Fitness Fam,</p>

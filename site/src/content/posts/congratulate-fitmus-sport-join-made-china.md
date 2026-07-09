@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Congratulate ! Fitmus Sport Join Made-in-China !"
 seoDescription: "Congratulate ! Fitmus Sport Join Made-in-China !"
-featuredImage: "/images/2016/12/logo.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/12/logo.jpg"
 ---
 
 <p>Congratulate ! Fitmus Sport Join Made-in-China ! Fitmus Sport is the Manufacturer and exporter of Weightlifting&amp;Cross fit Equipment based in Rizhao,China with more than 6 years experience in industry.</p>

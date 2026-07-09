@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "10 ways you are sabotaging the results you get at the gym"
 seoDescription: "It's not the coach, it's not the gadgets, it's you and those little mistakes you make without realizing it."
-featuredImage: "/images/2019/11/10-ways-you-are-sabotaging-the-results-you-get-at-the-gym.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/11/10-ways-you-are-sabotaging-the-results-you-get-at-the-gym.jpg"
 ---
 
 <p>Getting results in the gym is not easy, getting on the treadmill once will not burn all the fat in your body overnight and lifting a weight will not give you The Rock’s arms , be healthy and sculpt Your body is not magic and it takes a lot of effort, dedication, sweat and blisters to get where you want, but even doing “everything right” you can be sabotaging your results and your goals.</p>

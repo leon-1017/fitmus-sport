@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Canton Fair Autumn Phase 3"
 seoDescription: "Canton Fair Phase Three, focuses on clothing, footwear, bags... and food medicine that such as use on people. There are fashion shows. Women's favorite of 3 phase."
-featuredImage: "/images/2018/11/Canton-Fair.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/11/Canton-Fair.jpg"
 ---
 
 <p>Canton Fair Phase Three, focuses on clothing, footwear, bags… and food medicine that such as use on people. There are fashion shows. Women’s favorite of 3 phase.</p>

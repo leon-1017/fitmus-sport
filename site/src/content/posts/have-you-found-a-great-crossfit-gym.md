@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Have You Found a Great CrossFit Gym?"
 seoDescription: "Are you interested in starting with CrossFit, but you’re concerned about finding a reputable gym? Although they are not the norm, poorly run CrossFit gyms have given a bad name to the industry. Let’s take a look at the 7 most important things to look for in a CrossFit gym."
-featuredImage: "/images/2019/05/crossfit-gym.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/05/crossfit-gym.jpg"
 ---
 
 <p>Are you interested in starting with CrossFit, but you’re concerned about finding a reputable gym? Although they are not the norm, poorly run CrossFit gyms have given a bad name to the industry. Let’s take a look at the 7 most important things to look for in a CrossFit gym.</p>

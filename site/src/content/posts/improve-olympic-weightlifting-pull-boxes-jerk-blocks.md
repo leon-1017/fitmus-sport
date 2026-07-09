@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Improve your Olympic Weightlifting with Pull Boxes & Jerk Blocks"
 seoDescription: "These valuable pieces of training equipment allow athletes to practice jerking, snatching and cleaning from many different positions, improving their"
-featuredImage: "/images/2018/01/Jerk-Blocks-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/01/Jerk-Blocks-1.jpg"
 ---
 
 <p>These valuable pieces of training equipment allow athletes to practice jerking, snatching and cleaning from many different positions, improving their technical skill, strength and adaptability.No professional weightlifting club could exist without jerk blocks and pull boxes. Crossfit Boxes intending to offer their members a convenient environment for intense Oly training should consider a purchase as well. Let’s have a look at their advantages, quality characteristics and how they can be used to improve your lifting.</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Have Fun While Getting Fit!"
 seoDescription: "When exercise is fun and enjoyable, it’s so much easier to stick to. It’s something everyone needs to do to live a more healthy life, so it’s worth finding activities that you can tolerate or even have fun doing."
-featuredImage: "/images/2018/07/Have-Fun-While-Getting-Fit.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/07/Have-Fun-While-Getting-Fit.jpg"
 ---
 
 <p>When exercise is fun and enjoyable, it’s so much easier to stick to. It’s something everyone needs to do to live a more healthy life, so it’s worth finding activities that you can tolerate or even have fun doing. Here are just a few of the ways you can make exercise more enjoyable when you start your healthy lifestyle plan in the new year!</p>

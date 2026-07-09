@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "7 Tips for Openning your crossfit gym"
 seoDescription: "you’re probably here because of your love and passion for CrossFit, but you may have big questions and concerns. How much does it cost to open a gym? How different is it to open a CrossFit gym? What does it take to start and run it?"
-featuredImage: "/images/2019/05/open-your-crossfit-gym.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/05/open-your-crossfit-gym.jpg"
 ---
 
 <p>you’re probably here because of your love and passion for CrossFit, but you may have big questions and concerns. How much does it cost to open a gym? How different is it to open a CrossFit gym? What does it take to start and run it?</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Are Injuries More Common With CrossFit Training Than Other Forms of Exercise?"
 seoDescription: "Many CrossFitters will argue and insist that CrossFit is for anyone, but the truth is that the workout can be a highly dangerous one-- for those with weightlifting"
-featuredImage: "/images/2017/07/CROSSFIT-INJURIES.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/07/CROSSFIT-INJURIES.jpg"
 ---
 
 <p>CrossFit is a form of exercise that incorporates rapid and successive high-intensity, ballistic movements. As CrossFit becomes an increasingly popular fitness option, it is important to determine how rates of injury compare to more traditional forms of exercise.</p>

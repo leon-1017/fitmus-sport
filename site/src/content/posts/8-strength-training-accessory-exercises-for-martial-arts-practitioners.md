@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "8 Strength Training Accessory Exercises for Martial Arts Practitioners"
 seoDescription: "This workout program can be modified based on your fitness level, We would recommend doing 3-minute rounds using a timer. We would also recommend stretching out for about 10 to 15 minutes to help your joints move thorough their full range of motion. This enables your muscles to work more effectively, efficiently and increase blood flow to the muscles."
-featuredImage: "/images/2019/09/Crossfit-Martical-Arts-1-1-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/09/Crossfit-Martical-Arts-1-1-1.jpg"
 ---
 
 <p>Strength training is essential for martial arts practitioners. Strength Training for Martial Arts</p>

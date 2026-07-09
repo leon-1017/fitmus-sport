@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to Watch the Dubai CrossFit Championship"
 seoDescription: "The 2019 CrossFit Games season officially kicks off in less than two weeks.The Dubai CrossFit Championship will start things off Wednesday, December 12th, as it breaks new ground as the first sanctioned event to take place under the new season format."
-featuredImage: "/images/2018/12/DUBAI-CROSSFIT-CHAMPIONSHIP.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/12/DUBAI-CROSSFIT-CHAMPIONSHIP.jpg"
 ---
 
 <p>The 2019 CrossFit Games season officially kicks off in less than two weeks.The Dubai CrossFit Championship will start things off Wednesday, December 12th, as it breaks new ground as the first sanctioned event to take place under the new season format.Only one man, one woman, and one team in this ultra competitive field will be crowned champion and receive the opening invites to the 2019 Reebok CrossFit Games.</p>

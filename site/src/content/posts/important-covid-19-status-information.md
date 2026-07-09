@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "IMPORTANT COVID-19 STATUS INFORMATION"
 seoDescription: "The COVID-19 pandemic has led to a number of shortages: Toilet paper, hand sanitizer and, according to some exercise enthusiasts, fitness equipment like kettlebells and dumbbells. We want you to know you are not alone."
-featuredImage: "/images/2020/06/COVID-Dumbbell-Kettlebell.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2020/06/COVID-Dumbbell-Kettlebell.jpg"
 ---
 
 <header class="page-header">

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "9 Ways You Can Use Core Slider Gliding Discs to Get a Full-Body Workout"
 seoDescription: "If you use gliding discs, you know that they add an entire new dimension to your workout, and can take body sculpting, balance and cardio to a whole new"
-featuredImage: "/images/2019/07/Side-Gliding-Disc.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/07/Side-Gliding-Disc.jpg"
 ---
 
 <p>If you use <a href="https://fitmus-sport.com/product/gliding-discs/" target="_blank" rel="noopener noreferrer">gliding discs</a>, you know that they add an entire new dimension to your workout, and can take body sculpting, balance and cardio to a whole new level!Check out all the moves you can do below. When you’re ready to put it all together, try Wallace’s fast and effective workout at the end.</p>

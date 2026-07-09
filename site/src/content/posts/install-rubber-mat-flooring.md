@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "how to install rubber mat flooring"
 seoDescription: "A lot of customers want to install the rubber rolls themselves so they ask us what are the secrets and tricks to installing rolled rubber flooring?"
-featuredImage: "/images/2017/05/how-to-install-rubber-flooring-mat.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/05/how-to-install-rubber-flooring-mat.jpg"
 ---
 
 <p>how to install rubber mat flooring A lot of customers want to install the rubber rolls themselves so they ask us what are the secrets and tricks to installing rolled rubber flooring?After numerous requests we have put together the following instruction page which we hope will make the installation process a little easier to understand</p>

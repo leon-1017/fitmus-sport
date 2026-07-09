@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Good Benefits of Adding Resistance fitness Bands to Your Workouts"
 seoDescription: "Resistance fitness bands are made of strong, thin rubber with handles at the end, and come in a variety of resistances depending on your fitness level."
-featuredImage: "/images/2016/09/1000-600-resistance-band-1-1-1.jpg"
+featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/09/1000-600-resistance-band-1-1-1.jpg"
 ---
 
 <p><a href="https://fitmus-sport.com/products/fitness-resistance-bands/" target="_blank">Resistance bands</a> are made of strong, thin rubber with handles at the end, and come in a variety of resistances depending on your fitness level. With resistance bands, you can do just about any type of strength training exercise — chest presses, rows, shoulder presses, tricep extensions, bicep curls, and even squats — without the need for heavy weights.</p>
