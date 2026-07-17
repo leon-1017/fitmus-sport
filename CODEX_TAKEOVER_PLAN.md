@@ -1,6 +1,6 @@
 # Fitmus Sport Codex 接管与修复计划
 
-> 状态：阶段 3 已完成，等待阶段 4
+> 状态：阶段 4 已完成，等待阶段 5
 > 基于审计日期：2026-07-17
 > 项目：WordPress/Avada 迁移至 Astro + Tailwind 的静态站点
 > 当前内容基线：365 个产品、123 篇文章、6 个静态页面
@@ -366,3 +366,15 @@ npm run build
 - 是否可以进入下一阶段：是
 
 下一步执行“阶段 4：补齐 SEO 发布基线与错误页”。执行前重新检查工作区，确保没有新的用户改动。
+
+### 阶段 4 完成记录
+
+- 日期：2026-07-17
+- 执行提交：`Add migration-safe SEO foundations`
+- 修改范围：新增显式 `PUBLIC_SITE_URL` 发布配置；Layout 自动生成 canonical、Open Graph 和 Twitter 元数据；添加 sitemap/robots 生成、SEO 产物检查、自定义 404，以及产品和文章详情的 Product/Article 结构化数据。
+- 发布安全：未配置 `PUBLIC_SITE_URL` 时，构建产物为 `noindex, nofollow`、`robots.txt` 禁止抓取且不生成 sitemap；仅在部署环境设置经确认的正式域名后才输出可索引 canonical、sitemap 和公开 robots，避免测试域名进入搜索索引。
+- 验证命令及结果：Node 22 下，隔离模式 `npm run build && npm run check:seo` 通过；用仅作验证的 `https://preview.example.test` 运行公开模式 `npm run build && npm run check:dist && npm run check:seo` 通过。共生成 505 个 HTML（其中 504 个可索引），完整性检查扫描 1,218 个文件，SEO 检查均为 0 项。
+- URL 对比：`site/reports/legacy-url-comparison.md` 比对原 590 条 URL 与新 sitemap 的 504 条 URL；保留 494 条，96 条预期缺失（53 篇文章、43 个产品）均已有集合页重定向建议，未解释缺失为 0；另有 10 条新增产品目录路由。
+- 是否可以进入下一阶段：是
+
+下一步执行“阶段 5：恢复移动端导航和首页交互”。正式部署前需在部署环境设置已确认的 `PUBLIC_SITE_URL`，并按 URL 对比报告配置旧站重定向。

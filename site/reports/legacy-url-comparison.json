@@ -1,0 +1,792 @@
+{
+  "sourceUrlCount": 590,
+  "sitemapUrlCount": 504,
+  "preservedUrlCount": 494,
+  "expectedLegacyOmissions": {
+    "post": 53,
+    "product": 43
+  },
+  "unexplainedMissing": [],
+  "generatedRoutes": [
+    "/products/",
+    "/products/balance-mobility/",
+    "/products/body-weight-gymnastic/",
+    "/products/cardio-equipment-accessories/",
+    "/products/crossfit-racks-rigs/",
+    "/products/equipment-storage/",
+    "/products/strength-condition/",
+    "/products/strongman-equipment/",
+    "/products/uncategorized/",
+    "/products/weight-lifting-equipment/"
+  ],
+  "missing": [
+    {
+      "url": "https://www.fitmus-sport.com/product/vipr-storage-rack/",
+      "type": "product",
+      "slug": "vipr-storage-rack",
+      "category": null,
+      "path": "/product/vipr-storage-rack/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-ball-2/",
+      "type": "product",
+      "slug": "wall-ball-2",
+      "category": null,
+      "path": "/product/wall-ball-2/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-ball-soft-medicine-ball-crossfit/",
+      "type": "product",
+      "slug": "wall-ball-soft-medicine-ball-crossfit",
+      "category": null,
+      "path": "/product/wall-ball-soft-medicine-ball-crossfit/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-ball-targetwall-ball-target/",
+      "type": "product",
+      "slug": "wall-ball-targetwall-ball-target",
+      "category": null,
+      "path": "/product/wall-ball-targetwall-ball-target/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-crossfit-rack/",
+      "type": "product",
+      "slug": "wall-crossfit-rack",
+      "category": null,
+      "path": "/product/wall-crossfit-rack/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mount-rig-2/",
+      "type": "product",
+      "slug": "wall-mount-rig-2",
+      "category": null,
+      "path": "/product/wall-mount-rig-2/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mount-rig-3/",
+      "type": "product",
+      "slug": "wall-mount-rig-3",
+      "category": null,
+      "path": "/product/wall-mount-rig-3/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mount-rig/",
+      "type": "product",
+      "slug": "wall-mount-rig",
+      "category": null,
+      "path": "/product/wall-mount-rig/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mount-single-rig/",
+      "type": "product",
+      "slug": "wall-mount-single-rig",
+      "category": null,
+      "path": "/product/wall-mount-single-rig/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mount-speed-jump-rope-hanger/",
+      "type": "product",
+      "slug": "wall-mount-speed-jump-rope-hanger",
+      "category": null,
+      "path": "/product/wall-mount-speed-jump-rope-hanger/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mounted-monkey-pull-bar/",
+      "type": "product",
+      "slug": "wall-mounted-monkey-pull-bar",
+      "category": null,
+      "path": "/product/wall-mounted-monkey-pull-bar/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mounted-pull-bar-2/",
+      "type": "product",
+      "slug": "wall-mounted-pull-bar-2",
+      "category": null,
+      "path": "/product/wall-mounted-pull-bar-2/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mounted-pull-up-bar/",
+      "type": "product",
+      "slug": "wall-mounted-pull-up-bar",
+      "category": null,
+      "path": "/product/wall-mounted-pull-up-bar/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mounted-rig-1-1/",
+      "type": "product",
+      "slug": "wall-mounted-rig-1-1",
+      "category": null,
+      "path": "/product/wall-mounted-rig-1-1/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mounted-rig-2-2/",
+      "type": "product",
+      "slug": "wall-mounted-rig-2-2",
+      "category": null,
+      "path": "/product/wall-mounted-rig-2-2/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mounted-rig-2/",
+      "type": "product",
+      "slug": "wall-mounted-rig-2",
+      "category": null,
+      "path": "/product/wall-mounted-rig-2/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mounted-rig-for-crossfit-3-3/",
+      "type": "product",
+      "slug": "wall-mounted-rig-for-crossfit-3-3",
+      "category": null,
+      "path": "/product/wall-mounted-rig-for-crossfit-3-3/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mounted-rig-for-crossfit-4-4/",
+      "type": "product",
+      "slug": "wall-mounted-rig-for-crossfit-4-4",
+      "category": null,
+      "path": "/product/wall-mounted-rig-for-crossfit-4-4/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mounted-wood-peg-board/",
+      "type": "product",
+      "slug": "wall-mounted-wood-peg-board",
+      "category": null,
+      "path": "/product/wall-mounted-wood-peg-board/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-squat-rack-folding/",
+      "type": "product",
+      "slug": "wall-squat-rack-folding",
+      "category": null,
+      "path": "/product/wall-squat-rack-folding/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/water-rowing-machine/",
+      "type": "product",
+      "slug": "water-rowing-machine",
+      "category": null,
+      "path": "/product/water-rowing-machine/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/weight-bar-gripz/",
+      "type": "product",
+      "slug": "weight-bar-gripz",
+      "category": null,
+      "path": "/product/weight-bar-gripz/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/weight-lifting-chains/",
+      "type": "product",
+      "slug": "weight-lifting-chains",
+      "category": null,
+      "path": "/product/weight-lifting-chains/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/weight-plate-storage-stand/",
+      "type": "product",
+      "slug": "weight-plate-storage-stand",
+      "category": null,
+      "path": "/product/weight-plate-storage-stand/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/weight-vest-10kg/",
+      "type": "product",
+      "slug": "weight-vest-10kg",
+      "category": null,
+      "path": "/product/weight-vest-10kg/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/weight-vest-30kg/",
+      "type": "product",
+      "slug": "weight-vest-30kg",
+      "category": null,
+      "path": "/product/weight-vest-30kg/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/weighted-bouncy-ball-rubber-medicine-balls/",
+      "type": "product",
+      "slug": "weighted-bouncy-ball-rubber-medicine-balls",
+      "category": null,
+      "path": "/product/weighted-bouncy-ball-rubber-medicine-balls/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/weightlifting-drop-mat/",
+      "type": "product",
+      "slug": "weightlifting-drop-mat",
+      "category": null,
+      "path": "/product/weightlifting-drop-mat/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/",
+      "type": "product",
+      "slug": "womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2",
+      "category": null,
+      "path": "/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/womens-light-weight-vinyl-dipping-neoprene-dumbbell/",
+      "type": "product",
+      "slug": "womens-light-weight-vinyl-dipping-neoprene-dumbbell",
+      "category": null,
+      "path": "/product/womens-light-weight-vinyl-dipping-neoprene-dumbbell/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/",
+      "type": "product",
+      "slug": "womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings",
+      "category": null,
+      "path": "/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wood-gymnastic-rings-numbered-straps/",
+      "type": "product",
+      "slug": "wood-gymnastic-rings-numbered-straps",
+      "category": null,
+      "path": "/product/wood-gymnastic-rings-numbered-straps/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wood-jerk-box-set/",
+      "type": "product",
+      "slug": "wood-jerk-box-set",
+      "category": null,
+      "path": "/product/wood-jerk-box-set/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wood-parallettes/",
+      "type": "product",
+      "slug": "wood-parallettes",
+      "category": null,
+      "path": "/product/wood-parallettes/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wooden-balance-board/",
+      "type": "product",
+      "slug": "wooden-balance-board",
+      "category": null,
+      "path": "/product/wooden-balance-board/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wooden-jerk-box/",
+      "type": "product",
+      "slug": "wooden-jerk-box",
+      "category": null,
+      "path": "/product/wooden-jerk-box/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wooden-puzzle-plyo-box/",
+      "type": "product",
+      "slug": "wooden-puzzle-plyo-box",
+      "category": null,
+      "path": "/product/wooden-puzzle-plyo-box/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wooden-trapezium-plyo-boxes-12-18-24-30/",
+      "type": "product",
+      "slug": "wooden-trapezium-plyo-boxes-12-18-24-30",
+      "category": null,
+      "path": "/product/wooden-trapezium-plyo-boxes-12-18-24-30/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/x-frame-6-rack-package/",
+      "type": "product",
+      "slug": "x-frame-6-rack-package",
+      "category": null,
+      "path": "/product/x-frame-6-rack-package/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/x-frame-chin-max-pack/",
+      "type": "product",
+      "slug": "x-frame-chin-max-pack",
+      "category": null,
+      "path": "/product/x-frame-chin-max-pack/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/yoga-foam-block/",
+      "type": "product",
+      "slug": "yoga-foam-block",
+      "category": null,
+      "path": "/product/yoga-foam-block/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/yoga-wheel-back-stretcher-wheel/",
+      "type": "product",
+      "slug": "yoga-wheel-back-stretcher-wheel",
+      "category": null,
+      "path": "/product/yoga-wheel-back-stretcher-wheel/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/yoke-walk/",
+      "type": "product",
+      "slug": "yoke-walk",
+      "category": null,
+      "path": "/product/yoke-walk/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/quick-tips-about-iwf-standard-barbell/",
+      "type": "post",
+      "slug": "quick-tips-about-iwf-standard-barbell",
+      "category": null,
+      "path": "/quick-tips-about-iwf-standard-barbell/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/resistance-band-benefits/",
+      "type": "post",
+      "slug": "resistance-band-benefits",
+      "category": null,
+      "path": "/resistance-band-benefits/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/resistance-band-exercises-burn-fat-build-muscle/",
+      "type": "post",
+      "slug": "resistance-band-exercises-burn-fat-build-muscle",
+      "category": null,
+      "path": "/resistance-band-exercises-burn-fat-build-muscle/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/reverse-hyper-end-your-back-pain/",
+      "type": "post",
+      "slug": "reverse-hyper-end-your-back-pain",
+      "category": null,
+      "path": "/reverse-hyper-end-your-back-pain/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/rubber-eco-friendly/",
+      "type": "post",
+      "slug": "rubber-eco-friendly",
+      "category": null,
+      "path": "/rubber-eco-friendly/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/see-whats-new-fitmus-sport/",
+      "type": "post",
+      "slug": "see-whats-new-fitmus-sport",
+      "category": null,
+      "path": "/see-whats-new-fitmus-sport/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/seventh-round-strict-air-pollution-inspection-completed/",
+      "type": "post",
+      "slug": "seventh-round-strict-air-pollution-inspection-completed",
+      "category": null,
+      "path": "/seventh-round-strict-air-pollution-inspection-completed/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/skull-kettlebell-give-new-feeling-2/",
+      "type": "post",
+      "slug": "skull-kettlebell-give-new-feeling-2",
+      "category": null,
+      "path": "/skull-kettlebell-give-new-feeling-2/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/smart-ways-to-get-in-shape/",
+      "type": "post",
+      "slug": "smart-ways-to-get-in-shape",
+      "category": null,
+      "path": "/smart-ways-to-get-in-shape/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/",
+      "type": "post",
+      "slug": "starting-a-crossfit-box-get-help-from-these-10-kickass-tips",
+      "category": null,
+      "path": "/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/stay-home-thin-fitness-plastic-6-small-accessories/",
+      "type": "post",
+      "slug": "stay-home-thin-fitness-plastic-6-small-accessories",
+      "category": null,
+      "path": "/stay-home-thin-fitness-plastic-6-small-accessories/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/strong-new-beautiful/",
+      "type": "post",
+      "slug": "strong-new-beautiful",
+      "category": null,
+      "path": "/strong-new-beautiful/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/synergy-360-circuit-functional-training-system-china/",
+      "type": "post",
+      "slug": "synergy-360-circuit-functional-training-system-china",
+      "category": null,
+      "path": "/synergy-360-circuit-functional-training-system-china/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/synrgy-360-circuit-functional-training-system-china/",
+      "type": "post",
+      "slug": "synrgy-360-circuit-functional-training-system-china",
+      "category": null,
+      "path": "/synrgy-360-circuit-functional-training-system-china/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/tech-data-recycle-rubber-flooring/",
+      "type": "post",
+      "slug": "tech-data-recycle-rubber-flooring",
+      "category": null,
+      "path": "/tech-data-recycle-rubber-flooring/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/thank-you/",
+      "type": "post",
+      "slug": "thank-you",
+      "category": null,
+      "path": "/thank-you/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/the-36th-china-international-sporting-goods-show-2018/",
+      "type": "post",
+      "slug": "the-36th-china-international-sporting-goods-show-2018",
+      "category": null,
+      "path": "/the-36th-china-international-sporting-goods-show-2018/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/the-5-best-squat-alternatives-can-build-muscle/",
+      "type": "post",
+      "slug": "the-5-best-squat-alternatives-can-build-muscle",
+      "category": null,
+      "path": "/the-5-best-squat-alternatives-can-build-muscle/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/the-5-best-ways-to-break-into-crossfit/",
+      "type": "post",
+      "slug": "the-5-best-ways-to-break-into-crossfit",
+      "category": null,
+      "path": "/the-5-best-ways-to-break-into-crossfit/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/the-6-keys-to-keeping-you-fit-all-your-life/",
+      "type": "post",
+      "slug": "the-6-keys-to-keeping-you-fit-all-your-life",
+      "category": null,
+      "path": "/the-6-keys-to-keeping-you-fit-all-your-life/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/the-benefits-of-crossfit-kettlebell-training/",
+      "type": "post",
+      "slug": "the-benefits-of-crossfit-kettlebell-training",
+      "category": null,
+      "path": "/the-benefits-of-crossfit-kettlebell-training/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout/",
+      "type": "post",
+      "slug": "the-best-home-gym-equipment-worth-owning-for-every-type-of-workout",
+      "category": null,
+      "path": "/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/",
+      "type": "post",
+      "slug": "the-best-kettlebell-for-home-fitness-covid-19-stock-shortages",
+      "category": null,
+      "path": "/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/the-best-strength-training-equipment-to-buy-in-2019/",
+      "type": "post",
+      "slug": "the-best-strength-training-equipment-to-buy-in-2019",
+      "category": null,
+      "path": "/the-best-strength-training-equipment-to-buy-in-2019/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/the-super-effective-workout-you-need-when-you-dont-have-time-to-train/",
+      "type": "post",
+      "slug": "the-super-effective-workout-you-need-when-you-dont-have-time-to-train",
+      "category": null,
+      "path": "/the-super-effective-workout-you-need-when-you-dont-have-time-to-train/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/top-5-exercise-products-help-release-tight-muscles/",
+      "type": "post",
+      "slug": "top-5-exercise-products-help-release-tight-muscles",
+      "category": null,
+      "path": "/top-5-exercise-products-help-release-tight-muscles/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/top-6-benefits-of-kettlebell-training/",
+      "type": "post",
+      "slug": "top-6-benefits-of-kettlebell-training",
+      "category": null,
+      "path": "/top-6-benefits-of-kettlebell-training/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/top-9-best-stability-ball-exercises/",
+      "type": "post",
+      "slug": "top-9-best-stability-ball-exercises",
+      "category": null,
+      "path": "/top-9-best-stability-ball-exercises/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/train-weight-vest/",
+      "type": "post",
+      "slug": "train-weight-vest",
+      "category": null,
+      "path": "/train-weight-vest/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller/",
+      "type": "post",
+      "slug": "vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller",
+      "category": null,
+      "path": "/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/welcome-world-crossfit/",
+      "type": "post",
+      "slug": "welcome-world-crossfit",
+      "category": null,
+      "path": "/welcome-world-crossfit/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/what-are-the-benefits-of-hiit-workouts/",
+      "type": "post",
+      "slug": "what-are-the-benefits-of-hiit-workouts",
+      "category": null,
+      "path": "/what-are-the-benefits-of-hiit-workouts/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/what-crossfit-athletes-eat/",
+      "type": "post",
+      "slug": "what-crossfit-athletes-eat",
+      "category": null,
+      "path": "/what-crossfit-athletes-eat/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/what-is-functional-training-and-how-can-it-benefit-you/",
+      "type": "post",
+      "slug": "what-is-functional-training-and-how-can-it-benefit-you",
+      "category": null,
+      "path": "/what-is-functional-training-and-how-can-it-benefit-you/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/what-is-hiit/",
+      "type": "post",
+      "slug": "what-is-hiit",
+      "category": null,
+      "path": "/what-is-hiit/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/what-is-powder-coating-kettlebell/",
+      "type": "post",
+      "slug": "what-is-powder-coating-kettlebell",
+      "category": null,
+      "path": "/what-is-powder-coating-kettlebell/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/what-kind-of-people-train-crossfit/",
+      "type": "post",
+      "slug": "what-kind-of-people-train-crossfit",
+      "category": null,
+      "path": "/what-kind-of-people-train-crossfit/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/what-should-i-eat-after-a-crossfit-workout/",
+      "type": "post",
+      "slug": "what-should-i-eat-after-a-crossfit-workout",
+      "category": null,
+      "path": "/what-should-i-eat-after-a-crossfit-workout/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/what-you-need-to-know-about-crossfit/",
+      "type": "post",
+      "slug": "what-you-need-to-know-about-crossfit",
+      "category": null,
+      "path": "/what-you-need-to-know-about-crossfit/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/whats-difference-tpu-versus-cpu-polyurethane/",
+      "type": "post",
+      "slug": "whats-difference-tpu-versus-cpu-polyurethane",
+      "category": null,
+      "path": "/whats-difference-tpu-versus-cpu-polyurethane/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/whats-epdm-rubber/",
+      "type": "post",
+      "slug": "whats-epdm-rubber",
+      "category": null,
+      "path": "/whats-epdm-rubber/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/whats-sbr-rubber/",
+      "type": "post",
+      "slug": "whats-sbr-rubber",
+      "category": null,
+      "path": "/whats-sbr-rubber/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/when-crossfit-games-2018/",
+      "type": "post",
+      "slug": "when-crossfit-games-2018",
+      "category": null,
+      "path": "/when-crossfit-games-2018/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/why-are-people-wearing-this-terrifying-mask-to-the-gym/",
+      "type": "post",
+      "slug": "why-are-people-wearing-this-terrifying-mask-to-the-gym",
+      "category": null,
+      "path": "/why-are-people-wearing-this-terrifying-mask-to-the-gym/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you/",
+      "type": "post",
+      "slug": "why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you",
+      "category": null,
+      "path": "/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise/",
+      "type": "post",
+      "slug": "why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise",
+      "category": null,
+      "path": "/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing/",
+      "type": "post",
+      "slug": "why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing",
+      "category": null,
+      "path": "/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest/",
+      "type": "post",
+      "slug": "why-more-and-more-crossfitters-choose-the-5-11-weighted-vest",
+      "category": null,
+      "path": "/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/why-should-you-consider-adding-a-curved-treadmill-to-your-gym/",
+      "type": "post",
+      "slug": "why-should-you-consider-adding-a-curved-treadmill-to-your-gym",
+      "category": null,
+      "path": "/why-should-you-consider-adding-a-curved-treadmill-to-your-gym/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/why-use-a-gym-sled-in-your-training/",
+      "type": "post",
+      "slug": "why-use-a-gym-sled-in-your-training",
+      "category": null,
+      "path": "/why-use-a-gym-sled-in-your-training/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too/",
+      "type": "post",
+      "slug": "why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too",
+      "category": null,
+      "path": "/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/why-you-should-include-it-in-your-workout/",
+      "type": "post",
+      "slug": "why-you-should-include-it-in-your-workout",
+      "category": null,
+      "path": "/why-you-should-include-it-in-your-workout/",
+      "redirectTarget": "/in-the-news/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/with-crossfit-fitness-is-pushed-to-a-whole-different-level/",
+      "type": "post",
+      "slug": "with-crossfit-fitness-is-pushed-to-a-whole-different-level",
+      "category": null,
+      "path": "/with-crossfit-fitness-is-pushed-to-a-whole-different-level/",
+      "redirectTarget": "/in-the-news/"
+    }
+  ]
+}

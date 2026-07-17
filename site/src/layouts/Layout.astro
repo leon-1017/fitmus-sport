@@ -6,12 +6,26 @@ export interface Props {
 	description?: string;
 	canonical?: string;
 	image?: string;
+	type?: 'website' | 'article';
+	noindex?: boolean;
 	layout?: 'default' | 'sidebar';
 }
 
-const { title, description, canonical, image, layout = 'default' } = Astro.props;
-const siteTitle = title ? `${title} | Fitmus Sport` : 'Fitmus Sport';
+const { title, description, canonical, image, type = 'website', noindex = false, layout = 'default' } = Astro.props;
+const siteTitle = title
+	? /\bfitmus sport\b/i.test(title)
+		? title
+		: `${title} | Fitmus Sport`
+	: 'Fitmus Sport';
 const defaultDesc = 'Rizhao Fitmus Sporting Goods Co.Ltd - CrossFit, functional fitness and commercial gym equipment manufacturer.';
+const canonicalUrl = canonical
+	? new URL(canonical, Astro.site || Astro.url).href
+	: Astro.site
+		? new URL(Astro.url.pathname, Astro.site).href
+		: undefined;
+const socialImage = image || '/images/2018/11/logo-sport-s.png';
+const socialImageUrl = Astro.site ? new URL(socialImage, Astro.site).href : undefined;
+const preventIndexing = noindex || !canonicalUrl;
 ---
 
 <html lang="en">
@@ -22,8 +36,18 @@ const defaultDesc = 'Rizhao Fitmus Sporting Goods Co.Ltd - CrossFit, functional 
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description || defaultDesc} />
-		{canonical && <link rel="canonical" href={canonical} />}
-		{image && <meta property="og:image" content={image} />}
+		{canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+		{preventIndexing && <meta name="robots" content="noindex, nofollow" />}
+		<meta property="og:type" content={type} />
+		<meta property="og:site_name" content="Fitmus Sport" />
+		<meta property="og:title" content={siteTitle} />
+		<meta property="og:description" content={description || defaultDesc} />
+		{canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+		{socialImageUrl && <meta property="og:image" content={socialImageUrl} />}
+		<meta name="twitter:card" content={socialImageUrl ? 'summary_large_image' : 'summary'} />
+		<meta name="twitter:title" content={siteTitle} />
+		<meta name="twitter:description" content={description || defaultDesc} />
+		{socialImageUrl && <meta name="twitter:image" content={socialImageUrl} />}
 		<title>{siteTitle}</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
