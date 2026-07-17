@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C4-E 已完成，等待阶段 C4-F。
+> 当前状态：阶段 C4-F 已完成，等待阶段 C4-G。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C4-F：继续清理产品图库候选媒体（下一批 12 个产品）”开始。该批完成并汇报后停止，待确认再继续后续媒体整理。
+下一次任务从“阶段 C4-G：继续清理产品图库候选媒体（下一批 12 个产品）”开始。该批完成并汇报后停止，待确认再继续后续媒体整理。
 
 ## 6. 阶段完成记录
 
@@ -434,3 +434,13 @@
 - 验证：Node 22 公开模式构建成功，生成 601 页；`check:seo` 0 问题；本批 12 条详情页 gallery 均无共享缩略图媒体。`check:dist` 仍报告既有 legacy Fitmus host 链接告警，与本批媒体变更无关。
 - 提交说明：`Curate fourth product gallery batch`。
 - 是否可以继续 C4-F：是，待确认。
+
+### 阶段 C4-F 完成记录
+
+- 完成范围：清理产品 frontmatter 中下一批 12 个产品的共享缩略图候选媒体。
+- 处理产品：`Aerobic Exercise Flooring`、`Aerobic Step Box 2`、`Aerobic Step Box`、`Agility Training Sled Harness`、`Air Bike`、`Aluminium Speed Rope with Dual Bearing`、`Aqua Bag`、`Barbell 6.6 Olympic Women Training Weight Bar`、`Barbell 7ft Man Training Olympic Weight Bar`、`Barbell Olympic 1-inch Spring Clips Collars Rubber Handle`、`Barbell Olympic Solid Chromed 47 EZ Curl Bar`、`Barbell Pad`。
+- 媒体处理：每条记录移除 `66x66`、`150x150`、`300x300` 共享缩略图，只保留已验证的原始大图；未重新下载或热链外部图片。
+- 当前媒体状态：408 个产品记录中，已有 103 个不含这些共享缩略图，仍有 305 个待后续批次筛选。
+- 验证：Node 22 公开模式构建成功，生成 601 页；`check:seo` 0 问题；本批 12 条详情页 gallery 均无共享缩略图媒体。`check:dist` 仍报告既有 legacy Fitmus host 链接告警，与本批媒体变更无关。
+- 提交说明：`Curate fifth product gallery batch`。
+- 是否可以继续 C4-G：是，待确认。
