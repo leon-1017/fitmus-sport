@@ -3,9 +3,9 @@
 Generated from `data/url-list.json` and the current public-mode `dist/sitemap.xml`.
 
 - Source URLs: 590
-- Sitemap URLs: 504
-- Preserved legacy URLs: 494
-- Expected legacy omissions: 96 (53 post, 43 product)
+- Sitemap URLs: 506
+- Preserved legacy URLs: 496
+- Expected legacy omissions: 94 (53 post, 41 product)
 - Unexplained missing URLs: 0
 - Generated catalog routes absent from the legacy list: 10
 
@@ -78,7 +78,6 @@ The migration has intentionally not recreated source records that are absent fro
 - `/product/wall-crossfit-rack/` → `/fitmus-product/`
 - `/product/wall-mount-rig-2/` → `/fitmus-product/`
 - `/product/wall-mount-rig-3/` → `/fitmus-product/`
-- `/product/wall-mount-rig/` → `/fitmus-product/`
 - `/product/wall-mount-single-rig/` → `/fitmus-product/`
 - `/product/wall-mount-speed-jump-rope-hanger/` → `/fitmus-product/`
 - `/product/wall-mounted-monkey-pull-bar/` → `/fitmus-product/`
@@ -87,7 +86,6 @@ The migration has intentionally not recreated source records that are absent fro
 - `/product/wall-mounted-rig-1-1/` → `/fitmus-product/`
 - `/product/wall-mounted-rig-2-2/` → `/fitmus-product/`
 - `/product/wall-mounted-rig-2/` → `/fitmus-product/`
-- `/product/wall-mounted-rig-for-crossfit-3-3/` → `/fitmus-product/`
 - `/product/wall-mounted-rig-for-crossfit-4-4/` → `/fitmus-product/`
 - `/product/wall-mounted-wood-peg-board/` → `/fitmus-product/`
 - `/product/wall-squat-rack-folding/` → `/fitmus-product/`

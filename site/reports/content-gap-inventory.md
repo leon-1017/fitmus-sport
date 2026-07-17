@@ -4,13 +4,15 @@ Generated deterministically from the legacy URL report, parsed local source data
 
 ## Baseline
 
-- Total missing collection records: 96
+- Baseline collection gaps: 96
 - Products: 43 (C1: 2; C2: 41)
 - Posts: 53 (C3: 53)
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 96
+- Collection records currently absent: 94
+- Legacy routes restored from the baseline: 2
+- Legacy routes still missing: 94
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -18,12 +20,12 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. The two homepage-priority products start at `migrate`; all other records remain `pending` until their execution phase.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 2, `pending`: 94. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
-- [ ] `/product/wall-mount-rig/` — Wall Mount Rig (`migrate`; primary image: `available-local`)
-- [ ] `/product/wall-mounted-rig-for-crossfit-3-3/` — Wall mounted Rig for Crossfit 3-3 (`migrate`; primary image: `available-local`)
+- [ ] `/product/wall-mount-rig/` — Wall Mount Rig (`done`; primary image: `available-local`)
+- [ ] `/product/wall-mounted-rig-for-crossfit-3-3/` — Wall mounted Rig for Crossfit 3-3 (`done`; primary image: `available-local`)
 
 ## C2 — remaining products by category
 
@@ -150,4 +152,4 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Th
 
 ## Validation
 
-- Passed: 96 unique paths; 43 products; 53 posts; valid decisions; complete parsed source/body/primary-image baseline; exact C1/C2/C3 allocation.
+- Passed: 96 unique baseline paths; 43 products; 53 posts; valid decisions; complete parsed source/body/primary-image baseline; exact C1/C2/C3 allocation; coverage and completion status agree.

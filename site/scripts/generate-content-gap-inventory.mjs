@@ -9,6 +9,8 @@ const POSTS_DIRECTORY = resolve(process.cwd(), 'src/content/posts');
 const REPORT_DIRECTORY = resolve(process.cwd(), 'reports');
 const JSON_REPORT_PATH = resolve(REPORT_DIRECTORY, 'content-gap-inventory.json');
 const MARKDOWN_REPORT_PATH = resolve(REPORT_DIRECTORY, 'content-gap-inventory.md');
+const OVERRIDES_PATH = resolve(REPORT_DIRECTORY, 'content-gap-overrides.json');
+const BASELINE_PATH = resolve(REPORT_DIRECTORY, 'content-gap-baseline.json');
 
 const ALLOWED_DECISIONS = ['pending', 'migrate', 'approved-redirect', 'retired', 'done'];
 const EXPECTED_PRODUCT_CATEGORIES = [
@@ -57,6 +59,11 @@ async function fileExists(pathname) {
   } catch {
     return false;
   }
+}
+
+async function optionalJson(pathname, fallback) {
+  if (!(await fileExists(pathname))) return fallback;
+  return JSON.parse(await readFile(pathname, 'utf8'));
 }
 
 async function markdownSlugs(directory) {
@@ -135,14 +142,26 @@ function validationErrors(inventory, sourceIndex) {
 }
 
 async function main() {
-  const [legacyContents, parsedContents, productSlugs, postSlugs] = await Promise.all([
+  const [legacyContents, parsedContents, productSlugs, postSlugs, overrides, baseline] = await Promise.all([
     readFile(LEGACY_REPORT_PATH, 'utf8'),
     readFile(PARSED_LOCAL_PATH, 'utf8'),
     markdownSlugs(PRODUCTS_DIRECTORY),
     markdownSlugs(POSTS_DIRECTORY),
+    optionalJson(OVERRIDES_PATH, { schemaVersion: 1, items: {} }),
+    optionalJson(BASELINE_PATH, null),
   ]);
   const legacyReport = JSON.parse(legacyContents);
   const parsedRecords = JSON.parse(parsedContents);
+  const baselineMissing = baseline?.missing || legacyReport.missing;
+  const currentMissingKeys = new Set(legacyReport.missing.map((item) => `${item.type}:${item.slug}`));
+
+  if (!baseline) {
+    await writeFile(BASELINE_PATH, `${JSON.stringify({
+      schemaVersion: 1,
+      source: 'site/reports/legacy-url-comparison.json at C0 completion',
+      missing: legacyReport.missing,
+    }, null, 2)}\n`);
+  }
   const sourceRecords = new Map();
   const sourceDuplicates = [];
 
@@ -153,7 +172,8 @@ async function main() {
   });
 
   const items = [];
-  for (const missing of legacyReport.missing) {
+  for (const missing of baselineMissing) {
+    const override = overrides.items?.[`${missing.type}:${missing.slug}`] || {};
     const sourceMatch = sourceRecords.get(`${missing.type}:${missing.slug}`);
     const source = sourceMatch?.record;
     const featuredImagePath = publicAssetPath(source?.ogImage);
@@ -181,8 +201,11 @@ async function main() {
       categories,
       executionPhase: isHomepagePriority ? 'C1' : missing.type === 'product' ? 'C2' : 'C3',
       homepagePriority: isHomepagePriority,
-      decision: isHomepagePriority ? 'migrate' : 'pending',
+      decision: override.decision || (isHomepagePriority ? 'migrate' : 'pending'),
       redirectTarget: missing.redirectTarget,
+      legacyRoute: {
+        status: currentMissingKeys.has(`${missing.type}:${missing.slug}`) ? 'missing' : 'restored',
+      },
       source: {
         status: source ? 'available' : 'missing',
         file: 'data/parsed-local.json',
@@ -228,9 +251,10 @@ async function main() {
         status: collectionSlugs.has(missing.slug) ? 'present' : 'absent',
         expectedPath: expectedCollectionPath(missing.type, missing.slug),
       },
-      notes: isHomepagePriority
+      completion: override.completion || null,
+      notes: override.notes || (isHomepagePriority
         ? 'Homepage priority; the parsed source, body and primary image are already available locally.'
-        : 'Parsed source and primary image are available locally; the Astro collection record has not been generated.',
+        : 'Parsed source and primary image are available locally; the Astro collection record has not been generated.'),
     };
     items.push(item);
   }
@@ -242,6 +266,7 @@ async function main() {
     schemaVersion: 1,
     generatedFrom: [
       'site/reports/legacy-url-comparison.json',
+      'site/reports/content-gap-baseline.json',
       'data/parsed-local.json',
       'site/src/content/products',
       'site/src/content/posts',
@@ -258,13 +283,23 @@ async function main() {
       bodiesAvailable: items.filter((item) => item.body.status === 'available').length,
       featuredImagesAvailableLocally: items.filter((item) => item.featuredImage.status === 'available-local').length,
       collectionRecordsAbsent: items.filter((item) => item.collection.status === 'absent').length,
+      legacyRoutesRestored: items.filter((item) => item.legacyRoute.status === 'restored').length,
+      legacyRoutesStillMissing: items.filter((item) => item.legacyRoute.status === 'missing').length,
       uniqueLocalAssetsReferenced: allLocalAssets.length,
       uniqueMissingAssetsReferenced: allMissingAssets.length,
     },
     items,
   };
 
+  const unknownOverrideKeys = Object.keys(overrides.items || {}).filter((key) => !items.some((item) => `${item.type}:${item.slug}` === key));
   const errors = validationErrors(inventory, { duplicates: sourceDuplicates });
+  if (unknownOverrideKeys.length) errors.push(`Overrides reference unknown records: ${unknownOverrideKeys.join(', ')}`);
+  if (items.some((item) => item.decision === 'done' && item.legacyRoute.status !== 'restored')) {
+    errors.push('A completed record is still missing from the current legacy URL coverage report.');
+  }
+  if (items.some((item) => item.legacyRoute.status === 'restored' && item.decision !== 'done')) {
+    errors.push('A restored legacy route is not marked done in the inventory overrides.');
+  }
   const c1Items = items.filter((item) => item.executionPhase === 'C1');
   const c2Items = items.filter((item) => item.executionPhase === 'C2');
   const c3Items = items.filter((item) => item.executionPhase === 'C3');
@@ -277,23 +312,25 @@ async function main() {
   const markdown = `# Content gap completion inventory\n\n` +
     `Generated deterministically from the legacy URL report, parsed local source data, Astro collections and local public assets. The JSON file is the authoritative editable status list.\n\n` +
     `## Baseline\n\n` +
-    `- Total missing collection records: ${inventory.summary.total}\n` +
+    `- Baseline collection gaps: ${inventory.summary.total}\n` +
     `- Products: ${inventory.summary.byType.product} (C1: ${inventory.summary.byExecutionPhase.C1}; C2: ${inventory.summary.byExecutionPhase.C2})\n` +
     `- Posts: ${inventory.summary.byType.post} (C3: ${inventory.summary.byExecutionPhase.C3})\n` +
     `- Parsed source records available: ${inventory.summary.sourceRecordsAvailable}\n` +
     `- Source bodies available: ${inventory.summary.bodiesAvailable}\n` +
     `- Primary images available locally: ${inventory.summary.featuredImagesAvailableLocally}\n` +
     `- Collection records currently absent: ${inventory.summary.collectionRecordsAbsent}\n` +
+    `- Legacy routes restored from the baseline: ${inventory.summary.legacyRoutesRestored}\n` +
+    `- Legacy routes still missing: ${inventory.summary.legacyRoutesStillMissing}\n` +
     `- Unique referenced assets already available locally: ${inventory.summary.uniqueLocalAssetsReferenced}\n` +
     `- Unique referenced assets missing locally: ${inventory.summary.uniqueMissingAssetsReferenced}\n\n` +
     `All 96 records have parsed source content and a local primary image. Gallery arrays are candidate evidence only: some include shared 66×66 footer/sidebar thumbnails and must be curated during C1, C2 or C4.\n\n` +
     `## Decision states\n\n` +
-    `Allowed values: ${ALLOWED_DECISIONS.map((value) => `\`${value}\``).join(', ')}. The two homepage-priority products start at \`migrate\`; all other records remain \`pending\` until their execution phase.\n\n` +
+    `Allowed values: ${ALLOWED_DECISIONS.map((value) => `\`${value}\``).join(', ')}. Current totals: ${Object.entries(inventory.summary.byDecision).map(([decision, count]) => `\`${decision}\`: ${count}`).join(', ')}. Persistent status changes are stored in \`content-gap-overrides.json\`, then merged into this generated inventory.\n\n` +
     `## C1 — homepage-priority products\n\n${checklist(c1Items)}\n\n` +
     `## C2 — remaining products by category\n\n${productCategorySections}\n\n` +
     `## C3 — missing posts\n\n${checklist(c3Items)}\n\n` +
     `## Validation\n\n` +
-    (errors.length ? errors.map((error) => `- ERROR: ${error}`).join('\n') : '- Passed: 96 unique paths; 43 products; 53 posts; valid decisions; complete parsed source/body/primary-image baseline; exact C1/C2/C3 allocation.') +
+    (errors.length ? errors.map((error) => `- ERROR: ${error}`).join('\n') : '- Passed: 96 unique baseline paths; 43 products; 53 posts; valid decisions; complete parsed source/body/primary-image baseline; exact C1/C2/C3 allocation; coverage and completion status agree.') +
     `\n`;
 
   await mkdir(REPORT_DIRECTORY, { recursive: true });

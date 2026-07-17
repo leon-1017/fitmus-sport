@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "generatedFrom": [
     "site/reports/legacy-url-comparison.json",
+    "site/reports/content-gap-baseline.json",
     "data/parsed-local.json",
     "site/src/content/products",
     "site/src/content/posts",
@@ -26,7 +27,7 @@
       "C3": 53
     },
     "byDecision": {
-      "migrate": 2,
+      "done": 2,
       "pending": 94
     },
     "productCategories": {
@@ -42,7 +43,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 96,
+    "collectionRecordsAbsent": 94,
+    "legacyRoutesRestored": 2,
+    "legacyRoutesStillMissing": 94,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -57,8 +60,11 @@
       "categories": [],
       "executionPhase": "C1",
       "homepagePriority": true,
-      "decision": "migrate",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "restored"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -121,10 +127,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-mount-rig.md"
       },
-      "notes": "Homepage priority; the parsed source, body and primary image are already available locally."
+      "completion": {
+        "phase": "C1",
+        "restoredCollectionPath": "src/content/products/wall-mount-rig.md",
+        "restoredRoute": "/product/wall-mount-rig/"
+      },
+      "notes": "C1 completed: restored the original product slug, source-derived product copy and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -136,8 +147,11 @@
       "categories": [],
       "executionPhase": "C1",
       "homepagePriority": true,
-      "decision": "migrate",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "restored"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -200,10 +214,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-mounted-rig-for-crossfit-3-3.md"
       },
-      "notes": "Homepage priority; the parsed source, body and primary image are already available locally."
+      "completion": {
+        "phase": "C1",
+        "restoredCollectionPath": "src/content/products/wall-mounted-rig-for-crossfit-3-3.md",
+        "restoredRoute": "/product/wall-mounted-rig-for-crossfit-3-3/"
+      },
+      "notes": "C1 completed: restored the original product slug, source-derived product copy and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -217,6 +236,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -282,6 +304,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wooden-balance-board.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -296,6 +319,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -361,6 +387,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/yoga-foam-block.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -375,6 +402,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -440,6 +470,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/yoga-wheel-back-stretcher-wheel.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -454,6 +485,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -519,6 +553,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-ball-2.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -533,6 +568,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -598,6 +636,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-ball-soft-medicine-ball-crossfit.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -612,6 +651,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -677,6 +719,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/weighted-bouncy-ball-rubber-medicine-balls.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -691,6 +734,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -756,6 +802,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wood-gymnastic-rings-numbered-straps.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -770,6 +817,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -835,6 +885,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/water-rowing-machine.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -849,6 +900,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -914,6 +968,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -928,6 +983,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -993,6 +1051,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1007,6 +1066,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1072,6 +1134,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-ball-targetwall-ball-target.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1086,6 +1149,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1151,6 +1217,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-crossfit-rack.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1165,6 +1232,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1230,6 +1300,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mount-rig-2.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1244,6 +1315,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1309,6 +1383,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mount-rig-3.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1323,6 +1398,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1388,6 +1466,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mount-single-rig.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1402,6 +1481,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1467,6 +1549,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mounted-monkey-pull-bar.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1481,6 +1564,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1546,6 +1632,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mounted-pull-bar-2.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1560,6 +1647,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1625,6 +1715,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mounted-pull-up-bar.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1639,6 +1730,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1704,6 +1798,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mounted-rig-1-1.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1718,6 +1813,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1783,6 +1881,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mounted-rig-2.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1797,6 +1896,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1862,6 +1964,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mounted-rig-2-2.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1876,6 +1979,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -1941,6 +2047,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mounted-rig-for-crossfit-4-4.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -1955,6 +2062,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2020,6 +2130,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mounted-wood-peg-board.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2034,6 +2145,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2099,6 +2213,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-squat-rack-folding.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2113,6 +2228,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2178,6 +2296,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/x-frame-6-rack-package.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2192,6 +2311,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2257,6 +2379,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/x-frame-chin-max-pack.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2271,6 +2394,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2336,6 +2462,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/vipr-storage-rack.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2350,6 +2477,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2415,6 +2545,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wall-mount-speed-jump-rope-hanger.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2429,6 +2560,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2494,6 +2628,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/weight-plate-storage-stand.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2508,6 +2643,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2573,6 +2711,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/weight-vest-10kg.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2587,6 +2726,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2652,6 +2794,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/weight-vest-30kg.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2666,6 +2809,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2731,6 +2877,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/weightlifting-drop-mat.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2745,6 +2892,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2810,6 +2960,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wood-jerk-box-set.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2824,6 +2975,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2889,6 +3043,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wood-parallettes.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2903,6 +3058,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -2968,6 +3126,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wooden-jerk-box.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -2982,6 +3141,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3047,6 +3209,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wooden-puzzle-plyo-box.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3061,6 +3224,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3126,6 +3292,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/wooden-trapezium-plyo-boxes-12-18-24-30.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3140,6 +3307,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3205,6 +3375,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/yoke-walk.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3219,6 +3390,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3284,6 +3458,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/weight-bar-gripz.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3298,6 +3473,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3363,6 +3541,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/weight-lifting-chains.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3377,6 +3556,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/fitmus-product/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3442,6 +3624,7 @@
         "status": "absent",
         "expectedPath": "src/content/products/womens-light-weight-vinyl-dipping-neoprene-dumbbell.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3458,6 +3641,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3504,6 +3690,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/quick-tips-about-iwf-standard-barbell.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3520,6 +3707,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3559,6 +3749,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/resistance-band-benefits.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3575,6 +3766,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3614,6 +3808,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/resistance-band-exercises-burn-fat-build-muscle.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3630,6 +3825,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3669,6 +3867,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/reverse-hyper-end-your-back-pain.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3685,6 +3884,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3724,6 +3926,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/rubber-eco-friendly.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3740,6 +3943,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3779,6 +3985,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/see-whats-new-fitmus-sport.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3795,6 +4002,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3834,6 +4044,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/seventh-round-strict-air-pollution-inspection-completed.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3850,6 +4061,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3889,6 +4103,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/skull-kettlebell-give-new-feeling-2.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3905,6 +4120,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3944,6 +4162,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/smart-ways-to-get-in-shape.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -3960,6 +4179,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -3999,6 +4221,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/starting-a-crossfit-box-get-help-from-these-10-kickass-tips.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4015,6 +4238,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4075,6 +4301,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/stay-home-thin-fitness-plastic-6-small-accessories.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4091,6 +4318,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4141,6 +4371,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/strong-new-beautiful.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4157,6 +4388,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4196,6 +4430,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/synergy-360-circuit-functional-training-system-china.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4212,6 +4447,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4251,6 +4489,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/synrgy-360-circuit-functional-training-system-china.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4267,6 +4506,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4306,6 +4548,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/tech-data-recycle-rubber-flooring.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4320,6 +4563,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4361,6 +4607,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/thank-you.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4377,6 +4624,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4416,6 +4666,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/the-5-best-squat-alternatives-can-build-muscle.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4432,6 +4683,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4471,6 +4725,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/the-5-best-ways-to-break-into-crossfit.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4487,6 +4742,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4526,6 +4784,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/the-6-keys-to-keeping-you-fit-all-your-life.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4542,6 +4801,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4581,6 +4843,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/the-36th-china-international-sporting-goods-show-2018.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4597,6 +4860,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4636,6 +4902,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/the-benefits-of-crossfit-kettlebell-training.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4652,6 +4919,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4716,6 +4986,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4732,6 +5003,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4771,6 +5045,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4787,6 +5062,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4849,6 +5127,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/the-best-strength-training-equipment-to-buy-in-2019.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4865,6 +5144,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4904,6 +5186,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/the-super-effective-workout-you-need-when-you-dont-have-time-to-train.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4920,6 +5203,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -4959,6 +5245,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/top-5-exercise-products-help-release-tight-muscles.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -4975,6 +5262,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5014,6 +5304,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/top-6-benefits-of-kettlebell-training.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5030,6 +5321,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5088,6 +5382,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/top-9-best-stability-ball-exercises.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5104,6 +5399,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5143,6 +5441,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/train-weight-vest.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5159,6 +5458,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5198,6 +5500,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5214,6 +5517,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5253,6 +5559,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/welcome-world-crossfit.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5269,6 +5576,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5308,6 +5618,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/what-are-the-benefits-of-hiit-workouts.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5324,6 +5635,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5363,6 +5677,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/what-crossfit-athletes-eat.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5379,6 +5694,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5418,6 +5736,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/what-is-functional-training-and-how-can-it-benefit-you.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5434,6 +5753,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5473,6 +5795,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/what-is-hiit.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5489,6 +5812,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5528,6 +5854,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/what-is-powder-coating-kettlebell.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5544,6 +5871,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5583,6 +5913,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/what-kind-of-people-train-crossfit.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5599,6 +5930,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5638,6 +5972,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/what-should-i-eat-after-a-crossfit-workout.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5654,6 +5989,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5693,6 +6031,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/what-you-need-to-know-about-crossfit.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5709,6 +6048,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5748,6 +6090,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/whats-difference-tpu-versus-cpu-polyurethane.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5764,6 +6107,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5803,6 +6149,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/whats-epdm-rubber.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5819,6 +6166,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5858,6 +6208,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/whats-sbr-rubber.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5874,6 +6225,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5913,6 +6267,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/when-crossfit-games-2018.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5929,6 +6284,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -5968,6 +6326,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/why-are-people-wearing-this-terrifying-mask-to-the-gym.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -5984,6 +6343,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -6023,6 +6385,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -6039,6 +6402,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -6078,6 +6444,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -6094,6 +6461,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -6133,6 +6503,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -6149,6 +6520,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -6188,6 +6562,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -6204,6 +6579,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -6243,6 +6621,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/why-should-you-consider-adding-a-curved-treadmill-to-your-gym.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -6259,6 +6638,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -6298,6 +6680,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/why-use-a-gym-sled-in-your-training.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -6314,6 +6697,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -6353,6 +6739,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -6369,6 +6756,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -6408,6 +6798,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/why-you-should-include-it-in-your-workout.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     },
     {
@@ -6424,6 +6815,9 @@
       "homepagePriority": false,
       "decision": "pending",
       "redirectTarget": "/in-the-news/",
+      "legacyRoute": {
+        "status": "missing"
+      },
       "source": {
         "status": "available",
         "file": "data/parsed-local.json",
@@ -6463,6 +6857,7 @@
         "status": "absent",
         "expectedPath": "src/content/posts/with-crossfit-fitness-is-pushed-to-a-whole-different-level.md"
       },
+      "completion": null,
       "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
     }
   ]

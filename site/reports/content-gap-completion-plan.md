@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C0 已完成，等待阶段 C1。
+> 当前状态：阶段 C1 已完成，等待阶段 C2。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C1：首页两个缺失产品”开始。阶段 C1 完成并汇报后停止，待确认再执行 C2。
+下一次任务从“阶段 C2：其余 41 个产品”开始。阶段 C2 应按分类拆成小批次；每批完成并汇报后停止，待确认再继续。
 
 ## 6. 阶段完成记录
 
@@ -239,4 +239,16 @@
 - 注意事项：旧数据的 `gallery` 数组可能混入共享的 66×66 页脚／侧栏缩略图，C1、C2 和 C4 必须先筛选，不能直接全部作为产品图库展示。
 - 验证：`npm run report:content-gaps` 通过；连续生成的 JSON 和 Markdown SHA-256 一致；状态值与路径唯一性断言通过。
 - 提交说明：`Create content completion inventory`。
+- 是否可以进入下一阶段：是。
+
+### 阶段 C1 完成记录
+
+- 完成范围：恢复首页优先的 `Wall Mount Rig` 与 `Wall mounted Rig for Crossfit 3-3` 两个结构化产品记录。
+- 恢复路径：`/product/wall-mount-rig/` 与 `/product/wall-mounted-rig-for-crossfit-3-3/`。
+- 内容处理：基于本地解析源数据整理产品说明、规格、SEO 字段、一级分类和已验证主图；未把旧站共享的 66×66 侧栏缩略图混入产品图库。
+- 首页处理：Featured Products 已改回指向这两个原始 slug，替换了之前的近似替代产品条目。
+- 清单状态：96 条固定基线保留；2 条 C1 记录标为 `done` 且覆盖状态为 `restored`，剩余 94 条保持待处理。
+- URL 覆盖：已保留旧路径 496 条；当前预期遗漏为 94 条（产品 41、文章 53），未解释遗漏为 0。
+- 验证：Node 22 公开模式构建成功，生成 507 页；`check:dist` 0 问题，`check:seo` 0 问题，内容清单和覆盖状态一致。
+- 提交说明：`Restore homepage featured product records`。
 - 是否可以进入下一阶段：是。

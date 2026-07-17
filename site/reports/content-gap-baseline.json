@@ -1,24 +1,6 @@
 {
-  "sourceUrlCount": 590,
-  "sitemapUrlCount": 506,
-  "preservedUrlCount": 496,
-  "expectedLegacyOmissions": {
-    "post": 53,
-    "product": 41
-  },
-  "unexplainedMissing": [],
-  "generatedRoutes": [
-    "/products/",
-    "/products/balance-mobility/",
-    "/products/body-weight-gymnastic/",
-    "/products/cardio-equipment-accessories/",
-    "/products/crossfit-racks-rigs/",
-    "/products/equipment-storage/",
-    "/products/strength-condition/",
-    "/products/strongman-equipment/",
-    "/products/uncategorized/",
-    "/products/weight-lifting-equipment/"
-  ],
+  "schemaVersion": 1,
+  "source": "site/reports/legacy-url-comparison.json at C0 completion",
   "missing": [
     {
       "url": "https://www.fitmus-sport.com/product/vipr-storage-rack/",
@@ -74,6 +56,14 @@
       "slug": "wall-mount-rig-3",
       "category": null,
       "path": "/product/wall-mount-rig-3/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mount-rig/",
+      "type": "product",
+      "slug": "wall-mount-rig",
+      "category": null,
+      "path": "/product/wall-mount-rig/",
       "redirectTarget": "/fitmus-product/"
     },
     {
@@ -138,6 +128,14 @@
       "slug": "wall-mounted-rig-2",
       "category": null,
       "path": "/product/wall-mounted-rig-2/",
+      "redirectTarget": "/fitmus-product/"
+    },
+    {
+      "url": "https://www.fitmus-sport.com/product/wall-mounted-rig-for-crossfit-3-3/",
+      "type": "product",
+      "slug": "wall-mounted-rig-for-crossfit-3-3",
+      "category": null,
+      "path": "/product/wall-mounted-rig-for-crossfit-3-3/",
       "redirectTarget": "/fitmus-product/"
     },
     {

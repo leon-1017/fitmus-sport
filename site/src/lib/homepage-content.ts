@@ -1,5 +1,5 @@
 export const featuredProductSlugs = [
-  'triple-wall-mounted-rig',
+  'wall-mount-rig',
   'the-monster-lite-rig-2-0',
   'portable-gym-workout-timer',
   'adjustable-bench-heavy-duty',
@@ -16,7 +16,7 @@ export const featuredProductSlugs = [
   'vertical-barbell-storage-rack-9-barbell-holder',
   'commercial-half-power-rack',
   'abram-ghd-2-0glute-ham-developer-2-0',
-  'crossfit-rig-upright-bar',
+  'wall-mounted-rig-for-crossfit-3-3',
   'steel-swedish-bars',
   '30crossfit-monkey-bar-rig-jungle-rig',
 ];

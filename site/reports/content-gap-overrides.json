@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "items": {
+    "product:wall-mount-rig": {
+      "decision": "done",
+      "completion": {
+        "phase": "C1",
+        "restoredCollectionPath": "src/content/products/wall-mount-rig.md",
+        "restoredRoute": "/product/wall-mount-rig/"
+      },
+      "notes": "C1 completed: restored the original product slug, source-derived product copy and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mounted-rig-for-crossfit-3-3": {
+      "decision": "done",
+      "completion": {
+        "phase": "C1",
+        "restoredCollectionPath": "src/content/products/wall-mounted-rig-for-crossfit-3-3.md",
+        "restoredRoute": "/product/wall-mounted-rig-for-crossfit-3-3/"
+      },
+      "notes": "C1 completed: restored the original product slug, source-derived product copy and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    }
+  }
+}
