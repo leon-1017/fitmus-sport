@@ -16,7 +16,7 @@ featuredImage: "/images/2016/04/powder-coat-Iron-crossfit-kettlebell.jpg"
 <p>Adequate recovery is crucial for athlete,The key with athletes is to improve performance and conditioning. Doing a few light workouts per week will speed up recovery by getting some blood into the worked muscles.</p>
 <p>KETTLEBELL COMBINATION WORKOUTS.There is no need to drop what currently works for your athletes and do kettlebells only programs</p>
 <p>KETTLEBELL FOCUS WORKOUTS,With some careful planning and some creativity, you could design a killer training regimen that revolves almost entirely around kettlebell training,athletes generally train with lighter weights and do more maintenance workouts. That is a perfect time to implement some kettlebell focus workouts.</p>
-<p>It is worthy to try <a href="/products/kettlebell/" target="_blank">Kettlebells.</a></p>
+<p>It is worthy to try <a href="/fitmus-product/" target="_blank">Kettlebells.</a></p>
 <p>1. They’ll help you get a celebrity body</p>
 <p>2. You’ll have an easier time performing daily activities</p>
 <p>3. You’ll fire up more muscles</p>

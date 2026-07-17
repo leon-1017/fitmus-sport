@@ -9,6 +9,7 @@
     "prebuild": "node scripts/assert-node-version.mjs",
     "dev": "astro dev",
     "build": "astro build",
+    "check:dist": "node scripts/check-dist-integrity.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

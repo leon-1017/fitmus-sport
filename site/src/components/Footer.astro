@@ -1,24 +1,17 @@
 ---
-const recentWorks = [
-  { name: 'Wall Mount Rig', img: '/images/2021/09/14feet-free-standing-rig.jpg', url: '/product/wall-mount-rig/' },
-  { name: 'The Monster Lite Rig 2.0', img: '/images/2021/09/14-Monster-Lite-Rig-2.jpg', url: '/product/the-monster-lite-rig-2-0/' },
-  { name: 'Portable Gym Workout Timer', img: '/images/2021/08/Portable-Gym-Workout-Timer-1.jpg', url: '/product/portable-gym-workout-timer/' },
-  { name: 'Adjustable Dumbbell', img: '/images/2020/10/dumbbell.jpg', url: '/product/dumbbell/' },
-  { name: 'Curved Manual Treadmill', img: '/images/2020/08/Curved-Manual-Treadmill-1.jpg', url: '/product/curved-manual-treadmill-2/' },
-  { name: 'Training Mask 2.0 – Black', img: '/images/2020/04/Training-mask-1.jpg', url: '/product/training-mask-2-0-black/' },
-  { name: 'Adjustable Bench (Heavy Duty)', img: '/images/2020/03/Adjustable-Bench-Heavy-duty-1.jpg', url: '/product/adjustable-bench-heavy-duty/' },
-  { name: 'Strongman Sandbag', img: '/images/2019/10/Strongman-Sandbag.jpg', url: '/product/strongman-sandbag/' },
-  { name: 'Olympic Lifting Platform', img: '/images/2019/10/Olympic-Lifting-Platform-1.jpg', url: '/product/olympic-lifting-platform/' },
-  { name: '511 Tactical Plate Carrier Weight Vest', img: '/images/2019/10/5.11-tactical-plate-carrier-weight-vest.jpg', url: '/product/511-tactical-plate-carrier-weight-vest/' },
-];
+import { getCollection } from 'astro:content';
+import {
+  footerProductSlugs,
+  newsPostSlugs,
+  selectContentEntries,
+} from '../lib/homepage-content';
 
-const news = [
-  { title: 'Portable WOD Timer', date: 'August 18, 2021', url: '/portable-wod-timer/' },
-  { title: 'We Install a batch of new vacuum vulcanizing machines', date: 'November 23, 2020', url: '/installing-a-batch-of-new-vacuum-vulcanizing-machines/' },
-  { title: 'The Best Kettlebell for Home Fitness COVID-19 STOCK SHORTAGES', date: 'August 25, 2020', url: '/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/' },
-  { title: 'IMPORTANT COVID-19 STATUS INFORMATION', date: 'June 23, 2020', url: '/important-covid-19-status-information/' },
-  { title: 'Gym closures result in dumbbell and kettlebell shortages', date: 'June 23, 2020', url: '/gym-closures-result-in-dumbbell-and-kettlebell-shortages/' },
-];
+const recentWorks = selectContentEntries(
+  await getCollection('products'),
+  footerProductSlugs,
+  'Footer Recent Works',
+);
+const news = selectContentEntries(await getCollection('posts'), newsPostSlugs, 'Footer News');
 
 const categories = [
   { name: 'Weight Lifting Equipment', url: '/products/weight-lifting-equipment/' },
@@ -41,12 +34,12 @@ const categories = [
 					{
 						recentWorks.slice(0, 10).map((w) => (
 							<a
-								href={w.url}
+								href={`/product/${w.id}/`}
 								class="aspect-square rounded overflow-hidden bg-gray-800 hover:ring-2 hover:ring-[#e03420] transition"
 							>
 								<img
-									src={w.img}
-									alt={w.name}
+									src={w.data.featuredImage || '/images/2016/02/favicon-200.png'}
+									alt={w.data.title}
 									class="w-full h-full object-cover"
 									loading="lazy"
 								/>
@@ -62,14 +55,14 @@ const categories = [
 					{
 						news.map((n) => (
 							<li>
-								<a href={n.url} class="block group">
+								<a href={`/${n.id}/`} class="block group">
 									<div class="flex items-start gap-2">
 										<i class="fas fa-chevron-right text-[#e03420] text-xs mt-2"></i>
 										<div>
 											<h4 class="text-sm group-hover:text-[#e03420] transition leading-tight">
-												{n.title}
+											{n.data.title}
 											</h4>
-											<p class="text-xs text-gray-400 mt-1">{n.date}</p>
+											<p class="text-xs text-gray-400 mt-1">{n.data.date}</p>
 										</div>
 									</div>
 								</a>

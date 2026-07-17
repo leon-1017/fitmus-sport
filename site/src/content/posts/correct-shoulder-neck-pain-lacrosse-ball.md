@@ -9,7 +9,7 @@ featuredImage: "/images/2017/03/lacroose-ball-image.jpg"
 ---
 
 <p>Thanks to the explosion of workout training programs, <a href="/product/massage-lacrosse-ball/" target="_blank">lacrosse balls</a> have surfaced as an important tool in any gym setting. But they most likely aren’t being used as intended. Unlike tennis balls, lacrosse balls are hard and dense. They don’t soften under pressure. Lacrosse balls can be used as a powerful massage device that can help relieve pain and improve function in sore muscles.</p>
-<p><a href="/products/massage-ball/" target="_blank">Lacrosse ball</a> massage is a form of self-myofascial release. Fascia, the thin sheath of connective tissue that covers all the muscles and organs of the body, is responsible for connecting muscle groups. When disrupted, it can cause pain and poor movement patterns.</p>
+<p><a href="/fitmus-product/" target="_blank">Lacrosse ball</a> massage is a form of self-myofascial release. Fascia, the thin sheath of connective tissue that covers all the muscles and organs of the body, is responsible for connecting muscle groups. When disrupted, it can cause pain and poor movement patterns.</p>
 <p>Tight fascia can pull the body out of alignment and increase pressure on muscles and joints, causing pain. The goal of myofascial therapy is to stretch and loosen the fascia so the underlying tissue can move freely.</p>
 <p>What are the benefits of<a href="/product/massage-lacrosse-ball/" target="_blank"> lacrosse ball</a> massage?<br>
 – increase joint range of motion<br>

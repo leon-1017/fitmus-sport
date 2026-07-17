@@ -141,3 +141,51 @@ export function rewriteHtmlFragment(html, imageLookup = new Map()) {
 
   return rewriteLegacyUrlsInText($.html(), imageLookup);
 }
+
+function normalizedInternalPath(pathname) {
+  if (pathname === '/') return pathname;
+  return pathname.endsWith('/') ? pathname : `${pathname}/`;
+}
+
+function hasFileExtension(pathname) {
+  return /\/[^/]+\.[^/]+$/.test(pathname);
+}
+
+function fallbackPath(pathname) {
+  if (pathname.startsWith('/product/') || pathname.startsWith('/products/')) {
+    return '/fitmus-product/';
+  }
+  if (pathname.startsWith('/in-the-news/') || pathname.split('/').filter(Boolean).length === 1) {
+    return '/in-the-news/';
+  }
+  return '/';
+}
+
+export function repairInternalLinks(html, knownInternalPaths) {
+  if (!html) return html;
+
+  const $ = cheerio.load(html, {}, false);
+  $('a[href]').each((_, element) => {
+    const $element = $(element);
+    const href = $element.attr('href') || '';
+
+    if (href === '#') {
+      $element.attr(
+        'href',
+        ($element.attr('data-target') || '').includes('contact-us') ? '/contact-us/' : '/fitmus-product/',
+      );
+      return;
+    }
+    if (!href || href.startsWith('#') || isSkippableUrl(href)) return;
+
+    const url = asLegacyUrl(href);
+    if (!url || hasFileExtension(url.pathname)) return;
+
+    const targetPath = normalizedInternalPath(url.pathname);
+    if (knownInternalPaths.has(targetPath)) return;
+
+    $element.attr('href', `${fallbackPath(targetPath)}${url.hash}`);
+  });
+
+  return $.html();
+}

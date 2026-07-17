@@ -9,7 +9,7 @@ featuredImage: "/images/2017/07/urethane-vs.-virgin-rubber-1.jpg"
 ---
 
 <p>Which material is better?Is Polyurethane Really Better than Plastic or Rubber? &nbsp;As with most material selection questions, the answer is“it depends”. &nbsp;Both materials have their place but which material is actually superior?</p>
-<p>we devote our working lives to the manufacture of quality polyurethane products such as<a href="/product/pu-bumper-plate/" target="_blank"> CPU bumpers</a>. So you may wonder: what’s so great about polyurethane? The answer is in the versatility and many advantages over competing materials. If you’re curious as to why design engineers and production managers ought to make a point of considering polyurethane as the base for their parts and products</p>
+<p>we devote our working lives to the manufacture of quality polyurethane products such as<a href="/fitmus-product/" target="_blank"> CPU bumpers</a>. So you may wonder: what’s so great about polyurethane? The answer is in the versatility and many advantages over competing materials. If you’re curious as to why design engineers and production managers ought to make a point of considering polyurethane as the base for their parts and products</p>
 <p>What is Polyurethane?</p>
 <p>Polyurethanes (also called “urethanes”) are any of a family of elastomers, an artificial rubber. They are unique in combining the strength of rigid plastics with the flexibility and elasticity of rubber. Hoses, automotive bushings, seat foam, skateboard wheels, and Spandex are all common polyurethane applications.</p>
 <p>Polyurethane is referred to as polyurethane. Polyurethane materials can be divided into three types according to their processing technology.<br>

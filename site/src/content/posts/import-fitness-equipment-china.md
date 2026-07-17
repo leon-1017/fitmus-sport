@@ -100,7 +100,7 @@ In general, Sea Freight is better for bulky items or in cases where the shipping
 <p><img class="alignnone size-medium wp-image-3426" src="/images/2016/12/Screenshot-4-300x214.png" alt="screenshot-4" width="300" height="214" data-orig-sizes="(max-width: 300px) 100vw, 300px"></p>
 <p>The VAT rate is different for each country, so make sure you check your country’s specific VAT rate before making any calculations. SUCH AS The current VAT rate in the UK is 20%. Import duties vary widely from product to product so do check the accurate rate with the help of this free online calculator:<br>
 https://www.dutycalculator.com/</p>
-<p>Import duty &amp; taxes for<a href="/products/kettlebell/" target="_blank"> Kettlebells</a> from China<br>
+<p>Import duty &amp; taxes for<a href="/fitmus-product/" target="_blank"> Kettlebells</a> from China<br>
 https://www.dutycalculator.com/dc/168336/sports-leisure/exercise-fitness/dumb-bells-weights/import-duty-rate-for-importing-kettlebells-from-china-from-china-to-united-kingdom-is-2.7/</p>
 <p>Import duty will be usually be in the range of 2%-5%, but with some products it can be as high as 10% or even more. On the other hand, with some product groups you won’t have to pay import duty at all, so be sure to check out that online calculator to see exactly how much import duty you’ll have to pay for your particular goods.</p>
 <p>REMEMBER!!! Import duty is payable only on the goods’ value</p>

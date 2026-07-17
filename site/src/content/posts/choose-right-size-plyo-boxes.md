@@ -8,7 +8,7 @@ seoDescription: "Plyo boxes are a staple piece of fitness equipment in Crossfit 
 featuredImage: "/images/2016/09/Jump-on-Plyo-boxes.jpg"
 ---
 
-<p><a href="/products/plyometric-box/" target="_blank">Plyo boxes</a> are a staple piece of equipment in Crossfit gyms and sports training facilities that do plyometric training</p>
+<p><a href="/fitmus-product/" target="_blank">Plyo boxes</a> are a staple piece of equipment in Crossfit gyms and sports training facilities that do plyometric training</p>
 <p><img class="alignnone size-medium wp-image-1981" src="/images/2016/04/3-in-1-wooden-Plyometric-Box-300x180.jpg" alt="3-in-1 wooden Plyometric Box" width="300" height="180" data-orig-sizes="(max-width: 300px) 100vw, 300px"></p>
 <p>Be careful not to get too tall of a plyo box to start off with,You want to learn good form, and you’ll sacrifice your form and/or cause injury if you start off with too much effort to jump up onto a tall plyo box without warming up and conditioning yourself for the movement. So take it easy to begin with and get a size that you can do a lot of warmup jumps with.</p>
 <p>Box jumping is often done as a conditioning exercise, so when doing it that way you can use a <a href="/product/3-1-wooden-plyometric-box12x16x18/" target="_blank">shorter box</a> and see get lots of benefit from it. You will be able to continue your workout with a shorter box when you would have to stop with a taller box because you’re getting too tired and the big jump is starting to get too dangerous.</p>

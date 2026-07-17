@@ -1,8 +1,9 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
+import { basename, dirname, extname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   createImageLookup,
+  repairInternalLinks,
   rewriteHtmlFragment,
   rewriteLegacyUrl,
   rewriteLegacyUrlsInText,
@@ -24,15 +25,42 @@ async function markdownFiles(directory) {
   return names.filter((name) => name.endsWith('.md')).map((name) => resolve(directory, name));
 }
 
+function routeForFile(prefix, filePath) {
+  return `${prefix}/${basename(filePath, extname(filePath))}/`;
+}
+
+async function knownInternalPaths(productFiles, postFiles, pages) {
+  const paths = new Set([
+    '/',
+    '/about-fitmus/',
+    '/contact-us/',
+    '/fitmus-product/',
+    '/in-the-news/',
+    '/product/',
+    '/products/',
+  ]);
+
+  for (const filePath of productFiles) {
+    paths.add(routeForFile('/product', filePath));
+    const source = await readFile(filePath, 'utf8');
+    const category = source.match(/^category:\s*["']?([^"'\r\n]+)/m)?.[1]?.trim();
+    if (category) paths.add(`/products/${category}/`);
+  }
+  for (const filePath of postFiles) paths.add(routeForFile('', filePath));
+  for (const page of pages) paths.add(rewriteLegacyUrl(page.url, new Map()));
+
+  return paths;
+}
+
 function countLegacyUrls(value) {
   return (value.match(LEGACY_URL_PATTERN) || []).length;
 }
 
-async function rewriteMarkdown(filePath, imageLookup) {
+async function rewriteMarkdown(filePath, imageLookup, paths) {
   const original = await readFile(filePath, 'utf8');
   const { frontmatter, body } = splitFrontmatter(original);
   const rewritten = rewriteLegacyUrlsInText(
-    `${frontmatter}${rewriteHtmlFragment(body, imageLookup)}`,
+    `${frontmatter}${repairInternalLinks(rewriteHtmlFragment(body, imageLookup), paths)}`,
     imageLookup,
   );
 
@@ -43,22 +71,22 @@ async function rewriteMarkdown(filePath, imageLookup) {
 async function main() {
   const mapping = JSON.parse(await readFile(MAPPING_PATH, 'utf8'));
   const imageLookup = createImageLookup(mapping);
-  const files = [
-    ...(await markdownFiles(resolve(CONTENT_DIR, 'products'))),
-    ...(await markdownFiles(resolve(CONTENT_DIR, 'posts'))),
-  ];
+  const productFiles = await markdownFiles(resolve(CONTENT_DIR, 'products'));
+  const postFiles = await markdownFiles(resolve(CONTENT_DIR, 'posts'));
+  const files = [...productFiles, ...postFiles];
+  const pages = JSON.parse(await readFile(PAGES_PATH, 'utf8'));
+  const paths = await knownInternalPaths(productFiles, postFiles, pages);
 
   const stats = { files: files.length, changedFiles: 0, before: 0, after: 0, pagesChanged: 0 };
   for (const filePath of files) {
-    const result = await rewriteMarkdown(filePath, imageLookup);
+    const result = await rewriteMarkdown(filePath, imageLookup, paths);
     stats.changedFiles += Number(result.changed);
     stats.before += result.before;
     stats.after += result.after;
   }
 
-  const pages = JSON.parse(await readFile(PAGES_PATH, 'utf8'));
   for (const page of pages) {
-    const rewritten = rewriteHtmlFragment(page.bodyHtml, imageLookup);
+    const rewritten = repairInternalLinks(rewriteHtmlFragment(page.bodyHtml, imageLookup), paths);
     const rewrittenUrl = rewriteLegacyUrl(page.url, imageLookup);
     stats.before += countLegacyUrls(page.bodyHtml || '');
     stats.after += countLegacyUrls(rewritten || '');

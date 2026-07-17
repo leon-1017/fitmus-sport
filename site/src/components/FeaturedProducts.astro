@@ -1,26 +1,12 @@
 ---
-const products = [
-  { name: 'Wall Mount Rig', img: '/images/2021/09/14feet-free-standing-rig.jpg', url: '/product/wall-mount-rig/' },
-  { name: 'The Monster Lite Rig 2.0', img: '/images/2021/09/14-Monster-Lite-Rig-2.jpg', url: '/product/the-monster-lite-rig-2-0/' },
-  { name: 'Portable Gym Workout Timer', img: '/images/2021/08/Portable-Gym-Workout-Timer-1.jpg', url: '/product/portable-gym-workout-timer/' },
-  { name: 'Adjustable Bench (Heavy Duty)', img: '/images/2020/03/Adjustable-Bench-Heavy-duty-1.jpg', url: '/product/adjustable-bench-heavy-duty/' },
-  { name: 'Olympic Lifting Platform', img: '/images/2019/10/Olympic-Lifting-Platform-1.jpg', url: '/product/olympic-lifting-platform/' },
-  { name: '511 Tactical Plate Carrier Weight Vest', img: '/images/2019/10/5.11-tactical-plate-carrier-weight-vest.jpg', url: '/product/511-tactical-plate-carrier-weight-vest/' },
-  { name: 'Adjustable Boxing Mitts', img: '/images/2019/10/Fitness-MMA-Adjustable-Boxing-mitts.jpg', url: '/product/adjustable-boxing-mitts/' },
-  { name: 'Curved Manual Treadmill', img: '/images/2019/10/Curved-Manual-Treadmill-1.jpg', url: '/product/curved-manual-treadmill/' },
-  { name: 'Free Standing Rig', img: '/images/2019/09/FREE-STANDING-RIG.jpg', url: '/product/free-standing-rig-2/' },
-  { name: '15kg Women\'s Cerakote Olympic Barbell', img: '/images/2019/07/Cerakote-3.jpg', url: '/product/15kg-womens-cerakote-olympic-barbell/' },
-  { name: 'SkiErg Indoor Skiing Machine', img: '/images/2019/03/skierg.jpg', url: '/product/skierg-indoor-skiing-machine/' },
-  { name: 'OEM Private Label Exercise Air Bike', img: '/images/2018/04/OEM-Private-Label-Exercise-Air-Bike-1.jpg', url: '/product/oem-private-label-exercise-air-bike/' },
-  { name: 'Dumbbell Rack – Round Two Layer 10 Pairs', img: '/images/2017/11/DUMBBELL-RACK-–-ROUND-TWO-LAYER-10-PAIRS-1.jpg', url: '/product/dumbbell-rack-round-two-layer-10-pairs/' },
-  { name: 'Captain America Shield Urethane Barbell Plates', img: '/images/2017/11/Captain-America-Shield-Urethane-Barbell-Plates-1.jpg', url: '/product/captain-america-shield-urethane-barbell-plates/' },
-  { name: 'Vertical Barbell Storage Rack', img: '/images/2017/09/Vertical-Barbell-Storage-Rack-9-Bar-Holder.jpg', url: '/product/vertical-barbell-storage-rack-9-barbell-holder/' },
-  { name: 'Commercial Half Power Rack', img: '/images/2017/08/Half-Power-Rack.jpg', url: '/product/commercial-half-power-rack/' },
-  { name: 'Abram GHD 2.0', img: '/images/2017/08/Abram-GHD-2.0-Glute-Ham-Developer-1.jpg', url: '/product/abram-ghd-2-0glute-ham-developer-2-0/' },
-  { name: 'Wall Mounted Rig 3-3', img: '/images/2017/07/wall-mounted-rig-3-3.jpg', url: '/product/wall-mounted-rig-for-crossfit-3-3/' },
-  { name: 'Steel Swedish Bars', img: '/images/2016/12/Steel-gymnastic-Stall-Bars-Gladiator-1.jpg', url: '/product/steel-swedish-bars/' },
-  { name: '30\' Crossfit Monkey Bar Rig', img: '/images/2016/12/30\'Crossfit-Monkey-Bar-Rig-Jungle-Rig-1.jpg', url: '/product/30crossfit-monkey-bar-rig-jungle-rig/' },
-];
+import { getCollection } from 'astro:content';
+import { featuredProductSlugs, selectContentEntries } from '../lib/homepage-content';
+
+const products = selectContentEntries(
+  await getCollection('products'),
+  featuredProductSlugs,
+  'Featured Products',
+);
 ---
 
 <section class="py-16 bg-gray-50">
@@ -31,19 +17,19 @@ const products = [
 				{
 					products.map((p) => (
 						<a
-							href={p.url}
+							href={`/product/${p.id}/`}
 							class="flex-shrink-0 w-72 bg-white rounded-lg shadow-md hover:shadow-lg transition group"
 						>
 							<div class="aspect-square overflow-hidden rounded-t-lg">
 								<img
-									src={p.img}
-									alt={p.name}
+									src={p.data.featuredImage || '/images/2016/02/favicon-200.png'}
+									alt={p.data.title}
 									class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
 									loading="lazy"
 								/>
 							</div>
 							<div class="p-4">
-								<h3 class="font-semibold text-gray-900 text-sm line-clamp-2">{p.name}</h3>
+								<h3 class="font-semibold text-gray-900 text-sm line-clamp-2">{p.data.title}</h3>
 							</div>
 						</a>
 					))
