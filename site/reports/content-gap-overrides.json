@@ -567,6 +567,96 @@
         "restoredRoute": "/the-36th-china-international-sporting-goods-show-2018/"
       },
       "notes": "C3-B completed: restored source-derived historical article content and verified local primary image."
+    },
+    "post:the-benefits-of-crossfit-kettlebell-training": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/the-benefits-of-crossfit-kettlebell-training.md",
+        "restoredRoute": "/the-benefits-of-crossfit-kettlebell-training/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
+    },
+    "post:the-best-home-gym-equipment-worth-owning-for-every-type-of-workout": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout.md",
+        "restoredRoute": "/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
+    },
+    "post:the-best-kettlebell-for-home-fitness-covid-19-stock-shortages": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages.md",
+        "restoredRoute": "/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/"
+      },
+      "notes": "C3-C completed: restored source-derived historical article content and verified local primary image."
+    },
+    "post:the-best-strength-training-equipment-to-buy-in-2019": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/the-best-strength-training-equipment-to-buy-in-2019.md",
+        "restoredRoute": "/the-best-strength-training-equipment-to-buy-in-2019/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
+    },
+    "post:the-super-effective-workout-you-need-when-you-dont-have-time-to-train": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/the-super-effective-workout-you-need-when-you-dont-have-time-to-train.md",
+        "restoredRoute": "/the-super-effective-workout-you-need-when-you-dont-have-time-to-train/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
+    },
+    "post:top-5-exercise-products-help-release-tight-muscles": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/top-5-exercise-products-help-release-tight-muscles.md",
+        "restoredRoute": "/top-5-exercise-products-help-release-tight-muscles/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
+    },
+    "post:top-6-benefits-of-kettlebell-training": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/top-6-benefits-of-kettlebell-training.md",
+        "restoredRoute": "/top-6-benefits-of-kettlebell-training/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
+    },
+    "post:top-9-best-stability-ball-exercises": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/top-9-best-stability-ball-exercises.md",
+        "restoredRoute": "/top-9-best-stability-ball-exercises/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
+    },
+    "post:train-weight-vest": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/train-weight-vest.md",
+        "restoredRoute": "/train-weight-vest/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
+    },
+    "post:vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller.md",
+        "restoredRoute": "/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
     }
   }
 }

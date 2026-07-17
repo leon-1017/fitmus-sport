@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 33
-- Legacy routes restored from the baseline: 63
-- Legacy routes still missing: 33
+- Collection records currently absent: 23
+- Legacy routes restored from the baseline: 73
+- Legacy routes still missing: 23
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 63, `pending`: 33. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 73, `pending`: 23. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -116,16 +116,16 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 - [ ] `/the-5-best-ways-to-break-into-crossfit/` — The 5 Best Ways to Break Into CrossFit (`done`; primary image: `available-local`)
 - [ ] `/the-6-keys-to-keeping-you-fit-all-your-life/` — The 6 keys to keeping you fit all your life (`done`; primary image: `available-local`)
 - [ ] `/the-36th-china-international-sporting-goods-show-2018/` — The 36th China International Sporting Goods Show 2018 (`done`; primary image: `available-local`)
-- [ ] `/the-benefits-of-crossfit-kettlebell-training/` — The Benefits of Crossfit Kettlebell Training. (`pending`; primary image: `available-local`)
-- [ ] `/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout/` — The best home-gym equipment Worth Owning for every type of workout (`pending`; primary image: `available-local`)
-- [ ] `/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/` — The Best Kettlebell for Home Fitness COVID-19 STOCK SHORTAGES (`pending`; primary image: `available-local`)
-- [ ] `/the-best-strength-training-equipment-to-buy-in-2019/` — The Best Strength Training Equipment to Buy in 2019 (`pending`; primary image: `available-local`)
-- [ ] `/the-super-effective-workout-you-need-when-you-dont-have-time-to-train/` — The super effective workout you need when you don't have time to train (`pending`; primary image: `available-local`)
-- [ ] `/top-5-exercise-products-help-release-tight-muscles/` — Top 5 Exercise Products help Release Tight Muscles (`pending`; primary image: `available-local`)
-- [ ] `/top-6-benefits-of-kettlebell-training/` — Top 6 Benefits of Kettlebell Training (`pending`; primary image: `available-local`)
-- [ ] `/top-9-best-stability-ball-exercises/` — Top 9 Best Stability Ball Exercises (`pending`; primary image: `available-local`)
-- [ ] `/train-weight-vest/` — How to Train with a Weight Vest (`pending`; primary image: `available-local`)
-- [ ] `/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller/` — Vibrating rollers offer Two Times More Effective than Ordinary Foam Roller (`pending`; primary image: `available-local`)
+- [ ] `/the-benefits-of-crossfit-kettlebell-training/` — The Benefits of Crossfit Kettlebell Training. (`done`; primary image: `available-local`)
+- [ ] `/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout/` — The best home-gym equipment Worth Owning for every type of workout (`done`; primary image: `available-local`)
+- [ ] `/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/` — The Best Kettlebell for Home Fitness COVID-19 STOCK SHORTAGES (`done`; primary image: `available-local`)
+- [ ] `/the-best-strength-training-equipment-to-buy-in-2019/` — The Best Strength Training Equipment to Buy in 2019 (`done`; primary image: `available-local`)
+- [ ] `/the-super-effective-workout-you-need-when-you-dont-have-time-to-train/` — The super effective workout you need when you don't have time to train (`done`; primary image: `available-local`)
+- [ ] `/top-5-exercise-products-help-release-tight-muscles/` — Top 5 Exercise Products help Release Tight Muscles (`done`; primary image: `available-local`)
+- [ ] `/top-6-benefits-of-kettlebell-training/` — Top 6 Benefits of Kettlebell Training (`done`; primary image: `available-local`)
+- [ ] `/top-9-best-stability-ball-exercises/` — Top 9 Best Stability Ball Exercises (`done`; primary image: `available-local`)
+- [ ] `/train-weight-vest/` — How to Train with a Weight Vest (`done`; primary image: `available-local`)
+- [ ] `/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller/` — Vibrating rollers offer Two Times More Effective than Ordinary Foam Roller (`done`; primary image: `available-local`)
 - [ ] `/welcome-world-crossfit/` — Welcome to the world of CrossFit (`pending`; primary image: `available-local`)
 - [ ] `/what-are-the-benefits-of-hiit-workouts/` — What are the benefits of HIIT workouts? (`pending`; primary image: `available-local`)
 - [ ] `/what-crossfit-athletes-eat/` — what crossfit athletes eat (`pending`; primary image: `available-local`)

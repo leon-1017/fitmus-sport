@@ -1,9 +1,9 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 567,
-  "preservedUrlCount": 557,
+  "sitemapUrlCount": 577,
+  "preservedUrlCount": 567,
   "expectedLegacyOmissions": {
-    "post": 33
+    "post": 23
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -19,86 +19,6 @@
     "/products/weight-lifting-equipment/"
   ],
   "missing": [
-    {
-      "url": "https://www.fitmus-sport.com/the-benefits-of-crossfit-kettlebell-training/",
-      "type": "post",
-      "slug": "the-benefits-of-crossfit-kettlebell-training",
-      "category": null,
-      "path": "/the-benefits-of-crossfit-kettlebell-training/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout/",
-      "type": "post",
-      "slug": "the-best-home-gym-equipment-worth-owning-for-every-type-of-workout",
-      "category": null,
-      "path": "/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/",
-      "type": "post",
-      "slug": "the-best-kettlebell-for-home-fitness-covid-19-stock-shortages",
-      "category": null,
-      "path": "/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/the-best-strength-training-equipment-to-buy-in-2019/",
-      "type": "post",
-      "slug": "the-best-strength-training-equipment-to-buy-in-2019",
-      "category": null,
-      "path": "/the-best-strength-training-equipment-to-buy-in-2019/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/the-super-effective-workout-you-need-when-you-dont-have-time-to-train/",
-      "type": "post",
-      "slug": "the-super-effective-workout-you-need-when-you-dont-have-time-to-train",
-      "category": null,
-      "path": "/the-super-effective-workout-you-need-when-you-dont-have-time-to-train/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/top-5-exercise-products-help-release-tight-muscles/",
-      "type": "post",
-      "slug": "top-5-exercise-products-help-release-tight-muscles",
-      "category": null,
-      "path": "/top-5-exercise-products-help-release-tight-muscles/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/top-6-benefits-of-kettlebell-training/",
-      "type": "post",
-      "slug": "top-6-benefits-of-kettlebell-training",
-      "category": null,
-      "path": "/top-6-benefits-of-kettlebell-training/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/top-9-best-stability-ball-exercises/",
-      "type": "post",
-      "slug": "top-9-best-stability-ball-exercises",
-      "category": null,
-      "path": "/top-9-best-stability-ball-exercises/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/train-weight-vest/",
-      "type": "post",
-      "slug": "train-weight-vest",
-      "category": null,
-      "path": "/train-weight-vest/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller/",
-      "type": "post",
-      "slug": "vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller",
-      "category": null,
-      "path": "/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller/",
-      "redirectTarget": "/in-the-news/"
-    },
     {
       "url": "https://www.fitmus-sport.com/welcome-world-crossfit/",
       "type": "post",

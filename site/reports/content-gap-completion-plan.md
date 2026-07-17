@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C3-B 已完成，等待阶段 C3-C。
+> 当前状态：阶段 C3-C 已完成，等待阶段 C3-D。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C3-C：In the News 文章第三批（建议 8–10 篇）”开始。该批完成并汇报后停止，待确认再继续后续文章批次。
+下一次任务从“阶段 C3-D：In the News 文章第四批（建议 8–10 篇）”开始。该批完成并汇报后停止，待确认再完成最后文章批次。
 
 ## 6. 阶段完成记录
 
@@ -351,3 +351,14 @@
 - 验证：Node 22 公开模式构建成功，生成 568 页；`check:dist` 0 问题，`check:seo` 0 问题，10 条原始文章路径均已生成。
 - 提交说明：`Restore second C3 article batch`。
 - 是否可以继续 C3-C：是，待确认。
+
+### 阶段 C3-C 完成记录
+
+- 完成范围：恢复 In the News 文章第三批 10 篇，保留原始文章 slug、标题和本地主图。
+- 恢复文章：`The Benefits of Crossfit Kettlebell Training.`、`The best home-gym equipment Worth Owning for every type of workout`、`The Best Kettlebell for Home Fitness COVID-19 STOCK SHORTAGES`、`The Best Strength Training Equipment to Buy in 2019`、`The super effective workout you need when you don't have time to train`、`Top 5 Exercise Products help Release Tight Muscles`、`Top 6 Benefits of Kettlebell Training`、`Top 9 Best Stability Ball Exercises`、`How to Train with a Weight Vest`、`Vibrating rollers offer Two Times More Effective than Ordinary Foam Roller`。
+- 内容处理：使用本地解析源整理为符合 Astro 文章集合 schema 的 Markdown；历史疫情文章保留其历史属性，训练与健康内容补充了安全边界说明，不新增联系表单交互。
+- 清单状态：C3-C 的 10 条标为 `done`；固定 96 条基线中已恢复 73 条，剩余 23 条，全部为文章。
+- URL 覆盖：已保留旧路径 567 条；当前预期遗漏为 23 条（产品 0、文章 23），未解释遗漏为 0。
+- 验证：Node 22 公开模式构建成功，生成 578 页；`check:dist` 0 问题，`check:seo` 0 问题，10 条原始文章路径均已生成。
+- 提交说明：`Restore third C3 article batch`。
+- 是否可以继续 C3-D：是，待确认。

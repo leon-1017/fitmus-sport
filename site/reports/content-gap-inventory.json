@@ -27,8 +27,8 @@
       "C3": 53
     },
     "byDecision": {
-      "done": 63,
-      "pending": 33
+      "done": 73,
+      "pending": 23
     },
     "productCategories": {
       "balance-mobility": 3,
@@ -43,9 +43,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 33,
-    "legacyRoutesRestored": 63,
-    "legacyRoutesStillMissing": 33,
+    "collectionRecordsAbsent": 23,
+    "legacyRoutesRestored": 73,
+    "legacyRoutesStillMissing": 23,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -5102,10 +5102,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5143,11 +5143,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/the-benefits-of-crossfit-kettlebell-training.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/the-benefits-of-crossfit-kettlebell-training.md",
+        "restoredRoute": "/the-benefits-of-crossfit-kettlebell-training/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5161,10 +5165,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5227,11 +5231,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout.md",
+        "restoredRoute": "/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5245,10 +5253,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5286,11 +5294,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages.md",
+        "restoredRoute": "/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/"
+      },
+      "notes": "C3-C completed: restored source-derived historical article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5304,10 +5316,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5368,11 +5380,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/the-best-strength-training-equipment-to-buy-in-2019.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/the-best-strength-training-equipment-to-buy-in-2019.md",
+        "restoredRoute": "/the-best-strength-training-equipment-to-buy-in-2019/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5386,10 +5402,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5427,11 +5443,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/the-super-effective-workout-you-need-when-you-dont-have-time-to-train.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/the-super-effective-workout-you-need-when-you-dont-have-time-to-train.md",
+        "restoredRoute": "/the-super-effective-workout-you-need-when-you-dont-have-time-to-train/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5445,10 +5465,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5486,11 +5506,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/top-5-exercise-products-help-release-tight-muscles.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/top-5-exercise-products-help-release-tight-muscles.md",
+        "restoredRoute": "/top-5-exercise-products-help-release-tight-muscles/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5504,10 +5528,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5545,11 +5569,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/top-6-benefits-of-kettlebell-training.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/top-6-benefits-of-kettlebell-training.md",
+        "restoredRoute": "/top-6-benefits-of-kettlebell-training/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5563,10 +5591,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5623,11 +5651,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/top-9-best-stability-ball-exercises.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/top-9-best-stability-ball-exercises.md",
+        "restoredRoute": "/top-9-best-stability-ball-exercises/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5641,10 +5673,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5682,11 +5714,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/train-weight-vest.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/train-weight-vest.md",
+        "restoredRoute": "/train-weight-vest/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5700,10 +5736,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5741,11 +5777,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-C",
+        "restoredCollectionPath": "src/content/posts/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller.md",
+        "restoredRoute": "/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller/"
+      },
+      "notes": "C3-C completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
