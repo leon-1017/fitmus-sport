@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C2-E 已完成，等待阶段 C2-F。
+> 当前状态：阶段 C2-F 已完成，等待阶段 C2-G。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C2-F：Strongman Equipment、Equipment Storage 与 Balance & Mobility（共 7 个产品）”开始。该批完成并汇报后停止，待确认再完成 Cardio Equipment & Accessories。
+下一次任务从“阶段 C2-G：Cardio Equipment & Accessories（最后 3 个产品）”开始。该批完成并汇报后停止，待确认再进入文章补齐阶段 C3。
 
 ## 6. 阶段完成记录
 
@@ -307,3 +307,14 @@
 - 验证：Node 22 公开模式构建成功，生成 538 页；`check:dist` 0 问题，`check:seo` 0 问题，Crossfit Racks & Rigs 分类页和 5 条原始产品路径均已生成。
 - 提交说明：`Complete Crossfit Racks & Rigs restoration`。
 - 是否可以继续 C2-F：是，待确认。
+
+### 阶段 C2-F 完成记录
+
+- 完成范围：恢复 Strongman Equipment（1 个）、Equipment Storage（3 个）和 Balance & Mobility（3 个），共 7 个产品；这三个分类在固定基线中的产品已全部恢复。
+- 恢复产品：`Yoke Walk`、`VIPR Storage Rack`、`Wall Mount Speed Jump Rope Hanger`、`Weight Plate Storage Stand`、`Wooden Balance Board`、`Yoga Foam Block`、`Yoga Wheel Back Stretcher Wheel`。
+- 内容处理：使用本地解析源的标题、分类、主图和正文，整理为符合 Astro 集合 schema 的 Markdown；每个记录只保留已验证主图，候选图库留待 C4 筛选。
+- 清单状态：C2-F 的 7 条标为 `done`；固定 96 条基线中已恢复 40 条，剩余 56 条（产品 3、文章 53）。
+- URL 覆盖：已保留旧路径 534 条；当前预期遗漏为 56 条（产品 3、文章 53），未解释遗漏为 0。
+- 验证：Node 22 公开模式构建成功，生成 545 页；`check:dist` 0 问题，`check:seo` 0 问题，三个分类页和 7 条原始产品路径均已生成。
+- 提交说明：`Restore C2-F product categories`。
+- 是否可以继续 C2-G：是，待确认。

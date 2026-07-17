@@ -3,9 +3,9 @@
 Generated from `data/url-list.json` and the current public-mode `dist/sitemap.xml`.
 
 - Source URLs: 590
-- Sitemap URLs: 537
-- Preserved legacy URLs: 527
-- Expected legacy omissions: 63 (53 post, 10 product)
+- Sitemap URLs: 544
+- Preserved legacy URLs: 534
+- Expected legacy omissions: 56 (53 post, 3 product)
 - Unexplained missing URLs: 0
 - Generated catalog routes absent from the legacy list: 10
 
@@ -71,16 +71,9 @@ The migration has intentionally not recreated source records that are absent fro
 
 ### Products redirect to `/fitmus-product/`
 
-- `/product/vipr-storage-rack/` → `/fitmus-product/`
-- `/product/wall-mount-speed-jump-rope-hanger/` → `/fitmus-product/`
 - `/product/water-rowing-machine/` → `/fitmus-product/`
-- `/product/weight-plate-storage-stand/` → `/fitmus-product/`
 - `/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/` → `/fitmus-product/`
 - `/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/` → `/fitmus-product/`
-- `/product/wooden-balance-board/` → `/fitmus-product/`
-- `/product/yoga-foam-block/` → `/fitmus-product/`
-- `/product/yoga-wheel-back-stretcher-wheel/` → `/fitmus-product/`
-- `/product/yoke-walk/` → `/fitmus-product/`
 
 ## Unexplained missing URLs
 

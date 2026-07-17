@@ -27,8 +27,8 @@
       "C3": 53
     },
     "byDecision": {
-      "done": 33,
-      "pending": 63
+      "done": 40,
+      "pending": 56
     },
     "productCategories": {
       "balance-mobility": 3,
@@ -43,9 +43,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 63,
-    "legacyRoutesRestored": 33,
-    "legacyRoutesStillMissing": 63,
+    "collectionRecordsAbsent": 56,
+    "legacyRoutesRestored": 40,
+    "legacyRoutesStillMissing": 56,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -234,10 +234,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -301,11 +301,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wooden-balance-board.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/wooden-balance-board.md",
+        "restoredRoute": "/product/wooden-balance-board/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -317,10 +321,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -384,11 +388,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/yoga-foam-block.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/yoga-foam-block.md",
+        "restoredRoute": "/product/yoga-foam-block/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -400,10 +408,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -467,11 +475,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/yoga-wheel-back-stretcher-wheel.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/yoga-wheel-back-stretcher-wheel.md",
+        "restoredRoute": "/product/yoga-wheel-back-stretcher-wheel/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2472,10 +2484,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2539,11 +2551,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/vipr-storage-rack.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/vipr-storage-rack.md",
+        "restoredRoute": "/product/vipr-storage-rack/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2555,10 +2571,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2622,11 +2638,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-mount-speed-jump-rope-hanger.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/wall-mount-speed-jump-rope-hanger.md",
+        "restoredRoute": "/product/wall-mount-speed-jump-rope-hanger/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2638,10 +2658,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2705,11 +2725,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/weight-plate-storage-stand.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/weight-plate-storage-stand.md",
+        "restoredRoute": "/product/weight-plate-storage-stand/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -3417,10 +3441,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -3484,11 +3508,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/yoke-walk.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/yoke-walk.md",
+        "restoredRoute": "/product/yoke-walk/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",

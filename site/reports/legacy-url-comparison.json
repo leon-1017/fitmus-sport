@@ -1,10 +1,10 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 537,
-  "preservedUrlCount": 527,
+  "sitemapUrlCount": 544,
+  "preservedUrlCount": 534,
   "expectedLegacyOmissions": {
     "post": 53,
-    "product": 10
+    "product": 3
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -21,35 +21,11 @@
   ],
   "missing": [
     {
-      "url": "https://www.fitmus-sport.com/product/vipr-storage-rack/",
-      "type": "product",
-      "slug": "vipr-storage-rack",
-      "category": null,
-      "path": "/product/vipr-storage-rack/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mount-speed-jump-rope-hanger/",
-      "type": "product",
-      "slug": "wall-mount-speed-jump-rope-hanger",
-      "category": null,
-      "path": "/product/wall-mount-speed-jump-rope-hanger/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
       "url": "https://www.fitmus-sport.com/product/water-rowing-machine/",
       "type": "product",
       "slug": "water-rowing-machine",
       "category": null,
       "path": "/product/water-rowing-machine/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/weight-plate-storage-stand/",
-      "type": "product",
-      "slug": "weight-plate-storage-stand",
-      "category": null,
-      "path": "/product/weight-plate-storage-stand/",
       "redirectTarget": "/fitmus-product/"
     },
     {
@@ -66,38 +42,6 @@
       "slug": "womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings",
       "category": null,
       "path": "/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wooden-balance-board/",
-      "type": "product",
-      "slug": "wooden-balance-board",
-      "category": null,
-      "path": "/product/wooden-balance-board/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/yoga-foam-block/",
-      "type": "product",
-      "slug": "yoga-foam-block",
-      "category": null,
-      "path": "/product/yoga-foam-block/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/yoga-wheel-back-stretcher-wheel/",
-      "type": "product",
-      "slug": "yoga-wheel-back-stretcher-wheel",
-      "category": null,
-      "path": "/product/yoga-wheel-back-stretcher-wheel/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/yoke-walk/",
-      "type": "product",
-      "slug": "yoke-walk",
-      "category": null,
-      "path": "/product/yoke-walk/",
       "redirectTarget": "/fitmus-product/"
     },
     {

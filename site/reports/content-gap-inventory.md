@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 63
-- Legacy routes restored from the baseline: 33
-- Legacy routes still missing: 63
+- Collection records currently absent: 56
+- Legacy routes restored from the baseline: 40
+- Legacy routes still missing: 56
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 33, `pending`: 63. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 40, `pending`: 56. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -74,19 +74,19 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 
 ### strongman-equipment (1)
 
-- [ ] `/product/yoke-walk/` — Yoke Walk (`pending`; primary image: `available-local`)
+- [ ] `/product/yoke-walk/` — Yoke Walk (`done`; primary image: `available-local`)
 
 ### equipment-storage (3)
 
-- [ ] `/product/vipr-storage-rack/` — VIPR Storage Rack (`pending`; primary image: `available-local`)
-- [ ] `/product/wall-mount-speed-jump-rope-hanger/` — Wall Mount Speed Jump Rope Hanger (`pending`; primary image: `available-local`)
-- [ ] `/product/weight-plate-storage-stand/` — Weight Plate Storage Stand (`pending`; primary image: `available-local`)
+- [ ] `/product/vipr-storage-rack/` — VIPR Storage Rack (`done`; primary image: `available-local`)
+- [ ] `/product/wall-mount-speed-jump-rope-hanger/` — Wall Mount Speed Jump Rope Hanger (`done`; primary image: `available-local`)
+- [ ] `/product/weight-plate-storage-stand/` — Weight Plate Storage Stand (`done`; primary image: `available-local`)
 
 ### balance-mobility (3)
 
-- [ ] `/product/wooden-balance-board/` — Wooden Balance Board (`pending`; primary image: `available-local`)
-- [ ] `/product/yoga-foam-block/` — Yoga Foam Block (`pending`; primary image: `available-local`)
-- [ ] `/product/yoga-wheel-back-stretcher-wheel/` — Yoga Wheel Back Stretcher Wheel (`pending`; primary image: `available-local`)
+- [ ] `/product/wooden-balance-board/` — Wooden Balance Board (`done`; primary image: `available-local`)
+- [ ] `/product/yoga-foam-block/` — Yoga Foam Block (`done`; primary image: `available-local`)
+- [ ] `/product/yoga-wheel-back-stretcher-wheel/` — Yoga Wheel Back Stretcher Wheel (`done`; primary image: `available-local`)
 
 ### cardio-equipment-accessories (3)
 

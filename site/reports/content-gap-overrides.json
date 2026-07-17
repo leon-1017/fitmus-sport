@@ -297,6 +297,69 @@
         "restoredRoute": "/product/x-frame-chin-max-pack/"
       },
       "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:yoke-walk": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/yoke-walk.md",
+        "restoredRoute": "/product/yoke-walk/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:vipr-storage-rack": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/vipr-storage-rack.md",
+        "restoredRoute": "/product/vipr-storage-rack/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mount-speed-jump-rope-hanger": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/wall-mount-speed-jump-rope-hanger.md",
+        "restoredRoute": "/product/wall-mount-speed-jump-rope-hanger/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:weight-plate-storage-stand": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/weight-plate-storage-stand.md",
+        "restoredRoute": "/product/weight-plate-storage-stand/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wooden-balance-board": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/wooden-balance-board.md",
+        "restoredRoute": "/product/wooden-balance-board/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:yoga-foam-block": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/yoga-foam-block.md",
+        "restoredRoute": "/product/yoga-foam-block/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:yoga-wheel-back-stretcher-wheel": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-F",
+        "restoredCollectionPath": "src/content/products/yoga-wheel-back-stretcher-wheel.md",
+        "restoredRoute": "/product/yoga-wheel-back-stretcher-wheel/"
+      },
+      "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     }
   }
 }
