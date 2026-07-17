@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C2-F 已完成，等待阶段 C2-G。
+> 当前状态：阶段 C2-G 已完成，等待阶段 C3-A。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C2-G：Cardio Equipment & Accessories（最后 3 个产品）”开始。该批完成并汇报后停止，待确认再进入文章补齐阶段 C3。
+下一次任务从“阶段 C3-A：In the News 文章首批（建议 8–10 篇）”开始。该批完成并汇报后停止，待确认再继续后续文章批次。
 
 ## 6. 阶段完成记录
 
@@ -318,3 +318,14 @@
 - 验证：Node 22 公开模式构建成功，生成 545 页；`check:dist` 0 问题，`check:seo` 0 问题，三个分类页和 7 条原始产品路径均已生成。
 - 提交说明：`Restore C2-F product categories`。
 - 是否可以继续 C2-G：是，待确认。
+
+### 阶段 C2-G 完成记录
+
+- 完成范围：恢复 Cardio Equipment & Accessories 的最后 3 个产品，至此固定基线中的 43 个产品已全部恢复。
+- 恢复产品：`Water Rowing Machine`、`Women's Activewear Yoga Pants High Rise Workout Gym Spanx Tights Leggings`、`Womens Net Patch Compression Running Yoga Sports Fitness Gym Stretch Pants Exercise Leggings`。
+- 内容处理：使用本地解析源的标题、分类、主图和正文，整理为符合 Astro 集合 schema 的 Markdown；每个记录只保留已验证主图，候选图库留待 C4 筛选。
+- 清单状态：C2-G 的 3 条标为 `done`；固定 96 条基线中已恢复 43 条，剩余 53 条，全部为文章。
+- URL 覆盖：已保留旧路径 537 条；当前预期遗漏为 53 条（产品 0、文章 53），未解释遗漏为 0。
+- 验证：Node 22 公开模式构建成功，生成 548 页；`check:dist` 0 问题，`check:seo` 0 问题，Cardio Equipment & Accessories 分类页和 3 条原始产品路径均已生成。
+- 提交说明：`Complete product content restoration`。
+- 是否可以继续 C3-A：是，待确认。

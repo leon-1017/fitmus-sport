@@ -27,8 +27,8 @@
       "C3": 53
     },
     "byDecision": {
-      "done": 40,
-      "pending": 56
+      "done": 43,
+      "pending": 53
     },
     "productCategories": {
       "balance-mobility": 3,
@@ -43,9 +43,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 56,
-    "legacyRoutesRestored": 40,
-    "legacyRoutesStillMissing": 56,
+    "collectionRecordsAbsent": 53,
+    "legacyRoutesRestored": 43,
+    "legacyRoutesStillMissing": 53,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -843,10 +843,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -910,11 +910,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/water-rowing-machine.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-G",
+        "restoredCollectionPath": "src/content/products/water-rowing-machine.md",
+        "restoredRoute": "/product/water-rowing-machine/"
+      },
+      "notes": "C2-G completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -926,10 +930,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -993,11 +997,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-G",
+        "restoredCollectionPath": "src/content/products/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2.md",
+        "restoredRoute": "/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/"
+      },
+      "notes": "C2-G completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -1009,10 +1017,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -1076,11 +1084,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-G",
+        "restoredCollectionPath": "src/content/products/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings.md",
+        "restoredRoute": "/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/"
+      },
+      "notes": "C2-G completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",

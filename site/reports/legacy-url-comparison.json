@@ -1,10 +1,9 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 544,
-  "preservedUrlCount": 534,
+  "sitemapUrlCount": 547,
+  "preservedUrlCount": 537,
   "expectedLegacyOmissions": {
-    "post": 53,
-    "product": 3
+    "post": 53
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -20,30 +19,6 @@
     "/products/weight-lifting-equipment/"
   ],
   "missing": [
-    {
-      "url": "https://www.fitmus-sport.com/product/water-rowing-machine/",
-      "type": "product",
-      "slug": "water-rowing-machine",
-      "category": null,
-      "path": "/product/water-rowing-machine/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/",
-      "type": "product",
-      "slug": "womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2",
-      "category": null,
-      "path": "/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/",
-      "type": "product",
-      "slug": "womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings",
-      "category": null,
-      "path": "/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/",
-      "redirectTarget": "/fitmus-product/"
-    },
     {
       "url": "https://www.fitmus-sport.com/quick-tips-about-iwf-standard-barbell/",
       "type": "post",

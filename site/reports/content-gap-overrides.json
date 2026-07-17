@@ -360,6 +360,33 @@
         "restoredRoute": "/product/yoga-wheel-back-stretcher-wheel/"
       },
       "notes": "C2-F completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:water-rowing-machine": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-G",
+        "restoredCollectionPath": "src/content/products/water-rowing-machine.md",
+        "restoredRoute": "/product/water-rowing-machine/"
+      },
+      "notes": "C2-G completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-G",
+        "restoredCollectionPath": "src/content/products/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2.md",
+        "restoredRoute": "/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/"
+      },
+      "notes": "C2-G completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-G",
+        "restoredCollectionPath": "src/content/products/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings.md",
+        "restoredRoute": "/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/"
+      },
+      "notes": "C2-G completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     }
   }
 }

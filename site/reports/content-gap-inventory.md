@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 56
-- Legacy routes restored from the baseline: 40
-- Legacy routes still missing: 56
+- Collection records currently absent: 53
+- Legacy routes restored from the baseline: 43
+- Legacy routes still missing: 53
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 40, `pending`: 56. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 43, `pending`: 53. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -90,9 +90,9 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 
 ### cardio-equipment-accessories (3)
 
-- [ ] `/product/water-rowing-machine/` — Water Rowing Machine (`pending`; primary image: `available-local`)
-- [ ] `/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/` — Women's Activewear Yoga Pants High Rise Workout Gym Spanx Tights Leggings (`pending`; primary image: `available-local`)
-- [ ] `/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/` — Womens Net Patch Compression Running Yoga Sports Fitness Gym Stretch Pants Exercise Leggings (`pending`; primary image: `available-local`)
+- [ ] `/product/water-rowing-machine/` — Water Rowing Machine (`done`; primary image: `available-local`)
+- [ ] `/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/` — Women's Activewear Yoga Pants High Rise Workout Gym Spanx Tights Leggings (`done`; primary image: `available-local`)
+- [ ] `/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/` — Womens Net Patch Compression Running Yoga Sports Fitness Gym Stretch Pants Exercise Leggings (`done`; primary image: `available-local`)
 
 ## C3 — missing posts
 
