@@ -7,18 +7,6 @@ seoDescription: "Crossfit J-cups J hooks laser cut and designed for any of our C
 featuredImage: "/images/2017/07/Pull-up-Crossfit-Rig-J-Cup-Pair.jpg"
 gallery:
   - "/images/2017/07/Pull-up-Crossfit-Rig-J-Cup-Pair.jpg"
-  - "/images/2021/09/14feet-free-standing-rig-66x66.jpg"
-  - "/images/2021/09/14-Monster-Lite-Rig-2-66x66.jpg"
-  - "/images/2021/08/Portable-Gym-Workout-Timer-1-66x66.jpg"
-  - "/images/2020/10/dumbbell-66x66.jpg"
-  - "/images/2020/08/Curved-Manual-Treadmill-1-66x66.jpg"
-  - "/images/2020/04/Training-mask-1-66x66.jpg"
-  - "/images/2020/03/Adjustable-Bench-Heavy-duty-1-66x66.jpg"
-  - "/images/2019/10/Strongman-Sandbag-66x66.jpg"
-  - "/images/2019/10/Olympic-Lifting-Platform-1-66x66.jpg"
-  - "/images/2019/10/5.11-tactical-plate-carrier-weight-vest-66x66.jpg"
-  - "/images/2019/10/Fitness-MMA-Adjustable-Boxing-mitts-66x66.jpg"
-  - "/images/2019/10/Commercial-Grade-Treadmill-LED-66x66.jpg"
 related: []
 ---
 
