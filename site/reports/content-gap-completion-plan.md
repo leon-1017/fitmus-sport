@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C2-G 已完成，等待阶段 C3-A。
+> 当前状态：阶段 C3-A 已完成，等待阶段 C3-B。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C3-A：In the News 文章首批（建议 8–10 篇）”开始。该批完成并汇报后停止，待确认再继续后续文章批次。
+下一次任务从“阶段 C3-B：In the News 文章第二批（建议 8–10 篇）”开始。该批完成并汇报后停止，待确认再继续后续文章批次。
 
 ## 6. 阶段完成记录
 
@@ -329,3 +329,14 @@
 - 验证：Node 22 公开模式构建成功，生成 548 页；`check:dist` 0 问题，`check:seo` 0 问题，Cardio Equipment & Accessories 分类页和 3 条原始产品路径均已生成。
 - 提交说明：`Complete product content restoration`。
 - 是否可以继续 C3-A：是，待确认。
+
+### 阶段 C3-A 完成记录
+
+- 完成范围：恢复 In the News 文章首批 10 篇，保留原始文章 slug、标题和本地主图。
+- 恢复文章：`Quick Tips About IWF standard Barbell`、`RESISTANCE BAND BENEFITS`、`Resistance Band Exercises that Burn Fat and Build Muscle`、`Reverse Hyper End Your Back Pain`、`Is Rubber Eco Friendly?`、`Cool Kettlebells Design- 3D scanned design`、`The seventh round strict air pollution inspection completed`、`Skull Kettlebell Give you a New Feeling`、`Smart Ways To Get In Shape`、`Starting a CrossFit Box? Get Help From These 10 Kickass Tips`。
+- 内容处理：使用本地解析源整理为符合 Astro 文章集合 schema 的 Markdown；保留原始事实与规格，历史新闻明确标注其时间属性；未把旧站共享缩略图混入文章主图。
+- 清单状态：C3-A 的 10 条标为 `done`；固定 96 条基线中已恢复 53 条，剩余 43 条，全部为文章。
+- URL 覆盖：已保留旧路径 547 条；当前预期遗漏为 43 条（产品 0、文章 43），未解释遗漏为 0。
+- 验证：Node 22 公开模式构建成功，生成 558 页；`check:dist` 0 问题，`check:seo` 0 问题，10 条原始文章路径均已生成。
+- 提交说明：`Restore first C3 article batch`。
+- 是否可以继续 C3-B：是，待确认。

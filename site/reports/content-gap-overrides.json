@@ -387,6 +387,96 @@
         "restoredRoute": "/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/"
       },
       "notes": "C2-G completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "post:quick-tips-about-iwf-standard-barbell": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/quick-tips-about-iwf-standard-barbell.md",
+        "restoredRoute": "/quick-tips-about-iwf-standard-barbell/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
+    },
+    "post:resistance-band-benefits": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/resistance-band-benefits.md",
+        "restoredRoute": "/resistance-band-benefits/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
+    },
+    "post:resistance-band-exercises-burn-fat-build-muscle": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/resistance-band-exercises-burn-fat-build-muscle.md",
+        "restoredRoute": "/resistance-band-exercises-burn-fat-build-muscle/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
+    },
+    "post:reverse-hyper-end-your-back-pain": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/reverse-hyper-end-your-back-pain.md",
+        "restoredRoute": "/reverse-hyper-end-your-back-pain/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
+    },
+    "post:rubber-eco-friendly": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/rubber-eco-friendly.md",
+        "restoredRoute": "/rubber-eco-friendly/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
+    },
+    "post:see-whats-new-fitmus-sport": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/see-whats-new-fitmus-sport.md",
+        "restoredRoute": "/see-whats-new-fitmus-sport/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
+    },
+    "post:seventh-round-strict-air-pollution-inspection-completed": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/seventh-round-strict-air-pollution-inspection-completed.md",
+        "restoredRoute": "/seventh-round-strict-air-pollution-inspection-completed/"
+      },
+      "notes": "C3-A completed: restored source-derived historical article content and verified local primary image."
+    },
+    "post:skull-kettlebell-give-new-feeling-2": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/skull-kettlebell-give-new-feeling-2.md",
+        "restoredRoute": "/skull-kettlebell-give-new-feeling-2/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
+    },
+    "post:smart-ways-to-get-in-shape": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/smart-ways-to-get-in-shape.md",
+        "restoredRoute": "/smart-ways-to-get-in-shape/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
+    },
+    "post:starting-a-crossfit-box-get-help-from-these-10-kickass-tips": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/starting-a-crossfit-box-get-help-from-these-10-kickass-tips.md",
+        "restoredRoute": "/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
     }
   }
 }

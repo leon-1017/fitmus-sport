@@ -1,9 +1,9 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 547,
-  "preservedUrlCount": 537,
+  "sitemapUrlCount": 557,
+  "preservedUrlCount": 547,
   "expectedLegacyOmissions": {
-    "post": 53
+    "post": 43
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -19,86 +19,6 @@
     "/products/weight-lifting-equipment/"
   ],
   "missing": [
-    {
-      "url": "https://www.fitmus-sport.com/quick-tips-about-iwf-standard-barbell/",
-      "type": "post",
-      "slug": "quick-tips-about-iwf-standard-barbell",
-      "category": null,
-      "path": "/quick-tips-about-iwf-standard-barbell/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/resistance-band-benefits/",
-      "type": "post",
-      "slug": "resistance-band-benefits",
-      "category": null,
-      "path": "/resistance-band-benefits/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/resistance-band-exercises-burn-fat-build-muscle/",
-      "type": "post",
-      "slug": "resistance-band-exercises-burn-fat-build-muscle",
-      "category": null,
-      "path": "/resistance-band-exercises-burn-fat-build-muscle/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/reverse-hyper-end-your-back-pain/",
-      "type": "post",
-      "slug": "reverse-hyper-end-your-back-pain",
-      "category": null,
-      "path": "/reverse-hyper-end-your-back-pain/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/rubber-eco-friendly/",
-      "type": "post",
-      "slug": "rubber-eco-friendly",
-      "category": null,
-      "path": "/rubber-eco-friendly/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/see-whats-new-fitmus-sport/",
-      "type": "post",
-      "slug": "see-whats-new-fitmus-sport",
-      "category": null,
-      "path": "/see-whats-new-fitmus-sport/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/seventh-round-strict-air-pollution-inspection-completed/",
-      "type": "post",
-      "slug": "seventh-round-strict-air-pollution-inspection-completed",
-      "category": null,
-      "path": "/seventh-round-strict-air-pollution-inspection-completed/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/skull-kettlebell-give-new-feeling-2/",
-      "type": "post",
-      "slug": "skull-kettlebell-give-new-feeling-2",
-      "category": null,
-      "path": "/skull-kettlebell-give-new-feeling-2/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/smart-ways-to-get-in-shape/",
-      "type": "post",
-      "slug": "smart-ways-to-get-in-shape",
-      "category": null,
-      "path": "/smart-ways-to-get-in-shape/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/",
-      "type": "post",
-      "slug": "starting-a-crossfit-box-get-help-from-these-10-kickass-tips",
-      "category": null,
-      "path": "/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/",
-      "redirectTarget": "/in-the-news/"
-    },
     {
       "url": "https://www.fitmus-sport.com/stay-home-thin-fitness-plastic-6-small-accessories/",
       "type": "post",

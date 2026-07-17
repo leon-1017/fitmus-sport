@@ -3,9 +3,9 @@
 Generated from `data/url-list.json` and the current public-mode `dist/sitemap.xml`.
 
 - Source URLs: 590
-- Sitemap URLs: 547
-- Preserved legacy URLs: 537
-- Expected legacy omissions: 53 (53 post)
+- Sitemap URLs: 557
+- Preserved legacy URLs: 547
+- Expected legacy omissions: 43 (43 post)
 - Unexplained missing URLs: 0
 - Generated catalog routes absent from the legacy list: 10
 
@@ -15,16 +15,6 @@ The migration has intentionally not recreated source records that are absent fro
 
 ### Posts redirect to `/in-the-news/`
 
-- `/quick-tips-about-iwf-standard-barbell/` → `/in-the-news/`
-- `/resistance-band-benefits/` → `/in-the-news/`
-- `/resistance-band-exercises-burn-fat-build-muscle/` → `/in-the-news/`
-- `/reverse-hyper-end-your-back-pain/` → `/in-the-news/`
-- `/rubber-eco-friendly/` → `/in-the-news/`
-- `/see-whats-new-fitmus-sport/` → `/in-the-news/`
-- `/seventh-round-strict-air-pollution-inspection-completed/` → `/in-the-news/`
-- `/skull-kettlebell-give-new-feeling-2/` → `/in-the-news/`
-- `/smart-ways-to-get-in-shape/` → `/in-the-news/`
-- `/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/` → `/in-the-news/`
 - `/stay-home-thin-fitness-plastic-6-small-accessories/` → `/in-the-news/`
 - `/strong-new-beautiful/` → `/in-the-news/`
 - `/synergy-360-circuit-functional-training-system-china/` → `/in-the-news/`

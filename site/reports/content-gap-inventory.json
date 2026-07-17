@@ -27,8 +27,8 @@
       "C3": 53
     },
     "byDecision": {
-      "done": 43,
-      "pending": 53
+      "done": 53,
+      "pending": 43
     },
     "productCategories": {
       "balance-mobility": 3,
@@ -43,9 +43,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 53,
-    "legacyRoutesRestored": 43,
-    "legacyRoutesStillMissing": 53,
+    "collectionRecordsAbsent": 43,
+    "legacyRoutesRestored": 53,
+    "legacyRoutesStillMissing": 43,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -3803,10 +3803,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -3851,11 +3851,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/quick-tips-about-iwf-standard-barbell.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/quick-tips-about-iwf-standard-barbell.md",
+        "restoredRoute": "/quick-tips-about-iwf-standard-barbell/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -3869,10 +3873,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -3910,11 +3914,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/resistance-band-benefits.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/resistance-band-benefits.md",
+        "restoredRoute": "/resistance-band-benefits/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -3928,10 +3936,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -3969,11 +3977,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/resistance-band-exercises-burn-fat-build-muscle.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/resistance-band-exercises-burn-fat-build-muscle.md",
+        "restoredRoute": "/resistance-band-exercises-burn-fat-build-muscle/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -3987,10 +3999,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4028,11 +4040,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/reverse-hyper-end-your-back-pain.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/reverse-hyper-end-your-back-pain.md",
+        "restoredRoute": "/reverse-hyper-end-your-back-pain/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4046,10 +4062,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4087,11 +4103,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/rubber-eco-friendly.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/rubber-eco-friendly.md",
+        "restoredRoute": "/rubber-eco-friendly/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4105,10 +4125,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4146,11 +4166,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/see-whats-new-fitmus-sport.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/see-whats-new-fitmus-sport.md",
+        "restoredRoute": "/see-whats-new-fitmus-sport/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4164,10 +4188,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4205,11 +4229,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/seventh-round-strict-air-pollution-inspection-completed.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/seventh-round-strict-air-pollution-inspection-completed.md",
+        "restoredRoute": "/seventh-round-strict-air-pollution-inspection-completed/"
+      },
+      "notes": "C3-A completed: restored source-derived historical article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4223,10 +4251,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4264,11 +4292,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/skull-kettlebell-give-new-feeling-2.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/skull-kettlebell-give-new-feeling-2.md",
+        "restoredRoute": "/skull-kettlebell-give-new-feeling-2/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4282,10 +4314,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4323,11 +4355,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/smart-ways-to-get-in-shape.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/smart-ways-to-get-in-shape.md",
+        "restoredRoute": "/smart-ways-to-get-in-shape/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4341,10 +4377,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4382,11 +4418,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/starting-a-crossfit-box-get-help-from-these-10-kickass-tips.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-A",
+        "restoredCollectionPath": "src/content/posts/starting-a-crossfit-box-get-help-from-these-10-kickass-tips.md",
+        "restoredRoute": "/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/"
+      },
+      "notes": "C3-A completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",

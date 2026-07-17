@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 53
-- Legacy routes restored from the baseline: 43
-- Legacy routes still missing: 53
+- Collection records currently absent: 43
+- Legacy routes restored from the baseline: 53
+- Legacy routes still missing: 43
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 43, `pending`: 53. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 53, `pending`: 43. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -96,16 +96,16 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 
 ## C3 — missing posts
 
-- [ ] `/quick-tips-about-iwf-standard-barbell/` — Quick Tips About IWF standard Barbell (`pending`; primary image: `available-local`)
-- [ ] `/resistance-band-benefits/` — RESISTANCE BAND BENEFITS (`pending`; primary image: `available-local`)
-- [ ] `/resistance-band-exercises-burn-fat-build-muscle/` — Resistance Band Exercises that Burn Fat and Build Muscle (`pending`; primary image: `available-local`)
-- [ ] `/reverse-hyper-end-your-back-pain/` — Reverse Hyper End Your Back Pain (`pending`; primary image: `available-local`)
-- [ ] `/rubber-eco-friendly/` — Is Rubber Eco Friendly? (`pending`; primary image: `available-local`)
-- [ ] `/see-whats-new-fitmus-sport/` — Cool Kettlebells Design- 3D scanned design (`pending`; primary image: `available-local`)
-- [ ] `/seventh-round-strict-air-pollution-inspection-completed/` — The seventh round strict air pollution inspection completed (`pending`; primary image: `available-local`)
-- [ ] `/skull-kettlebell-give-new-feeling-2/` — Skull Kettlebell Give you a New Feeling (`pending`; primary image: `available-local`)
-- [ ] `/smart-ways-to-get-in-shape/` — Smart Ways To Get In Shape (`pending`; primary image: `available-local`)
-- [ ] `/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/` — Starting a CrossFit Box? Get Help From These 10 Kickass Tips (`pending`; primary image: `available-local`)
+- [ ] `/quick-tips-about-iwf-standard-barbell/` — Quick Tips About IWF standard Barbell (`done`; primary image: `available-local`)
+- [ ] `/resistance-band-benefits/` — RESISTANCE BAND BENEFITS (`done`; primary image: `available-local`)
+- [ ] `/resistance-band-exercises-burn-fat-build-muscle/` — Resistance Band Exercises that Burn Fat and Build Muscle (`done`; primary image: `available-local`)
+- [ ] `/reverse-hyper-end-your-back-pain/` — Reverse Hyper End Your Back Pain (`done`; primary image: `available-local`)
+- [ ] `/rubber-eco-friendly/` — Is Rubber Eco Friendly? (`done`; primary image: `available-local`)
+- [ ] `/see-whats-new-fitmus-sport/` — Cool Kettlebells Design- 3D scanned design (`done`; primary image: `available-local`)
+- [ ] `/seventh-round-strict-air-pollution-inspection-completed/` — The seventh round strict air pollution inspection completed (`done`; primary image: `available-local`)
+- [ ] `/skull-kettlebell-give-new-feeling-2/` — Skull Kettlebell Give you a New Feeling (`done`; primary image: `available-local`)
+- [ ] `/smart-ways-to-get-in-shape/` — Smart Ways To Get In Shape (`done`; primary image: `available-local`)
+- [ ] `/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/` — Starting a CrossFit Box? Get Help From These 10 Kickass Tips (`done`; primary image: `available-local`)
 - [ ] `/stay-home-thin-fitness-plastic-6-small-accessories/` — Stay home thin! plastic fitness accessories 6 "small" Accessories (`pending`; primary image: `available-local`)
 - [ ] `/strong-new-beautiful/` — The strong is the new beautiful (`pending`; primary image: `available-local`)
 - [ ] `/synergy-360-circuit-functional-training-system-china/` — Synergy 360 Circuit Functional Training System From China (`pending`; primary image: `available-local`)
