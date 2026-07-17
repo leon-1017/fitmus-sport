@@ -1,0 +1,38 @@
+---
+const features = [
+  {
+    icon: 'fa-th-large',
+    title: 'New Products',
+    desc: 'Developed in a long period, fitness industry is large but there are still 3% new products coming out every year and some of them become very popular soon. We also actively participate in R&D to make us more competitive and unique in the market. On the other hand, 1% products will eliminated as well. Our R&D will also try to test out better alternatives.',
+  },
+  {
+    icon: 'fa-users',
+    title: 'New Trends',
+    desc: 'Eco-friendly become a strong market trend in recent years. With people\'s growing health awareness and higher and higher requirements on life quality, more will come. Focus on those trends, we also gonna share and use our findings to assure that each product is designed to enhance the value our clients cares.',
+  },
+  {
+    icon: 'fa-plane',
+    title: 'New Speed',
+    desc: 'New sample and design drawings can be turned into real products within 3 weeks if profiles are adequate and production conditions are supported. This would be an attractive speed for clients who need fast market testing etc. We are also expecting sincere cooperation with our clients to create a new faster but more efficient speed.',
+  },
+];
+---
+
+<section class="py-20 bg-[#e03420] text-white">
+	<div class="max-w-7xl mx-auto px-6">
+		<h2 class="text-3xl font-bold text-center mb-12">Always Ready for New Comings</h2>
+		<div class="grid md:grid-cols-3 gap-8">
+			{
+				features.map((f) => (
+					<div class="bg-white/10 backdrop-blur-sm rounded-lg p-8">
+						<div class="flex items-center gap-4 mb-6">
+							<i class={`fas ${f.icon} text-4xl`}></i>
+							<h3 class="text-2xl font-bold">{f.title}</h3>
+						</div>
+						<p class="text-white/90 leading-relaxed">{f.desc}</p>
+					</div>
+				))
+			}
+		</div>
+	</div>
+</section>

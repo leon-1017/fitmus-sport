@@ -2,7 +2,7 @@
 
 ## Project Goal
 
-Replicate the content and visual structure of [fitmus-sport.com](https://www.fitmus-sport.com/) (a WordPress + Avada + Yoast SEO site) as a static Astro + Tailwind site. No forms, no JavaScript-rendered interactivity, no server-side logic — just static HTML, content collections, and locally-hosted images.
+Replicate the content and visual structure of [fitmus-sport.com](https://www.fitmus-sport.com/) (a WordPress + Avada + Yoast SEO site) as a static Astro + Tailwind site. **Pursue pixel-perfect visual fidelity** where feasible. No forms, no JavaScript-rendered interactivity, no server-side logic — just static HTML, content collections, and locally-hosted images.
 
 ## Source Inventory
 
@@ -29,7 +29,7 @@ The portfolio CPT is not exposed through WP REST (`401 Cannot view post type`), 
 7. **Images downloaded locally** — original host can be flaky for a dormant site; local copies in `site/public/images/...` keep the build self-contained.
 8. **Forms removed** — contact form and PDF-gate form are stripped from any rendered HTML, both at the parsing stage and as a safety net in the Markdown writer.
 9. **PDFs mapped to local** — `Fitmus-Product-catalog.pdf` and `Fitmus-Catalog.pdf` are placed in `site/public/` and the image-mapping rewrites the original `wp-content/uploads/...pdf` URLs to them.
-10. **Homepage redesigned, not cloned** — the Avada markup is so deeply nested that pixel-perfect cloning costs more than it pays. We rebuilt the visible hero / sidebar / 3-column / Diverse Product Chain / 4-tile / footer as Tailwind components and use the original body text.
+10. **Homepage pixel-perfect cloning** — the Avada markup is deeply nested, but we aim for pixel-perfect visual fidelity. We rebuilt the visible hero / sidebar / 3-column / Diverse Product Chain / 4-tile / Featured Products / Professional Section / Ready For New / Latest Products / Footer as Tailwind components, matching the original's colors, spacing, typography, and layout as closely as possible.
 
 ## Project Structure
 
@@ -106,14 +106,18 @@ Re-running any step is safe: `download-images` skips files that already exist, a
 - Sidebar, Hero, 3-column highlights, Diverse Product Chain, Categories, Footer all visible in the preview.
 - Local preview served at `http://127.0.0.1:4322/` (or auto-port) and inspected via Playwright.
 
-## Known Visual Gaps vs. the Original
+## Known Visual Gaps vs. the Original (To Be Addressed for Pixel-Perfect Fidelity)
 
-These were left because they cost more time than they save and the user opted out:
+These items require additional work to achieve pixel-perfect fidelity:
 
-- The original `Hero` on fitmus-sport.com is a LayerSlider with multiple slides and a CMS-managed caption. We render a single still image with a static caption.
-- 3-Column highlights use the small (300×201) `box-background{1,2,3}.jpg` images, scaled up via CSS. The original served larger crops.
-- 4-tile `Categories` row uses generic product images, not the precise four lifestyle photos the original uses.
-- `Watch Our Videos`, the 4/6/200 counters with bullet list, the 3-tile "Always Ready for New Comings" red section, and `Latest Products` / `In the News` are not implemented.
+- **Hero LayerSlider** — The original uses a LayerSlider with multiple slides and CMS-managed captions. Current implementation: single still image with static caption. **TODO:** Implement slider with 3-5 slides, auto-rotation, navigation arrows, and CMS-synced captions.
+- **3-Column highlights image quality** — Currently using small (300×201) `box-background{1,2,3}.jpg` images scaled up. **TODO:** Source or generate higher-resolution crops matching the original's visual quality.
+- **Categories tile images** — Currently using generic product images. **TODO:** Identify and use the precise four lifestyle photos from the original site's Categories section.
+- **Typography matching** — Original uses specific font weights, sizes, and letter-spacing from Avada theme. **TODO:** Audit all text elements against original and adjust Tailwind classes for exact match.
+- **Spacing and padding** — Original uses Avada's custom spacing system. **TODO:** Compare section gaps, card paddings, and margins against original and adjust to pixel-perfect values.
+- **Color precision** — Original uses specific hex values from Avada theme options. **TODO:** Extract exact color palette from original site CSS and update Tailwind config.
+- **Hover states and transitions** — Original has specific hover animations and transition durations. **TODO:** Match hover effects, shadow changes, and transition timings exactly.
+- **Mobile responsiveness** — Original has specific breakpoint behaviors. **TODO:** Test at all breakpoints and match original's responsive design exactly.
 
 ## Next Steps Worth Considering
 

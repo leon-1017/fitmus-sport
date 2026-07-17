@@ -1,62 +1,170 @@
 ---
-const socials = [
-  { icon: 'fab fa-facebook-f', href: 'https://www.facebook.com/fitmus/', label: 'Facebook' },
-  { icon: 'fab fa-linkedin-in', href: 'https://www.linkedin.com/company/fitmus-sport', label: 'LinkedIn' },
-  { icon: 'fab fa-youtube', href: 'https://www.youtube.com/channel/UCN6_-1P1yqQp2E6zLBDZ-zg', label: 'YouTube' },
-  { icon: 'fab fa-instagram', href: '#', label: 'Instagram' },
+const recentWorks = [
+  { name: 'Wall Mount Rig', img: '/images/2021/09/14feet-free-standing-rig.jpg', url: '/product/wall-mount-rig/' },
+  { name: 'The Monster Lite Rig 2.0', img: '/images/2021/09/14-Monster-Lite-Rig-2.jpg', url: '/product/the-monster-lite-rig-2-0/' },
+  { name: 'Portable Gym Workout Timer', img: '/images/2021/08/Portable-Gym-Workout-Timer-1.jpg', url: '/product/portable-gym-workout-timer/' },
+  { name: 'Adjustable Dumbbell', img: '/images/2020/10/dumbbell.jpg', url: '/product/dumbbell/' },
+  { name: 'Curved Manual Treadmill', img: '/images/2020/08/Curved-Manual-Treadmill-1.jpg', url: '/product/curved-manual-treadmill-2/' },
+  { name: 'Training Mask 2.0 – Black', img: '/images/2020/04/Training-mask-1.jpg', url: '/product/training-mask-2-0-black/' },
+  { name: 'Adjustable Bench (Heavy Duty)', img: '/images/2020/03/Adjustable-Bench-Heavy-duty-1.jpg', url: '/product/adjustable-bench-heavy-duty/' },
+  { name: 'Strongman Sandbag', img: '/images/2019/10/Strongman-Sandbag.jpg', url: '/product/strongman-sandbag/' },
+  { name: 'Olympic Lifting Platform', img: '/images/2019/10/Olympic-Lifting-Platform-1.jpg', url: '/product/olympic-lifting-platform/' },
+  { name: '511 Tactical Plate Carrier Weight Vest', img: '/images/2019/10/5.11-tactical-plate-carrier-weight-vest.jpg', url: '/product/511-tactical-plate-carrier-weight-vest/' },
+];
+
+const news = [
+  { title: 'Portable WOD Timer', date: 'August 18, 2021', url: '/portable-wod-timer/' },
+  { title: 'We Install a batch of new vacuum vulcanizing machines', date: 'November 23, 2020', url: '/installing-a-batch-of-new-vacuum-vulcanizing-machines/' },
+  { title: 'The Best Kettlebell for Home Fitness COVID-19 STOCK SHORTAGES', date: 'August 25, 2020', url: '/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/' },
+  { title: 'IMPORTANT COVID-19 STATUS INFORMATION', date: 'June 23, 2020', url: '/important-covid-19-status-information/' },
+  { title: 'Gym closures result in dumbbell and kettlebell shortages', date: 'June 23, 2020', url: '/gym-closures-result-in-dumbbell-and-kettlebell-shortages/' },
+];
+
+const categories = [
+  { name: 'Weight Lifting Equipment', url: '/products/weight-lifting-equipment/' },
+  { name: 'Body Weight & Gymnastic', url: '/products/body-weight-gymnastic/' },
+  { name: 'Strength & Condition', url: '/products/strength-condition/' },
+  { name: 'Crossfit Racks & Rigs', url: '/products/crossfit-racks-rigs/' },
+  { name: 'Strongman Equipment', url: '/products/strongman-equipment/' },
+  { name: 'Equipment Storage', url: '/products/equipment-storage/' },
+  { name: 'Balance & Mobility', url: '/products/balance-mobility/' },
+  { name: 'Cardio Equipment & Accessories', url: '/products/cardio-equipment-accessories/' },
 ];
 ---
 
-<footer class="bg-[#222] text-gray-300">
-	<div class="max-w-7xl mx-auto px-4 py-12">
-		<div class="grid md:grid-cols-3 gap-8">
+<footer class="bg-gray-900 text-white py-16">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
 			<div>
-				<img src="/images/2018/11/logo-sport-s.png" alt="Fitmus Sport" class="h-10 mb-4" />
-				<p class="text-sm leading-relaxed">
-					Rizhao Fitmus Sporting Goods Co.Ltd
-					<br />
-					Wulian County Industrial Area, Rizhao, 262300, Shandong Province, China
-					<br />
-					Tel: +86 15963097328
-					<br />
-					Fax: +86 633 5889298
-					<br />
-					Email: <a href="mailto:info@fitmus-sport.com" class="hover:text-white">info@fitmus-sport.com</a>
-				</p>
-			</div>
-
-			<div>
-				<h3 class="text-white font-semibold mb-4">Quick Links</h3>
-				<ul class="space-y-2 text-sm">
-					<li><a href="/about-fitmus/" class="hover:text-white">About Fitmus</a></li>
-					<li><a href="/fitmus-product/" class="hover:text-white">Fitmus Product</a></li>
-					<li><a href="/in-the-news/" class="hover:text-white">In the News</a></li>
-					<li><a href="/contact-us/" class="hover:text-white">Contact Us</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="text-white font-semibold mb-4">Follow Us</h3>
-				<div class="flex gap-4">
+				<h3 class="text-lg font-bold mb-6">Recent Works</h3>
+				<div class="grid grid-cols-5 gap-2">
 					{
-						socials.map((s) => (
+						recentWorks.slice(0, 10).map((w) => (
 							<a
-								href={s.href}
-								aria-label={s.label}
-								target="_blank"
-								rel="noopener noreferrer"
-								class="w-9 h-9 rounded-full bg-gray-700 flex items-center justify-center hover:bg-[#e03420] transition"
+								href={w.url}
+								class="aspect-square rounded overflow-hidden bg-gray-800 hover:ring-2 hover:ring-[#e03420] transition"
 							>
-								<i class={s.icon} />
+								<img
+									src={w.img}
+									alt={w.name}
+									class="w-full h-full object-cover"
+									loading="lazy"
+								/>
 							</a>
 						))
 					}
 				</div>
 			</div>
+
+			<div>
+				<h3 class="text-lg font-bold mb-6">In the News</h3>
+				<ul class="space-y-4">
+					{
+						news.map((n) => (
+							<li>
+								<a href={n.url} class="block group">
+									<div class="flex items-start gap-2">
+										<i class="fas fa-chevron-right text-[#e03420] text-xs mt-2"></i>
+										<div>
+											<h4 class="text-sm group-hover:text-[#e03420] transition leading-tight">
+												{n.title}
+											</h4>
+											<p class="text-xs text-gray-400 mt-1">{n.date}</p>
+										</div>
+									</div>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="text-lg font-bold mb-6">Product Category</h3>
+				<ul class="space-y-3">
+					{
+						categories.map((c) => (
+							<li>
+								<a href={c.url} class="flex items-center gap-2 text-sm hover:text-[#e03420] transition">
+									<i class="fas fa-chevron-right text-[#e03420] text-xs"></i>
+									<span>{c.name}</span>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</div>
+
+			<div>
+				<img
+					src="/images/2018/11/logo-sport-s.png"
+					alt="Fitmus Logo"
+					class="h-10 mb-6"
+				/>
+				<p class="text-sm text-gray-400 mb-2">Rizhao Fitmus Sporting Goods Co.Ltd</p>
+				<p class="text-sm text-gray-400 mb-2">
+					Add: Wulian County Industrial Area, Rizhao, Shandong Province, China 262300
+				</p>
+				<p class="text-sm text-gray-400 mb-2">
+					Tel: +86 15963097328 Fax: +86 633 5889298
+				</p>
+				<p class="text-sm text-gray-400 mb-6">
+					Email: <a href="mailto:info@fitmus-sport.com" class="hover:text-[#e03420]">info@fitmus-sport.com</a>
+				</p>
+				<a
+					href="https://www.youtube.com/channel/UC8gP2tvfEjAcItWFf3eacyg/videos?view_as=subscriber"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="inline-flex items-center gap-2 bg-[#e03420] text-white px-6 py-3 rounded hover:bg-[#c0291b] transition"
+				>
+					<i class="fab fa-youtube"></i>
+					<span>WATCH THE VIDEO NOW</span>
+				</a>
+			</div>
 		</div>
 
-		<div class="border-t border-gray-700 mt-10 pt-6 text-center text-sm">
-			<p>Copyright Fitmus | All Rights Reserved</p>
+		<div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+			<p class="text-sm text-gray-400">
+				Copyright 2026 <a href="/" class="hover:text-[#e03420]">Fitmus</a> | All Rights Reserved
+			</p>
+			<div class="flex gap-4">
+				<a
+					href="https://www.facebook.com/Fitmussport/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#e03420] transition"
+					aria-label="Facebook"
+				>
+					<i class="fab fa-facebook-f"></i>
+				</a>
+				<a
+					href="https://www.linkedin.com/company/fitmus-sport/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#e03420] transition"
+					aria-label="LinkedIn"
+				>
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+				<a
+					href="https://www.youtube.com/channel/UC8gP2tvfEjAcItWFf3eacyg/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#e03420] transition"
+					aria-label="YouTube"
+				>
+					<i class="fab fa-youtube"></i>
+				</a>
+				<a
+					href="https://www.instagram.com/fitmus_sport/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#e03420] transition"
+					aria-label="Instagram"
+				>
+					<i class="fab fa-instagram"></i>
+				</a>
+			</div>
 		</div>
 	</div>
 </footer>

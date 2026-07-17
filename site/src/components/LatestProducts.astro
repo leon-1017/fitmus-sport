@@ -1,0 +1,66 @@
+---
+const latestProducts = [
+  { name: 'Wall Mount Rig', img: '/images/2021/09/14feet-free-standing-rig.jpg', url: '/product/wall-mount-rig/' },
+  { name: 'The Monster Lite Rig 2.0', img: '/images/2021/09/14-Monster-Lite-Rig-2.jpg', url: '/product/the-monster-lite-rig-2-0/' },
+  { name: 'Portable Gym Workout Timer', img: '/images/2021/08/Portable-Gym-Workout-Timer-1.jpg', url: '/product/portable-gym-workout-timer/' },
+  { name: 'Adjustable Dumbbell', img: '/images/2020/10/dumbbell.jpg', url: '/product/dumbbell/' },
+  { name: 'Curved Manual Treadmill', img: '/images/2020/08/Curved-Manual-Treadmill-1.jpg', url: '/product/curved-manual-treadmill-2/' },
+  { name: 'Training Mask 2.0 – Black', img: '/images/2020/04/Training-mask-1.jpg', url: '/product/training-mask-2-0-black/' },
+];
+
+const news = [
+  { title: 'Portable WOD Timer', date: 'August 18th, 2021', url: '/portable-wod-timer/' },
+  { title: 'We Install a batch of new vacuum vulcanizing machines', date: 'November 23rd, 2020', url: '/installing-a-batch-of-new-vacuum-vulcanizing-machines/' },
+  { title: 'The Best Kettlebell for Home Fitness COVID-19 STOCK SHORTAGES', date: 'August 25th, 2020', url: '/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/' },
+];
+---
+
+<section class="py-20 bg-white">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="grid md:grid-cols-3 gap-12">
+			<div class="md:col-span-2">
+				<h2 class="text-3xl font-bold text-gray-900 mb-8">Latest Products</h2>
+				<div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+					{
+						latestProducts.map((p) => (
+							<a
+								href={p.url}
+								class="group block bg-white rounded-lg shadow-md hover:shadow-lg transition"
+							>
+								<div class="aspect-square overflow-hidden rounded-t-lg">
+									<img
+										src={p.img}
+										alt={p.name}
+										class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+										loading="lazy"
+									/>
+								</div>
+								<div class="p-4">
+									<h3 class="font-semibold text-gray-900 text-sm line-clamp-2">{p.name}</h3>
+								</div>
+							</a>
+						))
+					}
+				</div>
+			</div>
+
+			<div>
+				<h2 class="text-3xl font-bold text-gray-900 mb-8">In the News</h2>
+				<ul class="space-y-6">
+					{
+						news.map((n) => (
+							<li>
+								<a href={n.url} class="group block">
+									<h3 class="font-semibold text-gray-900 group-hover:text-[#e03420] transition mb-2">
+										{n.title}
+									</h3>
+									<p class="text-sm text-gray-500">{n.date}</p>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

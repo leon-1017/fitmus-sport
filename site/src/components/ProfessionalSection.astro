@@ -1,0 +1,57 @@
+---
+const stats = [
+  { value: '4', label: 'Main Production Lines' },
+  { value: '6', label: 'Years Industry Experience' },
+  { value: '200', label: 'Ranges Of Fitness Products' },
+];
+
+const bullets = [
+  { icon: 'fa-certificate', text: 'Quality production to gurantee stable supply from batch to batch – consistant with ISO 9001 QC certificate' },
+  { icon: 'fa-check-circle', text: 'Professional with fitness equipment product – resonable quotation, strict quality control and guaranteed delivery time' },
+  { icon: 'fa-rocket', text: 'Familiar with fitness product supply chain to help clients easily get what needed with professional solution' },
+  { icon: 'fa-upload', text: 'Strick Quality Procedure with Comprehensive Standard – specific packing & report for each order by our QC' },
+  { icon: 'fa-clock', text: 'Wealth of Experience to efficiently process complex order, save time and effort for clients while controlling risks in a good way' },
+];
+---
+
+<section class="py-20 bg-white">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="grid md:grid-cols-2 gap-12 items-center">
+			<div>
+				<img
+					src="/images/2016/04/Background-3.jpg"
+					alt="Professional Fitness Equipment"
+					class="w-full h-96 object-cover rounded-lg shadow-lg"
+					loading="lazy"
+				/>
+			</div>
+			<div>
+				<h2 class="text-3xl font-bold text-gray-900 mb-8">
+					Professional for Your Needs of Fitness Equipments
+				</h2>
+
+				<div class="grid grid-cols-3 gap-6 mb-8">
+					{
+						stats.map((s) => (
+							<div class="text-center">
+								<div class="text-5xl font-bold text-[#e03420] mb-2">{s.value}</div>
+								<div class="text-sm text-gray-600">{s.label}</div>
+							</div>
+						))
+					}
+				</div>
+
+				<ul class="space-y-4">
+					{
+						bullets.map((b) => (
+							<li class="flex items-start gap-3">
+								<i class={`fas ${b.icon} text-[#e03420] text-xl mt-1 flex-shrink-0`}></i>
+								<span class="text-gray-700 text-sm leading-relaxed">{b.text}</span>
+							</li>
+						))
+					}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
