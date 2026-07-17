@@ -18,6 +18,69 @@
         "restoredRoute": "/product/wall-mounted-rig-for-crossfit-3-3/"
       },
       "notes": "C1 completed: restored the original product slug, source-derived product copy and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:weight-bar-gripz": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-A",
+        "restoredCollectionPath": "src/content/products/weight-bar-gripz.md",
+        "restoredRoute": "/product/weight-bar-gripz/"
+      },
+      "notes": "C2-A completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:weight-lifting-chains": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-A",
+        "restoredCollectionPath": "src/content/products/weight-lifting-chains.md",
+        "restoredRoute": "/product/weight-lifting-chains/"
+      },
+      "notes": "C2-A completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:womens-light-weight-vinyl-dipping-neoprene-dumbbell": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-A",
+        "restoredCollectionPath": "src/content/products/womens-light-weight-vinyl-dipping-neoprene-dumbbell.md",
+        "restoredRoute": "/product/womens-light-weight-vinyl-dipping-neoprene-dumbbell/"
+      },
+      "notes": "C2-A completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-ball-2": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-A",
+        "restoredCollectionPath": "src/content/products/wall-ball-2.md",
+        "restoredRoute": "/product/wall-ball-2/"
+      },
+      "notes": "C2-A completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-ball-soft-medicine-ball-crossfit": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-A",
+        "restoredCollectionPath": "src/content/products/wall-ball-soft-medicine-ball-crossfit.md",
+        "restoredRoute": "/product/wall-ball-soft-medicine-ball-crossfit/"
+      },
+      "notes": "C2-A completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:weighted-bouncy-ball-rubber-medicine-balls": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-A",
+        "restoredCollectionPath": "src/content/products/weighted-bouncy-ball-rubber-medicine-balls.md",
+        "restoredRoute": "/product/weighted-bouncy-ball-rubber-medicine-balls/"
+      },
+      "notes": "C2-A completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wood-gymnastic-rings-numbered-straps": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-A",
+        "restoredCollectionPath": "src/content/products/wood-gymnastic-rings-numbered-straps.md",
+        "restoredRoute": "/product/wood-gymnastic-rings-numbered-straps/"
+      },
+      "notes": "C2-A completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     }
   }
 }

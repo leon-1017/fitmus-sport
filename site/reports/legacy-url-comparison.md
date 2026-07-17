@@ -3,9 +3,9 @@
 Generated from `data/url-list.json` and the current public-mode `dist/sitemap.xml`.
 
 - Source URLs: 590
-- Sitemap URLs: 506
-- Preserved legacy URLs: 496
-- Expected legacy omissions: 94 (53 post, 41 product)
+- Sitemap URLs: 513
+- Preserved legacy URLs: 503
+- Expected legacy omissions: 87 (53 post, 34 product)
 - Unexplained missing URLs: 0
 - Generated catalog routes absent from the legacy list: 10
 
@@ -72,8 +72,6 @@ The migration has intentionally not recreated source records that are absent fro
 ### Products redirect to `/fitmus-product/`
 
 - `/product/vipr-storage-rack/` → `/fitmus-product/`
-- `/product/wall-ball-2/` → `/fitmus-product/`
-- `/product/wall-ball-soft-medicine-ball-crossfit/` → `/fitmus-product/`
 - `/product/wall-ball-targetwall-ball-target/` → `/fitmus-product/`
 - `/product/wall-crossfit-rack/` → `/fitmus-product/`
 - `/product/wall-mount-rig-2/` → `/fitmus-product/`
@@ -90,17 +88,12 @@ The migration has intentionally not recreated source records that are absent fro
 - `/product/wall-mounted-wood-peg-board/` → `/fitmus-product/`
 - `/product/wall-squat-rack-folding/` → `/fitmus-product/`
 - `/product/water-rowing-machine/` → `/fitmus-product/`
-- `/product/weight-bar-gripz/` → `/fitmus-product/`
-- `/product/weight-lifting-chains/` → `/fitmus-product/`
 - `/product/weight-plate-storage-stand/` → `/fitmus-product/`
 - `/product/weight-vest-10kg/` → `/fitmus-product/`
 - `/product/weight-vest-30kg/` → `/fitmus-product/`
-- `/product/weighted-bouncy-ball-rubber-medicine-balls/` → `/fitmus-product/`
 - `/product/weightlifting-drop-mat/` → `/fitmus-product/`
 - `/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/` → `/fitmus-product/`
-- `/product/womens-light-weight-vinyl-dipping-neoprene-dumbbell/` → `/fitmus-product/`
 - `/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/` → `/fitmus-product/`
-- `/product/wood-gymnastic-rings-numbered-straps/` → `/fitmus-product/`
 - `/product/wood-jerk-box-set/` → `/fitmus-product/`
 - `/product/wood-parallettes/` → `/fitmus-product/`
 - `/product/wooden-balance-board/` → `/fitmus-product/`

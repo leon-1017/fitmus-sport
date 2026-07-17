@@ -1,10 +1,10 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 506,
-  "preservedUrlCount": 496,
+  "sitemapUrlCount": 513,
+  "preservedUrlCount": 503,
   "expectedLegacyOmissions": {
     "post": 53,
-    "product": 41
+    "product": 34
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -26,22 +26,6 @@
       "slug": "vipr-storage-rack",
       "category": null,
       "path": "/product/vipr-storage-rack/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-ball-2/",
-      "type": "product",
-      "slug": "wall-ball-2",
-      "category": null,
-      "path": "/product/wall-ball-2/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-ball-soft-medicine-ball-crossfit/",
-      "type": "product",
-      "slug": "wall-ball-soft-medicine-ball-crossfit",
-      "category": null,
-      "path": "/product/wall-ball-soft-medicine-ball-crossfit/",
       "redirectTarget": "/fitmus-product/"
     },
     {
@@ -173,22 +157,6 @@
       "redirectTarget": "/fitmus-product/"
     },
     {
-      "url": "https://www.fitmus-sport.com/product/weight-bar-gripz/",
-      "type": "product",
-      "slug": "weight-bar-gripz",
-      "category": null,
-      "path": "/product/weight-bar-gripz/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/weight-lifting-chains/",
-      "type": "product",
-      "slug": "weight-lifting-chains",
-      "category": null,
-      "path": "/product/weight-lifting-chains/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
       "url": "https://www.fitmus-sport.com/product/weight-plate-storage-stand/",
       "type": "product",
       "slug": "weight-plate-storage-stand",
@@ -213,14 +181,6 @@
       "redirectTarget": "/fitmus-product/"
     },
     {
-      "url": "https://www.fitmus-sport.com/product/weighted-bouncy-ball-rubber-medicine-balls/",
-      "type": "product",
-      "slug": "weighted-bouncy-ball-rubber-medicine-balls",
-      "category": null,
-      "path": "/product/weighted-bouncy-ball-rubber-medicine-balls/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
       "url": "https://www.fitmus-sport.com/product/weightlifting-drop-mat/",
       "type": "product",
       "slug": "weightlifting-drop-mat",
@@ -237,27 +197,11 @@
       "redirectTarget": "/fitmus-product/"
     },
     {
-      "url": "https://www.fitmus-sport.com/product/womens-light-weight-vinyl-dipping-neoprene-dumbbell/",
-      "type": "product",
-      "slug": "womens-light-weight-vinyl-dipping-neoprene-dumbbell",
-      "category": null,
-      "path": "/product/womens-light-weight-vinyl-dipping-neoprene-dumbbell/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
       "url": "https://www.fitmus-sport.com/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/",
       "type": "product",
       "slug": "womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings",
       "category": null,
       "path": "/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wood-gymnastic-rings-numbered-straps/",
-      "type": "product",
-      "slug": "wood-gymnastic-rings-numbered-straps",
-      "category": null,
-      "path": "/product/wood-gymnastic-rings-numbered-straps/",
       "redirectTarget": "/fitmus-product/"
     },
     {

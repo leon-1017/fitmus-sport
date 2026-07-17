@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 94
-- Legacy routes restored from the baseline: 2
-- Legacy routes still missing: 94
+- Collection records currently absent: 87
+- Legacy routes restored from the baseline: 9
+- Legacy routes still missing: 87
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 2, `pending`: 94. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 9, `pending`: 87. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -31,16 +31,16 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 
 ### weight-lifting-equipment (3)
 
-- [ ] `/product/weight-bar-gripz/` — Weight Bar Gripz (`pending`; primary image: `available-local`)
-- [ ] `/product/weight-lifting-chains/` — WEIGHT LIFTING CHAINS (`pending`; primary image: `available-local`)
-- [ ] `/product/womens-light-weight-vinyl-dipping-neoprene-dumbbell/` — Women's Light Weight Vinyl Dipping Neoprene Dumbbell (`pending`; primary image: `available-local`)
+- [ ] `/product/weight-bar-gripz/` — Weight Bar Gripz (`done`; primary image: `available-local`)
+- [ ] `/product/weight-lifting-chains/` — WEIGHT LIFTING CHAINS (`done`; primary image: `available-local`)
+- [ ] `/product/womens-light-weight-vinyl-dipping-neoprene-dumbbell/` — Women's Light Weight Vinyl Dipping Neoprene Dumbbell (`done`; primary image: `available-local`)
 
 ### body-weight-gymnastic (4)
 
-- [ ] `/product/wall-ball-2/` — wall ball (`pending`; primary image: `available-local`)
-- [ ] `/product/wall-ball-soft-medicine-ball-crossfit/` — Wall Ball Soft Medicine Ball - Crossfit (`pending`; primary image: `available-local`)
-- [ ] `/product/weighted-bouncy-ball-rubber-medicine-balls/` — Weighted Bouncy Ball – Rubber Medicine Balls (`pending`; primary image: `available-local`)
-- [ ] `/product/wood-gymnastic-rings-numbered-straps/` — Wood Gymnastic Rings (`pending`; primary image: `available-local`)
+- [ ] `/product/wall-ball-2/` — wall ball (`done`; primary image: `available-local`)
+- [ ] `/product/wall-ball-soft-medicine-ball-crossfit/` — Wall Ball Soft Medicine Ball - Crossfit (`done`; primary image: `available-local`)
+- [ ] `/product/weighted-bouncy-ball-rubber-medicine-balls/` — Weighted Bouncy Ball – Rubber Medicine Balls (`done`; primary image: `available-local`)
+- [ ] `/product/wood-gymnastic-rings-numbered-straps/` — Wood Gymnastic Rings (`done`; primary image: `available-local`)
 
 ### strength-condition (8)
 
