@@ -81,6 +81,78 @@
         "restoredRoute": "/product/wood-gymnastic-rings-numbered-straps/"
       },
       "notes": "C2-A completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:weight-vest-10kg": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/weight-vest-10kg.md",
+        "restoredRoute": "/product/weight-vest-10kg/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:weight-vest-30kg": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/weight-vest-30kg.md",
+        "restoredRoute": "/product/weight-vest-30kg/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:weightlifting-drop-mat": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/weightlifting-drop-mat.md",
+        "restoredRoute": "/product/weightlifting-drop-mat/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wood-jerk-box-set": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/wood-jerk-box-set.md",
+        "restoredRoute": "/product/wood-jerk-box-set/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wood-parallettes": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/wood-parallettes.md",
+        "restoredRoute": "/product/wood-parallettes/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wooden-jerk-box": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/wooden-jerk-box.md",
+        "restoredRoute": "/product/wooden-jerk-box/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wooden-puzzle-plyo-box": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/wooden-puzzle-plyo-box.md",
+        "restoredRoute": "/product/wooden-puzzle-plyo-box/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wooden-trapezium-plyo-boxes-12-18-24-30": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/wooden-trapezium-plyo-boxes-12-18-24-30.md",
+        "restoredRoute": "/product/wooden-trapezium-plyo-boxes-12-18-24-30/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     }
   }
 }

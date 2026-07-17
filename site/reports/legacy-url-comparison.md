@@ -3,9 +3,9 @@
 Generated from `data/url-list.json` and the current public-mode `dist/sitemap.xml`.
 
 - Source URLs: 590
-- Sitemap URLs: 513
-- Preserved legacy URLs: 503
-- Expected legacy omissions: 87 (53 post, 34 product)
+- Sitemap URLs: 521
+- Preserved legacy URLs: 511
+- Expected legacy omissions: 79 (53 post, 26 product)
 - Unexplained missing URLs: 0
 - Generated catalog routes absent from the legacy list: 10
 
@@ -89,17 +89,9 @@ The migration has intentionally not recreated source records that are absent fro
 - `/product/wall-squat-rack-folding/` → `/fitmus-product/`
 - `/product/water-rowing-machine/` → `/fitmus-product/`
 - `/product/weight-plate-storage-stand/` → `/fitmus-product/`
-- `/product/weight-vest-10kg/` → `/fitmus-product/`
-- `/product/weight-vest-30kg/` → `/fitmus-product/`
-- `/product/weightlifting-drop-mat/` → `/fitmus-product/`
 - `/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/` → `/fitmus-product/`
 - `/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/` → `/fitmus-product/`
-- `/product/wood-jerk-box-set/` → `/fitmus-product/`
-- `/product/wood-parallettes/` → `/fitmus-product/`
 - `/product/wooden-balance-board/` → `/fitmus-product/`
-- `/product/wooden-jerk-box/` → `/fitmus-product/`
-- `/product/wooden-puzzle-plyo-box/` → `/fitmus-product/`
-- `/product/wooden-trapezium-plyo-boxes-12-18-24-30/` → `/fitmus-product/`
 - `/product/x-frame-6-rack-package/` → `/fitmus-product/`
 - `/product/x-frame-chin-max-pack/` → `/fitmus-product/`
 - `/product/yoga-foam-block/` → `/fitmus-product/`

@@ -1,10 +1,10 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 513,
-  "preservedUrlCount": 503,
+  "sitemapUrlCount": 521,
+  "preservedUrlCount": 511,
   "expectedLegacyOmissions": {
     "post": 53,
-    "product": 34
+    "product": 26
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -165,30 +165,6 @@
       "redirectTarget": "/fitmus-product/"
     },
     {
-      "url": "https://www.fitmus-sport.com/product/weight-vest-10kg/",
-      "type": "product",
-      "slug": "weight-vest-10kg",
-      "category": null,
-      "path": "/product/weight-vest-10kg/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/weight-vest-30kg/",
-      "type": "product",
-      "slug": "weight-vest-30kg",
-      "category": null,
-      "path": "/product/weight-vest-30kg/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/weightlifting-drop-mat/",
-      "type": "product",
-      "slug": "weightlifting-drop-mat",
-      "category": null,
-      "path": "/product/weightlifting-drop-mat/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
       "url": "https://www.fitmus-sport.com/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/",
       "type": "product",
       "slug": "womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2",
@@ -205,51 +181,11 @@
       "redirectTarget": "/fitmus-product/"
     },
     {
-      "url": "https://www.fitmus-sport.com/product/wood-jerk-box-set/",
-      "type": "product",
-      "slug": "wood-jerk-box-set",
-      "category": null,
-      "path": "/product/wood-jerk-box-set/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wood-parallettes/",
-      "type": "product",
-      "slug": "wood-parallettes",
-      "category": null,
-      "path": "/product/wood-parallettes/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
       "url": "https://www.fitmus-sport.com/product/wooden-balance-board/",
       "type": "product",
       "slug": "wooden-balance-board",
       "category": null,
       "path": "/product/wooden-balance-board/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wooden-jerk-box/",
-      "type": "product",
-      "slug": "wooden-jerk-box",
-      "category": null,
-      "path": "/product/wooden-jerk-box/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wooden-puzzle-plyo-box/",
-      "type": "product",
-      "slug": "wooden-puzzle-plyo-box",
-      "category": null,
-      "path": "/product/wooden-puzzle-plyo-box/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wooden-trapezium-plyo-boxes-12-18-24-30/",
-      "type": "product",
-      "slug": "wooden-trapezium-plyo-boxes-12-18-24-30",
-      "category": null,
-      "path": "/product/wooden-trapezium-plyo-boxes-12-18-24-30/",
       "redirectTarget": "/fitmus-product/"
     },
     {

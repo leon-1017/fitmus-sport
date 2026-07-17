@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 87
-- Legacy routes restored from the baseline: 9
-- Legacy routes still missing: 87
+- Collection records currently absent: 79
+- Legacy routes restored from the baseline: 17
+- Legacy routes still missing: 79
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 9, `pending`: 87. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 17, `pending`: 79. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -44,14 +44,14 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 
 ### strength-condition (8)
 
-- [ ] `/product/weight-vest-10kg/` — Weight Vest 10KG (`pending`; primary image: `available-local`)
-- [ ] `/product/weight-vest-30kg/` — Weight Vest 30KG (`pending`; primary image: `available-local`)
-- [ ] `/product/weightlifting-drop-mat/` — Weightlifting Drop Pads (`pending`; primary image: `available-local`)
-- [ ] `/product/wood-jerk-box-set/` — Wood Jerk Box set (`pending`; primary image: `available-local`)
-- [ ] `/product/wood-parallettes/` — Wood Parallettes (`pending`; primary image: `available-local`)
-- [ ] `/product/wooden-jerk-box/` — wooden jerk box (`pending`; primary image: `available-local`)
-- [ ] `/product/wooden-puzzle-plyo-box/` — Wooden Puzzle Plyo Box (`pending`; primary image: `available-local`)
-- [ ] `/product/wooden-trapezium-plyo-boxes-12-18-24-30/` — Wooden Trapezium Plyo Boxes 12" 18" 24" 30" (`pending`; primary image: `available-local`)
+- [ ] `/product/weight-vest-10kg/` — Weight Vest 10KG (`done`; primary image: `available-local`)
+- [ ] `/product/weight-vest-30kg/` — Weight Vest 30KG (`done`; primary image: `available-local`)
+- [ ] `/product/weightlifting-drop-mat/` — Weightlifting Drop Pads (`done`; primary image: `available-local`)
+- [ ] `/product/wood-jerk-box-set/` — Wood Jerk Box set (`done`; primary image: `available-local`)
+- [ ] `/product/wood-parallettes/` — Wood Parallettes (`done`; primary image: `available-local`)
+- [ ] `/product/wooden-jerk-box/` — wooden jerk box (`done`; primary image: `available-local`)
+- [ ] `/product/wooden-puzzle-plyo-box/` — Wooden Puzzle Plyo Box (`done`; primary image: `available-local`)
+- [ ] `/product/wooden-trapezium-plyo-boxes-12-18-24-30/` — Wooden Trapezium Plyo Boxes 12" 18" 24" 30" (`done`; primary image: `available-local`)
 
 ### crossfit-racks-rigs (16)
 

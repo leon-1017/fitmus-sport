@@ -27,8 +27,8 @@
       "C3": 53
     },
     "byDecision": {
-      "done": 9,
-      "pending": 87
+      "done": 17,
+      "pending": 79
     },
     "productCategories": {
       "balance-mobility": 3,
@@ -43,9 +43,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 87,
-    "legacyRoutesRestored": 9,
-    "legacyRoutesStillMissing": 87,
+    "collectionRecordsAbsent": 79,
+    "legacyRoutesRestored": 17,
+    "legacyRoutesStillMissing": 79,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -2657,10 +2657,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2724,11 +2724,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/weight-vest-10kg.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/weight-vest-10kg.md",
+        "restoredRoute": "/product/weight-vest-10kg/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2740,10 +2744,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2807,11 +2811,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/weight-vest-30kg.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/weight-vest-30kg.md",
+        "restoredRoute": "/product/weight-vest-30kg/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2823,10 +2831,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2890,11 +2898,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/weightlifting-drop-mat.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/weightlifting-drop-mat.md",
+        "restoredRoute": "/product/weightlifting-drop-mat/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2906,10 +2918,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2973,11 +2985,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wood-jerk-box-set.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/wood-jerk-box-set.md",
+        "restoredRoute": "/product/wood-jerk-box-set/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2989,10 +3005,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -3056,11 +3072,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wood-parallettes.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/wood-parallettes.md",
+        "restoredRoute": "/product/wood-parallettes/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -3072,10 +3092,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -3139,11 +3159,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wooden-jerk-box.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/wooden-jerk-box.md",
+        "restoredRoute": "/product/wooden-jerk-box/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -3155,10 +3179,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -3222,11 +3246,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wooden-puzzle-plyo-box.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/wooden-puzzle-plyo-box.md",
+        "restoredRoute": "/product/wooden-puzzle-plyo-box/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -3238,10 +3266,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -3305,11 +3333,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wooden-trapezium-plyo-boxes-12-18-24-30.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-B",
+        "restoredCollectionPath": "src/content/products/wooden-trapezium-plyo-boxes-12-18-24-30.md",
+        "restoredRoute": "/product/wooden-trapezium-plyo-boxes-12-18-24-30/"
+      },
+      "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
