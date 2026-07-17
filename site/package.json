@@ -12,6 +12,7 @@
     "postbuild": "node scripts/generate-sitemap.mjs",
     "check:dist": "node scripts/check-dist-integrity.mjs",
     "check:seo": "node scripts/check-seo-output.mjs",
+    "report:content-gaps": "node scripts/generate-content-gap-inventory.mjs",
     "report:legacy-routes": "node scripts/compare-legacy-routes.mjs",
     "preview": "astro preview",
     "astro": "astro"
