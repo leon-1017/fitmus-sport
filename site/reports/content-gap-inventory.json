@@ -27,8 +27,8 @@
       "C3": 53
     },
     "byDecision": {
-      "done": 23,
-      "pending": 73
+      "done": 28,
+      "pending": 68
     },
     "productCategories": {
       "balance-mobility": 3,
@@ -43,9 +43,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 73,
-    "legacyRoutesRestored": 23,
-    "legacyRoutesStillMissing": 73,
+    "collectionRecordsAbsent": 68,
+    "legacyRoutesRestored": 28,
+    "legacyRoutesStillMissing": 68,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -1602,10 +1602,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -1669,11 +1669,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-mounted-pull-bar-2.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-D",
+        "restoredCollectionPath": "src/content/products/wall-mounted-pull-bar-2.md",
+        "restoredRoute": "/product/wall-mounted-pull-bar-2/"
+      },
+      "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -1685,10 +1689,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -1752,11 +1756,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-mounted-pull-up-bar.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-D",
+        "restoredCollectionPath": "src/content/products/wall-mounted-pull-up-bar.md",
+        "restoredRoute": "/product/wall-mounted-pull-up-bar/"
+      },
+      "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -1768,10 +1776,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -1835,11 +1843,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-mounted-rig-1-1.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-D",
+        "restoredCollectionPath": "src/content/products/wall-mounted-rig-1-1.md",
+        "restoredRoute": "/product/wall-mounted-rig-1-1/"
+      },
+      "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -1851,10 +1863,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -1918,11 +1930,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-mounted-rig-2.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-D",
+        "restoredCollectionPath": "src/content/products/wall-mounted-rig-2.md",
+        "restoredRoute": "/product/wall-mounted-rig-2/"
+      },
+      "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -1934,10 +1950,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2001,11 +2017,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-mounted-rig-2-2.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-D",
+        "restoredCollectionPath": "src/content/products/wall-mounted-rig-2-2.md",
+        "restoredRoute": "/product/wall-mounted-rig-2-2/"
+      },
+      "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",

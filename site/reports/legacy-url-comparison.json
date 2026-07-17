@@ -1,10 +1,10 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 527,
-  "preservedUrlCount": 517,
+  "sitemapUrlCount": 532,
+  "preservedUrlCount": 522,
   "expectedLegacyOmissions": {
     "post": 53,
-    "product": 20
+    "product": 15
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -34,46 +34,6 @@
       "slug": "wall-mount-speed-jump-rope-hanger",
       "category": null,
       "path": "/product/wall-mount-speed-jump-rope-hanger/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mounted-pull-bar-2/",
-      "type": "product",
-      "slug": "wall-mounted-pull-bar-2",
-      "category": null,
-      "path": "/product/wall-mounted-pull-bar-2/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mounted-pull-up-bar/",
-      "type": "product",
-      "slug": "wall-mounted-pull-up-bar",
-      "category": null,
-      "path": "/product/wall-mounted-pull-up-bar/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mounted-rig-1-1/",
-      "type": "product",
-      "slug": "wall-mounted-rig-1-1",
-      "category": null,
-      "path": "/product/wall-mounted-rig-1-1/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mounted-rig-2-2/",
-      "type": "product",
-      "slug": "wall-mounted-rig-2-2",
-      "category": null,
-      "path": "/product/wall-mounted-rig-2-2/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mounted-rig-2/",
-      "type": "product",
-      "slug": "wall-mounted-rig-2",
-      "category": null,
-      "path": "/product/wall-mounted-rig-2/",
       "redirectTarget": "/fitmus-product/"
     },
     {

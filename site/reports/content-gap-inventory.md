@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 73
-- Legacy routes restored from the baseline: 23
-- Legacy routes still missing: 73
+- Collection records currently absent: 68
+- Legacy routes restored from the baseline: 28
+- Legacy routes still missing: 68
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 23, `pending`: 73. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 28, `pending`: 68. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -61,11 +61,11 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 - [ ] `/product/wall-mount-rig-3/` — Wall Mount Rig (`done`; primary image: `available-local`)
 - [ ] `/product/wall-mount-single-rig/` — Wall Mount Single Rig (`done`; primary image: `available-local`)
 - [ ] `/product/wall-mounted-monkey-pull-bar/` — wall mounted monkey pull up bar (`done`; primary image: `available-local`)
-- [ ] `/product/wall-mounted-pull-bar-2/` — Wall mounted pull up Bar (`pending`; primary image: `available-local`)
-- [ ] `/product/wall-mounted-pull-up-bar/` — Wall mounted pull up bar (`pending`; primary image: `available-local`)
-- [ ] `/product/wall-mounted-rig-1-1/` — wall mounted Rig 1-1 (`pending`; primary image: `available-local`)
-- [ ] `/product/wall-mounted-rig-2/` — Wall mounted Rig (`pending`; primary image: `available-local`)
-- [ ] `/product/wall-mounted-rig-2-2/` — Wall mounted rig 2-2 (`pending`; primary image: `available-local`)
+- [ ] `/product/wall-mounted-pull-bar-2/` — Wall mounted pull up Bar (`done`; primary image: `available-local`)
+- [ ] `/product/wall-mounted-pull-up-bar/` — Wall mounted pull up bar (`done`; primary image: `available-local`)
+- [ ] `/product/wall-mounted-rig-1-1/` — wall mounted Rig 1-1 (`done`; primary image: `available-local`)
+- [ ] `/product/wall-mounted-rig-2/` — Wall mounted Rig (`done`; primary image: `available-local`)
+- [ ] `/product/wall-mounted-rig-2-2/` — Wall mounted rig 2-2 (`done`; primary image: `available-local`)
 - [ ] `/product/wall-mounted-rig-for-crossfit-4-4/` — Wall mounted Rig for Crossfit 4-4 (`pending`; primary image: `available-local`)
 - [ ] `/product/wall-mounted-wood-peg-board/` — Wall mounted wood Peg board (`pending`; primary image: `available-local`)
 - [ ] `/product/wall-squat-rack-folding/` — Folding Wall Squat Rack (`pending`; primary image: `available-local`)

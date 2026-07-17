@@ -207,6 +207,51 @@
         "restoredRoute": "/product/wall-mounted-monkey-pull-bar/"
       },
       "notes": "C2-C completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mounted-pull-bar-2": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-D",
+        "restoredCollectionPath": "src/content/products/wall-mounted-pull-bar-2.md",
+        "restoredRoute": "/product/wall-mounted-pull-bar-2/"
+      },
+      "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mounted-pull-up-bar": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-D",
+        "restoredCollectionPath": "src/content/products/wall-mounted-pull-up-bar.md",
+        "restoredRoute": "/product/wall-mounted-pull-up-bar/"
+      },
+      "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mounted-rig-1-1": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-D",
+        "restoredCollectionPath": "src/content/products/wall-mounted-rig-1-1.md",
+        "restoredRoute": "/product/wall-mounted-rig-1-1/"
+      },
+      "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mounted-rig-2": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-D",
+        "restoredCollectionPath": "src/content/products/wall-mounted-rig-2.md",
+        "restoredRoute": "/product/wall-mounted-rig-2/"
+      },
+      "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mounted-rig-2-2": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-D",
+        "restoredCollectionPath": "src/content/products/wall-mounted-rig-2-2.md",
+        "restoredRoute": "/product/wall-mounted-rig-2-2/"
+      },
+      "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     }
   }
 }

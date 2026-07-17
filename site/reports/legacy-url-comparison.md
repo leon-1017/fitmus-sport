@@ -3,9 +3,9 @@
 Generated from `data/url-list.json` and the current public-mode `dist/sitemap.xml`.
 
 - Source URLs: 590
-- Sitemap URLs: 527
-- Preserved legacy URLs: 517
-- Expected legacy omissions: 73 (53 post, 20 product)
+- Sitemap URLs: 532
+- Preserved legacy URLs: 522
+- Expected legacy omissions: 68 (53 post, 15 product)
 - Unexplained missing URLs: 0
 - Generated catalog routes absent from the legacy list: 10
 
@@ -73,11 +73,6 @@ The migration has intentionally not recreated source records that are absent fro
 
 - `/product/vipr-storage-rack/` → `/fitmus-product/`
 - `/product/wall-mount-speed-jump-rope-hanger/` → `/fitmus-product/`
-- `/product/wall-mounted-pull-bar-2/` → `/fitmus-product/`
-- `/product/wall-mounted-pull-up-bar/` → `/fitmus-product/`
-- `/product/wall-mounted-rig-1-1/` → `/fitmus-product/`
-- `/product/wall-mounted-rig-2-2/` → `/fitmus-product/`
-- `/product/wall-mounted-rig-2/` → `/fitmus-product/`
 - `/product/wall-mounted-rig-for-crossfit-4-4/` → `/fitmus-product/`
 - `/product/wall-mounted-wood-peg-board/` → `/fitmus-product/`
 - `/product/wall-squat-rack-folding/` → `/fitmus-product/`
