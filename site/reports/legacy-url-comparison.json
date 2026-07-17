@@ -1,10 +1,10 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 521,
-  "preservedUrlCount": 511,
+  "sitemapUrlCount": 527,
+  "preservedUrlCount": 517,
   "expectedLegacyOmissions": {
     "post": 53,
-    "product": 26
+    "product": 20
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -29,59 +29,11 @@
       "redirectTarget": "/fitmus-product/"
     },
     {
-      "url": "https://www.fitmus-sport.com/product/wall-ball-targetwall-ball-target/",
-      "type": "product",
-      "slug": "wall-ball-targetwall-ball-target",
-      "category": null,
-      "path": "/product/wall-ball-targetwall-ball-target/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-crossfit-rack/",
-      "type": "product",
-      "slug": "wall-crossfit-rack",
-      "category": null,
-      "path": "/product/wall-crossfit-rack/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mount-rig-2/",
-      "type": "product",
-      "slug": "wall-mount-rig-2",
-      "category": null,
-      "path": "/product/wall-mount-rig-2/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mount-rig-3/",
-      "type": "product",
-      "slug": "wall-mount-rig-3",
-      "category": null,
-      "path": "/product/wall-mount-rig-3/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mount-single-rig/",
-      "type": "product",
-      "slug": "wall-mount-single-rig",
-      "category": null,
-      "path": "/product/wall-mount-single-rig/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
       "url": "https://www.fitmus-sport.com/product/wall-mount-speed-jump-rope-hanger/",
       "type": "product",
       "slug": "wall-mount-speed-jump-rope-hanger",
       "category": null,
       "path": "/product/wall-mount-speed-jump-rope-hanger/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mounted-monkey-pull-bar/",
-      "type": "product",
-      "slug": "wall-mounted-monkey-pull-bar",
-      "category": null,
-      "path": "/product/wall-mounted-monkey-pull-bar/",
       "redirectTarget": "/fitmus-product/"
     },
     {

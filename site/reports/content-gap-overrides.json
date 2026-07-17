@@ -153,6 +153,60 @@
         "restoredRoute": "/product/wooden-trapezium-plyo-boxes-12-18-24-30/"
       },
       "notes": "C2-B completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-ball-targetwall-ball-target": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-C",
+        "restoredCollectionPath": "src/content/products/wall-ball-targetwall-ball-target.md",
+        "restoredRoute": "/product/wall-ball-targetwall-ball-target/"
+      },
+      "notes": "C2-C completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-crossfit-rack": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-C",
+        "restoredCollectionPath": "src/content/products/wall-crossfit-rack.md",
+        "restoredRoute": "/product/wall-crossfit-rack/"
+      },
+      "notes": "C2-C completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mount-rig-2": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-C",
+        "restoredCollectionPath": "src/content/products/wall-mount-rig-2.md",
+        "restoredRoute": "/product/wall-mount-rig-2/"
+      },
+      "notes": "C2-C completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mount-rig-3": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-C",
+        "restoredCollectionPath": "src/content/products/wall-mount-rig-3.md",
+        "restoredRoute": "/product/wall-mount-rig-3/"
+      },
+      "notes": "C2-C completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mount-single-rig": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-C",
+        "restoredCollectionPath": "src/content/products/wall-mount-single-rig.md",
+        "restoredRoute": "/product/wall-mount-single-rig/"
+      },
+      "notes": "C2-C completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mounted-monkey-pull-bar": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-C",
+        "restoredCollectionPath": "src/content/products/wall-mounted-monkey-pull-bar.md",
+        "restoredRoute": "/product/wall-mounted-monkey-pull-bar/"
+      },
+      "notes": "C2-C completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     }
   }
 }

@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C2-B 已完成，等待阶段 C2-C。
+> 当前状态：阶段 C2-C 已完成，等待阶段 C2-D。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C2-C：Crossfit Racks & Rigs（16 个产品）”开始。该分类应再拆为每批 5–8 个产品；首个子批完成并汇报后停止，待确认再继续。
+下一次任务从“阶段 C2-D：Crossfit Racks & Rigs（后续 5 个产品）”开始。该批完成并汇报后停止，待确认再处理该分类最后 5 个产品。
 
 ## 6. 阶段完成记录
 
@@ -274,3 +274,14 @@
 - 验证：Node 22 公开模式构建成功，生成 522 页；`check:dist` 0 问题，`check:seo` 0 问题，Strength & Condition 分类页和 8 条原始产品路径均已生成。
 - 提交说明：`Restore second C2 product batch`。
 - 是否可以继续 C2-C：是，待确认。
+
+### 阶段 C2-C 完成记录
+
+- 完成范围：恢复 Crossfit Racks & Rigs 的首批 6 个产品。
+- 恢复产品：`Wall ball Target`、`Wall Crossfit Rack`、`Wall Mount Rig`（`wall-mount-rig-2`）、`Wall Mount Rig`（`wall-mount-rig-3`）、`Wall Mount Single Rig`、`wall mounted monkey pull up bar`。
+- 内容处理：使用本地解析源的标题、分类、主图和正文，整理为符合 Astro 集合 schema 的 Markdown；每个记录只保留已验证主图，候选图库留待 C4 筛选。
+- 清单状态：C2-C 的 6 条标为 `done`；固定 96 条基线中已恢复 23 条，剩余 73 条。
+- URL 覆盖：已保留旧路径 517 条；当前预期遗漏为 73 条（产品 20、文章 53），未解释遗漏为 0。
+- 验证：Node 22 公开模式构建成功，生成 528 页；`check:dist` 0 问题，`check:seo` 0 问题，Crossfit Racks & Rigs 分类页和 6 条原始产品路径均已生成。
+- 提交说明：`Restore first C2-C product batch`。
+- 是否可以继续 C2-D：是，待确认。
