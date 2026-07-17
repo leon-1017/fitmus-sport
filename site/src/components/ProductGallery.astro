@@ -1,0 +1,68 @@
+---
+interface Props {
+  images: string[];
+  title: string;
+}
+
+const { images, title } = Astro.props;
+const curatedImages = [...new Set(images.filter((image) => image && !/(?:-66x66|-150x150|-300x300)(?=\.[a-z0-9]+$)/i.test(image)))];
+---
+
+{curatedImages.length > 0 && (
+  <section class="product-gallery mb-8" aria-label={`${title} product images`}>
+    <div class="product-gallery__main overflow-hidden rounded border border-gray-200 bg-white">
+      <img
+        src={curatedImages[0]}
+        alt={title}
+        class="product-gallery__image block h-auto w-full"
+        width="1200"
+        height="900"
+        loading="eager"
+        decoding="async"
+        data-gallery-main
+      />
+    </div>
+
+    {curatedImages.length > 1 && (
+      <div class="mt-3 flex gap-2 overflow-x-auto pb-1" role="list" aria-label={`${title} image choices`}>
+        {curatedImages.map((image, index) => (
+          <button
+            type="button"
+            class:list={["product-gallery__thumb", { "is-active": index === 0 }]}
+            aria-label={`Show image ${index + 1} of ${curatedImages.length}`}
+            aria-pressed={index === 0}
+            data-gallery-thumb={image}
+          >
+            <img src={image} alt="" width="88" height="66" loading="lazy" decoding="async" />
+          </button>
+        ))}
+      </div>
+    )}
+  </section>
+)}
+
+<style>
+  .product-gallery__main { aspect-ratio: 4 / 3; }
+  .product-gallery__image { height: 100%; object-fit: contain; }
+  .product-gallery__thumb { flex: 0 0 5.5rem; border: 2px solid transparent; border-radius: 0.25rem; overflow: hidden; background: #fff; cursor: pointer; }
+  .product-gallery__thumb img { display: block; width: 100%; height: 4.125rem; object-fit: cover; }
+  .product-gallery__thumb:hover, .product-gallery__thumb:focus-visible, .product-gallery__thumb.is-active { border-color: #e03420; }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.product-gallery').forEach((gallery) => {
+    const main = gallery.querySelector<HTMLImageElement>('[data-gallery-main]');
+    if (!main) return;
+    gallery.querySelectorAll<HTMLButtonElement>('[data-gallery-thumb]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const image = button.dataset.galleryThumb;
+        if (!image) return;
+        main.src = image;
+        gallery.querySelectorAll('[data-gallery-thumb]').forEach((item) => {
+          item.classList.toggle('is-active', item === button);
+          item.setAttribute('aria-pressed', String(item === button));
+        });
+      });
+    });
+  });
+</script>

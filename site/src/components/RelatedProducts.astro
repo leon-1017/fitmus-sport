@@ -1,0 +1,32 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  products: CollectionEntry<'products'>[];
+  currentSlug: string;
+  category: string;
+}
+
+const { products, currentSlug, category } = Astro.props;
+const related = products
+  .filter((product) => product.id !== currentSlug && product.data.category === category)
+  .slice(0, 4);
+---
+
+{related.length > 0 && (
+  <section class="mt-12 border-t border-gray-200 pt-8" aria-labelledby="related-products-title">
+    <h2 id="related-products-title" class="mb-5 text-2xl font-bold text-gray-900">Related Products</h2>
+    <div class="grid gap-5 sm:grid-cols-2">
+      {related.map((product) => (
+        <a href={`/product/${product.id}/`} class="group overflow-hidden rounded border border-gray-200 bg-white transition hover:-translate-y-0.5 hover:border-[#e03420]">
+          {product.data.featuredImage && (
+            <img src={product.data.featuredImage} alt={product.data.title} class="h-40 w-full object-contain p-3" loading="lazy" decoding="async" />
+          )}
+          <div class="border-t border-gray-100 p-4">
+            <h3 class="font-semibold text-gray-900 group-hover:text-[#e03420]">{product.data.title}</h3>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

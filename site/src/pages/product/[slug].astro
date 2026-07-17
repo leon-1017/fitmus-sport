@@ -5,6 +5,8 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import Sidebar from '../../components/Sidebar.astro';
 import Share from '../../components/Share.astro';
+import ProductGallery from '../../components/ProductGallery.astro';
+import RelatedProducts from '../../components/RelatedProducts.astro';
 
 export async function getStaticPaths() {
   const products = await getCollection('products');
@@ -16,6 +18,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+const products = await getCollection('products');
 const canonicalUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
 const imageUrl = Astro.site && entry.data.featuredImage
   ? new URL(entry.data.featuredImage, Astro.site).href
@@ -68,19 +71,15 @@ const categoryMap: Record<string, string> = {
 
 				<h1 class="text-3xl font-bold text-gray-900 mb-6">{entry.data.title}</h1>
 
-				{
-					entry.data.featuredImage && (
-						<div class="mb-8 rounded overflow-hidden border border-gray-200">
-							<img src={entry.data.featuredImage} alt={entry.data.title} class="w-full h-auto" />
-						</div>
-					)
-				}
+
+				<ProductGallery images={entry.data.gallery.length ? entry.data.gallery : (entry.data.featuredImage ? [entry.data.featuredImage] : [])} title={entry.data.title} />
 
 				<div class="product-content prose max-w-none">
 					<Content />
 				</div>
 
 				<Share title={entry.data.title} />
+				<RelatedProducts products={products} currentSlug={entry.id} category={entry.data.category} />
 			</div>
 
 			<div class="lg:col-span-1">
