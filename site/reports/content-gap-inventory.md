@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 68
-- Legacy routes restored from the baseline: 28
-- Legacy routes still missing: 68
+- Collection records currently absent: 63
+- Legacy routes restored from the baseline: 33
+- Legacy routes still missing: 63
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 28, `pending`: 68. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 33, `pending`: 63. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -66,11 +66,11 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 - [ ] `/product/wall-mounted-rig-1-1/` — wall mounted Rig 1-1 (`done`; primary image: `available-local`)
 - [ ] `/product/wall-mounted-rig-2/` — Wall mounted Rig (`done`; primary image: `available-local`)
 - [ ] `/product/wall-mounted-rig-2-2/` — Wall mounted rig 2-2 (`done`; primary image: `available-local`)
-- [ ] `/product/wall-mounted-rig-for-crossfit-4-4/` — Wall mounted Rig for Crossfit 4-4 (`pending`; primary image: `available-local`)
-- [ ] `/product/wall-mounted-wood-peg-board/` — Wall mounted wood Peg board (`pending`; primary image: `available-local`)
-- [ ] `/product/wall-squat-rack-folding/` — Folding Wall Squat Rack (`pending`; primary image: `available-local`)
-- [ ] `/product/x-frame-6-rack-package/` — X-Frame 6 Rack Package (`pending`; primary image: `available-local`)
-- [ ] `/product/x-frame-chin-max-pack/` — X-Frame Chin Up Max Pack (`pending`; primary image: `available-local`)
+- [ ] `/product/wall-mounted-rig-for-crossfit-4-4/` — Wall mounted Rig for Crossfit 4-4 (`done`; primary image: `available-local`)
+- [ ] `/product/wall-mounted-wood-peg-board/` — Wall mounted wood Peg board (`done`; primary image: `available-local`)
+- [ ] `/product/wall-squat-rack-folding/` — Folding Wall Squat Rack (`done`; primary image: `available-local`)
+- [ ] `/product/x-frame-6-rack-package/` — X-Frame 6 Rack Package (`done`; primary image: `available-local`)
+- [ ] `/product/x-frame-chin-max-pack/` — X-Frame Chin Up Max Pack (`done`; primary image: `available-local`)
 
 ### strongman-equipment (1)
 

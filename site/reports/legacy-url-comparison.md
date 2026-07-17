@@ -3,9 +3,9 @@
 Generated from `data/url-list.json` and the current public-mode `dist/sitemap.xml`.
 
 - Source URLs: 590
-- Sitemap URLs: 532
-- Preserved legacy URLs: 522
-- Expected legacy omissions: 68 (53 post, 15 product)
+- Sitemap URLs: 537
+- Preserved legacy URLs: 527
+- Expected legacy omissions: 63 (53 post, 10 product)
 - Unexplained missing URLs: 0
 - Generated catalog routes absent from the legacy list: 10
 
@@ -73,16 +73,11 @@ The migration has intentionally not recreated source records that are absent fro
 
 - `/product/vipr-storage-rack/` → `/fitmus-product/`
 - `/product/wall-mount-speed-jump-rope-hanger/` → `/fitmus-product/`
-- `/product/wall-mounted-rig-for-crossfit-4-4/` → `/fitmus-product/`
-- `/product/wall-mounted-wood-peg-board/` → `/fitmus-product/`
-- `/product/wall-squat-rack-folding/` → `/fitmus-product/`
 - `/product/water-rowing-machine/` → `/fitmus-product/`
 - `/product/weight-plate-storage-stand/` → `/fitmus-product/`
 - `/product/womens-activewear-yoga-pants-high-rise-workout-gym-spanx-tights-leggings-2/` → `/fitmus-product/`
 - `/product/womens-net-patch-compression-running-yoga-sports-fitness-gym-stretch-pants-exercise-leggings/` → `/fitmus-product/`
 - `/product/wooden-balance-board/` → `/fitmus-product/`
-- `/product/x-frame-6-rack-package/` → `/fitmus-product/`
-- `/product/x-frame-chin-max-pack/` → `/fitmus-product/`
 - `/product/yoga-foam-block/` → `/fitmus-product/`
 - `/product/yoga-wheel-back-stretcher-wheel/` → `/fitmus-product/`
 - `/product/yoke-walk/` → `/fitmus-product/`

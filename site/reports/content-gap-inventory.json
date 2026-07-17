@@ -27,8 +27,8 @@
       "C3": 53
     },
     "byDecision": {
-      "done": 28,
-      "pending": 68
+      "done": 33,
+      "pending": 63
     },
     "productCategories": {
       "balance-mobility": 3,
@@ -43,9 +43,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 68,
-    "legacyRoutesRestored": 28,
-    "legacyRoutesStillMissing": 68,
+    "collectionRecordsAbsent": 63,
+    "legacyRoutesRestored": 33,
+    "legacyRoutesStillMissing": 63,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -2037,10 +2037,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2104,11 +2104,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-mounted-rig-for-crossfit-4-4.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-E",
+        "restoredCollectionPath": "src/content/products/wall-mounted-rig-for-crossfit-4-4.md",
+        "restoredRoute": "/product/wall-mounted-rig-for-crossfit-4-4/"
+      },
+      "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2120,10 +2124,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2187,11 +2191,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-mounted-wood-peg-board.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-E",
+        "restoredCollectionPath": "src/content/products/wall-mounted-wood-peg-board.md",
+        "restoredRoute": "/product/wall-mounted-wood-peg-board/"
+      },
+      "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2203,10 +2211,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2270,11 +2278,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/wall-squat-rack-folding.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-E",
+        "restoredCollectionPath": "src/content/products/wall-squat-rack-folding.md",
+        "restoredRoute": "/product/wall-squat-rack-folding/"
+      },
+      "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2286,10 +2298,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2353,11 +2365,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/x-frame-6-rack-package.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-E",
+        "restoredCollectionPath": "src/content/products/x-frame-6-rack-package.md",
+        "restoredRoute": "/product/x-frame-6-rack-package/"
+      },
+      "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",
@@ -2369,10 +2385,10 @@
       "categories": [],
       "executionPhase": "C2",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/fitmus-product/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -2436,11 +2452,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/products/x-frame-chin-max-pack.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C2-E",
+        "restoredCollectionPath": "src/content/products/x-frame-chin-max-pack.md",
+        "restoredRoute": "/product/x-frame-chin-max-pack/"
+      },
+      "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     },
     {
       "type": "product",

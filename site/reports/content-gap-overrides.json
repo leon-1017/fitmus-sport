@@ -252,6 +252,51 @@
         "restoredRoute": "/product/wall-mounted-rig-2-2/"
       },
       "notes": "C2-D completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mounted-rig-for-crossfit-4-4": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-E",
+        "restoredCollectionPath": "src/content/products/wall-mounted-rig-for-crossfit-4-4.md",
+        "restoredRoute": "/product/wall-mounted-rig-for-crossfit-4-4/"
+      },
+      "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-mounted-wood-peg-board": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-E",
+        "restoredCollectionPath": "src/content/products/wall-mounted-wood-peg-board.md",
+        "restoredRoute": "/product/wall-mounted-wood-peg-board/"
+      },
+      "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:wall-squat-rack-folding": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-E",
+        "restoredCollectionPath": "src/content/products/wall-squat-rack-folding.md",
+        "restoredRoute": "/product/wall-squat-rack-folding/"
+      },
+      "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:x-frame-6-rack-package": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-E",
+        "restoredCollectionPath": "src/content/products/x-frame-6-rack-package.md",
+        "restoredRoute": "/product/x-frame-6-rack-package/"
+      },
+      "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
+    },
+    "product:x-frame-chin-max-pack": {
+      "decision": "done",
+      "completion": {
+        "phase": "C2-E",
+        "restoredCollectionPath": "src/content/products/x-frame-chin-max-pack.md",
+        "restoredRoute": "/product/x-frame-chin-max-pack/"
+      },
+      "notes": "C2-E completed: restored source-derived product content and verified local primary image. Candidate gallery thumbnails remain deferred to C4."
     }
   }
 }

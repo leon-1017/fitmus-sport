@@ -1,10 +1,10 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 532,
-  "preservedUrlCount": 522,
+  "sitemapUrlCount": 537,
+  "preservedUrlCount": 527,
   "expectedLegacyOmissions": {
     "post": 53,
-    "product": 15
+    "product": 10
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -34,30 +34,6 @@
       "slug": "wall-mount-speed-jump-rope-hanger",
       "category": null,
       "path": "/product/wall-mount-speed-jump-rope-hanger/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mounted-rig-for-crossfit-4-4/",
-      "type": "product",
-      "slug": "wall-mounted-rig-for-crossfit-4-4",
-      "category": null,
-      "path": "/product/wall-mounted-rig-for-crossfit-4-4/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-mounted-wood-peg-board/",
-      "type": "product",
-      "slug": "wall-mounted-wood-peg-board",
-      "category": null,
-      "path": "/product/wall-mounted-wood-peg-board/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/wall-squat-rack-folding/",
-      "type": "product",
-      "slug": "wall-squat-rack-folding",
-      "category": null,
-      "path": "/product/wall-squat-rack-folding/",
       "redirectTarget": "/fitmus-product/"
     },
     {
@@ -98,22 +74,6 @@
       "slug": "wooden-balance-board",
       "category": null,
       "path": "/product/wooden-balance-board/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/x-frame-6-rack-package/",
-      "type": "product",
-      "slug": "x-frame-6-rack-package",
-      "category": null,
-      "path": "/product/x-frame-6-rack-package/",
-      "redirectTarget": "/fitmus-product/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/product/x-frame-chin-max-pack/",
-      "type": "product",
-      "slug": "x-frame-chin-max-pack",
-      "category": null,
-      "path": "/product/x-frame-chin-max-pack/",
       "redirectTarget": "/fitmus-product/"
     },
     {
