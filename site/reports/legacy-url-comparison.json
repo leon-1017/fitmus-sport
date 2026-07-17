@@ -1,9 +1,9 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 557,
-  "preservedUrlCount": 547,
+  "sitemapUrlCount": 567,
+  "preservedUrlCount": 557,
   "expectedLegacyOmissions": {
-    "post": 43
+    "post": 33
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -19,86 +19,6 @@
     "/products/weight-lifting-equipment/"
   ],
   "missing": [
-    {
-      "url": "https://www.fitmus-sport.com/stay-home-thin-fitness-plastic-6-small-accessories/",
-      "type": "post",
-      "slug": "stay-home-thin-fitness-plastic-6-small-accessories",
-      "category": null,
-      "path": "/stay-home-thin-fitness-plastic-6-small-accessories/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/strong-new-beautiful/",
-      "type": "post",
-      "slug": "strong-new-beautiful",
-      "category": null,
-      "path": "/strong-new-beautiful/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/synergy-360-circuit-functional-training-system-china/",
-      "type": "post",
-      "slug": "synergy-360-circuit-functional-training-system-china",
-      "category": null,
-      "path": "/synergy-360-circuit-functional-training-system-china/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/synrgy-360-circuit-functional-training-system-china/",
-      "type": "post",
-      "slug": "synrgy-360-circuit-functional-training-system-china",
-      "category": null,
-      "path": "/synrgy-360-circuit-functional-training-system-china/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/tech-data-recycle-rubber-flooring/",
-      "type": "post",
-      "slug": "tech-data-recycle-rubber-flooring",
-      "category": null,
-      "path": "/tech-data-recycle-rubber-flooring/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/thank-you/",
-      "type": "post",
-      "slug": "thank-you",
-      "category": null,
-      "path": "/thank-you/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/the-36th-china-international-sporting-goods-show-2018/",
-      "type": "post",
-      "slug": "the-36th-china-international-sporting-goods-show-2018",
-      "category": null,
-      "path": "/the-36th-china-international-sporting-goods-show-2018/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/the-5-best-squat-alternatives-can-build-muscle/",
-      "type": "post",
-      "slug": "the-5-best-squat-alternatives-can-build-muscle",
-      "category": null,
-      "path": "/the-5-best-squat-alternatives-can-build-muscle/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/the-5-best-ways-to-break-into-crossfit/",
-      "type": "post",
-      "slug": "the-5-best-ways-to-break-into-crossfit",
-      "category": null,
-      "path": "/the-5-best-ways-to-break-into-crossfit/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/the-6-keys-to-keeping-you-fit-all-your-life/",
-      "type": "post",
-      "slug": "the-6-keys-to-keeping-you-fit-all-your-life",
-      "category": null,
-      "path": "/the-6-keys-to-keeping-you-fit-all-your-life/",
-      "redirectTarget": "/in-the-news/"
-    },
     {
       "url": "https://www.fitmus-sport.com/the-benefits-of-crossfit-kettlebell-training/",
       "type": "post",

@@ -3,9 +3,9 @@
 Generated from `data/url-list.json` and the current public-mode `dist/sitemap.xml`.
 
 - Source URLs: 590
-- Sitemap URLs: 557
-- Preserved legacy URLs: 547
-- Expected legacy omissions: 43 (43 post)
+- Sitemap URLs: 567
+- Preserved legacy URLs: 557
+- Expected legacy omissions: 33 (33 post)
 - Unexplained missing URLs: 0
 - Generated catalog routes absent from the legacy list: 10
 
@@ -15,16 +15,6 @@ The migration has intentionally not recreated source records that are absent fro
 
 ### Posts redirect to `/in-the-news/`
 
-- `/stay-home-thin-fitness-plastic-6-small-accessories/` → `/in-the-news/`
-- `/strong-new-beautiful/` → `/in-the-news/`
-- `/synergy-360-circuit-functional-training-system-china/` → `/in-the-news/`
-- `/synrgy-360-circuit-functional-training-system-china/` → `/in-the-news/`
-- `/tech-data-recycle-rubber-flooring/` → `/in-the-news/`
-- `/thank-you/` → `/in-the-news/`
-- `/the-36th-china-international-sporting-goods-show-2018/` → `/in-the-news/`
-- `/the-5-best-squat-alternatives-can-build-muscle/` → `/in-the-news/`
-- `/the-5-best-ways-to-break-into-crossfit/` → `/in-the-news/`
-- `/the-6-keys-to-keeping-you-fit-all-your-life/` → `/in-the-news/`
 - `/the-benefits-of-crossfit-kettlebell-training/` → `/in-the-news/`
 - `/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout/` → `/in-the-news/`
 - `/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/` → `/in-the-news/`

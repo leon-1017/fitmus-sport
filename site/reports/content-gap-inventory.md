@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 43
-- Legacy routes restored from the baseline: 53
-- Legacy routes still missing: 43
+- Collection records currently absent: 33
+- Legacy routes restored from the baseline: 63
+- Legacy routes still missing: 33
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 53, `pending`: 43. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 63, `pending`: 33. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -106,16 +106,16 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 - [ ] `/skull-kettlebell-give-new-feeling-2/` — Skull Kettlebell Give you a New Feeling (`done`; primary image: `available-local`)
 - [ ] `/smart-ways-to-get-in-shape/` — Smart Ways To Get In Shape (`done`; primary image: `available-local`)
 - [ ] `/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/` — Starting a CrossFit Box? Get Help From These 10 Kickass Tips (`done`; primary image: `available-local`)
-- [ ] `/stay-home-thin-fitness-plastic-6-small-accessories/` — Stay home thin! plastic fitness accessories 6 "small" Accessories (`pending`; primary image: `available-local`)
-- [ ] `/strong-new-beautiful/` — The strong is the new beautiful (`pending`; primary image: `available-local`)
-- [ ] `/synergy-360-circuit-functional-training-system-china/` — Synergy 360 Circuit Functional Training System From China (`pending`; primary image: `available-local`)
-- [ ] `/synrgy-360-circuit-functional-training-system-china/` — Synrgy 360 Circuit Functional Training System From China (`pending`; primary image: `available-local`)
-- [ ] `/tech-data-recycle-rubber-flooring/` — An Innovative Flooring Solution for Gym - Affordable, Durable‎ (`pending`; primary image: `available-local`)
-- [ ] `/thank-you/` — Thank you! (`pending`; primary image: `available-local`)
-- [ ] `/the-5-best-squat-alternatives-can-build-muscle/` — The 5 Best Squat Alternatives can Build Muscle (`pending`; primary image: `available-local`)
-- [ ] `/the-5-best-ways-to-break-into-crossfit/` — The 5 Best Ways to Break Into CrossFit (`pending`; primary image: `available-local`)
-- [ ] `/the-6-keys-to-keeping-you-fit-all-your-life/` — The 6 keys to keeping you fit all your life (`pending`; primary image: `available-local`)
-- [ ] `/the-36th-china-international-sporting-goods-show-2018/` — The 36th China International Sporting Goods Show 2018 (`pending`; primary image: `available-local`)
+- [ ] `/stay-home-thin-fitness-plastic-6-small-accessories/` — Stay home thin! plastic fitness accessories 6 "small" Accessories (`done`; primary image: `available-local`)
+- [ ] `/strong-new-beautiful/` — The strong is the new beautiful (`done`; primary image: `available-local`)
+- [ ] `/synergy-360-circuit-functional-training-system-china/` — Synergy 360 Circuit Functional Training System From China (`done`; primary image: `available-local`)
+- [ ] `/synrgy-360-circuit-functional-training-system-china/` — Synrgy 360 Circuit Functional Training System From China (`done`; primary image: `available-local`)
+- [ ] `/tech-data-recycle-rubber-flooring/` — An Innovative Flooring Solution for Gym - Affordable, Durable‎ (`done`; primary image: `available-local`)
+- [ ] `/thank-you/` — Thank you! (`done`; primary image: `available-local`)
+- [ ] `/the-5-best-squat-alternatives-can-build-muscle/` — The 5 Best Squat Alternatives can Build Muscle (`done`; primary image: `available-local`)
+- [ ] `/the-5-best-ways-to-break-into-crossfit/` — The 5 Best Ways to Break Into CrossFit (`done`; primary image: `available-local`)
+- [ ] `/the-6-keys-to-keeping-you-fit-all-your-life/` — The 6 keys to keeping you fit all your life (`done`; primary image: `available-local`)
+- [ ] `/the-36th-china-international-sporting-goods-show-2018/` — The 36th China International Sporting Goods Show 2018 (`done`; primary image: `available-local`)
 - [ ] `/the-benefits-of-crossfit-kettlebell-training/` — The Benefits of Crossfit Kettlebell Training. (`pending`; primary image: `available-local`)
 - [ ] `/the-best-home-gym-equipment-worth-owning-for-every-type-of-workout/` — The best home-gym equipment Worth Owning for every type of workout (`pending`; primary image: `available-local`)
 - [ ] `/the-best-kettlebell-for-home-fitness-covid-19-stock-shortages/` — The Best Kettlebell for Home Fitness COVID-19 STOCK SHORTAGES (`pending`; primary image: `available-local`)

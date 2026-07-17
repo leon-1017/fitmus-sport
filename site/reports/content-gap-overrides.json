@@ -477,6 +477,96 @@
         "restoredRoute": "/starting-a-crossfit-box-get-help-from-these-10-kickass-tips/"
       },
       "notes": "C3-A completed: restored source-derived article content and verified local primary image."
+    },
+    "post:stay-home-thin-fitness-plastic-6-small-accessories": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/stay-home-thin-fitness-plastic-6-small-accessories.md",
+        "restoredRoute": "/stay-home-thin-fitness-plastic-6-small-accessories/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
+    },
+    "post:strong-new-beautiful": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/strong-new-beautiful.md",
+        "restoredRoute": "/strong-new-beautiful/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
+    },
+    "post:synergy-360-circuit-functional-training-system-china": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/synergy-360-circuit-functional-training-system-china.md",
+        "restoredRoute": "/synergy-360-circuit-functional-training-system-china/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
+    },
+    "post:synrgy-360-circuit-functional-training-system-china": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/synrgy-360-circuit-functional-training-system-china.md",
+        "restoredRoute": "/synrgy-360-circuit-functional-training-system-china/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
+    },
+    "post:tech-data-recycle-rubber-flooring": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/tech-data-recycle-rubber-flooring.md",
+        "restoredRoute": "/tech-data-recycle-rubber-flooring/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
+    },
+    "post:thank-you": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/thank-you.md",
+        "restoredRoute": "/thank-you/"
+      },
+      "notes": "C3-B completed: restored source-derived thank-you content and verified local primary image; no contact-form interaction was added."
+    },
+    "post:the-5-best-squat-alternatives-can-build-muscle": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/the-5-best-squat-alternatives-can-build-muscle.md",
+        "restoredRoute": "/the-5-best-squat-alternatives-can-build-muscle/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
+    },
+    "post:the-5-best-ways-to-break-into-crossfit": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/the-5-best-ways-to-break-into-crossfit.md",
+        "restoredRoute": "/the-5-best-ways-to-break-into-crossfit/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
+    },
+    "post:the-6-keys-to-keeping-you-fit-all-your-life": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/the-6-keys-to-keeping-you-fit-all-your-life.md",
+        "restoredRoute": "/the-6-keys-to-keeping-you-fit-all-your-life/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
+    },
+    "post:the-36th-china-international-sporting-goods-show-2018": {
+      "decision": "done",
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/the-36th-china-international-sporting-goods-show-2018.md",
+        "restoredRoute": "/the-36th-china-international-sporting-goods-show-2018/"
+      },
+      "notes": "C3-B completed: restored source-derived historical article content and verified local primary image."
     }
   }
 }

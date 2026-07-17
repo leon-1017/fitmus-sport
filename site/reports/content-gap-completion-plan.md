@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C3-A 已完成，等待阶段 C3-B。
+> 当前状态：阶段 C3-B 已完成，等待阶段 C3-C。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C3-B：In the News 文章第二批（建议 8–10 篇）”开始。该批完成并汇报后停止，待确认再继续后续文章批次。
+下一次任务从“阶段 C3-C：In the News 文章第三批（建议 8–10 篇）”开始。该批完成并汇报后停止，待确认再继续后续文章批次。
 
 ## 6. 阶段完成记录
 
@@ -340,3 +340,14 @@
 - 验证：Node 22 公开模式构建成功，生成 558 页；`check:dist` 0 问题，`check:seo` 0 问题，10 条原始文章路径均已生成。
 - 提交说明：`Restore first C3 article batch`。
 - 是否可以继续 C3-B：是，待确认。
+
+### 阶段 C3-B 完成记录
+
+- 完成范围：恢复 In the News 文章第二批 10 篇，保留原始文章 slug、标题和本地主图。
+- 恢复文章：`Stay home thin! plastic fitness accessories 6 "small" Accessories`、`The strong is the new beautiful`、`Synergy 360 Circuit Functional Training System From China`、`Synrgy 360 Circuit Functional Training System From China`、`An Innovative Flooring Solution for Gym - Affordable, Durable`、`Thank you!`、`The 5 Best Squat Alternatives can Build Muscle`、`The 5 Best Ways to Break Into CrossFit`、`The 6 keys to keeping you fit all your life`、`The 36th China International Sporting Goods Show 2018`。
+- 内容处理：使用本地解析源整理为符合 Astro 文章集合 schema 的 Markdown；保留两个 SYNRGY 原始 slug，历史展会文章保留其历史属性，`Thank you!` 仅恢复静态感谢内容，不新增联系表单交互。
+- 清单状态：C3-B 的 10 条标为 `done`；固定 96 条基线中已恢复 63 条，剩余 33 条，全部为文章。
+- URL 覆盖：已保留旧路径 557 条；当前预期遗漏为 33 条（产品 0、文章 33），未解释遗漏为 0。
+- 验证：Node 22 公开模式构建成功，生成 568 页；`check:dist` 0 问题，`check:seo` 0 问题，10 条原始文章路径均已生成。
+- 提交说明：`Restore second C3 article batch`。
+- 是否可以继续 C3-C：是，待确认。

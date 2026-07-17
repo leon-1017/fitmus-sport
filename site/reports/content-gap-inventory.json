@@ -27,8 +27,8 @@
       "C3": 53
     },
     "byDecision": {
-      "done": 53,
-      "pending": 43
+      "done": 63,
+      "pending": 33
     },
     "productCategories": {
       "balance-mobility": 3,
@@ -43,9 +43,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 43,
-    "legacyRoutesRestored": 53,
-    "legacyRoutesStillMissing": 43,
+    "collectionRecordsAbsent": 33,
+    "legacyRoutesRestored": 63,
+    "legacyRoutesStillMissing": 33,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -4440,10 +4440,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4502,11 +4502,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/stay-home-thin-fitness-plastic-6-small-accessories.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/stay-home-thin-fitness-plastic-6-small-accessories.md",
+        "restoredRoute": "/stay-home-thin-fitness-plastic-6-small-accessories/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4520,10 +4524,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4572,11 +4576,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/strong-new-beautiful.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/strong-new-beautiful.md",
+        "restoredRoute": "/strong-new-beautiful/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4590,10 +4598,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4631,11 +4639,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/synergy-360-circuit-functional-training-system-china.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/synergy-360-circuit-functional-training-system-china.md",
+        "restoredRoute": "/synergy-360-circuit-functional-training-system-china/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4649,10 +4661,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4690,11 +4702,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/synrgy-360-circuit-functional-training-system-china.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/synrgy-360-circuit-functional-training-system-china.md",
+        "restoredRoute": "/synrgy-360-circuit-functional-training-system-china/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4708,10 +4724,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4749,11 +4765,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/tech-data-recycle-rubber-flooring.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/tech-data-recycle-rubber-flooring.md",
+        "restoredRoute": "/tech-data-recycle-rubber-flooring/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4765,10 +4785,10 @@
       "categories": [],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4808,11 +4828,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/thank-you.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/thank-you.md",
+        "restoredRoute": "/thank-you/"
+      },
+      "notes": "C3-B completed: restored source-derived thank-you content and verified local primary image; no contact-form interaction was added."
     },
     {
       "type": "post",
@@ -4826,10 +4850,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4867,11 +4891,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/the-5-best-squat-alternatives-can-build-muscle.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/the-5-best-squat-alternatives-can-build-muscle.md",
+        "restoredRoute": "/the-5-best-squat-alternatives-can-build-muscle/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4885,10 +4913,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4926,11 +4954,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/the-5-best-ways-to-break-into-crossfit.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/the-5-best-ways-to-break-into-crossfit.md",
+        "restoredRoute": "/the-5-best-ways-to-break-into-crossfit/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -4944,10 +4976,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -4985,11 +5017,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/the-6-keys-to-keeping-you-fit-all-your-life.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/the-6-keys-to-keeping-you-fit-all-your-life.md",
+        "restoredRoute": "/the-6-keys-to-keeping-you-fit-all-your-life/"
+      },
+      "notes": "C3-B completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5003,10 +5039,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5044,11 +5080,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/the-36th-china-international-sporting-goods-show-2018.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-B",
+        "restoredCollectionPath": "src/content/posts/the-36th-china-international-sporting-goods-show-2018.md",
+        "restoredRoute": "/the-36th-china-international-sporting-goods-show-2018/"
+      },
+      "notes": "C3-B completed: restored source-derived historical article content and verified local primary image."
     },
     {
       "type": "post",
