@@ -27,8 +27,7 @@
       "C3": 53
     },
     "byDecision": {
-      "done": 83,
-      "pending": 13
+      "done": 96
     },
     "productCategories": {
       "balance-mobility": 3,
@@ -43,9 +42,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 13,
-    "legacyRoutesRestored": 83,
-    "legacyRoutesStillMissing": 13,
+    "collectionRecordsAbsent": 0,
+    "legacyRoutesRestored": 96,
+    "legacyRoutesStillMissing": 0,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -6429,10 +6428,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6470,11 +6469,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/whats-epdm-rubber.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/whats-epdm-rubber.md",
+        "restoredRoute": "/whats-epdm-rubber/"
+      },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6488,10 +6491,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6529,11 +6532,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/whats-sbr-rubber.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/whats-sbr-rubber.md",
+        "restoredRoute": "/whats-sbr-rubber/"
+      },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6547,10 +6554,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6588,11 +6595,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/when-crossfit-games-2018.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/when-crossfit-games-2018.md",
+        "restoredRoute": "/when-crossfit-games-2018/"
+      },
+      "notes": "C3-E completed: restored source-derived historical article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6606,10 +6617,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6647,11 +6658,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/why-are-people-wearing-this-terrifying-mask-to-the-gym.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/why-are-people-wearing-this-terrifying-mask-to-the-gym.md",
+        "restoredRoute": "/why-are-people-wearing-this-terrifying-mask-to-the-gym/"
+      },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6665,10 +6680,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6706,11 +6721,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you.md",
+        "restoredRoute": "/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you/"
+      },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6724,10 +6743,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6765,11 +6784,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise.md",
+        "restoredRoute": "/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise/"
+      },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6783,10 +6806,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6824,11 +6847,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing.md",
+        "restoredRoute": "/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing/"
+      },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6842,10 +6869,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6883,11 +6910,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest.md",
+        "restoredRoute": "/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest/"
+      },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6901,10 +6932,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6942,11 +6973,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/why-should-you-consider-adding-a-curved-treadmill-to-your-gym.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/why-should-you-consider-adding-a-curved-treadmill-to-your-gym.md",
+        "restoredRoute": "/why-should-you-consider-adding-a-curved-treadmill-to-your-gym/"
+      },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6960,10 +6995,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -7001,11 +7036,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/why-use-a-gym-sled-in-your-training.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/why-use-a-gym-sled-in-your-training.md",
+        "restoredRoute": "/why-use-a-gym-sled-in-your-training/"
+      },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -7019,10 +7058,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -7060,11 +7099,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too.md",
+        "restoredRoute": "/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too/"
+      },
+      "notes": "C3-E completed: restored source-derived historical article content and verified local primary image."
     },
     {
       "type": "post",
@@ -7078,10 +7121,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -7119,11 +7162,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/why-you-should-include-it-in-your-workout.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/why-you-should-include-it-in-your-workout.md",
+        "restoredRoute": "/why-you-should-include-it-in-your-workout/"
+      },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -7137,10 +7184,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -7178,11 +7225,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/with-crossfit-fitness-is-pushed-to-a-whole-different-level.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-E",
+        "restoredCollectionPath": "src/content/posts/with-crossfit-fitness-is-pushed-to-a-whole-different-level.md",
+        "restoredRoute": "/with-crossfit-fitness-is-pushed-to-a-whole-different-level/"
+      },
+      "notes": "C3-E completed: restored source-derived historical article content and verified local primary image."
     }
   ]
 }

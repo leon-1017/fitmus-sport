@@ -3,9 +3,9 @@
 Generated from `data/url-list.json` and the current public-mode `dist/sitemap.xml`.
 
 - Source URLs: 590
-- Sitemap URLs: 587
-- Preserved legacy URLs: 577
-- Expected legacy omissions: 13 (13 post)
+- Sitemap URLs: 600
+- Preserved legacy URLs: 590
+- Expected legacy omissions: 0 (none)
 - Unexplained missing URLs: 0
 - Generated catalog routes absent from the legacy list: 10
 
@@ -15,19 +15,7 @@ The migration has intentionally not recreated source records that are absent fro
 
 ### Posts redirect to `/in-the-news/`
 
-- `/whats-epdm-rubber/` → `/in-the-news/`
-- `/whats-sbr-rubber/` → `/in-the-news/`
-- `/when-crossfit-games-2018/` → `/in-the-news/`
-- `/why-are-people-wearing-this-terrifying-mask-to-the-gym/` → `/in-the-news/`
-- `/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you/` → `/in-the-news/`
-- `/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise/` → `/in-the-news/`
-- `/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing/` → `/in-the-news/`
-- `/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest/` → `/in-the-news/`
-- `/why-should-you-consider-adding-a-curved-treadmill-to-your-gym/` → `/in-the-news/`
-- `/why-use-a-gym-sled-in-your-training/` → `/in-the-news/`
-- `/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too/` → `/in-the-news/`
-- `/why-you-should-include-it-in-your-workout/` → `/in-the-news/`
-- `/with-crossfit-fitness-is-pushed-to-a-whole-different-level/` → `/in-the-news/`
+- None
 
 ### Products redirect to `/fitmus-product/`
 

@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 13
-- Legacy routes restored from the baseline: 83
-- Legacy routes still missing: 13
+- Collection records currently absent: 0
+- Legacy routes restored from the baseline: 96
+- Legacy routes still missing: 0
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 83, `pending`: 13. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 96. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -136,19 +136,19 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 - [ ] `/what-should-i-eat-after-a-crossfit-workout/` — What should I eat after a CrossFit workout? (`done`; primary image: `available-local`)
 - [ ] `/what-you-need-to-know-about-crossfit/` — What You Need to Know About CrossFit (`done`; primary image: `available-local`)
 - [ ] `/whats-difference-tpu-versus-cpu-polyurethane/` — What’s difference TPU versus CPU Polyurethane ? (`done`; primary image: `available-local`)
-- [ ] `/whats-epdm-rubber/` — What's EPDM Rubber? (`pending`; primary image: `available-local`)
-- [ ] `/whats-sbr-rubber/` — What's SBR Rubber? (`pending`; primary image: `available-local`)
-- [ ] `/when-crossfit-games-2018/` — when crossfit games 2018 (`pending`; primary image: `available-local`)
-- [ ] `/why-are-people-wearing-this-terrifying-mask-to-the-gym/` — Why Are People Wearing This Terrifying Mask to the Gym? (`pending`; primary image: `available-local`)
-- [ ] `/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you/` — Why can't you do push ups? This is what your body is telling you (`pending`; primary image: `available-local`)
-- [ ] `/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise/` — Why competition kettlebell is more popular in kettlebell work exercise? (`pending`; primary image: `available-local`)
-- [ ] `/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing/` — Why CrossFit For MMA, Jiu-Jitsu, Muay Thai, Boxing (`pending`; primary image: `available-local`)
-- [ ] `/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest/` — Why More and More Crossfitters choose The 5.11 Weighted Vest? (`pending`; primary image: `available-local`)
-- [ ] `/why-should-you-consider-adding-a-curved-treadmill-to-your-gym/` — Why Should You Consider Adding a Curved Treadmill to Your Gym? (`pending`; primary image: `available-local`)
-- [ ] `/why-use-a-gym-sled-in-your-training/` — Why use a gym sled in your training? (`pending`; primary image: `available-local`)
-- [ ] `/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too/` — Why We Love HOW PROPERTIES LIKE CROSSFIT ARE CHANGING SPORTS SPONSORSHIPS (And You Should, Too!) (`pending`; primary image: `available-local`)
-- [ ] `/why-you-should-include-it-in-your-workout/` — Why you should include medicine ball in your workout? (`pending`; primary image: `available-local`)
-- [ ] `/with-crossfit-fitness-is-pushed-to-a-whole-different-level/` — With CrossFit, fitness is pushed to a whole different level In Malaysia (`pending`; primary image: `available-local`)
+- [ ] `/whats-epdm-rubber/` — What's EPDM Rubber? (`done`; primary image: `available-local`)
+- [ ] `/whats-sbr-rubber/` — What's SBR Rubber? (`done`; primary image: `available-local`)
+- [ ] `/when-crossfit-games-2018/` — when crossfit games 2018 (`done`; primary image: `available-local`)
+- [ ] `/why-are-people-wearing-this-terrifying-mask-to-the-gym/` — Why Are People Wearing This Terrifying Mask to the Gym? (`done`; primary image: `available-local`)
+- [ ] `/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you/` — Why can't you do push ups? This is what your body is telling you (`done`; primary image: `available-local`)
+- [ ] `/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise/` — Why competition kettlebell is more popular in kettlebell work exercise? (`done`; primary image: `available-local`)
+- [ ] `/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing/` — Why CrossFit For MMA, Jiu-Jitsu, Muay Thai, Boxing (`done`; primary image: `available-local`)
+- [ ] `/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest/` — Why More and More Crossfitters choose The 5.11 Weighted Vest? (`done`; primary image: `available-local`)
+- [ ] `/why-should-you-consider-adding-a-curved-treadmill-to-your-gym/` — Why Should You Consider Adding a Curved Treadmill to Your Gym? (`done`; primary image: `available-local`)
+- [ ] `/why-use-a-gym-sled-in-your-training/` — Why use a gym sled in your training? (`done`; primary image: `available-local`)
+- [ ] `/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too/` — Why We Love HOW PROPERTIES LIKE CROSSFIT ARE CHANGING SPORTS SPONSORSHIPS (And You Should, Too!) (`done`; primary image: `available-local`)
+- [ ] `/why-you-should-include-it-in-your-workout/` — Why you should include medicine ball in your workout? (`done`; primary image: `available-local`)
+- [ ] `/with-crossfit-fitness-is-pushed-to-a-whole-different-level/` — With CrossFit, fitness is pushed to a whole different level In Malaysia (`done`; primary image: `available-local`)
 
 ## Validation
 

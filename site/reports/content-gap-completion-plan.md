@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C3-D 已完成，等待阶段 C3-E。
+> 当前状态：阶段 C3-E 已完成，等待阶段 C4-A。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C3-E：In the News 文章最后批次（剩余 13 篇）”开始。该批完成并汇报后停止，待确认再进入图片与图库整理阶段 C4。
+下一次任务从“阶段 C4-A：图片与图库整理首批（产品主图、文章主图与候选图库筛选）”开始。该批完成并汇报后停止，待确认再继续后续媒体整理。
 
 ## 6. 阶段完成记录
 
@@ -373,3 +373,14 @@
 - 验证：Node 22 公开模式构建成功，生成 588 页；`check:dist` 0 问题，`check:seo` 0 问题，10 条原始文章路径均已生成。
 - 提交说明：`Restore fourth C3 article batch`。
 - 是否可以继续 C3-E：是，待确认。
+
+### 阶段 C3-E 完成记录
+
+- 完成范围：恢复 In the News 最后一批 13 篇文章，至此固定内容差距基线全部完成。
+- 恢复文章：`What's EPDM Rubber?`、`What's SBR Rubber?`、`when crossfit games 2018`、`Why Are People Wearing This Terrifying Mask to the Gym?`、`Why can't you do push ups? This is what your body is telling you`、`Why competition kettlebell is more popular in kettlebell work exercise?`、`Why CrossFit For MMA, Jiu-Jitsu, Muay Thai, Boxing`、`Why More and More Crossfitters choose The 5.11 Weighted Vest?`、`Why Should You Consider Adding a Curved Treadmill to Your Gym?`、`Why use a gym sled in your training?`、`Why We Love HOW PROPERTIES LIKE CROSSFIT ARE CHANGING SPORTS SPONSORSHIPS (And You Should, Too!)`、`Why you should include medicine ball in your workout?`、`With CrossFit, fitness is pushed to a whole different level In Malaysia`。
+- 内容处理：使用本地解析源整理为符合 Astro 文章集合 schema 的 Markdown；历史赛事、材料和行业报道保留其时间或技术属性，健康与训练内容补充适度安全边界，不新增联系表单交互。
+- 清单状态：C3-E 的 13 条标为 `done`；固定 96 条基线中已恢复 96 条，剩余 0 条（产品 0、文章 0）。
+- URL 覆盖：已保留旧路径 590 条；当前预期遗漏为 0 条，未解释遗漏为 0。
+- 验证：Node 22 公开模式构建成功，生成 601 页；`check:dist` 0 问题，`check:seo` 0 问题，13 条原始文章路径均已生成。
+- 提交说明：`Complete C3 article restoration`。
+- 是否可以继续 C4-A：是，待确认。

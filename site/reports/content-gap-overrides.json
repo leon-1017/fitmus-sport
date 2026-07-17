@@ -747,6 +747,71 @@
         "restoredRoute": "/whats-difference-tpu-versus-cpu-polyurethane/"
       },
       "notes": "C3-D completed: restored source-derived technical article content and verified local primary image."
+    },
+    "post:whats-epdm-rubber": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/whats-epdm-rubber.md", "restoredRoute": "/whats-epdm-rubber/" },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
+    },
+    "post:whats-sbr-rubber": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/whats-sbr-rubber.md", "restoredRoute": "/whats-sbr-rubber/" },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
+    },
+    "post:when-crossfit-games-2018": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/when-crossfit-games-2018.md", "restoredRoute": "/when-crossfit-games-2018/" },
+      "notes": "C3-E completed: restored source-derived historical article content and verified local primary image."
+    },
+    "post:why-are-people-wearing-this-terrifying-mask-to-the-gym": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/why-are-people-wearing-this-terrifying-mask-to-the-gym.md", "restoredRoute": "/why-are-people-wearing-this-terrifying-mask-to-the-gym/" },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
+    },
+    "post:why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you.md", "restoredRoute": "/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you/" },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
+    },
+    "post:why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise.md", "restoredRoute": "/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise/" },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
+    },
+    "post:why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing.md", "restoredRoute": "/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing/" },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
+    },
+    "post:why-more-and-more-crossfitters-choose-the-5-11-weighted-vest": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest.md", "restoredRoute": "/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest/" },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
+    },
+    "post:why-should-you-consider-adding-a-curved-treadmill-to-your-gym": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/why-should-you-consider-adding-a-curved-treadmill-to-your-gym.md", "restoredRoute": "/why-should-you-consider-adding-a-curved-treadmill-to-your-gym/" },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
+    },
+    "post:why-use-a-gym-sled-in-your-training": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/why-use-a-gym-sled-in-your-training.md", "restoredRoute": "/why-use-a-gym-sled-in-your-training/" },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
+    },
+    "post:why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too.md", "restoredRoute": "/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too/" },
+      "notes": "C3-E completed: restored source-derived historical article content and verified local primary image."
+    },
+    "post:why-you-should-include-it-in-your-workout": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/why-you-should-include-it-in-your-workout.md", "restoredRoute": "/why-you-should-include-it-in-your-workout/" },
+      "notes": "C3-E completed: restored source-derived article content and verified local primary image."
+    },
+    "post:with-crossfit-fitness-is-pushed-to-a-whole-different-level": {
+      "decision": "done",
+      "completion": { "phase": "C3-E", "restoredCollectionPath": "src/content/posts/with-crossfit-fitness-is-pushed-to-a-whole-different-level.md", "restoredRoute": "/with-crossfit-fitness-is-pushed-to-a-whole-different-level/" },
+      "notes": "C3-E completed: restored source-derived historical article content and verified local primary image."
     }
   }
 }

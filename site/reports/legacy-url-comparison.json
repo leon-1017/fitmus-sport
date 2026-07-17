@@ -1,10 +1,8 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 587,
-  "preservedUrlCount": 577,
-  "expectedLegacyOmissions": {
-    "post": 13
-  },
+  "sitemapUrlCount": 600,
+  "preservedUrlCount": 590,
+  "expectedLegacyOmissions": {},
   "unexplainedMissing": [],
   "generatedRoutes": [
     "/products/",
@@ -18,110 +16,5 @@
     "/products/uncategorized/",
     "/products/weight-lifting-equipment/"
   ],
-  "missing": [
-    {
-      "url": "https://www.fitmus-sport.com/whats-epdm-rubber/",
-      "type": "post",
-      "slug": "whats-epdm-rubber",
-      "category": null,
-      "path": "/whats-epdm-rubber/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/whats-sbr-rubber/",
-      "type": "post",
-      "slug": "whats-sbr-rubber",
-      "category": null,
-      "path": "/whats-sbr-rubber/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/when-crossfit-games-2018/",
-      "type": "post",
-      "slug": "when-crossfit-games-2018",
-      "category": null,
-      "path": "/when-crossfit-games-2018/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/why-are-people-wearing-this-terrifying-mask-to-the-gym/",
-      "type": "post",
-      "slug": "why-are-people-wearing-this-terrifying-mask-to-the-gym",
-      "category": null,
-      "path": "/why-are-people-wearing-this-terrifying-mask-to-the-gym/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you/",
-      "type": "post",
-      "slug": "why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you",
-      "category": null,
-      "path": "/why-cant-you-do-push-ups-this-is-what-your-body-is-telling-you/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise/",
-      "type": "post",
-      "slug": "why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise",
-      "category": null,
-      "path": "/why-competition-kettlebell-is-more-popular-in-kettlebell-work-exercise/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing/",
-      "type": "post",
-      "slug": "why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing",
-      "category": null,
-      "path": "/why-crossfit-for-mma-jiu-jitsu-muay-thai-boxing/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest/",
-      "type": "post",
-      "slug": "why-more-and-more-crossfitters-choose-the-5-11-weighted-vest",
-      "category": null,
-      "path": "/why-more-and-more-crossfitters-choose-the-5-11-weighted-vest/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/why-should-you-consider-adding-a-curved-treadmill-to-your-gym/",
-      "type": "post",
-      "slug": "why-should-you-consider-adding-a-curved-treadmill-to-your-gym",
-      "category": null,
-      "path": "/why-should-you-consider-adding-a-curved-treadmill-to-your-gym/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/why-use-a-gym-sled-in-your-training/",
-      "type": "post",
-      "slug": "why-use-a-gym-sled-in-your-training",
-      "category": null,
-      "path": "/why-use-a-gym-sled-in-your-training/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too/",
-      "type": "post",
-      "slug": "why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too",
-      "category": null,
-      "path": "/why-we-love-how-properties-like-crossfit-are-changing-sports-sponsorships-and-you-should-too/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/why-you-should-include-it-in-your-workout/",
-      "type": "post",
-      "slug": "why-you-should-include-it-in-your-workout",
-      "category": null,
-      "path": "/why-you-should-include-it-in-your-workout/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/with-crossfit-fitness-is-pushed-to-a-whole-different-level/",
-      "type": "post",
-      "slug": "with-crossfit-fitness-is-pushed-to-a-whole-different-level",
-      "category": null,
-      "path": "/with-crossfit-fitness-is-pushed-to-a-whole-different-level/",
-      "redirectTarget": "/in-the-news/"
-    }
-  ]
+  "missing": []
 }
