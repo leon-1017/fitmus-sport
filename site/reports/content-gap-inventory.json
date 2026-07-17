@@ -27,8 +27,8 @@
       "C3": 53
     },
     "byDecision": {
-      "done": 73,
-      "pending": 23
+      "done": 83,
+      "pending": 13
     },
     "productCategories": {
       "balance-mobility": 3,
@@ -43,9 +43,9 @@
     "sourceRecordsAvailable": 96,
     "bodiesAvailable": 96,
     "featuredImagesAvailableLocally": 96,
-    "collectionRecordsAbsent": 23,
-    "legacyRoutesRestored": 73,
-    "legacyRoutesStillMissing": 23,
+    "collectionRecordsAbsent": 13,
+    "legacyRoutesRestored": 83,
+    "legacyRoutesStillMissing": 13,
     "uniqueLocalAssetsReferenced": 153,
     "uniqueMissingAssetsReferenced": 0
   },
@@ -5799,10 +5799,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5840,11 +5840,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/welcome-world-crossfit.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-D",
+        "restoredCollectionPath": "src/content/posts/welcome-world-crossfit.md",
+        "restoredRoute": "/welcome-world-crossfit/"
+      },
+      "notes": "C3-D completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5858,10 +5862,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5899,11 +5903,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/what-are-the-benefits-of-hiit-workouts.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-D",
+        "restoredCollectionPath": "src/content/posts/what-are-the-benefits-of-hiit-workouts.md",
+        "restoredRoute": "/what-are-the-benefits-of-hiit-workouts/"
+      },
+      "notes": "C3-D completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5917,10 +5925,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -5958,11 +5966,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/what-crossfit-athletes-eat.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-D",
+        "restoredCollectionPath": "src/content/posts/what-crossfit-athletes-eat.md",
+        "restoredRoute": "/what-crossfit-athletes-eat/"
+      },
+      "notes": "C3-D completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -5976,10 +5988,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6017,11 +6029,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/what-is-functional-training-and-how-can-it-benefit-you.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-D",
+        "restoredCollectionPath": "src/content/posts/what-is-functional-training-and-how-can-it-benefit-you.md",
+        "restoredRoute": "/what-is-functional-training-and-how-can-it-benefit-you/"
+      },
+      "notes": "C3-D completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6035,10 +6051,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6076,11 +6092,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/what-is-hiit.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-D",
+        "restoredCollectionPath": "src/content/posts/what-is-hiit.md",
+        "restoredRoute": "/what-is-hiit/"
+      },
+      "notes": "C3-D completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6094,10 +6114,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6135,11 +6155,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/what-is-powder-coating-kettlebell.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-D",
+        "restoredCollectionPath": "src/content/posts/what-is-powder-coating-kettlebell.md",
+        "restoredRoute": "/what-is-powder-coating-kettlebell/"
+      },
+      "notes": "C3-D completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6153,10 +6177,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6194,11 +6218,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/what-kind-of-people-train-crossfit.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-D",
+        "restoredCollectionPath": "src/content/posts/what-kind-of-people-train-crossfit.md",
+        "restoredRoute": "/what-kind-of-people-train-crossfit/"
+      },
+      "notes": "C3-D completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6212,10 +6240,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6253,11 +6281,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/what-should-i-eat-after-a-crossfit-workout.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-D",
+        "restoredCollectionPath": "src/content/posts/what-should-i-eat-after-a-crossfit-workout.md",
+        "restoredRoute": "/what-should-i-eat-after-a-crossfit-workout/"
+      },
+      "notes": "C3-D completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6271,10 +6303,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6312,11 +6344,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/what-you-need-to-know-about-crossfit.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-D",
+        "restoredCollectionPath": "src/content/posts/what-you-need-to-know-about-crossfit.md",
+        "restoredRoute": "/what-you-need-to-know-about-crossfit/"
+      },
+      "notes": "C3-D completed: restored source-derived article content and verified local primary image."
     },
     {
       "type": "post",
@@ -6330,10 +6366,10 @@
       ],
       "executionPhase": "C3",
       "homepagePriority": false,
-      "decision": "pending",
+      "decision": "done",
       "redirectTarget": "/in-the-news/",
       "legacyRoute": {
-        "status": "missing"
+        "status": "restored"
       },
       "source": {
         "status": "available",
@@ -6371,11 +6407,15 @@
         "missingPaths": []
       },
       "collection": {
-        "status": "absent",
+        "status": "present",
         "expectedPath": "src/content/posts/whats-difference-tpu-versus-cpu-polyurethane.md"
       },
-      "completion": null,
-      "notes": "Parsed source and primary image are available locally; the Astro collection record has not been generated."
+      "completion": {
+        "phase": "C3-D",
+        "restoredCollectionPath": "src/content/posts/whats-difference-tpu-versus-cpu-polyurethane.md",
+        "restoredRoute": "/whats-difference-tpu-versus-cpu-polyurethane/"
+      },
+      "notes": "C3-D completed: restored source-derived technical article content and verified local primary image."
     },
     {
       "type": "post",

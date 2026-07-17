@@ -1,9 +1,9 @@
 {
   "sourceUrlCount": 590,
-  "sitemapUrlCount": 577,
-  "preservedUrlCount": 567,
+  "sitemapUrlCount": 587,
+  "preservedUrlCount": 577,
   "expectedLegacyOmissions": {
-    "post": 23
+    "post": 13
   },
   "unexplainedMissing": [],
   "generatedRoutes": [
@@ -19,86 +19,6 @@
     "/products/weight-lifting-equipment/"
   ],
   "missing": [
-    {
-      "url": "https://www.fitmus-sport.com/welcome-world-crossfit/",
-      "type": "post",
-      "slug": "welcome-world-crossfit",
-      "category": null,
-      "path": "/welcome-world-crossfit/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/what-are-the-benefits-of-hiit-workouts/",
-      "type": "post",
-      "slug": "what-are-the-benefits-of-hiit-workouts",
-      "category": null,
-      "path": "/what-are-the-benefits-of-hiit-workouts/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/what-crossfit-athletes-eat/",
-      "type": "post",
-      "slug": "what-crossfit-athletes-eat",
-      "category": null,
-      "path": "/what-crossfit-athletes-eat/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/what-is-functional-training-and-how-can-it-benefit-you/",
-      "type": "post",
-      "slug": "what-is-functional-training-and-how-can-it-benefit-you",
-      "category": null,
-      "path": "/what-is-functional-training-and-how-can-it-benefit-you/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/what-is-hiit/",
-      "type": "post",
-      "slug": "what-is-hiit",
-      "category": null,
-      "path": "/what-is-hiit/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/what-is-powder-coating-kettlebell/",
-      "type": "post",
-      "slug": "what-is-powder-coating-kettlebell",
-      "category": null,
-      "path": "/what-is-powder-coating-kettlebell/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/what-kind-of-people-train-crossfit/",
-      "type": "post",
-      "slug": "what-kind-of-people-train-crossfit",
-      "category": null,
-      "path": "/what-kind-of-people-train-crossfit/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/what-should-i-eat-after-a-crossfit-workout/",
-      "type": "post",
-      "slug": "what-should-i-eat-after-a-crossfit-workout",
-      "category": null,
-      "path": "/what-should-i-eat-after-a-crossfit-workout/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/what-you-need-to-know-about-crossfit/",
-      "type": "post",
-      "slug": "what-you-need-to-know-about-crossfit",
-      "category": null,
-      "path": "/what-you-need-to-know-about-crossfit/",
-      "redirectTarget": "/in-the-news/"
-    },
-    {
-      "url": "https://www.fitmus-sport.com/whats-difference-tpu-versus-cpu-polyurethane/",
-      "type": "post",
-      "slug": "whats-difference-tpu-versus-cpu-polyurethane",
-      "category": null,
-      "path": "/whats-difference-tpu-versus-cpu-polyurethane/",
-      "redirectTarget": "/in-the-news/"
-    },
     {
       "url": "https://www.fitmus-sport.com/whats-epdm-rubber/",
       "type": "post",

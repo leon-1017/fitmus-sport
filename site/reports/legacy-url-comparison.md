@@ -3,9 +3,9 @@
 Generated from `data/url-list.json` and the current public-mode `dist/sitemap.xml`.
 
 - Source URLs: 590
-- Sitemap URLs: 577
-- Preserved legacy URLs: 567
-- Expected legacy omissions: 23 (23 post)
+- Sitemap URLs: 587
+- Preserved legacy URLs: 577
+- Expected legacy omissions: 13 (13 post)
 - Unexplained missing URLs: 0
 - Generated catalog routes absent from the legacy list: 10
 
@@ -15,16 +15,6 @@ The migration has intentionally not recreated source records that are absent fro
 
 ### Posts redirect to `/in-the-news/`
 
-- `/welcome-world-crossfit/` → `/in-the-news/`
-- `/what-are-the-benefits-of-hiit-workouts/` → `/in-the-news/`
-- `/what-crossfit-athletes-eat/` → `/in-the-news/`
-- `/what-is-functional-training-and-how-can-it-benefit-you/` → `/in-the-news/`
-- `/what-is-hiit/` → `/in-the-news/`
-- `/what-is-powder-coating-kettlebell/` → `/in-the-news/`
-- `/what-kind-of-people-train-crossfit/` → `/in-the-news/`
-- `/what-should-i-eat-after-a-crossfit-workout/` → `/in-the-news/`
-- `/what-you-need-to-know-about-crossfit/` → `/in-the-news/`
-- `/whats-difference-tpu-versus-cpu-polyurethane/` → `/in-the-news/`
 - `/whats-epdm-rubber/` → `/in-the-news/`
 - `/whats-sbr-rubber/` → `/in-the-news/`
 - `/when-crossfit-games-2018/` → `/in-the-news/`

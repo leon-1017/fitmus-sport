@@ -10,9 +10,9 @@ Generated deterministically from the legacy URL report, parsed local source data
 - Parsed source records available: 96
 - Source bodies available: 96
 - Primary images available locally: 96
-- Collection records currently absent: 23
-- Legacy routes restored from the baseline: 73
-- Legacy routes still missing: 23
+- Collection records currently absent: 13
+- Legacy routes restored from the baseline: 83
+- Legacy routes still missing: 13
 - Unique referenced assets already available locally: 153
 - Unique referenced assets missing locally: 0
 
@@ -20,7 +20,7 @@ All 96 records have parsed source content and a local primary image. Gallery arr
 
 ## Decision states
 
-Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 73, `pending`: 23. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
+Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Current totals: `done`: 83, `pending`: 13. Persistent status changes are stored in `content-gap-overrides.json`, then merged into this generated inventory.
 
 ## C1 — homepage-priority products
 
@@ -126,16 +126,16 @@ Allowed values: `pending`, `migrate`, `approved-redirect`, `retired`, `done`. Cu
 - [ ] `/top-9-best-stability-ball-exercises/` — Top 9 Best Stability Ball Exercises (`done`; primary image: `available-local`)
 - [ ] `/train-weight-vest/` — How to Train with a Weight Vest (`done`; primary image: `available-local`)
 - [ ] `/vibrating-rollers-offer-two-times-more-effective-than-ordinary-foam-roller/` — Vibrating rollers offer Two Times More Effective than Ordinary Foam Roller (`done`; primary image: `available-local`)
-- [ ] `/welcome-world-crossfit/` — Welcome to the world of CrossFit (`pending`; primary image: `available-local`)
-- [ ] `/what-are-the-benefits-of-hiit-workouts/` — What are the benefits of HIIT workouts? (`pending`; primary image: `available-local`)
-- [ ] `/what-crossfit-athletes-eat/` — what crossfit athletes eat (`pending`; primary image: `available-local`)
-- [ ] `/what-is-functional-training-and-how-can-it-benefit-you/` — What Is Functional Training and How Can It Benefit You? (`pending`; primary image: `available-local`)
-- [ ] `/what-is-hiit/` — What is HIIT? (`pending`; primary image: `available-local`)
-- [ ] `/what-is-powder-coating-kettlebell/` — What is Powder Coating Kettlebell? (`pending`; primary image: `available-local`)
-- [ ] `/what-kind-of-people-train-crossfit/` — What kind of people train CrossFit? (`pending`; primary image: `available-local`)
-- [ ] `/what-should-i-eat-after-a-crossfit-workout/` — What should I eat after a CrossFit workout? (`pending`; primary image: `available-local`)
-- [ ] `/what-you-need-to-know-about-crossfit/` — What You Need to Know About CrossFit (`pending`; primary image: `available-local`)
-- [ ] `/whats-difference-tpu-versus-cpu-polyurethane/` — What’s difference TPU versus CPU Polyurethane ? (`pending`; primary image: `available-local`)
+- [ ] `/welcome-world-crossfit/` — Welcome to the world of CrossFit (`done`; primary image: `available-local`)
+- [ ] `/what-are-the-benefits-of-hiit-workouts/` — What are the benefits of HIIT workouts? (`done`; primary image: `available-local`)
+- [ ] `/what-crossfit-athletes-eat/` — what crossfit athletes eat (`done`; primary image: `available-local`)
+- [ ] `/what-is-functional-training-and-how-can-it-benefit-you/` — What Is Functional Training and How Can It Benefit You? (`done`; primary image: `available-local`)
+- [ ] `/what-is-hiit/` — What is HIIT? (`done`; primary image: `available-local`)
+- [ ] `/what-is-powder-coating-kettlebell/` — What is Powder Coating Kettlebell? (`done`; primary image: `available-local`)
+- [ ] `/what-kind-of-people-train-crossfit/` — What kind of people train CrossFit? (`done`; primary image: `available-local`)
+- [ ] `/what-should-i-eat-after-a-crossfit-workout/` — What should I eat after a CrossFit workout? (`done`; primary image: `available-local`)
+- [ ] `/what-you-need-to-know-about-crossfit/` — What You Need to Know About CrossFit (`done`; primary image: `available-local`)
+- [ ] `/whats-difference-tpu-versus-cpu-polyurethane/` — What’s difference TPU versus CPU Polyurethane ? (`done`; primary image: `available-local`)
 - [ ] `/whats-epdm-rubber/` — What's EPDM Rubber? (`pending`; primary image: `available-local`)
 - [ ] `/whats-sbr-rubber/` — What's SBR Rubber? (`pending`; primary image: `available-local`)
 - [ ] `/when-crossfit-games-2018/` — when crossfit games 2018 (`pending`; primary image: `available-local`)
