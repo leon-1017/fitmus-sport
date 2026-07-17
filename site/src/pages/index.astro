@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Sidebar from '../components/Sidebar.astro';
+import Header from '../components/Header.astro';
 import Hero from '../components/Hero.astro';
 import Highlights from '../components/Highlights.astro';
 import DiverseProductChain from '../components/DiverseProductChain.astro';
@@ -13,13 +13,12 @@ import Footer from '../components/Footer.astro';
 ---
 
 <Layout
-	layout="sidebar"
 	title="Crossfit Gym Equipment | Functional Fitness Equipment | Fitness Factory"
 	description="Full Effort is Full Victory! Equipment for Crossfit, Functional Training and Commercial Gym."
 >
-	<div class="flex min-h-screen">
-		<Sidebar />
-		<div class="flex-1 min-w-0 flex flex-col">
+	<div class="flex min-h-screen flex-col">
+		<Header />
+		<main class="flex-1 min-w-0">
 			<Hero
 				title="Equipment for Crossfit | Functional Training | Commercial Gym"
 				subtitle="Full Effort is Full Victory!"
@@ -27,12 +26,11 @@ import Footer from '../components/Footer.astro';
 			<Highlights />
 			<DiverseProductChain />
 			<Categories />
-			<div class="flex-1"></div>
-				<FeaturedProducts />
-				<ProfessionalSection />
-				<ReadyForNew />
-				<LatestProducts />
-			<Footer />
-		</div>
+			<FeaturedProducts />
+			<ProfessionalSection />
+			<ReadyForNew />
+			<LatestProducts />
+		</main>
+		<Footer />
 	</div>
 </Layout>
