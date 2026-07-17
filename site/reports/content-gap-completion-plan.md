@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C4-A 已完成，等待阶段 C4-B。
+> 当前状态：阶段 C4-B 已完成，等待阶段 C4-C。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C4-B：产品图库候选媒体逐批筛选与 frontmatter 清理”开始。该批完成并汇报后停止，待确认再继续后续媒体整理。
+下一次任务从“阶段 C4-C：继续清理产品图库候选媒体（下一批 12 个产品）”开始。该批完成并汇报后停止，待确认再继续后续媒体整理。
 
 ## 6. 阶段完成记录
 
@@ -394,3 +394,13 @@
 - 验证：Node 22 公开模式构建成功，生成 601 页；`check:dist` 0 问题，`check:seo` 0 问题；抽查产品详情页确认图库和相关推荐出现，展示 HTML 中无 `66x66` 缩略图。
 - 提交说明：`Add reusable product gallery and related products`。
 - 是否可以继续 C4-B：是，待确认。
+
+### 阶段 C4-B 完成记录
+
+- 完成范围：清理产品 frontmatter 中首批 12 个产品的共享缩略图候选媒体。
+- 处理产品：`10 PAIR 2 TIER DUMBBELL RACK`、`10 PAIRS DUMBBELL RACK 2 LAYERS`、`10 PAIRS VERTICAL HEX DUMBBELL RACK`、`10KG HARDEN CHROME OLYMPIC BAR`、`12 SIDED RUBBER ENCASED DUMBBELL`、`12 SIDES OLYMPIC RUBBER COATED GRIP PLATE`、`15KG WOMENS CERAKOTE OLYMPIC BARBELL`、`15LB TECHNIQUE TRAINING BAR`、`16 Crossfit Monkey Bar Rig Jungle Rig`、`1LB MINI FIBERGLASS PLASTIC KETTLEBELL`、`2 Aluminum Barbell Collar`、`2 Chrome Olympic Spring Collar Pair`。
+- 媒体处理：每条记录移除 `66x66` 共享缩略图，只保留已验证的原始大图；未重新下载或热链任何外部图片。
+- 当前媒体状态：408 个产品记录中，已有 55 个不含这些共享缩略图，仍有 353 个待后续批次筛选。
+- 验证：Node 22 公开模式构建成功，生成 601 页；`check:dist` 0 问题，`check:seo` 0 问题；首批 12 条详情页 gallery 均无 `66x66` 媒体。
+- 提交说明：`Curate first product gallery batch`。
+- 是否可以继续 C4-C：是，待确认。
