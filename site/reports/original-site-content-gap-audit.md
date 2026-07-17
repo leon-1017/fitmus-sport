@@ -4,13 +4,15 @@
 > Scope: compare the current rebuilt public pages with `https://www.fitmus-sport.com/`.  
 > Goal: identify missing source content, images and key conversion functions for a later completion pass. This is **not** a pixel-perfect replication checklist.
 
+The staged execution sequence is maintained in [`content-gap-completion-plan.md`](./content-gap-completion-plan.md).
+
 ## Executive summary
 
 The core public experience has been rebuilt: the homepage story, product-category navigation, About Fitmus narrative, product/news archives, contact information and representative product/article pages are present. The strongest remaining gaps are historical records and a handful of source-page conversion/detail components rather than the visual shell.
 
 - The legacy URL comparison identifies **43 products** and **53 news posts** that are absent from the local collections. They currently resolve to collection-level fallbacks rather than equivalent detail pages.
 - Two of those missing products are still promoted by the original homepage's featured-product area: `wall-mount-rig` and `wall-mounted-rig-for-crossfit-3-3`.
-- The current contact page preserves the source contact copy but deliberately hides the migrated WordPress form markup, leaving no working enquiry path.
+- The current contact page preserves the source contact copy. A working enquiry form is intentionally excluded from the new-site scope.
 - Product detail data can contain gallery images, but the current detail template renders only the featured image and has no related-projects block.
 
 ## Method and boundaries
@@ -28,10 +30,9 @@ The original site's contact-map implementation exposes a legacy map-plugin diagn
 | G-01 | P1 | Homepage featured products; product details | `Wall Mount Rig` (`/product/wall-mount-rig/`) and `Wall mounted Rig for Crossfit 3-3` (`/product/wall-mounted-rig-for-crossfit-3-3/`) are shown on the original homepage but have no equivalent current detail records. Their original primary images are `14feet-free-standing-rig.jpg` and `wall-mounted-rig-3-3.jpg`. | Import both as complete product records (copy, metadata, category, primary image and any available gallery), then restore their exact legacy paths. These are included in the 43-product total below; do not count them twice. |
 | G-02 | P1 | Product archive, category archives, old inbound product links | 43 legacy product records are missing from the local product collection. The current redirects/fallbacks send their source URLs to `/fitmus-product/`. | Use `legacy-url-comparison.json` as the authoritative task list. Recover content and media per product, preserve original slugs, and retain a redirect only where a true replacement is approved. |
 | G-03 | P1 | In the News, old inbound article links | 53 legacy news posts are missing from the local post collection. Their source URLs currently fall back to `/in-the-news/`. | Use the post section of `legacy-url-comparison.json`; migrate article body, publish date, featured image, categories and canonical slug before removing the fallback. |
-| G-04 | P1 | Contact Us | The original page offers an enquiry form, while the rebuilt page hides the imported WordPress Contact Form 7 markup and has no functional submission path. | Design and implement a real, approved enquiry flow (form validation, spam protection, destination/CRM or mail service, privacy notice and success/error states). Do not expose legacy mail settings. |
 | G-05 | P1 | Product details | Product front matter can include a gallery, but the current product template renders only its featured image. Original product pages expose additional product imagery and a gallery interaction. | Render a responsive gallery/lightbox only when source media exists; check whether an image is already in `site/public/images` before fetching it again. |
 | G-06 | P1 | Product details | The original product template includes `Related Projects`; the rebuilt product template has no equivalent related-product block. | Add curated or category-based related products, with an explicit per-product override for source relationships. Do not populate it with unrelated items merely to fill the layout. |
-| G-07 | P2 | Homepage | The original homepage has a dedicated catalogue-download conversion section and a mailing-list gate. The rebuilt homepage has neither page-level call to action nor download flow. | Confirm whether the catalogue should remain public, gated, or be replaced. If retained, verify the PDF, host it locally/CDN-side, and build an accessible CTA/form flow. Source file: `https://fitmus-sport.com/wp-content/uploads/2019/03/Fitmus-Product-catalog.pdf`. |
+| G-07 | P2 | Homepage | The original homepage has a dedicated catalogue-download conversion section and a mailing-list gate. The rebuilt homepage has no page-level catalogue call to action. | Verify whether the catalogue is current. If retained, host it locally/CDN-side and provide a direct, accessible download CTA without recreating the legacy mailing-list gate. Source file: `https://fitmus-sport.com/wp-content/uploads/2019/03/Fitmus-Product-catalog.pdf`. |
 | G-08 | P2 | Homepage | The original has a dedicated `WATCH OUR VIDEOS` section with explanatory copy and a YouTube call to action. The rebuilt site only retains a footer-level YouTube link. | Add a compact editorial video section or a stable `/videos/` destination after confirming the desired channel/playlist. No video binary migration is required. |
 | G-09 | P2 | Homepage and category discovery | The original product-chain area presents explanatory snippets for all eight product categories. The rebuild exposes all eight category links in navigation, but omits that supporting category copy. | Reuse/adapt the category descriptions on category landing pages or an accessible expandable summary; do not restore the legacy image-heavy mega menu. |
 | G-10 | P2 | Contact Us | There is no rebuilt location-map/directions module. The original map integration is unreliable and should not be copied. | Confirm the public address and preferred map provider. Add an accessible static location card plus directions link, or an approved provider integration with credentials managed outside source. |
@@ -60,7 +61,7 @@ Representative news content and article detail pages are present. G-03 is the co
 
 ### Contact Us
 
-The address, contact details, business-hours and social-contact copy are retained. The important omission is G-04: no live enquiry capture. Treat G-10 as a separate, credential-safe replacement for the unreliable original map.
+The address, contact details, business-hours and social-contact copy are retained. Per the new-site scope, the legacy contact form is intentionally omitted and no interactive enquiry form is required. G-10 remains an optional, credential-safe replacement for the unreliable original map.
 
 ### Product detail
 
@@ -74,20 +75,25 @@ The key product copy and featured image can render, but G-05 and G-06 mean sourc
 4. Do not copy legacy API keys, WordPress form settings, map scripts or tracking credentials into this repository.
 5. Treat image alt text, image dimensions, loading behavior and mobile gallery interaction as part of each product's completion criteria.
 
+## Explicitly excluded
+
+- Do not recreate the Contact Form 7 form, submission endpoint, CRM/mail integration, validation, spam protection or success/error interaction.
+- Do not restore the catalogue mailing-list gate; if the catalogue is retained, use a direct download.
+- Do not recreate the old image-heavy mega menu or pixel-level WordPress/Avada styling.
+
 ## Recommended execution order
 
-1. **G-04:** agree the enquiry destination and ship a functional, protected contact form.
-2. **G-01 + G-02:** recover the two homepage-promoted products first, then work through the remaining 41 product records grouped by category.
-3. **G-03:** migrate the 53 articles, prioritising inbound links and commercially useful evergreen posts.
-4. **G-05 + G-06:** expose verified gallery media and related products as structured detail-page components.
-5. **G-07 to G-12:** make the catalogue, video, category-copy, map and discovery UX decisions; implement only the approved variants.
+1. **G-01 + G-02:** recover the two homepage-promoted products first, then work through the remaining 41 product records grouped by category.
+2. **G-03:** migrate the 53 articles, prioritising inbound links and commercially useful evergreen posts.
+3. **G-05 + G-06:** expose verified gallery media and related products as structured detail-page components.
+4. **G-07 to G-12:** make the catalogue, video, category-copy, map and discovery UX decisions; implement only the approved variants.
 
 ## Completion checks
 
 - Re-run `site/reports/legacy-url-comparison.md` after each migration batch; reduce expected omissions and keep unexplained missing URLs at zero.
 - Verify every restored legacy path returns a direct detail page, and every approved redirect has a documented target.
 - Confirm all images are served locally or from the approved production asset host; no `fitmus-sport.com/wp-content/uploads` hotlinks remain.
-- Test the contact form end-to-end in the deployed environment, including validation, spam handling and successful delivery.
+- Confirm the Contact Us page exposes the approved static contact information and contains no broken or misleading form controls.
 - Check desktop and mobile presentation for product galleries, related-product cards and navigation; exact old WordPress styling is not an acceptance criterion.
 
 ## Source references
