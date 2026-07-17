@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "‘Dumbbells are now the new toilet paper’: COVID-19 leads to demand for fitness equipment"
 seoDescription: "Forget toilet papter, dumbbells and home workout equipment have become exclusive items during the COVID-19 pandemic"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2020/06/Home-workout-equipment-dumbbell.jpg"
+featuredImage: "/images/2020/06/Home-workout-equipment-dumbbell.jpg"
 ---
 
 <p>As many industries struggle to weather the economic impact of&nbsp;<a href="https://globalnews.ca/tag/bc-coronavirus/">COVID-19</a>, the business of home fitness is booming. Just like toilet paper, workout equipment is hard to find. Even with gyms closed, working to stay in shape is becoming more of the popular thing to do. The fitness industry is one industry that’s not hurting so much with the stay at home orders.</p>

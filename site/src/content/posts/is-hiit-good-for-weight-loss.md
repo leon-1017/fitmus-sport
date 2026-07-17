@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Is HIIT good for weight loss?"
 seoDescription: "Let's all agree that the quickest way to burn fat isn't a slow, 60-minute session on the elliptical. In fact, if you want to see results, you've got to think quick. Go shorter and lose more? Here's why high-intensity interval training (HIIT) works for weight loss."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/01/hiit-2-1.jpg"
+featuredImage: "/images/2019/01/hiit-2-1.jpg"
 ---
 
 <p>You know it! Not only has it been found to help zap body fat, but HIIT allows you to workout harder than you would otherwise, since you’re doing the high-intensity parts in intervals. That increases your heart rate, so you burn more calories, fat, and carbohydrates during your workout—revving up your metabolism. And since it builds muscle, it also increases your resting metabolism, which means you’re burning more calories even when you’re re-watching a season of The Crown (a pretty sweet deal, if you ask me).</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Hard Chrome Plating & Decorative Chrome: What’s the difference?"
 seoDescription: "Have you ever wondered what’s the difference between decorative chrome or hard chrome plating? People are attracted by the shiny, reflective surface that chrome can provide. The mirror-like finish can give a clean, high-end look to whatever it adorns, mesmerizing all who see"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/05/IWF-BARBELL.jpg"
+featuredImage: "/images/2018/05/IWF-BARBELL.jpg"
 ---
 
 <p>Have you ever wondered what’s the difference between decorative chrome or hard chrome plating? People are attracted by the shiny, reflective surface that chrome can provide. The mirror-like finish can give a clean, high-end look to whatever it adorns, mesmerizing all who see it. Many people have misconceptions about chrome and do not understand the difference hard-chrome plating, nickel-chrome plating.</p>

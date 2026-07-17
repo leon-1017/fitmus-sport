@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "COVID-19: Five exercises you can do at home that require no equipment"
 seoDescription: "COVID-19 has forced the mass closure of gyms and fitness studios all over the world.With it, we’ve seen a spike in the popularity of both online fitness classes as well as home workout equipment."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2020/06/home-equipment-COVID-19-1.jpg"
+featuredImage: "/images/2020/06/home-equipment-COVID-19-1.jpg"
 ---
 
 <p>With non-essential businesses closed and stay-at-home orders in effect due to COVID-19, gym workouts are impossible. Other exercise facilities, such as playing fields and public workout equipment at city parks, are also off limits. Should you just give up on staying active until life gets back to normal?</p>

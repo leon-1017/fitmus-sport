@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Everything You Need To Know About Massage Guns"
 seoDescription: "A percussion massager is a handy, portable solution.If you follow any athletes on social media, there's a good chance you've seen enthralling videos of"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/06/Massage-Guns-1.jpg"
+featuredImage: "/images/2019/06/Massage-Guns-1.jpg"
 ---
 
 <p>When your muscles and joints are hurting, do you reach for analgesics? Although medications may resolve your discomfort, they tend to render side effects. The Ohio State University Medical Center recommends massage for drug-free relief. 1/ A percussion massager is a handy, portable solution. Here’s a selection of the best devices that put healing in your hands.</p>

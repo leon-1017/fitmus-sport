@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Factory Audit- BureauVeritas"
 seoDescription: "Why factory audits and product inspections are important? Avoiding scams and inexperienced vendors.Compare potential vendors and select viable source."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/01/FACTORY-AUDIT-1.jpg"
+featuredImage: "/images/2017/01/FACTORY-AUDIT-1.jpg"
 ---
 
 <p>Buyer Guide:</p>

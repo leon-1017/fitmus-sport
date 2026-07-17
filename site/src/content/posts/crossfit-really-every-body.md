@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "CrossFit: Is It Really for Every \"Body\"?"
 seoDescription: "CrossFit: Is It Really for Every \"Body\"?CrossFit combines a variety of functional movements inspired by sports-like Olympic lifting, stretching, gymnastics, track and field, strong-man contests and more,"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/06/Crossfit-1.jpg"
+featuredImage: "/images/2017/06/Crossfit-1.jpg"
 ---
 
 <p>CrossFit: Is It Really for Every “Body”? MASSILLON If you enjoy weight training in an intense and competitive — yet friendly — atmosphere, then CrossFit could be your thing.</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Is CrossFit Safe For Fighters?"
 seoDescription: "Crossfit for Fighter: Is it Safe? The answer is…not really.Why do I say not really? Most people would argue that Crossfit is not good because of the high rate of injury, or the fact that the requirements to become Crossfit certified are minimal"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/09/Crossfit-Martical-Arts-1-1-1.jpg"
+featuredImage: "/images/2019/09/Crossfit-Martical-Arts-1-1-1.jpg"
 ---
 
 <p>Crossfit for Fighter: Is it Safe? The answer is…not really.</p>

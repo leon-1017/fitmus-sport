@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "8 mistakes to avoid in a gym"
 seoDescription: "Everyone starts fitness, bodybuilding or any sports practice with a certain level of departure. As training and experience progress, we learn, we surpass ourselves and we transform our body according to our objectives.We all make mistakes during this learning phase: in this article we will together see 8 mistakes to avoid when you go to the gym."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/12/8-mistakes-to-avoid-in-a-gym.jpg"
+featuredImage: "/images/2019/12/8-mistakes-to-avoid-in-a-gym.jpg"
 ---
 
 <p>Everyone starts fitness, bodybuilding or any sports practice with a certain level of departure. As training and experience progress, we learn, we surpass ourselves and we transform our body according to our objectives.</p>

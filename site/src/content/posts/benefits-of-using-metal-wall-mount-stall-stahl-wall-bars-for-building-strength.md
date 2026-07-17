@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Benefits of Using metal wall mount stall stahl wall bars for building strength"
 seoDescription: "Gymnasts soon cottoned to the benefits of using the stall bar, Improved conditioning Building muscle Increasing mobility."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/05/metal-wall-mount-stall-stahl-wall-bars.jpg"
+featuredImage: "/images/2019/05/metal-wall-mount-stall-stahl-wall-bars.jpg"
 ---
 
 <p>Stall Bars are also known as Stahl bars, wall bars, ladder bars, and even Swedish bars, Have been used for both physical conditioning and treatment of spine disorders.Also used for stretching and conditioning.The simple design of stall bars is extremely versatile, allowing you to train your body in novel, unique ranges of motion. tall bars are a great addition to your home workout set-up for both building strength and developing flexibility.Due to the size, its a good complement to your gym.</p>
@@ -21,4 +21,4 @@ Human Flag<br>
 Triceps Extensions<br>
 Band exercises<br>
 The stall bar is especially beneficial for working your core. The flagship core exercise is the hanging leg raise. You can do this exercise more effectively because the stall bar prevents your shoulders from rolling back The hamstrings are also very effectively worked on the stalbar. While it won’t build you the muscles of a pro bodybuilder, the stall bar is a great way to warm up, as well as directly working your core more effectively than anything else. If you suffer from ny type of back pain, you will also gain a lot of relief from the use of a stall bar.</p>
-<p>The best stall bar for home use is the <a href="https://fitmus-sport.com/product/steel-swedish-bars/" target="_blank" rel="noopener noreferrer">Fitmus Stall bar</a>, which is available as a wall mount or a rig /rack attachment. It is very solid and sturdy and available in either aluminium or wood.</p>
+<p>The best stall bar for home use is the <a href="/product/steel-swedish-bars/" target="_blank" rel="noopener noreferrer">Fitmus Stall bar</a>, which is available as a wall mount or a rig /rack attachment. It is very solid and sturdy and available in either aluminium or wood.</p>

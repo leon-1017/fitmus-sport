@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "how does crossfit open scoring work"
 seoDescription: "Scoring. The Games use a relative scoring system. That is, athletes are rewarded according to their placing in each event relative to their peers—not according to their absolute performance on that event. Each event will be worth up to 100 points, and athletes earn points based on their finish"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/12/crossfit-scale.jpg"
+featuredImage: "/images/2018/12/crossfit-scale.jpg"
 ---
 
 <p>Scoring. The Games use a relative scoring system. That is, athletes are rewarded according to their placing in each event relative to their peers—not according to their absolute performance on that event. Each event will be worth up to 100 points, and athletes earn points based on their finish (see chart).</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "China Customs has released Order No.56 to adjust inbound manifest rule which is to take effect on 1th June,2018."
 seoDescription: "Some New Customer always ask me why we request them to provide Company Register Number ? Hope this articial is helpful to explain the reason.  China Customs has released Order No.56 to adjust inbound manifest rule which is to take effect on 1th June,2018.."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/02/Renovation-Notice.jpg"
+featuredImage: "/images/2019/02/Renovation-Notice.jpg"
 ---
 
 <p>Some New Customer always ask me why we request them to provide Company Register Number ? Hope this articial is helpful to explain the reason.</p>

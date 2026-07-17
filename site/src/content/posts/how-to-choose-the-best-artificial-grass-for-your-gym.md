@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to choose the best artificial grass for your Gym?"
 seoDescription: "as the demand for artificial grass grows, Artifical Grass is more popular for gyms, fitness facilities, CrossFit facilities and training facilities."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/02/which-artificial-grass-is-the-best.jpg"
+featuredImage: "/images/2018/02/which-artificial-grass-is-the-best.jpg"
 ---
 
 <p>as the demand for artificial grass grows, Artifical Grass is more popular for gyms, fitness facilities, CrossFit facilities and training facilities. Artifical Grass is the perfect option for your sports facility, whether your focus is high impact workouts, functional fitness or indoor fields. We also supply rubber flooring options for your strength and conditioning facility, including rubber flooring rolls or interlocking rubber flooring tiles.Our Artifial Turf And Rubber Flooring Options Are Perfect For High-Impact Workouts, Functional Fitness, Full Indoor Fields And More!</p>

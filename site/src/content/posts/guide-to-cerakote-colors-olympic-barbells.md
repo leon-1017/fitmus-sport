@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Guide to Cerakote Colors Olympic Barbells"
 seoDescription: "FitMus Olympic barbells are available with Cerakote – a thin-film ceramic coating that offers amazing durability, protection, and a choice of colors and patterns"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/07/Cerakote4.jpg"
+featuredImage: "/images/2019/07/Cerakote4.jpg"
 ---
 
 <p>Did you know that FitMus Olympic barbells are available with Cerakote – a thin-film ceramic coating that offers amazing durability, protection, and a choice of colors and patterns?</p>

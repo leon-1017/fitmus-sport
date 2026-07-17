@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to Start CrossFit: A Beginner's Guide"
 seoDescription: "How to Start CrossFit: A Beginner's Guide,CrossFit is EVERYWHERE these days. If you have friends or coworkers, you might have even heard them talking about the newest CrossFit “box” (gym)"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/02/beginners-guide-crossfit-1.jpg"
+featuredImage: "/images/2017/02/beginners-guide-crossfit-1.jpg"
 ---
 
 <p>How to Start CrossFit: A Beginner’s Guide,CrossFit is EVERYWHERE these days.You can watch the CrossFit Games, If you have friends or coworkers that enjoy working out, you might have even heard them talking about the newest CrossFit “box” (gym) that just opened up down the street.</p>

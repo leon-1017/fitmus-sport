@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Using a Lacrosse Ball for Tight Low Back"
 seoDescription: "lacrosse balls are hard and dense, Lacrosse balls can be used as a powerful massage device that can help relieve pain and improve function in sore muscles."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/03/Lacrosse-Ball.jpg"
+featuredImage: "/images/2018/03/Lacrosse-Ball.jpg"
 ---
 
 <p>Unlike tennis balls, lacrosse balls are hard and dense. They don’t soften under pressure. Lacrosse balls can be used as a powerful massage device that can help relieve pain and improve function in sore muscles.</p>
@@ -31,4 +31,4 @@ Calves, hamstrings, abdomen/psoas, buttocks, upper and lower back, deltoids and 
 <p>Hardness – there is no perfect massage ball hardness as each body part will respond best to a different hardness. Also, as the health and flexibility of your tissues improves, you’ll want to use harder massage balls over time.</p>
 <p>Injured tissues will always need softer massage balls. In manufacturing, hardness is measured with an instrument called a durometer typically on the Shore scale. The lacrosse ball, for example, has a Shore C hardness of 60. Our softest massage ball gets measured on a different scale specific for foams and has a hardness of Shore A 40.</p>
 <p>It’s worth mentioning that the hardness is not the only characteristic that determines how the ball deforms under your body, as a hollow and solid ball can both have the same hardness, but they will feel different. Hollow balls like hockey balls can work reasonably well and I’ve used them for long periods of time myself even if I now prefer the heavier solid balls we manufacture.</p>
-<p>Now that’s the straight dope on massage balls! Look for heavy, smooth, round balls with good grip and get them in a variety of hardnesses and sizes like the ones we offer in our Deep Tissue Massage Ball Set. My favorite is our green<a href="https://fitmus-sport.com/product/massage-lacrosse-ball/" target="_blank" rel="noopener"> 63.5 mm FIRM ball</a>.</p>
+<p>Now that’s the straight dope on massage balls! Look for heavy, smooth, round balls with good grip and get them in a variety of hardnesses and sizes like the ones we offer in our Deep Tissue Massage Ball Set. My favorite is our green<a href="/product/massage-lacrosse-ball/" target="_blank" rel="noopener"> 63.5 mm FIRM ball</a>.</p>

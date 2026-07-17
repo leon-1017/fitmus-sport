@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Scaling CrossFit Open Workout 18.5"
 seoDescription: "SCALING FOR WOMEN Workout 18.5 = 12.5 = 11.6 Complete as many reps as possible in 7 minutes of: 3 thrusters 3 jumping chin-over-bar pull-ups 6 thrusters 6 jumping chin-over-bar pull-ups 9 thrusters"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/12/CROSSFIT-18.5.jpg"
+featuredImage: "/images/2018/12/CROSSFIT-18.5.jpg"
 ---
 
 <p>Dave Castro presented 3 potential workouts for CrossFit Open Workout 18.5 and the winner was a repeat of 11.6 – here is what you need to know if you are scaling the WOD.<br>

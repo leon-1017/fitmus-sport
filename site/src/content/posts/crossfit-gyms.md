@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "CrossFit gyms use equipment from multiple disciplines"
 seoDescription: "CrossFit gyms use equipment from multiple disciplines, including barbells, dumbbells, gymnastics rings, pull-up bars, jump ropes, kettlebells, medicine balls, plyo boxes,resistance bands, rowing machines, and various mats."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/04/crossfit-workouts.jpg"
+featuredImage: "/images/2016/04/crossfit-workouts.jpg"
 ---
 
 <p>CrossFit is a strength and conditioning program consisting mainly of a mix of aerobic exercise, calisthenics (body weight exercises), and Olympic weightlifting.</p>

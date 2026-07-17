@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "5 mistakes you should avoid when making kettlebell"
 seoDescription: "Training with kettlebells is a crazy-easy way to increase strength and power—as long as you're using them right. Check out the most common mistakes trainers spot all the time, then clean up your kettlebell act to up your calorie burn and reduce your risk of injury."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/04/website-1.jpg"
+featuredImage: "/images/2016/04/website-1.jpg"
 ---
 
 <p>Training with kettlebells is a crazy-easy way to increase strength and power—as long as you’re using them right. Check out the most common mistakes trainers spot all the time, then clean up your kettlebell act to up your calorie burn and reduce your risk of injury.</p>
@@ -19,4 +19,4 @@ The kettlebell experts say that doing the same workout day after day is a common
 Just like with traditional weight training, effective kettlebell training requires more weight. “Kettlebells are a full workout, harnessing momentum and explosive movements to engage muscles throughout the whole body,” says Jermain. The kettlebell swing, for example, engages the abs, glutes, arms, and legs if done correctly. “If the bell is too light, women tend to use only their arms to lift.” She says this can lead to injury. So what’s the fix? “Don’t be afraid of weight with kettlebells,” say the trainers.</p>
 <p>5. Poor Overall Form From Improper Training<br>
 All three experts say that women (and men) often get the bulk of their training advice from poorly trained coaches, Internet videos, or from watching others. But this can lead to frustration, burnout, and injury. They recommend that new and even veteran kettlebell athletes find a certified coach to teach them proper form.</p>
-<p>You can select Kettlebells from <a href="https://fitmus-sport.com" target="_blank" rel="noopener noreferrer">Fitmus Sport</a></p>
+<p>You can select Kettlebells from <a href="/" target="_blank" rel="noopener noreferrer">Fitmus Sport</a></p>

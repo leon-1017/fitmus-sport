@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to do crossFit workouts at home?"
 seoDescription: "As a functional fitness athlete, you absolutely hate to miss a WOD. we’ve built a list of WODs you can do virtually anywhere ,10 CrossFit WODs you can do at home."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/05/crossfitworkout-at-home.jpg"
+featuredImage: "/images/2019/05/crossfitworkout-at-home.jpg"
 ---
 
 <p>As a functional fitness athlete, you absolutely hate to miss a WOD. Somedays, our schedules are just too busy to make it to the gym. Whether you have a fully-fledged garage gym, or only a pair of jump ropes – we’ve built a list of WODs you can do virtually anywhere, without any equipment or gear.</p>
@@ -67,4 +67,4 @@ featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/05/crossfit
 <p>10 Pistol Squats</p>
 <p>For more advanced CrossFit athletes – this at-home WOD will trigger and test your sense of balance.</p>
 <p>Whether you’re stuck at home, traveling on the road, or just can’t make it to a gym, this list gives you plenty of options. You can easily supplement your CrossFit training week with these at home WODs, without worrying about missing a training day.</p>
-<p>Have some equipment with you? No problem – <a href="https://fitmus-sport.com" target="_blank" rel="noopener noreferrer">check out our list</a></p>
+<p>Have some equipment with you? No problem – <a href="/" target="_blank" rel="noopener noreferrer">check out our list</a></p>

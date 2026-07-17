@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How crossfit can improve your martial arts training?"
 seoDescription: "Unlike other weightlifting programs that target specific muscle groups, CrossFit programming includes functional movements that mimic what you do in sports, like martial arts, as well as everyday life."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/09/Crossfit-Martical-Arts-1-1-1.jpg"
+featuredImage: "/images/2019/09/Crossfit-Martical-Arts-1-1-1.jpg"
 ---
 
 <p>CrossFit is a constantly varied, functional fitness program. CrossFit workouts are also known for intensity. By incorporating functional movements with high intensity, athletes who are willing to push themselves and work hard get results. Unlike other weightlifting programs that target specific muscle groups, CrossFit programming includes functional movements that mimic what you do in sports, like martial arts, as well as everyday life.</p>

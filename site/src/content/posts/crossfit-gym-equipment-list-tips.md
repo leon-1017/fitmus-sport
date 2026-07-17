@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "CrossFit Gym Equipment List Tips"
 seoDescription: "We get asked this question every week “ what equipment is needed to to start a CrossFit gym?”. CrossFit is described as a “minimalist program”.Check out this list of the essential gear you will need to open and run a CrossFit gym"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/03/Crossfit-Gym-Equipment-1.jpg"
+featuredImage: "/images/2019/03/Crossfit-Gym-Equipment-1.jpg"
 ---
 
 <p>We get asked this question every week “ what equipment is needed to to start a CrossFit gym?”. CrossFit is described as a “minimalist program”.Check out this list of the essential gear you will need to open and run a CrossFit gym</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Boxed Out? CrossFit Founder Greg Glassman’s George Floyd Tweet Sparks Outrage"
 seoDescription: "On Saturday, CrossFit Founder and CEO Greg Glassman ignited a fury by posting an insensitive Tweet that referenced George Floyd. As a result, the organization that made CrossFit a major fitness phenomenon and runs the CrossFit Games, appears to have lost a major sponsor. Even more than that, Glassman’s actions may have hurt the organization’s credibility going forward."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2020/06/CrossFit-CEO-latest-comments.jpg"
+featuredImage: "/images/2020/06/CrossFit-CEO-latest-comments.jpg"
 ---
 
 <p>On Saturday, CrossFit Founder and CEO Greg Glassman ignited a fury by posting an insensitive Tweet that referenced George Floyd. As a result, the organization that made CrossFit a major fitness phenomenon and runs the CrossFit Games, appears to have lost a major sponsor. Even more than that, Glassman’s actions may have hurt the organization’s credibility going forward.</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "The 34th China international Sporting Goods Show"
 seoDescription: "The 34th China International Sporting Goods Show 2016 As the largest and most influential sporting goods exhibition in the Asia-Pacific region and the only national-class, internationalized and professionalized trade show for the sports industry in China"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/04/Fitmus-Sport-2016-China-Sport-Show.jpg"
+featuredImage: "/images/2016/04/Fitmus-Sport-2016-China-Sport-Show.jpg"
 ---
 
 <p>&nbsp;</p>

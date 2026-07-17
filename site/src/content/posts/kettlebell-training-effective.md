@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "why is kettlebell training so effective"
 seoDescription: "Have you ever wondered why kettlebells are so effective? Kettlebells, a popular form of exercise equipment, are gaining in popularity because of how effective they are at toning"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/02/kettlebell-training-1.jpg"
+featuredImage: "/images/2017/02/kettlebell-training-1.jpg"
 ---
 
 <p>Have you ever wondered why kettlebells are so effective? Kettlebells, a popular form of exercise equipment, are gaining in popularity because of how effective they are at toning and strengthening your muscles.</p>

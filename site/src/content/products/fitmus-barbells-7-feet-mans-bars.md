@@ -4,21 +4,21 @@ slug: "fitmus-barbells-7-feet-mans-bars"
 category: "weight-lifting-equipment"
 seoTitle: "Crossfit Barbells 7 Feet- Elite Man's bars"
 seoDescription: "Crossfit Barbells 7 Feet- Elite Man's bars is the 28.5 mm bar with Durable composite bushings and computer numerical control machine Groove sleeves customer color band"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/04/Barbell_-Crossfit-Barbells-7-Feet-Elite-Mans-bars.jpg"
+featuredImage: "/images/2016/04/Barbell_-Crossfit-Barbells-7-Feet-Elite-Mans-bars.jpg"
 gallery:
-  - "https://www.fitmus-sport.com/wp-content/uploads/2016/04/Barbell_-Crossfit-Barbells-7-Feet-Elite-Mans-bars.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2021/09/14feet-free-standing-rig-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2021/09/14-Monster-Lite-Rig-2-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2021/08/Portable-Gym-Workout-Timer-1-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2020/10/dumbbell-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2020/08/Curved-Manual-Treadmill-1-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2020/04/Training-mask-1-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2020/03/Adjustable-Bench-Heavy-duty-1-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2019/10/Strongman-Sandbag-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2019/10/Olympic-Lifting-Platform-1-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2019/10/5.11-tactical-plate-carrier-weight-vest-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2019/10/Fitness-MMA-Adjustable-Boxing-mitts-66x66.jpg"
-  - "https://www.fitmus-sport.com/wp-content/uploads/2019/10/Commercial-Grade-Treadmill-LED-66x66.jpg"
+  - "/images/2016/04/Barbell_-Crossfit-Barbells-7-Feet-Elite-Mans-bars.jpg"
+  - "/images/2021/09/14feet-free-standing-rig-66x66.jpg"
+  - "/images/2021/09/14-Monster-Lite-Rig-2-66x66.jpg"
+  - "/images/2021/08/Portable-Gym-Workout-Timer-1-66x66.jpg"
+  - "/images/2020/10/dumbbell-66x66.jpg"
+  - "/images/2020/08/Curved-Manual-Treadmill-1-66x66.jpg"
+  - "/images/2020/04/Training-mask-1-66x66.jpg"
+  - "/images/2020/03/Adjustable-Bench-Heavy-duty-1-66x66.jpg"
+  - "/images/2019/10/Strongman-Sandbag-66x66.jpg"
+  - "/images/2019/10/Olympic-Lifting-Platform-1-66x66.jpg"
+  - "/images/2019/10/5.11-tactical-plate-carrier-weight-vest-66x66.jpg"
+  - "/images/2019/10/Fitness-MMA-Adjustable-Boxing-mitts-66x66.jpg"
+  - "/images/2019/10/Commercial-Grade-Treadmill-LED-66x66.jpg"
 related: []
 ---
 
@@ -40,7 +40,7 @@ Shaft Coating: Black Zinc<br>
 Sleeve Coating: &nbsp;Bright Zinc<br>
 Weight Capacility: &nbsp;1500 LBS.<br>
 Tensile Strength 190,000 PSI Customizable color bands on Sleeve per your choice</p>
-<p>If you are looking for&nbsp;<a href="https://fitmus-sport.com/product/barbells-6-6ft-elite-women-bar-15kg/" target="_blank" rel="noopener">Barbells 6.6ft Elite women bar</a>– 15KG, Please check it</p>
+<p>If you are looking for&nbsp;<a href="/product/barbells-6-6ft-elite-women-bar-15kg/" target="_blank" rel="noopener">Barbells 6.6ft Elite women bar</a>– 15KG, Please check it</p>
 </div><div class="fusion-clearfix"></div>
 
 </div>

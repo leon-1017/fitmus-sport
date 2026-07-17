@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "7 Benefits of Daily Workouts"
 seoDescription: "Exercise plays a great role in making you stay healthy. There are several health problems you can easily avoid if you develop a habit of carrying out exercise on a daily routine. People who work out on a regular basis are known to stay fit"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/07/7-Benefits-of-Daily-Workouts.jpg"
+featuredImage: "/images/2018/07/7-Benefits-of-Daily-Workouts.jpg"
 ---
 
 <p>Exercise plays a great role in making you stay healthy. There are several health problems you can easily avoid if you develop a habit of carrying out exercise on a daily routine. People who work out on a regular basis are known to stay fit. Your physical appearance and self-esteem will rise if you start working out on a regular basis. There are several reasons why you may not be working out. Others will argue they don’t have money to pay for gym services. You may be among those who are too busy or even you feel you can’t access money to buy gym equipment. But, there are many exercises you can carry out even without going to the gym or involving gym tools for example walking and jogging. Here are we going to discuss the benefits you enjoy through undertaking daily exercises.</p>

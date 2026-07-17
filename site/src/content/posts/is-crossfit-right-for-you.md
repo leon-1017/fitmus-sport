@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Is CrossFit Right for You?"
 seoDescription: "If you’re fairly new to CrossFit, you may be wondering “What did I get myself into?” “What was I thinking?” or even “Is CrossFit right for me?”"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/08/Is-CrossFit-Right-for-You.jpg"
+featuredImage: "/images/2018/08/Is-CrossFit-Right-for-You.jpg"
 ---
 
 <p>CHECK YOUR EGO AT THE DOOR.<br>

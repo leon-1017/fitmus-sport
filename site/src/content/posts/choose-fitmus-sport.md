@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Why choose Fitmus Sport"
 seoDescription: "Why Choose Fitmus Sport ? We understand that there are many fitness company that make their way to do export business.Check what's the difference?"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/05/why-choose-Fitmus-Sport-Banner-Image-1.jpg"
+featuredImage: "/images/2016/05/why-choose-Fitmus-Sport-Banner-Image-1.jpg"
 ---
 
 <p><strong>Why Choose Fitmus Sport ?</strong></p>

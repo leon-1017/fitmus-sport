@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to Open a Crossfit Gym In India?"
 seoDescription: "How to Open a Crossfit Gym In India?"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/05/crossfit-gym-India.jpg"
+featuredImage: "/images/2019/05/crossfit-gym-India.jpg"
 ---
 
 <p>How to Open a Crossfit Gym In India?<br>

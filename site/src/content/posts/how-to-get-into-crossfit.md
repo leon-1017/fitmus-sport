@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to get into CrossFit"
 seoDescription: "Alright, so if by now you’re interested in giving CrossFit a try, it’s simple to get in touch with your local affiliate and get started."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/08/get-into-crossfit-1.jpg"
+featuredImage: "/images/2018/08/get-into-crossfit-1.jpg"
 ---
 
 <p>Alright, so if by now you’re interested in giving CrossFit a try, it’s simple to get in touch with your local affiliate and get started.</p>

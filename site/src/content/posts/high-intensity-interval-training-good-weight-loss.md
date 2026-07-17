@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "High-Intensity Interval Training is good for Weight Loss"
 seoDescription: "If you want to lose fat (and not muscle) fast without doing hours of cardio every week, then you want to know more about high-intensity interval training."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/03/high-intensity-interval-training.jpg"
+featuredImage: "/images/2017/03/high-intensity-interval-training.jpg"
 ---
 
 <p>If you want to lose fat (and not muscle) fast without doing hours of cardio every week, then you want to know more about high-intensity interval training.</p>
@@ -17,7 +17,7 @@ The high-intensity intervals push your body toward its metabolic limits (basical
 This one is as simple as the name implies. Usually most people do best with a 30 second walk, followed by a 30 second sprint. Repeat this about 8-10 times, and you should be feeling the burn.</p>
 <p>2. Jog and Sprint<br>
 As you progress your fitness, you may be able to pull off this workout. This is just like our first workout, but here you will jog, instead of walk</p>
-<p>3. <a href="https://fitmus-sport.com/products/parallel-bar/" target="_blank">Infinite Pushups</a><br>
+<p>3. <a href="/products/parallel-bar/" target="_blank">Infinite Pushups</a><br>
 This one is about as fun as it sounds. You will be performing 10 pushups at a time. Rest for 30 seconds, and then do 10 more. To increase the difficulty, rest for 15 seconds instead of 30. If you’re feeling really frisky, you can cut the rest time down to 10 seconds, though I wouldn’t recommend it, unless you really know what you’re doing.</p>
 <p>4. Infinite Squats<br>
 Make sure you are able to squat first, and then check your form, either with a partner or in a mirror. Make sure you are going ‘below parallel’ (you can Google that term) and that your mechanics are exactly correct</p>

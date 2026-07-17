@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Black oxide & Black Zinc: What’s the difference?"
 seoDescription: "Most box have black shafted barbells in them but did you know that not all black finish are created equal?"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/04/Crossfit-Barbell-women-use-Barbells-6.jpg"
+featuredImage: "/images/2016/04/Crossfit-Barbell-women-use-Barbells-6.jpg"
 ---
 
 <p>Most box have black shafted barbells in them but did you know that not all black finish are created equal?</p>

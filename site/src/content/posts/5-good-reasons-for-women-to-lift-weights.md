@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "5 good reasons for women to lift weights"
 seoDescription: "For most people, remembering weights remains a male activity par excellence. If mentalities tend to change, there are still barriers that dissuade women from getting into physical resistance exercises, especially with heavy loads. Still, lifting weights has many benefits, and in this article we are going to explore 5 good reasons for women to start this type of workout and not just stick to cardio."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/12/5-good-reasons-for-women-to-lift-weights-1-1.jpg"
+featuredImage: "/images/2019/12/5-good-reasons-for-women-to-lift-weights-1-1.jpg"
 ---
 
 <p>For most people, remembering weights remains a male activity par excellence. If mentalities tend to change, there are still barriers that dissuade women from getting into physical resistance exercises, especially with heavy loads. Still, lifting weights has many benefits, and in this article we are going to explore 5 good reasons for women to start this type of workout and not just stick to cardio.</p>

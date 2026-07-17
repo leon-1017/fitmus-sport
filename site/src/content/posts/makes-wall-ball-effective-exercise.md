@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "What makes the wall ball so effective as an exercise?"
 seoDescription: "Wall Balls are a staple of a CrossFit Workout. The movement of taking a weighted ball, performing a squat and then projecting the ball upward to a target"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/05/Wall-Ball.jpg"
+featuredImage: "/images/2017/05/Wall-Ball.jpg"
 ---
 
 <p>Wall Balls are a staple of a CrossFit Workout. The movement of taking a weighted ball, performing a squat and then projecting the ball upward to a target on the wall is the pure example of core to extremity</p>

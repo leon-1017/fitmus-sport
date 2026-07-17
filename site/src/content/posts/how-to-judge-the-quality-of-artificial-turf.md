@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to judge the quality of artificial turf?"
 seoDescription: "How to judge the quality of artificial turt ?1) Appearance: Whether the color is natural, whether the softness of the straw is good"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/03/the-quality-of-artificial-turf.jpg"
+featuredImage: "/images/2018/03/the-quality-of-artificial-turf.jpg"
 ---
 
 <p>How to judge the quality of artificial turf?<br>

@@ -4,6 +4,11 @@
 import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+  createImageLookup,
+  rewriteHtmlFragment,
+  rewriteLegacyUrl,
+} from './migration-url-utils.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = resolve(__dirname, '../../data');
@@ -26,9 +31,9 @@ function frontmatter(obj) {
   return '---\n' + lines.join('\n') + '\n---\n';
 }
 
-function cleanHtmlBody(html) {
+function cleanHtmlBody(html, imageLookup) {
   if (!html) return '';
-  return html
+  return rewriteHtmlFragment(html, imageLookup)
     .replace(/<form[\s\S]*?<\/form>/gi, '')
     .replace(/<input[\s\S]*?>/gi, '')
     .replace(/<button[\s\S]*?<\/button>/gi, '')
@@ -41,6 +46,8 @@ function cleanHtmlBody(html) {
 
 async function main() {
   const parsed = JSON.parse(await readFile(resolve(DATA_DIR, 'parsed-local.json'), 'utf8'));
+  const mapping = JSON.parse(await readFile(resolve(DATA_DIR, 'image-mapping.json'), 'utf8'));
+  const imageLookup = createImageLookup(mapping);
 
   // Clean target directories
   await rm(resolve(CONTENT_DIR, 'products'), { recursive: true, force: true });
@@ -65,9 +72,12 @@ async function main() {
         seoDescription: item.description || undefined,
         featuredImage: item.featuredImage || item.ogImage || (item.gallery?.[0]) || undefined,
         gallery: item.gallery || [],
-        related: item.related || [],
+        related: (item.related || []).map((related) => ({
+          ...related,
+          url: rewriteLegacyUrl(related.url, imageLookup),
+        })),
       };
-      await writeFile(resolve(CONTENT_DIR, 'products', `${item.slug}.md`), frontmatter(fm) + '\n' + cleanHtmlBody(item.bodyHtml));
+      await writeFile(resolve(CONTENT_DIR, 'products', `${item.slug}.md`), frontmatter(fm) + '\n' + cleanHtmlBody(item.bodyHtml, imageLookup));
       products++;
     } else if (item.type === 'post') {
       const fm = {
@@ -79,7 +89,7 @@ async function main() {
         seoDescription: item.description || undefined,
         featuredImage: item.featuredImage || item.ogImage || undefined,
       };
-      await writeFile(resolve(CONTENT_DIR, 'posts', `${item.slug}.md`), frontmatter(fm) + '\n' + cleanHtmlBody(item.bodyHtml));
+      await writeFile(resolve(CONTENT_DIR, 'posts', `${item.slug}.md`), frontmatter(fm) + '\n' + cleanHtmlBody(item.bodyHtml, imageLookup));
       posts++;
     } else {
       // Pages are generated as .astro files later; store structured page data for reference
@@ -89,11 +99,11 @@ async function main() {
 
   // Also write pages data for use by page components
   const pagesData = parsed.filter((i) => i.type === 'page' && !i.error).map((i) => ({
-    url: i.url,
+    url: rewriteLegacyUrl(i.url, imageLookup),
     slug: i.slug,
     title: i.title || i.h1,
     description: i.description,
-    bodyHtml: cleanHtmlBody(i.bodyHtml),
+    bodyHtml: cleanHtmlBody(i.bodyHtml, imageLookup),
     featuredImage: i.featuredImage || i.ogImage,
   }));
   await writeFile(resolve(DATA_DIR, 'pages.json'), JSON.stringify(pagesData, null, 2));

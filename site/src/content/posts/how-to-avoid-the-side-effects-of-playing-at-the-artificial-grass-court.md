@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to avoid the \"side effects\" of playing at the artificial grass court?"
 seoDescription: "Sports Artificial Grass stadiums have solved the problem of most amateur football lovers, but there are \"side effects\""
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/03/artificial-grass-court.jpg"
+featuredImage: "/images/2018/03/artificial-grass-court.jpg"
 ---
 
 <p>Sports Artificial Grass stadiums have solved the problem of most amateur football lovers, but there are “side effects”, which can even cause serious injuries.</p>

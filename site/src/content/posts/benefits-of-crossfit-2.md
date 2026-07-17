@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Benefits of CrossFit That Go Beyond Exercise"
 seoDescription: "CrossFit remains to be one of the most popular and most controversial fitness trends. Due to the competitive nature and intense feelings of belonging to a community, CrossFit is recognized as one of the fastest growing modes of high-intensity training."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/08/Benefits-of-CrossFit-That-Go-Beyond-Exercise.jpg"
+featuredImage: "/images/2018/08/Benefits-of-CrossFit-That-Go-Beyond-Exercise.jpg"
 ---
 
 <p>CrossFit remains to be one of the most popular and most controversial fitness trends. Due to the competitive nature and intense feelings of belonging to a community, CrossFit is recognized as one of the fastest growing modes of high-intensity training. It can also be considered an option for high-intensity interval training (HIIT), and consequently, HIIT has become one of the top fitness trends in the last 5 years (Amadio et al., 2018). Scientific data surrounding CrossFit is sparse, and a research team worked to analyze the findings of scientific literature on CrossFit in a systematic review and meta-analysis.</p>

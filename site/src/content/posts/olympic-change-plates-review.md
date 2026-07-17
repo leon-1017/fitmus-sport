@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Olympic Change Plates Review"
 seoDescription: "Change plates and fractional plates offer tremendous flexibility for all lifters at various strength levels by allowing for micro incremental growth. Compatible with our full range of olympic barbells and bumper plates."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2020/04/change-plate-fractional-plate-1-1-1-1.jpg"
+featuredImage: "/images/2020/04/change-plate-fractional-plate-1-1-1-1.jpg"
 ---
 
 <p>Change plates and fractional plates offer tremendous flexibility for all lifters at various strength levels by allowing for micro incremental growth. Compatible with our full range of olympic barbells and bumper plates, our precision paint change plates and rubber fractional plates are designed to help you improve performance and get results.&nbsp; They are used for making small increments in lifts to accumulate small and consistent weight gains.</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Maintenance Tips of Resistance Loop Bands"
 seoDescription: "Resistance loop band training is an affordable and effective way to exercise. When it comes to convenience, portability, and ease of set up, it’s hard to beat.But what about durability? Resistance loop bands are made from commercial grade latex tubing and are designed for years of use."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2019/03/Maintenance-Tips-of-Resistance-Loop-Bands.jpg"
+featuredImage: "/images/2019/03/Maintenance-Tips-of-Resistance-Loop-Bands.jpg"
 ---
 
 <p>Resistance loop band training is an affordable and effective way to exercise. When it comes to convenience, portability, and ease of set up, it’s hard to beat.But what about durability? Resistance loop bands are made from commercial grade latex tubing and are designed for years of use. However, like anything, misuse will cause them to deteriorate.</p>

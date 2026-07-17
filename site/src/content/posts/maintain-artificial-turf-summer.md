@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "how to maintain artificial turf in summer"
 seoDescription: "In summer, the temperature is relatively high and the artificial turf material is flammable. How do we maintain artificial turf in the summer?"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/03/how-to-maintain-artificial-turf-in-summer.jpg"
+featuredImage: "/images/2018/03/how-to-maintain-artificial-turf-in-summer.jpg"
 ---
 
 <p>In summer, the temperature is relatively high and the artificial turf material is flammable. How do we maintain artificial turf in the summer?Next, small detail for everyone:</p>

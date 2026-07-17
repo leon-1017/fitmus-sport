@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "Is CrossFit good to lose weight?"
 seoDescription: "CrossFit and “CrossFit-style workouts” are exploding in popularity across the country as the next best thing for getting in shape, and losing weight"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/01/Is-CrossFit-good-to-lose-weight.jpg"
+featuredImage: "/images/2018/01/Is-CrossFit-good-to-lose-weight.jpg"
 ---
 
 <p>CrossFit and “CrossFit-style workouts” are exploding in popularity across the country as the next best thing for getting in shape, improving health, and losing weight.CrossFit workouts are popular for people trying to lose weight. The reason normal people (non-athletes) flock to CrossFit boxes is because it makes them feel like they’re participating in the most legit new fitness craze to sweep the nation.The second reason people do CrossFit is because the workouts crush you. There’s a psychological component at play that’s not dissimilar from other programs like the also popular Boot Camp model. it’s safe and effective at helping you reach your goals.</p>

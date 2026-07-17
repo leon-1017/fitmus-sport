@@ -9,6 +9,7 @@ import { dirname, resolve, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { Readable } from 'node:stream';
+import { createImageLookup, rewriteHtmlFragment } from './migration-url-utils.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = resolve(__dirname, '../../data');
@@ -117,13 +118,7 @@ function collectImageUrls(item) {
 }
 
 function rewriteHtml(html, mapping) {
-  if (!html) return html;
-  let out = html;
-  for (const [remote, local] of Object.entries(mapping)) {
-    const escaped = remote.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    out = out.replace(new RegExp(`(src|data-src|href)="${escaped}"`, 'g'), `$1="${local}"`);
-  }
-  return out;
+  return rewriteHtmlFragment(html, createImageLookup(mapping));
 }
 
 async function processOne(task, mapping, errors, stats) {

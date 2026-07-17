@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "How to Maintain and Clean Artificial Grass?"
 seoDescription: "How to Maintain and clean Artificial Grass? there are 5 Ways to Take Care of your Artificial Lawn,An artificial lawn doesn’t need mowing"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2018/02/CLEAN-ARTIFICIAL-GRASS.jpg"
+featuredImage: "/images/2018/02/CLEAN-ARTIFICIAL-GRASS.jpg"
 ---
 
 <p>How to Maintain and clean Artificial Grass? there are 5 Ways to Take Care of your Artificial Lawn</p>

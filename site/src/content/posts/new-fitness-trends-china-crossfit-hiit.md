@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "The New Fitness Trends in China: CrossFit and HIIT"
 seoDescription: "For a long time fitness training was frowned upon in China, but through Western influences and government initiatives, the enormous country is discovering sports. Trend sports like CrossFit are booming, and small boutique gyms are competing with the big chains."
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2017/10/Crossfit-China.jpg"
+featuredImage: "/images/2017/10/Crossfit-China.jpg"
 ---
 
 <p>For a long time fitness training was frowned upon in China, but through Western influences and government initiatives, the enormous country is discovering sports. Trend sports like CrossFit are booming, and small boutique gyms are competing with the big chains.</p>

@@ -5,7 +5,7 @@ categories:
   - "uncategorized"
 seoTitle: "7 New Trends In Fitness Industry You May Care"
 seoDescription: "1. HIITs. HIIT is still HOT! It stands for High Intensity Interval Training, The reason it’s still growing in popularity"
-featuredImage: "https://www.fitmus-sport.com/wp-content/uploads/2016/04/Fitness-New-Trends.jpg"
+featuredImage: "/images/2016/04/Fitness-New-Trends.jpg"
 ---
 
 <p>As we get ready to put 2015 in the review mirror, it is important to take a look ahead and try to identify growing fitness trends over the coming year.</p>
