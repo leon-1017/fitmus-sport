@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C4-AF 已完成，C4 产品图库媒体清理完成，等待阶段 C5。
+> 当前状态：阶段 C5 已完成，等待阶段 C6。
 
 ## 1. 范围约束
 
@@ -704,3 +704,13 @@
 - 验证：Node 22 公开模式构建成功，生成 601 页；`check:seo` 0 问题；本批 5 条详情页 gallery 均无共享缩略图媒体。`check:dist` 仍报告既有 legacy Fitmus host 链接告警，与本批媒体变更无关。
 - 提交说明：`Complete product gallery thumbnail cleanup`。
 - 是否可以继续 C5：首页辅助内容：是，待确认。
+
+### 阶段 C5 完成记录
+
+- 完成范围：首页新增目录下载、视频入口和八个产品分类的辅助说明，不恢复旧站邮件订阅门槛或图片型 mega menu。
+- 目录处理：确认仓库已有本地 `public/Fitmus-Product-catalog.pdf`，首页提供直接下载链接 `/Fitmus-Product-catalog.pdf`，不增加联系表单、订阅或数据收集交互。
+- 视频处理：新增稳定的 Fitmus YouTube 频道视频入口，使用新窗口打开并保留外链提示；不迁移视频文件。
+- 分类处理：新增八个分类说明卡片，分别链接到 `weight-lifting-equipment`、`body-weight-gymnastic`、`strength-condition`、`crossfit-racks-rigs`、`strongman-equipment`、`equipment-storage`、`balance-mobility`、`cardio-equipment-accessories` 分类页。
+- 验证：Node 22 公开模式构建成功，生成 601 页；`check:seo` 0 问题；构建产物包含本地目录链接、YouTube 入口和 8 个分类卡片；本地目录文件存在且可由静态站点发布。
+- 提交说明：`Complete homepage supporting content`。
+- 是否可以继续 C6：是，待确认。
