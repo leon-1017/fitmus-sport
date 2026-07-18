@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C4-T 已完成，等待阶段 C4-U。
+> 当前状态：阶段 C4-U 已完成，等待阶段 C4-V。
 
 ## 1. 范围约束
 
@@ -223,7 +223,7 @@
 
 ## 5. 下一步
 
-下一次任务从“阶段 C4-U：继续清理产品图库候选媒体（下一批 12 个产品）”开始。该批完成并汇报后停止，待确认再继续后续媒体整理。
+下一次任务从“阶段 C4-V：继续清理产品图库候选媒体（下一批 12 个产品）”开始。该批完成并汇报后停止，待确认再继续后续媒体整理。
 
 ## 6. 阶段完成记录
 
@@ -584,3 +584,13 @@
 - 验证：Node 22 公开模式构建成功，生成 601 页；`check:seo` 0 问题；本批 12 条详情页 gallery 均无共享缩略图媒体。`check:dist` 仍报告既有 legacy Fitmus host 链接告警，与本批媒体变更无关。
 - 提交说明：`Curate nineteenth product gallery batch`。
 - 是否可以继续 C4-U：是，待确认。
+
+### 阶段 C4-U 完成记录
+
+- 完成范围：清理产品 frontmatter 中下一批 12 个产品的共享缩略图候选媒体。
+- 处理产品：`Plastic Gymnastic Rings Straps`、`Plastic Gymnastics Rings Straps`、`Plate Storage Pin`、`Polyurethane Dumbbell`、`Portable Gym Workout Timer`、`Post Landmine`、`Powder Coat Cast Iron Kettlebell`、`Power Bag`、`Power Cage 2`、`Power Rack 2`、`Power Rack`、`Power Resistance Training Belt`。
+- 媒体处理：每条记录移除 `66x66`、`150x150`、`300x300` 共享缩略图，只保留已验证的原始大图；未重新下载或热链外部图片。
+- 当前媒体状态：按 `gallery` 区块统计，408 个产品记录中已有 283 个不含这些共享缩略图，仍有 125 个待后续批次筛选。
+- 验证：Node 22 公开模式构建成功，生成 601 页；`check:seo` 0 问题；本批 12 条详情页 gallery 均无共享缩略图媒体。`check:dist` 仍报告既有 legacy Fitmus host 链接告警，与本批媒体变更无关。
+- 提交说明：`Curate twentieth product gallery batch`。
+- 是否可以继续 C4-V：是，待确认。
