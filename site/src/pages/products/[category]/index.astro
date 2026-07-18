@@ -3,7 +3,6 @@ import { getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
-import Sidebar from '../../../components/Sidebar.astro';
 import ProductCard from '../../../components/ProductCard.astro';
 
 const categoryMap: Record<string, string> = {
@@ -17,6 +16,18 @@ const categoryMap: Record<string, string> = {
   'cardio-equipment-accessories': 'Cardio Equipment & Accessories',
 };
 
+const categoryDescriptions: Record<string, string> = {
+  'weight-lifting-equipment': 'Barbells, plates, dumbbells and kettlebells for progressive strength work.',
+  'body-weight-gymnastic': 'Rings, bars, straps and accessories for bodyweight and gymnastic training.',
+  'strength-condition': 'Benches, boxes, bands and training tools for functional conditioning.',
+  'crossfit-racks-rigs': 'Modular rigs, racks and pull-up stations for demanding group sessions.',
+  'strongman-equipment': 'Logs, yokes, farmers walk handles and carries built for strongman-style training.',
+  'equipment-storage': 'Practical racks and holders to keep training spaces organised and safe.',
+  'balance-mobility': 'Mobility tools, rollers and balance equipment for warm-ups and recovery.',
+  'cardio-equipment-accessories': 'Cardio machines and accessories for complete conditioning spaces.',
+  uncategorized: 'Additional products retained for legacy route compatibility while the catalogue is refined.',
+};
+
 export async function getStaticPaths() {
   const products = await getCollection('products');
   const slugs = [...new Set(products.map((p) => p.data.category).filter(Boolean))];
@@ -25,31 +36,63 @@ export async function getStaticPaths() {
 
 const { category } = Astro.params;
 const allProducts = await getCollection('products');
-const items = allProducts.filter((p) => p.data.category === category);
+const items = allProducts
+  .filter((p) => p.data.category === category)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
 const title = categoryMap[category] || category;
+const description = categoryDescriptions[category] || 'Browse Fitmus Sport fitness equipment.';
 ---
 
-<Layout title={title} description={`${title} - Fitmus Sport provides high quality CrossFit, functional fitness and commercial gym equipment.`}>
+<Layout title={title} description={`${title} - ${description}`}>
 	<Header />
-	<main class="max-w-7xl mx-auto px-4 py-10">
-		<div class="grid lg:grid-cols-3 gap-10">
-			<div class="lg:col-span-2">
-				<h1 class="text-3xl font-bold text-gray-900 mb-6">{title}</h1>
-				<p class="text-gray-600 mb-8">{items.length} products</p>
-				<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-					{items.map((p) => (
-						<ProductCard
-							slug={p.data.slug}
-							title={p.data.title}
-							image={p.data.featuredImage}
-						/>
-					))}
+	<main class="bg-slate-50">
+		<section class="bg-slate-950 px-4 py-14 text-white sm:px-6 lg:py-20" aria-labelledby="category-title">
+			<div class="mx-auto max-w-7xl">
+				<nav class="mb-8 flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+					<a href="/" class="hover:text-white">Home</a><span aria-hidden="true">/</span>
+					<a href="/fitmus-product/" class="hover:text-white">Fitmus Product</a><span aria-hidden="true">/</span>
+					<span class="text-slate-200" aria-current="page">{title}</span>
+				</nav>
+				<div class="max-w-3xl">
+					<p class="text-sm font-semibold uppercase tracking-[0.22em] text-[#ff6b56]">Fitmus product range</p>
+					<h1 id="category-title" class="mt-3 break-words text-4xl font-bold tracking-tight sm:text-5xl">{title}</h1>
+					<p class="mt-5 text-base leading-7 text-slate-300 sm:text-lg">{description}</p>
+				</div>
+				<div class="mt-8 flex flex-wrap items-center gap-4">
+					<span class="rounded-full border border-white/20 px-4 py-2 text-sm text-slate-200">{items.length} products</span>
+					<a href="/contact-us/" class="inline-flex items-center rounded-full bg-[#e03420] px-5 py-2.5 text-sm font-bold text-white transition hover:bg-[#b82718] focus:outline-none focus-visible:ring-4 focus-visible:ring-[#e03420]/40">Ask about this range <span class="ml-2" aria-hidden="true">→</span></a>
 				</div>
 			</div>
-			<div class="lg:col-span-1">
-				<Sidebar />
+		</section>
+
+		<section class="border-b border-slate-200 bg-white px-4 py-5 sm:px-6" aria-label="Product categories">
+			<div class="mx-auto flex max-w-7xl gap-2 overflow-x-auto pb-1">
+				{Object.entries(categoryMap).map(([slug, label]) => (
+					<a href={`/products/${slug}/`} class:list={["shrink-0 rounded-full border px-4 py-2 text-sm transition focus:outline-none focus-visible:ring-4 focus-visible:ring-[#e03420]/20", slug === category ? "border-[#e03420] bg-[#e03420] text-white" : "border-slate-200 text-slate-700 hover:border-[#e03420] hover:text-[#e03420]"]} aria-current={slug === category ? 'page' : undefined}>{label}</a>
+				))}
 			</div>
-		</div>
+		</section>
+
+		<section class="px-4 py-12 sm:px-6 lg:py-16" aria-labelledby="product-grid-title">
+			<div class="mx-auto max-w-7xl">
+				<div class="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+					<div>
+						<p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#e03420]">Browse the range</p>
+						<h2 id="product-grid-title" class="mt-2 text-3xl font-bold tracking-tight text-slate-950">{title} products</h2>
+					</div>
+					<p class="text-sm text-slate-500">Sorted alphabetically for quick scanning</p>
+				</div>
+				{items.length > 0 ? (
+					<div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+						{items.map((p) => (
+							<ProductCard slug={p.data.slug} title={p.data.title} image={p.data.featuredImage} />
+						))}
+					</div>
+				) : (
+					<div class="rounded-2xl border border-dashed border-slate-300 bg-white p-10 text-center text-slate-600">No products are currently listed in this category.</div>
+				)}
+			</div>
+		</section>
 	</main>
 	<Footer />
 </Layout>

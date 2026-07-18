@@ -12,17 +12,19 @@ const fallback = '/images/2016/02/favicon-200.png';
 
 <a
 	href={`/product/${slug}/`}
-	class="group block bg-white border border-gray-200 rounded overflow-hidden hover:shadow-lg transition">
-	<div class="aspect-[4/3] bg-gray-100 overflow-hidden">
+	class="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-[#e03420]/25">
+	<div class="aspect-[4/3] overflow-hidden bg-slate-100">
 		<img
 			src={image || fallback}
 			alt={title}
-			class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+			class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
 			loading="lazy"
+			decoding="async"
 		/>
 	</div>
-	<div class="p-4">
-		<h3 class="text-sm font-semibold text-gray-800 line-clamp-2 group-hover:text-[#e03420]">{title}</h3>
+	<div class="flex flex-1 flex-col p-4 sm:p-5">
+		<h3 class="min-h-[3rem] text-sm font-semibold leading-6 text-slate-800 line-clamp-2 group-hover:text-[#e03420]">{title}</h3>
+		<span class="mt-4 text-xs font-semibold uppercase tracking-[0.14em] text-[#e03420]">View product <span aria-hidden="true">→</span></span>
 		{category && <p class="text-xs text-gray-500 mt-1 capitalize">{category}</p>}
 	</div>
 </a>

@@ -73,7 +73,7 @@ async function main() {
     issues.push({ pagePath, attribute, value, reason });
   }
 
-  function checkReference(pagePath, attribute, rawValue, referenceType) {
+  function checkReference(pagePath, attribute, rawValue, referenceType, { allowOfficialMetadata = false } = {}) {
     const value = rawValue.trim();
     if (!value) {
       report(pagePath, attribute, rawValue, 'empty reference');
@@ -97,6 +97,7 @@ async function main() {
       return;
     }
 
+    if (LEGACY_HOSTS.has(url.hostname) && allowOfficialMetadata) return;
     if (LEGACY_HOSTS.has(url.hostname)) {
       report(pagePath, attribute, value, 'legacy Fitmus host');
       return;
@@ -119,7 +120,12 @@ async function main() {
     const $ = cheerio.load(await readFile(filePath, 'utf8'));
 
     $('a[href]').each((_, element) => checkReference(pagePath, 'href', $(element).attr('href') || '', 'page'));
-    $('link[href]').each((_, element) => checkReference(pagePath, 'href', $(element).attr('href') || '', 'resource'));
+    $('link[href]').each((_, element) => {
+      const rel = ($(element).attr('rel') || '').toLowerCase().split(/\s+/);
+      checkReference(pagePath, 'href', $(element).attr('href') || '', 'resource', {
+        allowOfficialMetadata: rel.includes('canonical'),
+      });
+    });
     $('[src]').each((_, element) => checkReference(pagePath, 'src', $(element).attr('src') || '', 'resource'));
     $('[poster]').each((_, element) => checkReference(pagePath, 'poster', $(element).attr('poster') || '', 'resource'));
     $('[srcset]').each((_, element) => {

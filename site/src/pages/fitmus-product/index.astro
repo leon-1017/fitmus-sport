@@ -1,17 +1,140 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import PageContent from '../../components/PageContent.astro';
 import pages from '../../data/pages.json';
 
-const page = pages.find((p: any) => p.slug === 'fitmus-product') || { title: 'Fitmus Product', bodyHtml: '' };
+const page = pages.find((entry: any) => entry.slug === 'fitmus-product') || {
+	title: 'Fitmus Product',
+	description: 'Fitmus fitness equipment for weightlifting, CrossFit and functional training.',
+};
+
+const products = await getCollection('products');
+const categoryDefinitions = [
+	{
+		slug: 'weight-lifting-equipment',
+		title: 'Weight Lifting Equipment',
+		description: 'Barbells, plates, dumbbells and kettlebells for progressive strength work.',
+		image: '/images/2017/03/10KG-Harden-chrome-Olympic-Barbell-1-1.jpg',
+		alt: 'Olympic barbell and weight lifting equipment',
+	},
+	{
+		slug: 'body-weight-gymnastic',
+		title: 'Body Weight & Gymnastic',
+		description: 'Rings, bars, straps and accessories for bodyweight and gymnastic training.',
+		image: '/images/2016/04/Fitness-AB-mat-1-1.jpg',
+		alt: 'Bodyweight and gymnastic training equipment',
+	},
+	{
+		slug: 'strength-condition',
+		title: 'Strength & Condition',
+		description: 'Benches, boxes, bands and training tools for functional conditioning.',
+		image: '/images/2016/04/3-in-1-Wooden-Plyometric-Box12_C3_9714_C3_9716-1.jpg',
+		alt: 'Wooden plyometric box for strength and conditioning',
+	},
+	{
+		slug: 'crossfit-racks-rigs',
+		title: 'Crossfit Racks & Rigs',
+		description: 'Modular rigs, racks and pull-up stations for demanding group sessions.',
+		image: '/images/2016/12/16Crossfit-Monkey-Bar-Rig-Jungle-Rig-1.jpg',
+		alt: 'CrossFit monkey bar rig',
+	},
+	{
+		slug: 'strongman-equipment',
+		title: 'Strongman Equipment',
+		description: 'Logs, yokes, farmers walk handles and carries built for strongman-style training.',
+		image: '/images/2016/04/Strongman-steel-log.jpg',
+		alt: 'Strongman steel log',
+	},
+	{
+		slug: 'equipment-storage',
+		title: 'Equipment Storage',
+		description: 'Practical racks and holders to keep training spaces organised and safe.',
+		image: '/images/2018/01/10-PAIR-2-TIER-DUMBBELL-RACK-1-1.jpg',
+		alt: 'Two-tier dumbbell storage rack',
+	},
+	{
+		slug: 'balance-mobility',
+		title: 'Balance & Mobility',
+		description: 'Mobility, recovery and balance tools for warm-ups and daily movement.',
+		image: '/images/2017/03/3-in-1-foam-roller-1.jpg',
+		alt: 'Foam roller for balance and mobility training',
+	},
+	{
+		slug: 'cardio-equipment-accessories',
+		title: 'Cardio Equipment & Accessories',
+		description: 'Ropes, bikes and conditioning accessories for complete cardio sessions.',
+		image: '/images/2017/08/Air-Bike-TZ-1.jpg',
+		alt: 'Air bike for cardio training',
+	},
+];
+
+const categories = categoryDefinitions.map((category) => ({
+	...category,
+	count: products.filter((product) => product.data.category === category.slug).length,
+}));
+const totalProducts = products.length;
 ---
 
 <Layout title={page.title} description={page.description}>
 	<Header />
 	<main>
-		<PageContent title={page.title} description={page.description} bodyHtml={page.bodyHtml} />
+		<section class="bg-slate-950 text-white" aria-labelledby="product-overview-title">
+			<div class="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:py-20 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:items-end lg:px-8 lg:py-24">
+				<div>
+					<p class="text-sm font-semibold uppercase tracking-[0.24em] text-[#ff7666]">Fitmus product range</p>
+					<h1 id="product-overview-title" class="mt-4 max-w-3xl text-4xl font-bold leading-tight sm:text-5xl">Equipment for CrossFit, functional training and commercial gyms</h1>
+					<div class="mt-6 h-1 w-16 bg-[#e03420]"></div>
+					<p class="mt-6 max-w-2xl text-base leading-8 text-white/75 sm:text-lg">{page.description}</p>
+				</div>
+				<div class="rounded-2xl border border-white/15 bg-white/10 p-6 backdrop-blur-sm sm:p-7">
+					<p class="text-4xl font-bold text-white">{totalProducts}</p>
+					<p class="mt-2 text-sm leading-6 text-white/70">products currently organised across eight equipment categories.</p>
+					<a href="/Fitmus-Product-catalog.pdf" download class="mt-5 inline-flex items-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Download product catalogue <span class="ml-2" aria-hidden="true">↓</span></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="mx-auto max-w-7xl px-4 py-16 sm:py-20 lg:px-8" aria-labelledby="category-guide-title">
+			<div class="max-w-2xl">
+				<p class="text-sm font-semibold uppercase tracking-[0.22em] text-[#e03420]">Explore by category</p>
+				<h2 id="category-guide-title" class="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">Find the right equipment range</h2>
+				<p class="mt-4 text-base leading-7 text-slate-600">Start with a category to compare equipment for your facility, programme or next workout.</p>
+			</div>
+
+			<div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+				{categories.map((category) => (
+					<a
+						href={`/products/${category.slug}/`}
+						class="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:border-[#e03420] hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e03420]"
+					>
+						<div class="aspect-[4/3] overflow-hidden bg-slate-100">
+							<img src={category.image} alt={category.alt} class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
+						</div>
+						<div class="flex flex-1 flex-col p-5">
+							<div class="flex items-start justify-between gap-3">
+								<h3 class="text-lg font-bold leading-snug text-slate-900 group-hover:text-[#e03420]">{category.title}</h3>
+								<span class="shrink-0 rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-600">{category.count}</span>
+							</div>
+							<p class="mt-3 flex-1 text-sm leading-6 text-slate-600">{category.description}</p>
+							<span class="mt-5 inline-flex items-center text-sm font-semibold text-[#e03420]">View range <span class="ml-2 transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></span>
+						</div>
+					</a>
+				))}
+			</div>
+		</section>
+
+		<section class="border-t border-slate-200 bg-slate-50" aria-labelledby="product-support-title">
+			<div class="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-12 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+				<div>
+					<p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#e03420]">Need a complete training space?</p>
+					<h2 id="product-support-title" class="mt-2 text-2xl font-bold text-slate-900 sm:text-3xl">Build a practical equipment package with Fitmus</h2>
+					<p class="mt-2 max-w-2xl leading-7 text-slate-600">Browse the category that matches your programme, then contact our team for product knowledge and business-to-business support.</p>
+				</div>
+				<a href="/contact-us/" class="inline-flex shrink-0 items-center justify-center rounded-full bg-[#e03420] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#c92d1c] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e03420]">Contact Fitmus <span class="ml-2" aria-hidden="true">→</span></a>
+			</div>
+		</section>
 	</main>
 	<Footer />
 </Layout>

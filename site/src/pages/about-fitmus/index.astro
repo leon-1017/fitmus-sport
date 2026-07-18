@@ -2,16 +2,142 @@
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import PageContent from '../../components/PageContent.astro';
 import pages from '../../data/pages.json';
 
-const page = pages.find((p: any) => p.slug === 'about-fitmus') || { title: 'About Fitmus', bodyHtml: '' };
+const page = pages.find((entry: any) => entry.slug === 'about-fitmus') || {
+	title: 'About Fitmus',
+	description: 'Fitmus is a leading manufacturer of high quality fitness equipment.',
+};
+
+const capabilityCards = [
+	{
+		title: 'Performing Strictly Quality Control',
+		image: '/images/2016/03/bk-ground-1.jpg',
+		alt: 'Athlete training with a dumbbell',
+		copy: 'We have a quality controller checking the quantity and quality of each order. Every order receives a clear packing report and quality record, allowing us to follow the same standard on repeat orders and keep quality stable from batch to batch.',
+	},
+	{
+		title: 'Good Opportunity CrossFit',
+		image: '/images/2016/03/bk-ground-2.jpg',
+		alt: 'Athlete training with a dumbbell',
+		copy: 'China has developed stamping, forging, casting and plastic injection industries for decades. We use this supply chain experience to develop and supply reliable CrossFit products for the growing fitness market in the US, Europe and Australia.',
+	},
+	{
+		title: 'Casting Foundry',
+		image: '/images/2016/03/bk-ground-3.jpg',
+		alt: 'Athlete performing a functional fitness exercise',
+		copy: 'Our casting foundry uses strict quality control and gravity casting for high-quality blanks. Kettlebells have a void-free surface, single-piece casting, a seam-free handle, textured finish and machined flat base.',
+	},
+	{
+		title: 'Strong Market Sense',
+		image: '/images/2016/03/bk-ground-4.jpg',
+		alt: 'Athletes training with a medicine ball',
+		copy: 'We pay close attention to our clients’ needs and launch products that solve real training requirements. Our competition kettlebell with Exclusive Inner Core Technology™ was launched in 2015 with no fillers or welded bases and a strong focus on balance.',
+	},
+];
 ---
 
 <Layout title={page.title} description={page.description}>
 	<Header />
 	<main>
-		<PageContent title={page.title} description={page.description} bodyHtml={page.bodyHtml} />
+		<section class="relative isolate overflow-hidden bg-slate-950 text-white" aria-labelledby="about-hero-title">
+			<img
+				src="/images/2016/03/background-image2.jpg"
+				alt="Athletes lifting dumbbells"
+				class="absolute inset-0 -z-20 h-full w-full object-cover object-center"
+				loading="eager"
+				decoding="async"
+			/>
+			<div class="absolute inset-0 -z-10 bg-slate-950/75"></div>
+			<div class="mx-auto max-w-7xl px-4 py-20 sm:py-24 lg:px-8 lg:py-28">
+				<div class="max-w-3xl">
+					<p class="text-sm font-semibold uppercase tracking-[0.24em] text-[#ff7666]">About Fitmus</p>
+					<h1 id="about-hero-title" class="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">High-quality fitness equipment for maximum performance</h1>
+					<div class="mt-6 h-1 w-16 bg-[#e03420]"></div>
+					<p class="mt-6 max-w-2xl text-base leading-8 text-white/85 sm:text-lg">Rizhao Fitmus Sporting Goods Co., Ltd. designs and manufactures CrossFit gym equipment and functional training accessories for customers looking for a reliable, quality-focused supplier.</p>
+				</div>
+				<div class="mt-12 grid max-w-4xl gap-4 sm:grid-cols-3">
+					<div class="rounded-xl border border-white/15 bg-white/10 p-5 backdrop-blur-sm">
+						<p class="text-3xl font-bold text-white">5,000</p>
+						<p class="mt-1 text-sm leading-6 text-white/70">square foot production facility announced at Wulian Industrial Zone</p>
+					</div>
+					<div class="rounded-xl border border-white/15 bg-white/10 p-5 backdrop-blur-sm">
+						<p class="text-3xl font-bold text-white">2015</p>
+						<p class="mt-1 text-sm leading-6 text-white/70">Exclusive Inner Core Technology™ competition kettlebell launched</p>
+					</div>
+					<div class="rounded-xl border border-white/15 bg-white/10 p-5 backdrop-blur-sm">
+						<p class="text-3xl font-bold text-white">QC</p>
+						<p class="mt-1 text-sm leading-6 text-white/70">packing and quality records for each order</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="mx-auto max-w-7xl px-4 py-16 sm:py-20 lg:px-8" aria-labelledby="startup-title">
+			<div class="grid gap-10 lg:grid-cols-[minmax(0,0.78fr)_minmax(0,1.22fr)] lg:gap-20">
+				<div class="lg:sticky lg:top-32 lg:self-start">
+					<p class="text-sm font-semibold uppercase tracking-[0.22em] text-[#e03420]">Our start up</p>
+					<h2 id="startup-title" class="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">Built around quality, value and performance</h2>
+					<p class="mt-5 leading-7 text-slate-600">Fitmus aims to satisfy customers who need a dependable fitness equipment partner, from product design and manufacturing through packing, quality control and delivery.</p>
+				</div>
+				<div class="space-y-5 text-base leading-8 text-slate-600">
+					<p>Rizhao Fitmus Sporting Goods Co., Ltd. is the manufacturer of high quality CrossFit gym fitness equipment and functional training accessories. We devote ourselves to designing and manufacturing sporting goods with the concept of “Full Effort is Full Victory”, helping customers find a reliable supplier and buy quality products with confidence.</p>
+					<p>Fitmus aims to achieve high standards in quality, value and performance through attention to detail in design and manufacturing. We spend time developing new products to keep up with leisure and training trends, while maintaining close cooperation and offering the latest products with excellent service and competitive prices.</p>
+					<p>With experience in the fitness industry, Fitmus offers a wide range of products including multi-station gyms, free weight machines, weight plates, kettlebells, dumbbells and fitness accessories for CrossFit affiliates, garage gyms, PT studios, bootcamps, personal trainers, CrossFit boxes, fitness centers, martial arts and rehabilitation facilities, health clubs, commercial gyms and schools.</p>
+					<p>We proudly announced the grand opening of a new 5,000 square foot production facility at Wulian Industrial Zone, Rizhao, Shandong Province, China. With the new factory, we expect to increase production capacity by two to three times.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="border-y border-slate-200 bg-slate-50" aria-labelledby="capabilities-title">
+			<div class="mx-auto max-w-7xl px-4 py-16 sm:py-20 lg:px-8">
+				<div class="max-w-2xl">
+					<p class="text-sm font-semibold uppercase tracking-[0.22em] text-[#e03420]">How we work</p>
+					<h2 id="capabilities-title" class="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">Manufacturing experience with a practical fitness focus</h2>
+				</div>
+				<div class="mt-10 grid gap-6 sm:grid-cols-2">
+					{capabilityCards.map((card) => (
+						<article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+							<div class="aspect-[16/8] overflow-hidden bg-slate-200">
+								<img src={card.image} alt={card.alt} class="h-full w-full object-cover" loading="lazy" decoding="async" />
+							</div>
+							<div class="p-6 sm:p-7">
+								<h3 class="text-xl font-bold text-slate-900">{card.title}</h3>
+								<p class="mt-3 text-sm leading-7 text-slate-600">{card.copy}</p>
+							</div>
+						</article>
+					))}
+				</div>
+			</div>
+		</section>
+
+		<section class="mx-auto max-w-7xl px-4 py-16 sm:py-20 lg:px-8" aria-labelledby="partner-title">
+			<div class="grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)] lg:gap-20">
+				<div>
+					<p class="text-sm font-semibold uppercase tracking-[0.22em] text-[#e03420]">A dependable supplier</p>
+					<h2 id="partner-title" class="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">Support that continues after the product leaves the factory</h2>
+					<div class="mt-6 space-y-5 text-base leading-8 text-slate-600">
+						<p>With excellent customer service, product knowledge, reasonable prices and business-to-business support, we work to be the client-trusted supplier in China.</p>
+						<p>What sets Fitmus apart is a focus on the details that make repeat orders easier: clear packing information, quality records and a consistent process that helps customers control risk.</p>
+					</div>
+					<a href="/fitmus-product/" class="mt-8 inline-flex items-center rounded-full bg-[#e03420] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#c92d1c] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e03420]">Explore Fitmus Products <span class="ml-2" aria-hidden="true">→</span></a>
+				</div>
+				<blockquote class="rounded-2xl bg-slate-950 p-7 text-white shadow-xl sm:p-9">
+					<p class="text-2xl font-semibold leading-tight sm:text-3xl">“Full effort is full victory.”</p>
+					<footer class="mt-5 border-t border-white/15 pt-4 text-sm leading-6 text-white/65">The company concept behind Fitmus product development and customer support.</footer>
+				</blockquote>
+			</div>
+		</section>
+
+		<section class="bg-[#e03420] text-white" aria-labelledby="range-title">
+			<div class="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-12 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+				<div>
+					<h2 id="range-title" class="text-2xl font-bold sm:text-3xl">Equipment for the way your clients train</h2>
+					<p class="mt-2 max-w-2xl leading-7 text-white/85">From free weights and kettlebells to functional training and gym accessories, Fitmus develops products for a wide range of training environments.</p>
+				</div>
+				<a href="/fitmus-product/" class="inline-flex shrink-0 items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-[#e03420] transition hover:bg-slate-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">View product categories <span class="ml-2" aria-hidden="true">→</span></a>
+			</div>
+		</section>
 	</main>
 	<Footer />
 </Layout>

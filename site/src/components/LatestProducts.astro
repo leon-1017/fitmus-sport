@@ -1,19 +1,14 @@
 ---
 import { getCollection } from 'astro:content';
 import { latestProductSlugs, selectContentEntries } from '../lib/homepage-content';
+import { sortPostsByDate } from '../lib/news';
 
 const latestProducts = selectContentEntries(
   await getCollection('products'),
   latestProductSlugs,
   'Latest Products',
 );
-const news = (await getCollection('posts'))
-  .sort((a, b) => {
-    const dateA = a.data.date ? new Date(a.data.date).getTime() : 0;
-    const dateB = b.data.date ? new Date(b.data.date).getTime() : 0;
-    return dateB - dateA;
-  })
-  .slice(0, 8);
+const news = sortPostsByDate(await getCollection('posts')).slice(0, 8);
 ---
 
 <section class="py-20 bg-white">
