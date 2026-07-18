@@ -24,10 +24,6 @@ const fallbackImage = '/images/2016/02/favicon-200.png';
 					<h1 id="news-page-title" class="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">{page.title}</h1>
 					<p class="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">{page.description}</p>
 				</div>
-				<div class="mt-10 flex flex-wrap gap-4 text-sm text-slate-300" aria-label="News summary">
-					<span class="rounded-full border border-white/20 px-4 py-2">{posts.length} articles</span>
-					<span class="rounded-full border border-white/20 px-4 py-2">Updated regularly</span>
-				</div>
 			</div>
 		</section>
 
@@ -35,10 +31,9 @@ const fallbackImage = '/images/2016/02/favicon-200.png';
 			<div class="mx-auto max-w-7xl">
 				<div class="mb-9 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
 					<div>
-						<p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#e03420]">Latest stories</p>
+						<p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#e03420]">Latest News</p>
 						<h2 id="news-list-title" class="mt-2 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">Ideas for better training spaces</h2>
 					</div>
-					<p class="max-w-md text-sm leading-6 text-slate-600">Browse product news, training guidance and practical insights from the Fitmus team.</p>
 				</div>
 
 				<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -57,7 +52,7 @@ const fallbackImage = '/images/2016/02/favicon-200.png';
 									{date && <p class="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">{date}</p>}
 									<h3 class="mt-3 text-xl font-bold leading-snug text-slate-950"><a href={`/${post.id}/`} class="rounded-sm hover:text-[#e03420] focus:outline-none focus-visible:ring-4 focus-visible:ring-[#e03420]/30">{post.data.title}</a></h3>
 									<p class="mt-3 line-clamp-3 text-sm leading-6 text-slate-600">{excerpt}</p>
-									<div class="mt-auto pt-5"><a href={`/${post.id}/`} class="inline-flex items-center gap-2 text-sm font-bold text-[#e03420] hover:text-[#b82718] focus:outline-none focus-visible:ring-4 focus-visible:ring-[#e03420]/30">Read story <span aria-hidden="true">→</span></a></div>
+									<div class="mt-auto pt-5"><a href={`/${post.id}/`} class="inline-flex items-center gap-2 text-sm font-bold text-[#e03420] hover:text-[#b82718] focus:outline-none focus-visible:ring-4 focus-visible:ring-[#e03420]/30">Read More <span aria-hidden="true">→</span></a></div>
 								</div>
 							</article>
 						);
