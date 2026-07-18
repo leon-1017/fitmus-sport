@@ -3,7 +3,7 @@
 > 创建日期：2026-07-17  
 > 依据：[`original-site-content-gap-audit.md`](./original-site-content-gap-audit.md) 与 [`legacy-url-comparison.json`](./legacy-url-comparison.json)  
 > 执行方式：后续任务一次只执行一个阶段；阶段完成后验证、提交并停止，等待确认后再进入下一阶段。
-> 当前状态：阶段 C5 已完成，等待阶段 C6。
+> 当前状态：阶段 C6 已完成，当前计划阶段结束，等待后续需求确认。
 
 ## 1. 范围约束
 
@@ -714,3 +714,13 @@
 - 验证：Node 22 公开模式构建成功，生成 601 页；`check:seo` 0 问题；构建产物包含本地目录链接、YouTube 入口和 8 个分类卡片；本地目录文件存在且可由静态站点发布。
 - 提交说明：`Complete homepage supporting content`。
 - 是否可以继续 C6：是，待确认。
+
+### 阶段 C6 完成记录
+
+- 完成范围：补充 Contact Us 静态位置卡片与地图外链；在文章详情页增加数据驱动的 Recent Posts 和 Categories 发现模块；产品发现继续复用现有八个分类页，不增加重复筛选逻辑。
+- 联系页处理：新增 Rizhao/Wulian County 地址、电话、邮箱和 Google Maps 外链；未新增表单控件、提交按钮或后端交互。
+- 文章发现处理：从 posts 内容集合按日期生成最近文章列表，并从现有文章分类字段生成分类链接，展示在文章详情页侧栏。
+- 产品发现处理：沿用现有 `/products/{category}/` 服务端分类页和顶部二级导航，保持信息架构单一。
+- 验证：Node 22 公开模式构建成功，生成 601 页；`check:seo` 0 问题；文章详情页包含 Recent Posts/Categories，Contact Us 包含静态位置卡片且没有表单控件。
+- 提交说明：`Complete content discovery enhancements`。
+- 是否可以继续下一阶段：当前计划已完成，待确认后续需求。

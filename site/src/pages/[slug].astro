@@ -5,6 +5,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Sidebar from '../components/Sidebar.astro';
 import Share from '../components/Share.astro';
+import ArticleDiscovery from '../components/ArticleDiscovery.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -70,6 +71,7 @@ const articleSchema = canonicalUrl
 			</article>
 
 			<div class="lg:col-span-1">
+				<ArticleDiscovery currentSlug={entry.id} />
 				<Sidebar />
 			</div>
 		</div>

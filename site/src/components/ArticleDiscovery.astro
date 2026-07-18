@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  currentSlug: string;
+}
+
+const { currentSlug } = Astro.props;
+const posts = await getCollection('posts');
+const recentPosts = posts
+  .filter((post) => post.id !== currentSlug)
+  .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''))
+  .slice(0, 5);
+const categories = [...new Set(posts.flatMap((post) => post.data.categories || []))]
+  .filter(Boolean)
+  .sort((a, b) => a.localeCompare(b))
+  .slice(0, 12);
+---
+
+<section class="mb-8 rounded-2xl border border-slate-200 bg-slate-50 p-5" aria-labelledby="article-discovery-title">
+	<h2 id="article-discovery-title" class="text-lg font-bold text-slate-900">Discover more</h2>
+	<div class="mt-5">
+		<h3 class="text-sm font-semibold uppercase tracking-wide text-slate-500">Recent posts</h3>
+		<ul class="mt-3 space-y-3">
+			{recentPosts.map((post) => (
+				<li>
+					<a href={`/${post.id}/`} class="text-sm font-semibold leading-5 text-slate-800 hover:text-[#e03420]">{post.data.title}</a>
+				</li>
+			))}
+		</ul>
+	</div>
+	{categories.length > 0 && (
+		<div class="mt-6 border-t border-slate-200 pt-5">
+			<h3 class="text-sm font-semibold uppercase tracking-wide text-slate-500">Categories</h3>
+			<div class="mt-3 flex flex-wrap gap-2">
+				{categories.map((category) => (
+					<a href={`/in-the-news/?category=${encodeURIComponent(category)}`} class="rounded-full border border-slate-300 bg-white px-3 py-1 text-xs text-slate-700 hover:border-[#e03420] hover:text-[#e03420]">{category}</a>
+				))}
+			</div>
+		</div>
+	)}
+</section>
