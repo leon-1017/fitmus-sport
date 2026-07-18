@@ -40,30 +40,22 @@ const submenuLinkClasses =
 							</a>
 						</li>
 					))}
-					<li>
-						<details class="group relative">
-							<summary class={`${navLinkClasses} inline-flex cursor-pointer list-none items-center gap-2 [&::-webkit-details-marker]:hidden`}>
-								<span>Fitmus Product</span>
-								<svg class="menu-chevron size-3.5 shrink-0" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-									<path d="m1 1.5 5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-								</svg>
-							</summary>
-							<div class="absolute right-0 top-full z-50 mt-2 w-[560px] rounded-xl border border-slate-200 bg-white p-3 shadow-xl">
-								<div class="mb-2 flex items-center justify-between border-b border-slate-100 px-3 pb-2">
-									<span class="text-xs font-bold uppercase tracking-[0.12em] text-slate-500">Fitmus Product Categories</span>
-									<a href="/fitmus-product/" class="text-xs font-semibold text-[#e03420] hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e03420]">View all</a>
-								</div>
-								<ul class="grid grid-cols-2 gap-1">
-									{categorySlugs.map((slug) => (
-										<li>
-											<a href={`/products/${slug}/`} class={submenuLinkClasses}>
-												{categoryMap[slug]}
-											</a>
-										</li>
-									))}
-								</ul>
-							</div>
-						</details>
+					<li class="group relative">
+						<a href="/fitmus-product/" class={`${navLinkClasses} inline-flex items-center gap-2`}>
+							<span>Fitmus Product</span>
+							<svg class="menu-chevron size-3.5 shrink-0 group-hover:rotate-180 group-focus-within:rotate-180" viewBox="0 0 12 8" fill="none" aria-hidden="true">
+								<path d="m1 1.5 5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+						<div class="invisible pointer-events-none absolute right-0 top-full z-50 mt-2 w-[560px] rounded-xl border border-slate-200 bg-white p-3 opacity-0 shadow-xl transition group-hover:visible group-hover:pointer-events-auto group-hover:opacity-100 group-focus-within:visible group-focus-within:pointer-events-auto group-focus-within:opacity-100">
+							<ul class="grid grid-cols-2 gap-1">
+								{categorySlugs.map((slug) => (
+									<li>
+										<a href={`/products/${slug}/`} class={submenuLinkClasses}>{categoryMap[slug]}</a>
+									</li>
+								))}
+							</ul>
+						</div>
 					</li>
 					{primaryNav.slice(2).map((item) => (
 						<li>
@@ -108,7 +100,7 @@ const submenuLinkClasses =
 						</svg>
 					</summary>
 					<div class="mt-1 rounded-lg border border-slate-200 bg-slate-50 p-2">
-						<a href="/fitmus-product/" class={`${submenuLinkClasses} font-semibold text-[#e03420]`}>View Fitmus Product</a>
+						<a href="/fitmus-product/" class={`${submenuLinkClasses} font-semibold text-[#e03420]`}>Fitmus Product</a>
 						<ul class="mt-1 space-y-1 border-t border-slate-200 pt-1">
 							{categorySlugs.map((slug) => (
 								<li>

@@ -66,9 +66,9 @@ const description = categoryDescriptions[category] || 'Browse Fitmus Sport fitne
 		</section>
 
 		<section class="border-b border-slate-200 bg-white px-4 py-5 sm:px-6" aria-label="Product categories">
-			<div class="mx-auto flex max-w-7xl gap-2 overflow-x-auto pb-1">
+			<div class="mx-auto grid max-w-7xl grid-cols-2 gap-2 sm:grid-cols-4">
 				{Object.entries(categoryMap).map(([slug, label]) => (
-					<a href={`/products/${slug}/`} class:list={["shrink-0 rounded-full border px-4 py-2 text-sm transition focus:outline-none focus-visible:ring-4 focus-visible:ring-[#e03420]/20", slug === category ? "border-[#e03420] bg-[#e03420] text-white" : "border-slate-200 text-slate-700 hover:border-[#e03420] hover:text-[#e03420]"]} aria-current={slug === category ? 'page' : undefined}>{label}</a>
+					<a href={`/products/${slug}/`} class:list={["flex min-h-11 items-center justify-center rounded-xl border px-3 py-2 text-center text-sm font-semibold leading-5 transition focus:outline-none focus-visible:ring-4 focus-visible:ring-[#e03420]/20", slug === category ? "border-[#e03420] bg-[#e03420] text-white" : "border-slate-200 text-slate-700 hover:border-[#e03420] hover:bg-red-50 hover:text-[#e03420]"]} aria-current={slug === category ? 'page' : undefined}>{label}</a>
 				))}
 			</div>
 		</section>
@@ -80,7 +80,6 @@ const description = categoryDescriptions[category] || 'Browse Fitmus Sport fitne
 						<p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#e03420]">Browse the range</p>
 						<h2 id="product-grid-title" class="mt-2 text-3xl font-bold tracking-tight text-slate-950">{title} products</h2>
 					</div>
-					<p class="text-sm text-slate-500">Sorted alphabetically for quick scanning</p>
 				</div>
 				{items.length > 0 ? (
 					<div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
