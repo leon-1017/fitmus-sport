@@ -25,7 +25,7 @@ const categories = [
 ];
 ---
 
-<footer class="bg-gray-900 text-white py-16">
+<footer class="bg-slate-100 py-16 text-slate-900">
 	<div class="max-w-7xl mx-auto px-6">
 		<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
 			<div>
@@ -35,7 +35,7 @@ const categories = [
 						recentWorks.slice(0, 10).map((w) => (
 							<a
 								href={`/product/${w.id}/`}
-								class="aspect-square rounded overflow-hidden bg-gray-800 hover:ring-2 hover:ring-[#e03420] transition"
+								class="aspect-square rounded overflow-hidden bg-white hover:ring-2 hover:ring-[#e03420] transition"
 							>
 								<img
 									src={w.data.featuredImage || '/images/2016/02/favicon-200.png'}
@@ -59,10 +59,10 @@ const categories = [
 									<div class="flex items-start gap-2">
 										<i class="fas fa-chevron-right text-[#e03420] text-xs mt-2"></i>
 										<div>
-											<h4 class="text-sm group-hover:text-[#e03420] transition leading-tight">
+							<h4 class="text-sm text-slate-800 group-hover:text-[#e03420] transition leading-tight">
 											{n.data.title}
 											</h4>
-											<p class="text-xs text-gray-400 mt-1">{n.data.date}</p>
+							<p class="text-xs text-slate-500 mt-1">{n.data.date}</p>
 										</div>
 									</div>
 								</a>
@@ -94,14 +94,14 @@ const categories = [
 					alt="Fitmus Logo"
 					class="h-10 mb-6"
 				/>
-				<p class="text-sm text-gray-400 mb-2">Rizhao Fitmus Sporting Goods Co.Ltd</p>
-				<p class="text-sm text-gray-400 mb-2">
+				<p class="text-sm text-slate-600 mb-2">Rizhao Fitmus Sporting Goods Co.Ltd</p>
+				<p class="text-sm text-slate-600 mb-2">
 					Add: Wulian County Industrial Area, Rizhao, Shandong Province, China 262300
 				</p>
-				<p class="text-sm text-gray-400 mb-2">
+				<p class="text-sm text-slate-600 mb-2">
 					Tel: +86 15963097328 Fax: +86 633 5889298
 				</p>
-				<p class="text-sm text-gray-400 mb-6">
+				<p class="text-sm text-slate-600 mb-6">
 					Email: <a href="mailto:info@fitmus-sport.com" class="hover:text-[#e03420]">info@fitmus-sport.com</a>
 				</p>
 				<a
@@ -116,8 +116,8 @@ const categories = [
 			</div>
 		</div>
 
-		<div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-			<p class="text-sm text-gray-400">
+		<div class="border-t border-slate-300 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+			<p class="text-sm text-slate-500">
 				Copyright 2026 <a href="/" class="hover:text-[#e03420]">Fitmus</a> | All Rights Reserved
 			</p>
 			<div class="flex gap-4">
@@ -125,7 +125,7 @@ const categories = [
 					href="https://www.facebook.com/Fitmussport/"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#e03420] transition"
+					class="w-10 h-10 rounded-full bg-white text-slate-700 flex items-center justify-center hover:bg-[#e03420] hover:text-white transition"
 					aria-label="Facebook"
 				>
 					<i class="fab fa-facebook-f"></i>
@@ -134,7 +134,7 @@ const categories = [
 					href="https://www.linkedin.com/company/fitmus-sport/"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#e03420] transition"
+					class="w-10 h-10 rounded-full bg-white text-slate-700 flex items-center justify-center hover:bg-[#e03420] hover:text-white transition"
 					aria-label="LinkedIn"
 				>
 					<i class="fab fa-linkedin-in"></i>
@@ -143,7 +143,7 @@ const categories = [
 					href="https://www.youtube.com/channel/UC8gP2tvfEjAcItWFf3eacyg/"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#e03420] transition"
+					class="w-10 h-10 rounded-full bg-white text-slate-700 flex items-center justify-center hover:bg-[#e03420] hover:text-white transition"
 					aria-label="YouTube"
 				>
 					<i class="fab fa-youtube"></i>
@@ -152,7 +152,7 @@ const categories = [
 					href="https://www.instagram.com/fitmus_sport/"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#e03420] transition"
+					class="w-10 h-10 rounded-full bg-white text-slate-700 flex items-center justify-center hover:bg-[#e03420] hover:text-white transition"
 					aria-label="Instagram"
 				>
 					<i class="fab fa-instagram"></i>
