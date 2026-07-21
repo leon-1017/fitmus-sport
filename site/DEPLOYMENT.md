@@ -1,7 +1,7 @@
 # Fitmus Sport deployment record
 
 Last reviewed: 2026-07-21  
-Status: Cloudflare Pages deployment is reachable. The missing catalogue asset is included in the next Git release; do not map the official domain until the Pages production environment variable is configured and that release is verified.
+Status: Cloudflare Pages deployment is verified. Production SEO configuration and catalogue assets are live; the official domain has not yet been bound to the Pages project or switched in DNS.
 
 ## Deployment target
 
@@ -38,15 +38,9 @@ Checked on 2026-07-21 against the Pages host:
 | `/favicon.png` | 200 |
 | `/images/2018/11/logo-sport-s.png` | 200 |
 | `/Fitmus-Product-catalog.pdf` | 200 |
-| `/Fitmus-Catalog.pdf` | **404 — fixed in the next Git release** |
+| `/Fitmus-Catalog.pdf` | 200 |
 
-The Pages host currently returns `noindex, nofollow` and no published sitemap because `PUBLIC_SITE_URL` is not configured in its build environment. This is correct for a preview host, but it is not suitable for the official domain.
-
-### Release blocker
-
-Configure the Pages environment variables listed above, then trigger a new Production deployment. Confirm that the official host serves canonical URLs, `robots.txt`, and `sitemap.xml`.
-
-`public/Fitmus-Catalog.pdf` is included in this release. It is referenced by `src/content/posts/equipment-for-crossfit-fitmus-catalog.md`; after the production deployment completes, confirm its Pages URL returns `200`.
+The latest production deployment has the expected canonical URL `https://www.fitmus-sport.com/`, serves a sitemap with that host, and publishes `public/Fitmus-Catalog.pdf`. The Pages preview hostname is therefore ready for official-domain cutover.
 
 ## Official-domain cutover
 
