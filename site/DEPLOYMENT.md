@@ -1,0 +1,100 @@
+# Fitmus Sport deployment record
+
+Last reviewed: 2026-07-21  
+Status: Cloudflare Pages deployment is reachable. The missing catalogue asset is included in the next Git release; do not map the official domain until the Pages production environment variable is configured and that release is verified.
+
+## Deployment target
+
+- Platform: Cloudflare Pages
+- Pages host: `https://fitmus-sport.pages.dev/`
+- Source repository: `leon-1017/fitmus-sport`
+- Production branch: `main`
+- Application directory: `site`
+- Framework: Astro static output
+- Node.js: `22.23.1` (the build requires Node 22.12 or newer within Node 22)
+
+## Pages build configuration
+
+| Setting | Value |
+| --- | --- |
+| Root directory | `site` |
+| Install command | `npm ci` |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Production environment variable | `PUBLIC_SITE_URL=https://www.fitmus-sport.com` |
+| Production and Preview environment variable | `NODE_VERSION=22.23.1` |
+
+Set `PUBLIC_SITE_URL` only for Production. Preview builds should remain noindex, preventing a Pages preview URL from being treated as the canonical site.
+
+## Live verification snapshot
+
+Checked on 2026-07-21 against the Pages host:
+
+| Resource | Result |
+| --- | --- |
+| `/` | 200 |
+| `/fitmus-product/` | 200 |
+| `/product/free-standing-rig-2/` | 200 |
+| `/favicon.png` | 200 |
+| `/images/2018/11/logo-sport-s.png` | 200 |
+| `/Fitmus-Product-catalog.pdf` | 200 |
+| `/Fitmus-Catalog.pdf` | **404 — fixed in the next Git release** |
+
+The Pages host currently returns `noindex, nofollow` and no published sitemap because `PUBLIC_SITE_URL` is not configured in its build environment. This is correct for a preview host, but it is not suitable for the official domain.
+
+### Release blocker
+
+Configure the Pages environment variables listed above, then trigger a new Production deployment. Confirm that the official host serves canonical URLs, `robots.txt`, and `sitemap.xml`.
+
+`public/Fitmus-Catalog.pdf` is included in this release. It is referenced by `src/content/posts/equipment-for-crossfit-fitmus-catalog.md`; after the production deployment completes, confirm its Pages URL returns `200`.
+
+## Official-domain cutover
+
+Use `www.fitmus-sport.com` as the canonical host, matching the project’s SEO configuration and historic public URLs.
+
+1. Verify the latest `main` deployment and the release blockers above on `fitmus-sport.pages.dev`.
+2. In the Pages project, add `www.fitmus-sport.com` through **Custom domains** before creating or changing DNS records.
+3. Ensure `fitmus-sport.com` is a Cloudflare zone if the apex domain is also used. Attach the apex domain only after the Pages custom-domain setup is accepted.
+4. Redirect `fitmus-sport.com` to `www.fitmus-sport.com` and preserve paths and query strings.
+5. Wait for the Pages certificate to become active, then test the homepage, category pages, a product page, a news article, PDFs, favicon, `robots.txt`, and `sitemap.xml`.
+6. Verify the official property in Google Search Console and submit the official sitemap.
+
+Do not manually point a CNAME to `*.pages.dev` before associating the domain in the Pages dashboard; Cloudflare requires the custom-domain association first.
+
+References: [Cloudflare Pages custom domains](https://developers.cloudflare.com/pages/configuration/custom-domains/), [Cloudflare Pages build configuration](https://developers.cloudflare.com/pages/configuration/build-configuration/).
+
+## Routine release procedure
+
+1. Check `git status` and work only from a clean, reviewed change set.
+2. Run the production build and checks locally:
+
+   ```powershell
+   $env:PUBLIC_SITE_URL = 'https://www.fitmus-sport.com'
+   npm run build
+   npm run check:seo
+   npm run check:dist
+   ```
+
+3. Commit and push to `main`.
+4. Confirm the Cloudflare Pages production deployment completed successfully.
+5. Run a focused live check for every affected route and asset.
+
+## Rollback
+
+For a faulty release, use the Cloudflare Pages deployment history to roll back to the last verified deployment, then revert or repair the responsible Git commit. Keep the official-domain DNS record attached to the Pages project during a Pages rollback; changing DNS is not necessary for an application-only rollback.
+
+## Cleanup candidates
+
+Do not remove any item in this list automatically. Keep a Git tag or external archive before removing historical material.
+
+| Candidate | Recommendation | Reason |
+| --- | --- | --- |
+| Root-level `local-home*.png`, `original-home*.png`, `orig-*.png`, and `v3-*.png` | Safe to delete after visual acceptance | 13 ignored local comparison screenshots, about 14.42 MiB. |
+| Root-level `Fitmus-Catalog.pdf` and `Fitmus-Product-catalog.pdf` | Safe to delete | Ignored local source copies; published assets belong under `public/`. |
+| `site/dist/`, `site/.astro/`, `site/node_modules/`, and `*.log` | Safe to delete when disk space is needed | Regenerated by installation/build steps; currently ignored by Git. |
+| `site/CLAUDE.md` | Optional deletion after confirming Claude Code no longer needs it | Byte-for-byte duplicate of `site/AGENTS.md`. |
+| `CODEX_TAKEOVER_PLAN.md`, `CONVERSATION_NOTES.md`, and `HOMEPAGE_SPEC.md` | Archive or delete after handover acceptance | They describe the former migration process and contain stale layout/scope assumptions. |
+| `site/reports/*` migration and UI plans | Archive rather than delete | They are useful historical audit evidence but no longer describe the current release state. |
+| Root `data/` and `raw/` | Archive outside the working tree only after a migration-rebuild decision | Ignored source material for the original migration; roughly 451 MiB combined. |
+
+Do **not** delete `public/Fitmus-Catalog.pdf`: it is still referenced by published content and must first be included in Git or its reference removed.

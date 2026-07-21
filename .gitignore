@@ -14,7 +14,6 @@ raw/
 # Local catalogue source copies not published by the site
 /Fitmus-Catalog.pdf
 /Fitmus-Product-catalog.pdf
-/site/public/Fitmus-Catalog.pdf
 
 # Editor / tooling
 .vscode/
